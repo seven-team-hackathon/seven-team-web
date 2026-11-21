@@ -21,7 +21,7 @@
 
 ## Colour palette
 
-The Roomfit palette is warm and natural: linen, sage, terracotta and walnut. Tokens live in `app/globals.css` with light (`:root`) and dark (`.dark`) values. Use tokens only, never raw colours.
+The Furnelyra palette is warm and natural: linen, sage, terracotta and walnut. Tokens live in `app/globals.css` with light (`:root`) and dark (`.dark`) values. Use tokens only, never raw colours.
 
 | Token | Colour | Use for |
 | --- | --- | --- |

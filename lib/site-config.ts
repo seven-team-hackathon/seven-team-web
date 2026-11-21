@@ -1,4 +1,4 @@
-export const SITE_TITLE = "[title]"
+export const SITE_TITLE = "Furnelyra - AI Interior & Furniture Planner"
 
 export const SITE_DESCRIPTION =
-  "AI interior planner: see how furniture fits and looks together in your room before you buy."
+  "AI-powered interior design and furniture planning. Upload a room photo, describe your style and budget, and get personalized IKEA furniture recommendations."
