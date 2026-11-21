@@ -49,6 +49,7 @@ describe("RoomPreviewStep", () => {
     render(
       <RoomPreviewStep
         photo={photo}
+       
         products={products}
         initialPreview={{ src: "data:image/png;base64,BBBB", labels: ["Sofa"] }}
         onPreview={vi.fn()}

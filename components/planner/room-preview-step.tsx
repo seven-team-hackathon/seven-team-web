@@ -1,13 +1,12 @@
 "use client"
 
-import { LoaderCircleIcon, RefreshCwIcon, TriangleAlertIcon } from "lucide-react"
+import { RefreshCwIcon, TriangleAlertIcon } from "lucide-react"
 import Image from "next/image"
 import { useEffect, useRef, useState } from "react"
 import { getThrownErrorMessage, getUserErrorMessage } from "@/lib/api/user-error-message"
 import { visualizeResponseSchema, type VisualizeResponse } from "@/lib/contracts/visualization"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Skeleton } from "@/components/ui/skeleton"
 
 const VISUALIZE_ERROR_MESSAGE = "We could not generate the photo right now. Please try again."
 
@@ -91,16 +90,6 @@ export function RoomPreviewStep({ photo, products, initialPreview, onPreview }: 
       </CardHeader>
       <CardContent className="mx-auto flex w-full max-w-4xl flex-col gap-4">
         <div aria-live="polite">
-          {isLoading && (
-            <div role="status" className="flex flex-col gap-3">
-              <Skeleton className="aspect-4/3 w-full rounded-xl" />
-              <p className="flex items-center justify-center gap-2 text-sm text-muted-foreground">
-                <LoaderCircleIcon aria-hidden className="size-4 animate-spin" />
-                Generating your photo. This usually takes under a minute.
-              </p>
-            </div>
-          )}
-
           {state.status === "error" && (
             <p
               role="alert"
