@@ -17,16 +17,16 @@ type PaywallPlan = {
 const PAYWALL_PLANS: readonly PaywallPlan[] = [
   {
     id: "iteration",
-    title: "1 iteration",
+    title: "One-time purchase",
     description: "this room, every piece with alternatives",
-    price: "$2.99",
+    price: "$5.99",
     isRecommended: false,
   },
   {
     id: "pro",
-    title: "Pro subscription",
+    title: "Monthly",
     description: "unlimited rooms and selections",
-    price: "$7.99/mo",
+    price: "$19.99/mo",
     isRecommended: true,
   },
 ]
@@ -50,22 +50,27 @@ export function PaywallDialog({ isOpen, onOpenChange, onPurchase }: PaywallDialo
             <li
               key={plan.id}
               className={cn(
-                "flex flex-col gap-3 rounded-xl border-[1.5px] bg-secondary p-3.5 sm:flex-row sm:items-center sm:justify-between",
-                plan.isRecommended && "border-terracotta bg-terracotta/10",
+                "flex flex-col gap-3 rounded-xl border-[1.5px] border-border bg-muted p-3.5 sm:flex-row sm:items-center sm:justify-between",
+                plan.isRecommended && "border-primary bg-primary/10",
               )}
             >
               <div className="flex flex-col gap-0.5">
                 <p className="flex items-center gap-2 font-bold">
                   {plan.title}
                   {plan.isRecommended && (
-                    <span className="rounded-md bg-terracotta/20 px-1.5 py-0.5 text-[11px] font-bold text-terracotta">
+                    <span className="rounded-md bg-primary/15 px-1.5 py-0.5 text-[11px] font-bold text-primary">
                       best value
                     </span>
                   )}
                 </p>
                 <p className="text-xs text-muted-foreground">{plan.description}</p>
               </div>
-              <Button size="lg" onClick={() => onPurchase(plan.id)} className="w-full sm:w-auto">
+              <Button
+                variant={plan.isRecommended ? "default" : "outline"}
+                size="lg"
+                onClick={() => onPurchase(plan.id)}
+                className="w-full sm:w-auto"
+              >
                 {plan.price}
               </Button>
             </li>

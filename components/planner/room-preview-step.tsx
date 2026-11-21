@@ -6,8 +6,17 @@ import { useEffect, useRef, useState } from "react"
 import { getThrownErrorMessage, getUserErrorMessage } from "@/lib/api/user-error-message"
 import { visualizeResponseSchema, type VisualizeResponse } from "@/lib/contracts/visualization"
 import { Button } from "@/components/ui/button"
+import { RecommendLoader } from "@/components/planner/recommend-loader"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 
+const LOADING_TITLE = "Placing furniture in your room"
+const LOADING_MESSAGES = [
+  "Looking at your room photo…",
+  "Bringing in the real IKEA pieces…",
+  "Finding the best spot for each one…",
+  "Matching the light and shadows…",
+  "Almost there, this can take up to a minute…",
+]
 const VISUALIZE_ERROR_MESSAGE = "We could not generate the photo right now. Please try again."
 
 export type PreviewProduct = {
@@ -80,6 +89,8 @@ export function RoomPreviewStep({ photo, products, initialPreview, onPreview }: 
 
   const isLoading = state.status === "loading"
 
+  if (isLoading) return <RecommendLoader title={LOADING_TITLE} messages={LOADING_MESSAGES} />
+
   return (
     <Card className="gap-6 [--card-spacing:--spacing(6)] sm:gap-8 sm:[--card-spacing:--spacing(10)]">
       <CardHeader className="justify-items-center gap-3 text-center">
@@ -119,12 +130,10 @@ export function RoomPreviewStep({ photo, products, initialPreview, onPreview }: 
           )}
         </div>
 
-        {!isLoading && (
-          <Button variant="outline" size="lg" onClick={generate} className="w-full sm:w-auto sm:self-center">
-            <RefreshCwIcon data-icon="inline-start" aria-hidden />
-            {state.status === "error" ? "Try again" : "Generate again"}
-          </Button>
-        )}
+        <Button variant="outline" size="lg" onClick={generate} className="w-full sm:w-auto sm:self-center">
+          <RefreshCwIcon data-icon="inline-start" aria-hidden />
+          {state.status === "error" ? "Try again" : "Generate again"}
+        </Button>
       </CardContent>
     </Card>
   )

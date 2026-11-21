@@ -17,6 +17,7 @@ import { Textarea } from "@/components/ui/textarea"
 import { CheckboxGroup } from "@/components/planner/checkbox-group"
 import { ChoiceGroup, type ChoiceOption } from "@/components/planner/choice-group"
 import { NumberField } from "@/components/planner/number-field"
+import { RecommendLoader } from "@/components/planner/recommend-loader"
 import { SuggestionChips } from "@/components/planner/suggestion-chips"
 
 const RECOMMEND_ERROR_MESSAGE = "We could not pick furniture right now. Please try again."
@@ -138,6 +139,8 @@ export function PreferencesStep({ space, variant, initialPreferences, onRecommen
       setIsSubmitting(false)
     }
   }
+
+  if (isSubmitting) return <RecommendLoader />
 
   return (
     <Card className="gap-6 [--card-spacing:--spacing(6)] sm:gap-8 sm:[--card-spacing:--spacing(10)]">

@@ -180,6 +180,44 @@
   --shadow-card: none;
 }
 
+@theme {
+  --animate-furniture-hop: furniture-hop 1.6s ease-in-out infinite;
+  --animate-loader-sweep: loader-sweep 1.4s ease-in-out infinite;
+  --animate-message-in: message-in 0.4s ease-out;
+
+  @keyframes furniture-hop {
+    0%, 60%, 100% {
+      transform: translateY(0) rotate(0deg);
+    }
+    20% {
+      transform: translateY(-14px) rotate(-6deg);
+    }
+    35% {
+      transform: translateY(0) rotate(3deg);
+    }
+  }
+
+  @keyframes loader-sweep {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(250%);
+    }
+  }
+
+  @keyframes message-in {
+    from {
+      opacity: 0;
+      transform: translateY(6px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;

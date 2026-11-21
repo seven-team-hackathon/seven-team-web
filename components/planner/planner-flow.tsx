@@ -82,11 +82,12 @@ function getPhotoSpace(draft: SpaceDraft, isSample: boolean): SpaceInput | null 
   }
 }
 
-function getSkippedSteps({ isRoomSkipped, image }: FlowProgress): FlowStep[] {
-  const skipped: FlowStep[] = []
-  if (isRoomSkipped) skipped.push("room")
-  if (image?.kind !== "photo") skipped.push("preview")
-  return skipped
+function getUnavailableSteps(progress: FlowProgress): FlowStep[] {
+  const unavailable: FlowStep[] = []
+  if (progress.isRoomSkipped || progress.recommendation) unavailable.push("room")
+  if (progress.recommendation) unavailable.push("preferences")
+  if (progress.image?.kind !== "photo") unavailable.push("preview")
+  return unavailable
 }
 
 export function PlannerFlow() {
@@ -159,16 +160,19 @@ export function PlannerFlow() {
 
   function handleStepSelect(step: FlowStep) {
     const { draft, preferencesSpace, space, recommendation } = progress
+    const hasResults = recommendation !== null
     const canPreview = progress.image?.kind === "photo"
     switch (step) {
       case "upload":
         setFlow({ step: "upload" })
         break
       case "room":
-        if (draft) setFlow({ step: "room", draft })
+        if (draft && !hasResults) setFlow({ step: "room", draft })
         break
       case "preferences":
-        if (preferencesSpace) setFlow({ step: "preferences", space: preferencesSpace, variant: draft?.kind ?? "plan" })
+        if (preferencesSpace && !hasResults) {
+          setFlow({ step: "preferences", space: preferencesSpace, variant: draft?.kind ?? "plan" })
+        }
         break
       case "results":
         if (space && recommendation) setFlow({ step: "results", space, recommendation })
@@ -209,7 +213,7 @@ export function PlannerFlow() {
       case "results":
         return (
           <ResultsStep
-            roomType={flow.space.roomType}
+            space={flow.space}
             recommendation={flow.recommendation}
             isUnlocked={progress.isUnlocked}
             onUnlock={handleUnlock}
@@ -234,7 +238,7 @@ export function PlannerFlow() {
       <FlowSteps
         currentStep={flow.step}
         furthestStep={progress.furthestStep}
-        skippedSteps={getSkippedSteps(progress)}
+        skippedSteps={getUnavailableSteps(progress)}
         onStepSelect={handleStepSelect}
       />
       <div className="flex flex-1 flex-col *:flex-1">{renderStep()}</div>
