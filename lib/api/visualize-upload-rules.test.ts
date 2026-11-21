@@ -2,11 +2,10 @@ import { describe, expect, it } from "vitest"
 
 import { validateVisualizeForm } from "@/lib/api/visualize-upload-rules"
 
-function buildForm(fields: { articleNo?: string; position?: string; file?: File }): FormData {
+function buildForm(fields: { articleNos?: readonly string[]; file?: File }): FormData {
   const form = new FormData()
 
-  if (fields.articleNo !== undefined) form.set("articleNo", fields.articleNo)
-  if (fields.position !== undefined) form.set("position", fields.position)
+  for (const articleNo of fields.articleNos ?? []) form.append("articleNo", articleNo)
   if (fields.file) form.set("file", fields.file)
 
   return form
@@ -15,34 +14,38 @@ function buildForm(fields: { articleNo?: string; position?: string; file?: File 
 const image = new File([new Uint8Array([1])], "room", { type: "image/jpeg" })
 
 describe("validateVisualizeForm", () => {
-  it("accepts a valid request", () => {
-    const result = validateVisualizeForm(buildForm({ articleNo: "00575451", position: "left", file: image }))
+  it("accepts one or several products", () => {
+    const result = validateVisualizeForm(buildForm({ articleNos: ["00575451", "s29533309"], file: image }))
 
-    expect(result.ok && result.position).toBe("left")
-  })
-
-  it("accepts an s-prefixed article number", () => {
-    expect(validateVisualizeForm(buildForm({ articleNo: "s29533309", position: "center", file: image })).ok).toBe(true)
+    expect(result.ok && result.articleNos).toEqual(["00575451", "s29533309"])
   })
 
   it("rejects a malformed article number", () => {
-    const result = validateVisualizeForm(buildForm({ articleNo: "abc; drop", position: "left", file: image }))
+    const result = validateVisualizeForm(buildForm({ articleNos: ["abc; drop"], file: image }))
 
     expect(!result.ok && result.code).toBe("invalid_input")
   })
 
-  it("rejects an unknown position", () => {
-    const result = validateVisualizeForm(buildForm({ articleNo: "00575451", position: "top", file: image }))
+  it("rejects no products and too many products", () => {
+    const many = ["00000001", "00000002", "00000003", "00000004", "00000005"]
 
-    expect(!result.ok && result.message).toContain("position")
+    expect(validateVisualizeForm(buildForm({ articleNos: [], file: image })).ok).toBe(false)
+    expect(validateVisualizeForm(buildForm({ articleNos: many, file: image })).ok).toBe(false)
   })
 
   it("rejects a missing file and an unsupported type", () => {
-    expect(!validateVisualizeForm(buildForm({ articleNo: "00575451", position: "left" })).ok).toBe(true)
+    expect(validateVisualizeForm(buildForm({ articleNos: ["00575451"] })).ok).toBe(false)
 
     const pdf = new File([new Uint8Array([1])], "x", { type: "application/pdf" })
-    const result = validateVisualizeForm(buildForm({ articleNo: "00575451", position: "left", file: pdf }))
+    const result = validateVisualizeForm(buildForm({ articleNos: ["00575451"], file: pdf }))
 
     expect(!result.ok && result.code).toBe("unsupported_media_type")
+  })
+
+  it("accepts mock article numbers when any article number is allowed", () => {
+    const form = buildForm({ articleNos: ["mock-sofa-1"], file: image })
+
+    expect(validateVisualizeForm(form).ok).toBe(false)
+    expect(validateVisualizeForm(form, { allowAnyArticleNo: true }).ok).toBe(true)
   })
 })

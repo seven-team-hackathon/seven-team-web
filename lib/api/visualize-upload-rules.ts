@@ -1,6 +1,5 @@
 import type { ApiErrorCode } from "@/lib/contracts/api-error"
-import { wallPositionSchema } from "@/lib/contracts/visualization"
-import type { WallPosition } from "@/lib/contracts/visualization"
+import { MAX_VISUALIZED_PRODUCTS } from "@/lib/contracts/visualization"
 import { validateImageFile } from "@/lib/api/space-upload-rules"
 
 const ARTICLE_NO_PATTERN = /^s?\d{8}$/
@@ -9,8 +8,7 @@ export type VisualizeUploadResult =
   | {
       readonly ok: true
       readonly file: File
-      readonly articleNo: string
-      readonly position: WallPosition
+      readonly articleNos: readonly string[]
     }
   | {
       readonly ok: false
@@ -18,24 +16,26 @@ export type VisualizeUploadResult =
       readonly message: string
     }
 
-export function validateVisualizeForm(form: FormData): VisualizeUploadResult {
-  const articleNo = form.get("articleNo")
+export function validateVisualizeForm(
+  form: FormData,
+  options: { readonly allowAnyArticleNo?: boolean } = {}
+): VisualizeUploadResult {
+  const articleNos = form.getAll("articleNo")
+  const isValidArticleNo = (articleNo: FormDataEntryValue) =>
+    typeof articleNo === "string" &&
+    (options.allowAnyArticleNo
+      ? articleNo.length > 0
+      : ARTICLE_NO_PATTERN.test(articleNo))
 
-  if (typeof articleNo !== "string" || !ARTICLE_NO_PATTERN.test(articleNo)) {
+  if (
+    articleNos.length === 0 ||
+    articleNos.length > MAX_VISUALIZED_PRODUCTS ||
+    !articleNos.every(isValidArticleNo)
+  ) {
     return {
       ok: false,
       code: "invalid_input",
-      message: "Field 'articleNo' must be a product article number.",
-    }
-  }
-
-  const position = wallPositionSchema.safeParse(form.get("position"))
-
-  if (!position.success) {
-    return {
-      ok: false,
-      code: "invalid_input",
-      message: "Field 'position' must be 'left', 'center' or 'right'.",
+      message: `Send between 1 and ${MAX_VISUALIZED_PRODUCTS} product article numbers in 'articleNo'.`,
     }
   }
 
@@ -45,5 +45,5 @@ export function validateVisualizeForm(form: FormData): VisualizeUploadResult {
     return image
   }
 
-  return { ok: true, file: image.file, articleNo, position: position.data }
+  return { ok: true, file: image.file, articleNos: articleNos as string[] }
 }

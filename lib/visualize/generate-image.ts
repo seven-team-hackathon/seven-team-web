@@ -37,7 +37,7 @@ export type GenerateOutcome =
 export type GenerateInput = {
   readonly prompt: string
   readonly roomImageDataUrl: string
-  readonly productImageUrl?: string
+  readonly productImageUrls?: readonly string[]
 }
 
 export type ImageGenerator = (input: GenerateInput) => Promise<GenerateOutcome>
@@ -98,8 +98,10 @@ export const generateWithOpenRouter: ImageGenerator = async (input) => {
   const model = getImageModel()
   const references = [input.roomImageDataUrl]
 
-  if (input.productImageUrl) {
-    references.push(await loadProductImage(input.productImageUrl))
+  if (input.productImageUrls) {
+    references.push(
+      ...(await Promise.all(input.productImageUrls.map(loadProductImage)))
+    )
   }
 
   try {

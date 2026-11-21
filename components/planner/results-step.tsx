@@ -3,7 +3,7 @@
 import {
   CircleCheckIcon,
   InfoIcon,
-  LayoutDashboardIcon,
+  ImageIcon,
   LockIcon,
   RulerIcon,
   SearchXIcon,
@@ -57,10 +57,11 @@ type ResultsStepProps = {
   recommendation: RecommendationResponse
   isUnlocked: boolean
   onUnlock: () => void
-  onOpenLayout: () => void
+  canPreview: boolean
+  onOpenPreview: () => void
 }
 
-export function ResultsStep({ roomType, recommendation, isUnlocked, onUnlock, onOpenLayout }: ResultsStepProps) {
+export function ResultsStep({ roomType, recommendation, isUnlocked, onUnlock, canPreview, onOpenPreview }: ResultsStepProps) {
   const [isPaywallOpen, setIsPaywallOpen] = useState(false)
   const { items, totals, fit, meta } = recommendation
   const unmatchedCategories = meta.unmatchedCategories ?? []
@@ -110,9 +111,9 @@ export function ResultsStep({ roomType, recommendation, isUnlocked, onUnlock, on
 
         {hasItems && <FitSummary fit={fit} />}
 
-        {hasItems && (
-          <Button size="lg" onClick={onOpenLayout} className="w-full sm:w-auto sm:self-center">
-            <LayoutDashboardIcon data-icon="inline-start" aria-hidden />
+        {hasItems && canPreview && (
+          <Button size="lg" onClick={onOpenPreview} className="w-full sm:w-auto sm:self-center">
+            <ImageIcon data-icon="inline-start" aria-hidden />
             See it in your room
           </Button>
         )}

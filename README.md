@@ -27,7 +27,7 @@ photo ──► POST /api/space ──► Claude vision ──► room type, est
                       links to IKEA US products + reasons
 ```
 
-Optionally, the user can generate a photo of their own room with one recommended product added (`POST /api/visualize`): an image model gets the room photo and the real IKEA product photo, about $0.05 and 20 seconds per image. It is labeled as an illustration because size and details can differ from the real product.
+Optionally, the user can generate a photo of their own room with the recommended products added (`POST /api/visualize`): an image model gets the room photo and the real IKEA product photo, about $0.05 and 20 seconds per image. It is labeled as an illustration because size and details can differ from the real product.
 
 Where the AI is needed: reading a photo into structure, understanding free-text wishes, judging style fit and writing the explanation, and building the product catalog (classifying category, style and colors from product pages). Where code is deliberately used: size and budget checks, validating that every recommended article exists, building links.
 

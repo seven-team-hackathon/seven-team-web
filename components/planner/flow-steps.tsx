@@ -2,7 +2,7 @@ import { ChevronLeftIcon, ChevronRightIcon } from "lucide-react"
 import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
 
-export type FlowStep = "upload" | "analyzing" | "room" | "preferences" | "results" | "layout"
+export type FlowStep = "upload" | "analyzing" | "room" | "preferences" | "results" | "preview"
 
 type FlowStepItem = { readonly id: FlowStep; readonly label: string; readonly isTransient: boolean }
 
@@ -12,7 +12,7 @@ const FLOW_STEPS: readonly FlowStepItem[] = [
   { id: "room", label: "Room", isTransient: false },
   { id: "preferences", label: "Preferences", isTransient: false },
   { id: "results", label: "Results", isTransient: false },
-  { id: "layout", label: "Layout", isTransient: false },
+  { id: "preview", label: "Preview", isTransient: false },
 ]
 
 function getStepOrder(step: FlowStep): number {

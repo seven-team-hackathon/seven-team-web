@@ -53,54 +53,79 @@ describe("describeProduct", () => {
 })
 
 describe("buildVisualizationPrompt", () => {
-  it("mentions the second image when a product photo is used", () => {
-    const prompt = buildVisualizationPrompt({ subject: "a sofa", position: "left", hasProductImage: true })
+  it("numbers the product photos after the room photo", () => {
+    const prompt = buildVisualizationPrompt({
+      subjects: [
+        { description: "a sofa", hasImage: true },
+        { description: "a table", hasImage: true },
+      ],
+    })
 
-    expect(prompt).toContain("second image")
-    expect(prompt).toContain("on its left part")
+    expect(prompt).toContain("a sofa (product photo: image 2)")
+    expect(prompt).toContain("a table (product photo: image 3)")
   })
 
-  it("uses the plain prompt without a product photo", () => {
-    const prompt = buildVisualizationPrompt({ subject: "a sofa", position: "center", hasProductImage: false })
+  it("uses the plain prompt without product photos", () => {
+    const prompt = buildVisualizationPrompt({
+      subjects: [{ description: "a sofa", hasImage: false }],
+    })
 
-    expect(prompt).not.toContain("second image")
-    expect(prompt).toContain("in the middle of it")
+    expect(prompt).not.toContain("product photo")
+    expect(prompt).toContain("1. a sofa.")
   })
 
   it("always keeps the room unchanged and the size realistic", () => {
-    const prompt = buildVisualizationPrompt({ subject: "a sofa", position: "right", hasProductImage: true })
+    const prompt = buildVisualizationPrompt({
+      subjects: [{ description: "a sofa", hasImage: true }],
+    })
 
     expect(prompt).toContain("Keep the room exactly as it is")
     expect(prompt).toContain("realistic size")
   })
 })
 
+const second: CatalogItem = {
+  ...item,
+  articleNo: "00000002",
+  name: "TEST Table",
+  imageUrl: "https://www.ikea.com/us/en/images/products/table.jpg",
+}
+
 describe("visualizeProduct", () => {
   it("returns a response that matches the contract", async () => {
     const result = await visualizeProduct(
-      { file, articleNo: "00000001", position: "right" },
+      { file, articleNos: ["00000001"] },
       { catalog: [item], generate: okGenerator() }
     )
 
     expect(result.ok && visualizeResponseSchema.safeParse(result.response).success).toBe(true)
   })
 
-  it("sends the room photo and the product photo from the catalog", async () => {
+  it("sends the room photo and every product photo from the catalog", async () => {
     const received: GenerateInput[] = []
 
     await visualizeProduct(
-      { file, articleNo: "00000001", position: "left" },
-      { catalog: [item], generate: okGenerator(received) }
+      { file, articleNos: ["00000001", "00000002"] },
+      { catalog: [item, second], generate: okGenerator(received) }
     )
 
     expect(received[0]?.roomImageDataUrl).toBe("data:image/jpeg;base64,AQID")
-    expect(received[0]?.productImageUrl).toBe(item.imageUrl)
-    expect(received[0]?.prompt).toContain("second image")
+    expect(received[0]?.productImageUrls).toEqual([item.imageUrl, second.imageUrl])
+    expect(received[0]?.prompt).toContain("TEST Table")
   })
 
   it("does not take the product from the client", async () => {
     const result = await visualizeProduct(
-      { file, articleNo: "99999999", position: "left" },
+      { file, articleNos: ["99999999"] },
+      { catalog: [item], generate: okGenerator() }
+    )
+
+    expect(!result.ok && result.code).toBe("invalid_input")
+  })
+
+  it("rejects the request when any product is unknown", async () => {
+    const result = await visualizeProduct(
+      { file, articleNos: ["00000001", "99999999"] },
       { catalog: [item], generate: okGenerator() }
     )
 
@@ -112,19 +137,19 @@ describe("visualizeProduct", () => {
     const { imageUrl, ...withoutImage } = item
 
     await visualizeProduct(
-      { file, articleNo: "00000001", position: "left" },
+      { file, articleNos: ["00000001"] },
       { catalog: [withoutImage], generate: okGenerator(received) }
     )
 
     expect(imageUrl).toBeDefined()
-    expect(received[0]?.productImageUrl).toBeUndefined()
-    expect(received[0]?.prompt).not.toContain("second image")
+    expect(received[0]?.productImageUrls).toEqual([])
+    expect(received[0]?.prompt).not.toContain("product photo")
   })
 
   it("maps a timeout and other failures to api errors", async () => {
     const timeout: ImageGenerator = async () => ({ kind: "failed", reason: "timeout", message: "slow" })
     const upstream: ImageGenerator = async () => ({ kind: "failed", reason: "upstream", message: "down" })
-    const input = { file, articleNo: "00000001", position: "left" as const }
+    const input = { file, articleNos: ["00000001"] }
 
     const timed = await visualizeProduct(input, { catalog: [item], generate: timeout })
     const failed = await visualizeProduct(input, { catalog: [item], generate: upstream })

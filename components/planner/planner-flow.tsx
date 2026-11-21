@@ -4,19 +4,17 @@ import { useState } from "react"
 import type { Preferences } from "@/lib/contracts/preferences"
 import type { RecommendationResponse } from "@/lib/contracts/recommendation"
 import type { ConfirmedSpace, SpaceDraft, SpaceKind } from "@/lib/contracts/space"
-import { autoArrange, type LayoutItem } from "@/lib/planner/layout"
-import { FREE_CATEGORY_COUNT } from "@/lib/planner/options"
-import { arrangeOnWall, getWallSize, type WallItem, type WallSide } from "@/lib/planner/wall-layout"
+import { MAX_VISUALIZED_PRODUCTS } from "@/lib/contracts/visualization"
+import { CATEGORY_META, FREE_CATEGORY_COUNT } from "@/lib/planner/options"
 import type { ImageRef } from "@/lib/images/image-size"
-import { WHOLE_IMAGE_BOUNDS, type RoomBounds } from "@/lib/planner/room-bounds"
+import type { RoomBounds } from "@/lib/planner/room-bounds"
 import { AnalyzingStep, type AnalyzedImage, type SpaceUpload } from "@/components/planner/analyzing-step"
-import { FloorLayoutStep } from "@/components/planner/floor-layout-step"
 import { FlowSteps, getFurtherStep, type FlowStep } from "@/components/planner/flow-steps"
 import { PreferencesStep, type SpaceInput } from "@/components/planner/preferences-step"
 import { ResultsStep } from "@/components/planner/results-step"
+import { RoomPreviewStep, type PreviewProduct, type RoomPreview } from "@/components/planner/room-preview-step"
 import { RoomStep } from "@/components/planner/room-step"
 import { UploadStep } from "@/components/planner/upload-step"
-import { WallLayoutStep } from "@/components/planner/wall-layout-step"
 
 type FlowState =
   | { readonly step: "upload" }
@@ -24,14 +22,10 @@ type FlowState =
   | { readonly step: "room"; readonly draft: SpaceDraft }
   | { readonly step: "preferences"; readonly space: SpaceInput; readonly variant: SpaceKind }
   | {
-      readonly step: "results" | "layout"
+      readonly step: "results" | "preview"
       readonly space: ConfirmedSpace
       readonly recommendation: RecommendationResponse
     }
-
-type LayoutState =
-  | { readonly view: "floor"; readonly items: readonly LayoutItem[] }
-  | { readonly view: "wall"; readonly wallSide: WallSide; readonly items: readonly WallItem[] }
 
 type SpaceImage = ImageRef & {
   readonly kind: SpaceKind
@@ -47,7 +41,7 @@ type FlowProgress = {
   readonly space: ConfirmedSpace | null
   readonly preferences: Preferences | null
   readonly recommendation: RecommendationResponse | null
-  readonly layout: LayoutState | null
+  readonly preview: RoomPreview | null
   readonly isUnlocked: boolean
 }
 
@@ -60,22 +54,15 @@ const INITIAL_PROGRESS: FlowProgress = {
   space: null,
   preferences: null,
   recommendation: null,
-  layout: null,
+  preview: null,
   isUnlocked: false,
 }
 
-function arrangeLayout(
-  kind: SpaceKind,
-  wallSide: WallSide,
-  space: ConfirmedSpace,
-  recommendation: RecommendationResponse,
-  isUnlocked: boolean,
-): LayoutState {
+function getPreviewProducts(recommendation: RecommendationResponse, isUnlocked: boolean): PreviewProduct[] {
   const visibleItems = isUnlocked ? recommendation.items : recommendation.items.slice(0, FREE_CATEGORY_COUNT)
-  if (kind === "photo") {
-    return { view: "wall", wallSide, items: arrangeOnWall(getWallSize(space, wallSide), visibleItems) }
-  }
-  return { view: "floor", items: autoArrange(space.dimensions, visibleItems) }
+  return visibleItems
+    .slice(0, MAX_VISUALIZED_PRODUCTS)
+    .map(({ category, primary }) => ({ articleNo: primary.articleNo, label: CATEGORY_META[category].label }))
 }
 
 function getPhotoSpace(draft: SpaceDraft): SpaceInput | null {
@@ -88,6 +75,13 @@ function getPhotoSpace(draft: SpaceDraft): SpaceInput | null {
     openings: draft.openings,
     styleHints: draft.styleHints,
   }
+}
+
+function getSkippedSteps({ draft, image }: FlowProgress): FlowStep[] {
+  const skipped: FlowStep[] = []
+  if (draft && getPhotoSpace(draft)) skipped.push("room")
+  if (image?.kind !== "photo") skipped.push("preview")
+  return skipped
 }
 
 export function PlannerFlow() {
@@ -126,37 +120,33 @@ export function PlannerFlow() {
       preferencesSpace: space,
       space,
       recommendation: null,
-      layout: null,
+      preview: null,
       furthestStep: "preferences",
     }))
     setFlow({ step: "preferences", space, variant: progress.draft?.kind ?? "plan" })
   }
 
   function handleRecommended(space: ConfirmedSpace, preferences: Preferences, recommendation: RecommendationResponse) {
-    setProgress((current) => ({ ...current, space, preferences, recommendation, layout: null, furthestStep: "results" }))
+    setProgress((current) => ({ ...current, space, preferences, recommendation, preview: null, furthestStep: "results" }))
     setFlow({ step: "results", space, recommendation })
   }
 
   function handleUnlock() {
-    setProgress((current) => ({ ...current, isUnlocked: true, layout: null }))
+    setProgress((current) => ({ ...current, isUnlocked: true, preview: null }))
   }
 
-  function arrangeFor(space: ConfirmedSpace, recommendation: RecommendationResponse, wallSide: WallSide): LayoutState {
-    return arrangeLayout(progress.image?.kind ?? "plan", wallSide, space, recommendation, progress.isUnlocked)
+  function openPreview(space: ConfirmedSpace, recommendation: RecommendationResponse) {
+    setProgress((current) => ({ ...current, furthestStep: "preview" }))
+    setFlow({ step: "preview", space, recommendation })
   }
 
-  function openLayout(space: ConfirmedSpace, recommendation: RecommendationResponse) {
-    const layout = progress.layout ?? arrangeFor(space, recommendation, "width")
-    setProgress((current) => ({ ...current, layout, furthestStep: "layout" }))
-    setFlow({ step: "layout", space, recommendation })
-  }
-
-  function setLayout(layout: LayoutState) {
-    setProgress((current) => ({ ...current, layout }))
+  function handlePreview(preview: RoomPreview) {
+    setProgress((current) => ({ ...current, preview }))
   }
 
   function handleStepSelect(step: FlowStep) {
     const { draft, preferencesSpace, space, recommendation } = progress
+    const canPreview = progress.image?.kind === "photo"
     switch (step) {
       case "upload":
         setFlow({ step: "upload" })
@@ -170,44 +160,11 @@ export function PlannerFlow() {
       case "results":
         if (space && recommendation) setFlow({ step: "results", space, recommendation })
         break
-      case "layout":
-        if (space && recommendation) openLayout(space, recommendation)
+      case "preview":
+        if (space && recommendation && canPreview) openPreview(space, recommendation)
         break
       case "analyzing":
         break
-    }
-  }
-
-  function renderLayout(space: ConfirmedSpace, recommendation: RecommendationResponse) {
-    const { layout, image } = progress
-    if (!layout || !image) return null
-
-    switch (layout.view) {
-      case "floor":
-        return (
-          <FloorLayoutStep
-            room={space.dimensions}
-            planImage={image}
-            roomBounds={progress.roomBounds ?? WHOLE_IMAGE_BOUNDS}
-            items={layout.items}
-            onItemsChange={(items) => setLayout({ view: "floor", items })}
-            onAutoArrange={() => setLayout(arrangeFor(space, recommendation, "width"))}
-          />
-        )
-      case "wall":
-        return (
-          <WallLayoutStep
-            wall={getWallSize(space, layout.wallSide)}
-            wallSide={layout.wallSide}
-            wallLengths={{ width: space.dimensions.widthCm, length: space.dimensions.lengthCm }}
-            photoUrl={image.url}
-            photoFile={image.file}
-            items={layout.items}
-            onItemsChange={(items) => setLayout({ ...layout, items })}
-            onWallSideChange={(wallSide) => setLayout(arrangeFor(space, recommendation, wallSide))}
-            onAutoArrange={() => setLayout(arrangeFor(space, recommendation, layout.wallSide))}
-          />
-        )
     }
   }
 
@@ -243,11 +200,19 @@ export function PlannerFlow() {
             recommendation={flow.recommendation}
             isUnlocked={progress.isUnlocked}
             onUnlock={handleUnlock}
-            onOpenLayout={() => openLayout(flow.space, flow.recommendation)}
+            canPreview={progress.image?.kind === "photo"}
+            onOpenPreview={() => openPreview(flow.space, flow.recommendation)}
           />
         )
-      case "layout":
-        return renderLayout(flow.space, flow.recommendation)
+      case "preview":
+        return progress.image ? (
+          <RoomPreviewStep
+            photo={progress.image.file}
+            products={getPreviewProducts(flow.recommendation, progress.isUnlocked)}
+            initialPreview={progress.preview}
+            onPreview={handlePreview}
+          />
+        ) : null
     }
   }
 
@@ -256,7 +221,7 @@ export function PlannerFlow() {
       <FlowSteps
         currentStep={flow.step}
         furthestStep={progress.furthestStep}
-        skippedSteps={progress.draft && getPhotoSpace(progress.draft) ? ["room"] : []}
+        skippedSteps={getSkippedSteps(progress)}
         onStepSelect={handleStepSelect}
       />
       <div className="flex flex-1 flex-col *:flex-1">{renderStep()}</div>

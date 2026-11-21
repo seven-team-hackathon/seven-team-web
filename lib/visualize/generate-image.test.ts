@@ -92,7 +92,7 @@ describe("generateWithOpenRouter", () => {
     await generateWithOpenRouter({
       prompt: "p",
       roomImageDataUrl: "data:image/jpeg;base64,AA",
-      productImageUrl: "https://www.ikea.com/a.jpg",
+      productImageUrls: ["https://www.ikea.com/a.jpg"],
     })
 
     const body = JSON.parse(sentBodies[0] ?? "{}")

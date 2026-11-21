@@ -60,13 +60,14 @@ export async function POST(request: Request) {
     )
   }
 
-  const upload = validateVisualizeForm(form)
+  const mockMode = isMockApiEnabled()
+  const upload = validateVisualizeForm(form, { allowAnyArticleNo: mockMode })
 
   if (!upload.ok) {
     return apiErrorResponse(upload.code, upload.message)
   }
 
-  if (isMockApiEnabled()) {
+  if (mockMode) {
     return Response.json(await echoPhoto(upload.file))
   }
 

@@ -102,17 +102,16 @@ Response 200: `RecommendationResponse` with `items` (one entry per category with
 
 ## POST /api/visualize
 
-Generates a photo of the user's room with one product added. Only for the photo flow (the user needs a room photo). Multipart form data:
+Generates a photo of the user's room with the recommended products added. Only for the photo flow (the user needs a room photo). Multipart form data:
 
 - `file`: the room photo, JPEG, PNG or WebP, at most 4 MB (the same file that was sent to `/api/space`).
-- `articleNo`: the `articleNo` of a product from the recommendations. The backend looks the product up in the catalog and uses its real size, colors and its IKEA product photo as a second reference for the image model. Unknown articles return `400`.
-- `position`: `left`, `center` or `right`, where on the back wall the product should stand. The wall layout view derives it from where the user placed the piece.
+- `articleNo`: the `articleNo` of a product from the recommendations. Repeat the field to add several products (1 to 4). The backend looks every product up in the catalog and uses its real size, colors and its IKEA product photo as extra references for the image model, and the model arranges the pieces in the room. Unknown articles return `400`.
 
 Response 200: `{ mediaType, imageBase64, model, costUsd? }`. Show it with `data:${mediaType};base64,${imageBase64}`.
 
 Notes for the UI:
 
-- A request takes about 20 seconds (up to a couple of minutes in bad cases) and costs about $0.05. Show a loading state and disable the button while it runs.
+- A request takes about 20 seconds (up to a couple of minutes in bad cases) and costs about $0.05. Show a loading state while it runs (the "See it in your room" step starts the request when it opens and keeps the result while the user stays in the flow).
 - Always label the result as an AI illustration: colors, details and size may differ from the real product (the UI caption does this).
 - Stricter limits than the other endpoints: 4 requests per minute per client and 60 per hour overall. Over the limit the API returns `429` with `Retry-After`.
 - In mock mode (`MOCK_API=true`) the endpoint returns the uploaded photo unchanged, with no cost.
