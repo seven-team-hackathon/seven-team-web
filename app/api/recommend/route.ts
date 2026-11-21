@@ -4,9 +4,21 @@ import { isMockApiEnabled } from "@/lib/api/mock-mode"
 import { recommendationFixture } from "@/lib/contracts/fixtures"
 import type { RecommendationResponse } from "@/lib/contracts/recommendation"
 import { recommendRequestSchema } from "@/lib/contracts/recommendation"
+import {
+  guardRateLimit,
+  recommendRateLimiter,
+} from "@/lib/api/route-rate-limits"
 import { recommend } from "@/lib/recommend/recommend"
 
+export const maxDuration = 60
+
 export async function POST(request: Request) {
+  const limited = guardRateLimit(request, recommendRateLimiter)
+
+  if (limited) {
+    return limited
+  }
+
   const body: unknown = await request.json().catch(() => null)
   const parsed = recommendRequestSchema.safeParse(body)
 

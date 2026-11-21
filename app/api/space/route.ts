@@ -1,10 +1,22 @@
 import { apiErrorResponse } from "@/lib/api/api-error-response"
 import { isMockApiEnabled } from "@/lib/api/mock-mode"
+import {
+  guardRateLimit,
+  spaceRateLimiter,
+} from "@/lib/api/route-rate-limits"
 import { validateSpaceUploadForm } from "@/lib/api/space-upload-rules"
 import { spaceDraftPhotoFixture } from "@/lib/contracts/fixtures"
 import { extractSpaceFromPhoto } from "@/lib/space/extract-space"
 
+export const maxDuration = 90
+
 export async function POST(request: Request) {
+  const limited = guardRateLimit(request, spaceRateLimiter)
+
+  if (limited) {
+    return limited
+  }
+
   const form = await request.formData().catch(() => null)
 
   if (!form) {

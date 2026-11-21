@@ -111,6 +111,10 @@ Every error has the shape `{ "error": { "code": string, "message": string } }`.
 | `model_failed` | 502 |
 | `timeout` | 504 |
 
+## Rate limits
+
+When `MOCK_API` is not `true`, `/api/space` allows 10 requests per minute per client and `/api/recommend` 20 per minute, with a shared cap of 300 model requests per hour. Over the limit the API returns `429` with `code: "rate_limited"` and a `Retry-After` header (seconds). Show "Too many requests, try again in a moment" and disable the button until then. The limits are in memory per server instance, so they are approximate.
+
 ## Registration and session
 
 Registration is stored on the client only (name and email). The backend is stateless and has no sessions or database.
