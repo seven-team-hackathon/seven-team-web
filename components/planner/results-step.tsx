@@ -57,7 +57,6 @@ type ResultsStepProps = {
   recommendation: RecommendationResponse
   isUnlocked: boolean
   onUnlock: () => void
-  canPreview: boolean
   onOpenPreview: () => void
 }
 
@@ -66,7 +65,6 @@ export function ResultsStep({
   recommendation,
   isUnlocked,
   onUnlock,
-  canPreview,
   onOpenPreview,
 }: ResultsStepProps) {
   const roomType = space.roomType
@@ -120,7 +118,7 @@ export function ResultsStep({
 
         {hasItems && <FitSummary fit={fit} />}
 
-        {hasItems && canPreview && (
+        {hasItems && (
           <Button size="lg" onClick={onOpenPreview} className="w-full sm:w-auto sm:self-center">
             <ImageIcon data-icon="inline-start" aria-hidden />
             See it in your room

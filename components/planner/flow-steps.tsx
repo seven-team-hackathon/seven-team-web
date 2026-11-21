@@ -6,6 +6,8 @@ export type FlowStep = "upload" | "analyzing" | "room" | "preferences" | "result
 
 type FlowStepItem = { readonly id: FlowStep; readonly label: string; readonly isTransient: boolean }
 
+const DEFAULT_FINAL_STEP_LABEL = "Preview"
+
 const FLOW_STEPS: readonly FlowStepItem[] = [
   { id: "upload", label: "Upload", isTransient: false },
   { id: "analyzing", label: "Recognition", isTransient: true },
@@ -44,11 +46,15 @@ type FlowStepsProps = {
   currentStep: FlowStep
   furthestStep: FlowStep
   skippedSteps: readonly FlowStep[]
+  finalStepLabel?: string
   onStepSelect: (step: FlowStep) => void
 }
 
-function MobileFlowSteps({ currentStep, furthestStep, skippedSteps, onStepSelect }: FlowStepsProps) {
-  const steps = FLOW_STEPS
+type StepListProps = Omit<FlowStepsProps, "finalStepLabel"> & {
+  steps: readonly FlowStepItem[]
+}
+
+function MobileFlowSteps({ steps, currentStep, furthestStep, skippedSteps, onStepSelect }: StepListProps) {
   const currentIndex = steps.findIndex(({ id }) => id === currentStep)
   const previousStep = findSelectableStep(steps, currentIndex, -1, furthestStep, skippedSteps)
   const nextStep = findSelectableStep(steps, currentIndex, 1, furthestStep, skippedSteps)
@@ -95,17 +101,26 @@ function MobileFlowSteps({ currentStep, furthestStep, skippedSteps, onStepSelect
   )
 }
 
-export function FlowSteps({ currentStep, furthestStep, skippedSteps, onStepSelect }: FlowStepsProps) {
+export function FlowSteps({
+  currentStep,
+  furthestStep,
+  skippedSteps,
+  finalStepLabel = DEFAULT_FINAL_STEP_LABEL,
+  onStepSelect,
+}: FlowStepsProps) {
+  const steps = FLOW_STEPS.map((step) => (step.id === "preview" ? { ...step, label: finalStepLabel } : step))
+
   return (
     <>
       <MobileFlowSteps
+        steps={steps}
         currentStep={currentStep}
         furthestStep={furthestStep}
         skippedSteps={skippedSteps}
         onStepSelect={onStepSelect}
       />
       <ol aria-label="Steps" className="hidden flex-wrap justify-center gap-1.5 sm:flex">
-        {FLOW_STEPS.map((step) => {
+        {steps.map((step) => {
           const isCurrent = step.id === currentStep
           const isSelectable = isReachable(step, furthestStep, skippedSteps) && !isCurrent
           return (

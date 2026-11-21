@@ -4,12 +4,15 @@ import { useState } from "react"
 import type { Preferences } from "@/lib/contracts/preferences"
 import type { RecommendationResponse } from "@/lib/contracts/recommendation"
 import type { ConfirmedSpace, SpaceDraft, SpaceKind } from "@/lib/contracts/space"
+import { autoArrange, type LayoutItem } from "@/lib/planner/layout"
 import { MAX_VISUALIZED_PRODUCTS } from "@/lib/contracts/visualization"
 import { CATEGORY_META, FREE_CATEGORY_COUNT } from "@/lib/planner/options"
 import type { ImageRef } from "@/lib/images/image-size"
-import type { RoomBounds } from "@/lib/planner/room-bounds"
+import { getRoomLabel } from "@/lib/planner/room-label"
+import { WHOLE_IMAGE_BOUNDS, type RoomBounds } from "@/lib/planner/room-bounds"
 import { SAMPLE_PHOTO_SPACE } from "@/lib/planner/sample-photo"
 import { AnalyzingStep, type AnalyzedImage, type SpaceUpload } from "@/components/planner/analyzing-step"
+import { FloorLayoutStep } from "@/components/planner/floor-layout-step"
 import { FlowSteps, getFurtherStep, type FlowStep } from "@/components/planner/flow-steps"
 import { PreferencesStep, type SpaceInput } from "@/components/planner/preferences-step"
 import { ResultsStep } from "@/components/planner/results-step"
@@ -44,6 +47,7 @@ type FlowProgress = {
   readonly preferences: Preferences | null
   readonly recommendation: RecommendationResponse | null
   readonly preview: RoomPreview | null
+  readonly layout: readonly LayoutItem[] | null
   readonly isUnlocked: boolean
 }
 
@@ -58,6 +62,7 @@ const INITIAL_PROGRESS: FlowProgress = {
   preferences: null,
   recommendation: null,
   preview: null,
+  layout: null,
   isUnlocked: false,
 }
 
@@ -86,7 +91,6 @@ function getUnavailableSteps(progress: FlowProgress): FlowStep[] {
   const unavailable: FlowStep[] = []
   if (progress.isRoomSkipped || progress.recommendation) unavailable.push("room")
   if (progress.recommendation) unavailable.push("preferences")
-  if (progress.image?.kind !== "photo") unavailable.push("preview")
   return unavailable
 }
 
@@ -135,22 +139,29 @@ export function PlannerFlow() {
       space,
       recommendation: null,
       preview: null,
+      layout: null,
       furthestStep: "preferences",
     }))
     setFlow({ step: "preferences", space, variant: progress.draft?.kind ?? "plan" })
   }
 
   function handleRecommended(space: ConfirmedSpace, preferences: Preferences, recommendation: RecommendationResponse) {
-    setProgress((current) => ({ ...current, space, preferences, recommendation, preview: null, furthestStep: "results" }))
+    setProgress((current) => ({ ...current, space, preferences, recommendation, preview: null, layout: null, furthestStep: "results" }))
     setFlow({ step: "results", space, recommendation })
   }
 
   function handleUnlock() {
-    setProgress((current) => ({ ...current, isUnlocked: true, preview: null }))
+    setProgress((current) => ({ ...current, isUnlocked: true, preview: null, layout: null }))
+  }
+
+  function getInitialLayout(space: ConfirmedSpace, recommendation: RecommendationResponse): readonly LayoutItem[] {
+    const visibleItems = progress.isUnlocked ? recommendation.items : recommendation.items.slice(0, FREE_CATEGORY_COUNT)
+    return progress.layout ?? autoArrange(space.dimensions, visibleItems)
   }
 
   function openPreview(space: ConfirmedSpace, recommendation: RecommendationResponse) {
-    setProgress((current) => ({ ...current, furthestStep: "preview" }))
+    const layout = progress.image?.kind === "plan" ? getInitialLayout(space, recommendation) : progress.layout
+    setProgress((current) => ({ ...current, layout, furthestStep: "preview" }))
     setFlow({ step: "preview", space, recommendation })
   }
 
@@ -161,7 +172,6 @@ export function PlannerFlow() {
   function handleStepSelect(step: FlowStep) {
     const { draft, preferencesSpace, space, recommendation } = progress
     const hasResults = recommendation !== null
-    const canPreview = progress.image?.kind === "photo"
     switch (step) {
       case "upload":
         setFlow({ step: "upload" })
@@ -178,7 +188,7 @@ export function PlannerFlow() {
         if (space && recommendation) setFlow({ step: "results", space, recommendation })
         break
       case "preview":
-        if (space && recommendation && canPreview) openPreview(space, recommendation)
+        if (space && recommendation) openPreview(space, recommendation)
         break
       case "analyzing":
         break
@@ -217,19 +227,36 @@ export function PlannerFlow() {
             recommendation={flow.recommendation}
             isUnlocked={progress.isUnlocked}
             onUnlock={handleUnlock}
-            canPreview={progress.image?.kind === "photo"}
             onOpenPreview={() => openPreview(flow.space, flow.recommendation)}
           />
         )
       case "preview":
-        return progress.image ? (
+        if (!progress.image) return null
+        if (progress.image.kind === "plan") {
+          const items = getInitialLayout(flow.space, flow.recommendation)
+          const visibleItems = progress.isUnlocked ? flow.recommendation.items : flow.recommendation.items.slice(0, FREE_CATEGORY_COUNT)
+          return (
+            <FloorLayoutStep
+              room={flow.space.dimensions}
+              roomLabel={getRoomLabel(flow.space)}
+              planImage={progress.image}
+              roomBounds={progress.roomBounds ?? WHOLE_IMAGE_BOUNDS}
+              items={items}
+              onItemsChange={(layout) => setProgress((current) => ({ ...current, layout }))}
+              onAutoArrange={() =>
+                setProgress((current) => ({ ...current, layout: autoArrange(flow.space.dimensions, visibleItems) }))
+              }
+            />
+          )
+        }
+        return (
           <RoomPreviewStep
             photo={progress.image.file}
             products={getPreviewProducts(flow.recommendation, progress.isUnlocked)}
             initialPreview={progress.preview}
             onPreview={handlePreview}
           />
-        ) : null
+        )
     }
   }
 
@@ -239,6 +266,7 @@ export function PlannerFlow() {
         currentStep={flow.step}
         furthestStep={progress.furthestStep}
         skippedSteps={getUnavailableSteps(progress)}
+        finalStepLabel={progress.image?.kind === "plan" ? "Layout" : "Preview"}
         onStepSelect={handleStepSelect}
       />
       <div className="flex flex-1 flex-col *:flex-1">{renderStep()}</div>
