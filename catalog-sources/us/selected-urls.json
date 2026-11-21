@@ -1,0 +1,2192 @@
+[
+  {
+    "url": "https://www.ikea.com/us/en/p/songesand-nightstand-brown-70367444/",
+    "articleNo": "70367444",
+    "family": "songesand",
+    "categoryGuess": "nightstand"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/vittskaer-sofa-outdoor-plastic-rattan-dark-gray-s99591131/",
+    "articleNo": "s99591131",
+    "family": "vittskaer",
+    "categoryGuess": "sofa"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/vedbo-armchair-gunnared-dark-gray-50424129/",
+    "articleNo": "50424129",
+    "family": "vedbo",
+    "categoryGuess": "armchair"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/ivar-shelving-unit-with-bottle-racks-pine-s19403817/",
+    "articleNo": "s19403817",
+    "family": "ivar",
+    "categoryGuess": "bookshelf"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/ikea-ps-loemsk-childrens-swivel-armchair-white-beige-red-30609237/",
+    "articleNo": "30609237",
+    "family": "ikea",
+    "categoryGuess": "armchair"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/trotten-desk-white-s59621917/",
+    "articleNo": "s59621917",
+    "family": "trotten",
+    "categoryGuess": "desk"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/lagkapten-adils-desk-gray-wood-effect-black-s79585372/",
+    "articleNo": "s79585372",
+    "family": "lagkapten",
+    "categoryGuess": "desk"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/malm-bed-frame-oak-veneer-luroey-s19574395/",
+    "articleNo": "s19574395",
+    "family": "malm",
+    "categoryGuess": "bed"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/idanaes-side-table-white-00496048/",
+    "articleNo": "00496048",
+    "family": "idanaes",
+    "categoryGuess": "coffee-table"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/stoepregn-open-shelf-unit-pine-60625815/",
+    "articleNo": "60625815",
+    "family": "stoepregn",
+    "categoryGuess": "bookshelf"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/mellgrund-bed-frame-off-white-lyngoer-s79630181/",
+    "articleNo": "s79630181",
+    "family": "mellgrund",
+    "categoryGuess": "bed"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/lack-wall-shelf-unit-black-brown-80430591/",
+    "articleNo": "80430591",
+    "family": "lack",
+    "categoryGuess": "bookshelf"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/slattum-upholstered-bed-frame-vissle-dark-gray-70571256/",
+    "articleNo": "70571256",
+    "family": "slattum",
+    "categoryGuess": "bed"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/alhult-extendable-table-beige-brown-60597921/",
+    "articleNo": "60597921",
+    "family": "alhult",
+    "categoryGuess": "dining-table"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/gullaberg-wardrobe-white-70573953/",
+    "articleNo": "70573953",
+    "family": "gullaberg",
+    "categoryGuess": "wardrobe"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/slattum-upholstered-bed-frame-vissle-dark-gray-10571259/",
+    "articleNo": "10571259",
+    "family": "slattum",
+    "categoryGuess": "bed"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/centerhalv-office-chair-black-10601124/",
+    "articleNo": "10601124",
+    "family": "centerhalv",
+    "categoryGuess": "office-chair"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/oerfjaell-childs-desk-chair-white-vissle-light-gray-80501885/",
+    "articleNo": "80501885",
+    "family": "oerfjaell",
+    "categoryGuess": "office-chair"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/alhult-chair-beige-kabusa-light-beige-60600773/",
+    "articleNo": "60600773",
+    "family": "alhult",
+    "categoryGuess": "dining-chair"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/kompishaeng-desk-green-pine-00628751/",
+    "articleNo": "00628751",
+    "family": "kompishaeng",
+    "categoryGuess": "desk"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/skytta-boaxel-reach-in-wardrobe-with-sliding-door-black-double-sided-mehamn-white-stained-oak-effect-s89523114/",
+    "articleNo": "s89523114",
+    "family": "skytta",
+    "categoryGuess": "wardrobe"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/fryksas-tv-unit-rattan-80579327/",
+    "articleNo": "80579327",
+    "family": "fryksas",
+    "categoryGuess": "tv-unit"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/gullaberg-desk-with-drop-file-drawers-white-50620559/",
+    "articleNo": "50620559",
+    "family": "gullaberg",
+    "categoryGuess": "desk"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/hyltarp-sofa-w-chaise-right-tallmyra-blue-s09514991/",
+    "articleNo": "s09514991",
+    "family": "hyltarp",
+    "categoryGuess": "sofa"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/danderyd-dining-table-white-40568726/",
+    "articleNo": "40568726",
+    "family": "danderyd",
+    "categoryGuess": "dining-table"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/grunnarp-sleeper-sofa-gunnared-medium-gray-40585085/",
+    "articleNo": "40585085",
+    "family": "grunnarp",
+    "categoryGuess": "sofa"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/tonstad-tv-unit-brown-stained-oak-veneer-50562026/",
+    "articleNo": "50562026",
+    "family": "tonstad",
+    "categoryGuess": "tv-unit"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/idanaes-desk-white-10514155/",
+    "articleNo": "10514155",
+    "family": "idanaes",
+    "categoryGuess": "desk"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/dimpa-storage-bag-clear-10056770/",
+    "articleNo": "10056770",
+    "family": "dimpa",
+    "categoryGuess": "storage"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/vittskaer-backrest-for-modular-sofa-outdoor-plastic-rattan-outdoor-dark-gray-30575548/",
+    "articleNo": "30575548",
+    "family": "vittskaer",
+    "categoryGuess": "sofa"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/trotten-desk-ash-effect-white-s19621919/",
+    "articleNo": "s19621919",
+    "family": "trotten",
+    "categoryGuess": "desk"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/busunge-extendable-bed-white-90305704/",
+    "articleNo": "90305704",
+    "family": "busunge",
+    "categoryGuess": "bed"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/fagelfjaellet-bed-frame-black-oak-effect-loenset-s69621120/",
+    "articleNo": "s69621120",
+    "family": "fagelfjaellet",
+    "categoryGuess": "bed"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/boastad-tv-storage-combination-black-oak-veneer-s19563924/",
+    "articleNo": "s19563924",
+    "family": "boastad",
+    "categoryGuess": "storage"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/krylbo-chair-tibbleby-dark-red-70620582/",
+    "articleNo": "70620582",
+    "family": "krylbo",
+    "categoryGuess": "dining-chair"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/pahl-desk-with-add-on-unit-height-adjustable-white-light-green-s29617813/",
+    "articleNo": "s29617813",
+    "family": "pahl",
+    "categoryGuess": "desk"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/sotenaes-armchair-hakebo-red-40581916/",
+    "articleNo": "40581916",
+    "family": "sotenaes",
+    "categoryGuess": "armchair"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/neiden-bed-frame-pine-00395252/",
+    "articleNo": "00395252",
+    "family": "neiden",
+    "categoryGuess": "bed"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/baltsar-swivel-chair-black-20532130/",
+    "articleNo": "20532130",
+    "family": "baltsar",
+    "categoryGuess": "office-chair"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/pahl-desk-with-add-on-unit-height-adjustable-white-s09619342/",
+    "articleNo": "s09619342",
+    "family": "pahl",
+    "categoryGuess": "desk"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/slaekt-ext-bed-frame-with-slatted-bed-base-white-s69326548/",
+    "articleNo": "s69326548",
+    "family": "slaekt",
+    "categoryGuess": "bed"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/tjaerkil-extendable-table-black-walnut-veneer-70630454/",
+    "articleNo": "70630454",
+    "family": "tjaerkil",
+    "categoryGuess": "dining-table"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/rocksjoen-loveseat-klovsta-gray-white-s79514695/",
+    "articleNo": "s79514695",
+    "family": "rocksjoen",
+    "categoryGuess": "sofa"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/fagelfjaellet-wardrobe-with-2-doors-dark-gray-blue-00628242/",
+    "articleNo": "00628242",
+    "family": "fagelfjaellet",
+    "categoryGuess": "wardrobe"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/idanaes-open-wardrobe-dark-brown-stained-80458839/",
+    "articleNo": "80458839",
+    "family": "idanaes",
+    "categoryGuess": "wardrobe"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/mittzon-desk-sit-stand-electric-black-stained-ash-veneer-black-s99529196/",
+    "articleNo": "s99529196",
+    "family": "mittzon",
+    "categoryGuess": "desk"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/slaekt-nattapa-ext-bed-frm-w-guard-rl-slat-bd-base-white-s39563904/",
+    "articleNo": "s39563904",
+    "family": "slaekt",
+    "categoryGuess": "bed"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/naesinge-extendable-table-dark-brown-stained-beech-veneer-70587498/",
+    "articleNo": "70587498",
+    "family": "naesinge",
+    "categoryGuess": "dining-table"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/stockholm-2025-3-seat-sofa-alhamn-dark-brown-s79574298/",
+    "articleNo": "s79574298",
+    "family": "stockholm",
+    "categoryGuess": "sofa"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/rakkestad-wardrobe-with-3-doors-black-brown-00453765/",
+    "articleNo": "00453765",
+    "family": "rakkestad",
+    "categoryGuess": "wardrobe"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/gullaberg-nightstand-with-1-drawer-with-door-gray-40561763/",
+    "articleNo": "40561763",
+    "family": "gullaberg",
+    "categoryGuess": "nightstand"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/rosentorp-ext-table-3-chairs-1-swivel-chair-ash-veneer-white-kilanda-light-beige-white-s59634627/",
+    "articleNo": "s59634627",
+    "family": "rosentorp",
+    "categoryGuess": "office-chair"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/utaker-stackable-bed-pine-30360487/",
+    "articleNo": "30360487",
+    "family": "utaker",
+    "categoryGuess": "bed"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/vaesman-armchair-outdoor-black-40211637/",
+    "articleNo": "40211637",
+    "family": "vaesman",
+    "categoryGuess": "armchair"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/mittzon-desk-sit-stand-electric-birch-veneer-white-s99528248/",
+    "articleNo": "s99528248",
+    "family": "mittzon",
+    "categoryGuess": "desk"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/tarsele-extendable-table-oak-veneer-black-70581359/",
+    "articleNo": "70581359",
+    "family": "tarsele",
+    "categoryGuess": "dining-table"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/skytta-boaxel-reach-in-wardrobe-with-sliding-door-black-double-sided-mehamn-dark-gray-s39516007/",
+    "articleNo": "s39516007",
+    "family": "skytta",
+    "categoryGuess": "wardrobe"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/hauga-wardrobe-with-sliding-doors-white-60456916/",
+    "articleNo": "60456916",
+    "family": "hauga",
+    "categoryGuess": "wardrobe"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/havsten-armchair-outdoor-beige-30542497/",
+    "articleNo": "30542497",
+    "family": "havsten",
+    "categoryGuess": "armchair"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/visingsoe-armchair-outdoor-deep-green-60575542/",
+    "articleNo": "60575542",
+    "family": "visingsoe",
+    "categoryGuess": "armchair"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/mabaersskaer-coffee-table-outdoor-indoor-white-30597164/",
+    "articleNo": "30597164",
+    "family": "mabaersskaer",
+    "categoryGuess": "coffee-table"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/moppe-mini-storage-chest-birch-plywood-40216357/",
+    "articleNo": "40216357",
+    "family": "moppe",
+    "categoryGuess": "storage"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/viskafors-sofa-lejde-gray-green-birch-s69443340/",
+    "articleNo": "s69443340",
+    "family": "viskafors",
+    "categoryGuess": "sofa"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/idanaes-open-wardrobe-white-20458842/",
+    "articleNo": "20458842",
+    "family": "idanaes",
+    "categoryGuess": "wardrobe"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/karskaer-extendable-table-rubberwood-00611265/",
+    "articleNo": "00611265",
+    "family": "karskaer",
+    "categoryGuess": "dining-table"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/tolkning-nightstand-handmade-10539212/",
+    "articleNo": "10539212",
+    "family": "tolkning",
+    "categoryGuess": "nightstand"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/vitval-loft-bed-frame-white-light-gray-70411239/",
+    "articleNo": "70411239",
+    "family": "vitval",
+    "categoryGuess": "bed"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/alhult-extendable-table-black-brown-20600789/",
+    "articleNo": "20600789",
+    "family": "alhult",
+    "categoryGuess": "dining-table"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/stockholm-2025-sectional-4-seat-alhamn-dark-turquoise-s39574318/",
+    "articleNo": "s39574318",
+    "family": "stockholm",
+    "categoryGuess": "sofa"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/vittskaer-3-seat-modular-corner-sofa-outdoor-plastic-rattan-dark-gray-froesoen-duvholmen-beige-s19618832/",
+    "articleNo": "s19618832",
+    "family": "vittskaer",
+    "categoryGuess": "sofa"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/enkoeping-2-p-door-corner-base-cabinet-set-brown-walnut-effect-20516738/",
+    "articleNo": "20516738",
+    "family": "enkoeping",
+    "categoryGuess": "storage"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/neiden-bed-frame-pine-80395248/",
+    "articleNo": "80395248",
+    "family": "neiden",
+    "categoryGuess": "bed"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/skulnaes-recliner-rocker-and-swivel-armchair-hakebo-beige-70613911/",
+    "articleNo": "70613911",
+    "family": "skulnaes",
+    "categoryGuess": "armchair"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/oeversidan-led-wardrobe-lighting-strp-w-sensor-dimmable-dark-gray-20589517/",
+    "articleNo": "20589517",
+    "family": "oeversidan",
+    "categoryGuess": "wardrobe"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/slaekt-nattapa-bed-frm-w-strg-guard-rl-slat-bd-bse-white-s49563913/",
+    "articleNo": "s49563913",
+    "family": "slaekt",
+    "categoryGuess": "bed"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/skogsta-dining-table-acacia-black-20593802/",
+    "articleNo": "20593802",
+    "family": "skogsta",
+    "categoryGuess": "dining-table"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/holmerud-side-table-oak-effect-40541421/",
+    "articleNo": "40541421",
+    "family": "holmerud",
+    "categoryGuess": "coffee-table"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/fagelfjaellet-wardrobe-with-2-doors-black-oak-effect-50611630/",
+    "articleNo": "50611630",
+    "family": "fagelfjaellet",
+    "categoryGuess": "wardrobe"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/besta-shelving-unit-with-5-shelves-black-brown-s59590402/",
+    "articleNo": "s59590402",
+    "family": "besta",
+    "categoryGuess": "bookshelf"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/laeckoe-loveseat-outdoor-gray-kuddarna-light-grey-beige-s99575391/",
+    "articleNo": "s99575391",
+    "family": "laeckoe",
+    "categoryGuess": "sofa"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/idanaes-bookcase-white-80487827/",
+    "articleNo": "80487827",
+    "family": "idanaes",
+    "categoryGuess": "bookshelf"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/kivik-sectional-6-seat-tresund-anthracite-s09494403/",
+    "articleNo": "s09494403",
+    "family": "kivik",
+    "categoryGuess": "sofa"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/viskafors-sofa-lejde-anthracite-birch-s79443330/",
+    "articleNo": "s79443330",
+    "family": "viskafors",
+    "categoryGuess": "sofa"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/salnoe-armchair-rattan-50551202/",
+    "articleNo": "50551202",
+    "family": "salnoe",
+    "categoryGuess": "armchair"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/kallax-tv-unit-black-brown-90574881/",
+    "articleNo": "90574881",
+    "family": "kallax",
+    "categoryGuess": "tv-unit"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/havsta-tv-unit-with-base-black-30542690/",
+    "articleNo": "30542690",
+    "family": "havsta",
+    "categoryGuess": "tv-unit"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/mellgrund-bed-frame-off-white-luroey-s39613391/",
+    "articleNo": "s39613391",
+    "family": "mellgrund",
+    "categoryGuess": "bed"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/fyresdal-daybed-frame-white-40613088/",
+    "articleNo": "40613088",
+    "family": "fyresdal",
+    "categoryGuess": "bed"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/lack-tv-unit-black-brown-60566062/",
+    "articleNo": "60566062",
+    "family": "lack",
+    "categoryGuess": "tv-unit"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/vihals-extendable-table-white-90569097/",
+    "articleNo": "90569097",
+    "family": "vihals",
+    "categoryGuess": "dining-table"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/naemmaroe-armchair-outdoor-light-brown-stained-froesoen-duvholmen-beige-s29610265/",
+    "articleNo": "s29610265",
+    "family": "naemmaroe",
+    "categoryGuess": "armchair"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/vaesman-tallskaer-table-6-armchairs-outdoor-extendable-light-brown-stained-anthracite-s49582676/",
+    "articleNo": "s49582676",
+    "family": "vaesman",
+    "categoryGuess": "dining-table"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/karskaer-extendable-table-rubberwood-50611263/",
+    "articleNo": "50611263",
+    "family": "karskaer",
+    "categoryGuess": "dining-table"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/grunnarp-sleeper-sofa-gunnared-beige-70585079/",
+    "articleNo": "70585079",
+    "family": "grunnarp",
+    "categoryGuess": "sofa"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/jaerrestad-pouf-with-storage-tonerud-dark-beige-50572761/",
+    "articleNo": "50572761",
+    "family": "jaerrestad",
+    "categoryGuess": "storage"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/baggboda-side-table-white-20556507/",
+    "articleNo": "20556507",
+    "family": "baggboda",
+    "categoryGuess": "coffee-table"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/trotten-desk-white-s79621921/",
+    "articleNo": "s79621921",
+    "family": "trotten",
+    "categoryGuess": "desk"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/segeroen-coffee-table-outdoor-white-beige-40510797/",
+    "articleNo": "40510797",
+    "family": "segeroen",
+    "categoryGuess": "coffee-table"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/rocksjoen-armchair-kilanda-light-beige-s49508851/",
+    "articleNo": "s49508851",
+    "family": "rocksjoen",
+    "categoryGuess": "armchair"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/ikea-ps-2026-nightstand-pine-with-flip-down-door-60619942/",
+    "articleNo": "60619942",
+    "family": "ikea",
+    "categoryGuess": "nightstand"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/stockholm-2025-shelving-unit-bench-oak-veneer-90586515/",
+    "articleNo": "90586515",
+    "family": "stockholm",
+    "categoryGuess": "bookshelf"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/hauga-nightstand-white-00488963/",
+    "articleNo": "00488963",
+    "family": "hauga",
+    "categoryGuess": "nightstand"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/strandtorp-extendable-table-brown-80388587/",
+    "articleNo": "80388587",
+    "family": "strandtorp",
+    "categoryGuess": "dining-table"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/holmsund-sleeper-sectional-3-seat-borgunda-dark-gray-s79516897/",
+    "articleNo": "s79516897",
+    "family": "holmsund",
+    "categoryGuess": "sofa"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/fryksas-desk-rattan-60574104/",
+    "articleNo": "60574104",
+    "family": "fryksas",
+    "categoryGuess": "desk"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/lagaskaer-coffee-table-outdoor-beige-90543762/",
+    "articleNo": "90543762",
+    "family": "lagaskaer",
+    "categoryGuess": "coffee-table"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/malm-bed-frame-dark-brown-veneer-20599446/",
+    "articleNo": "20599446",
+    "family": "malm",
+    "categoryGuess": "bed"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/idanaes-desk-brown-60514153/",
+    "articleNo": "60514153",
+    "family": "idanaes",
+    "categoryGuess": "desk"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/idanaes-wardrobe-white-20458837/",
+    "articleNo": "20458837",
+    "family": "idanaes",
+    "categoryGuess": "wardrobe"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/lack-wall-shelf-unit-white-60282186/",
+    "articleNo": "60282186",
+    "family": "lack",
+    "categoryGuess": "bookshelf"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/korallvippa-dry-food-storage-with-lid-clear-20621659/",
+    "articleNo": "20621659",
+    "family": "korallvippa",
+    "categoryGuess": "storage"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/flinshult-armchair-brown-beige-40505022/",
+    "articleNo": "40505022",
+    "family": "flinshult",
+    "categoryGuess": "armchair"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/rocksjoen-loveseat-kilanda-light-beige-s99508863/",
+    "articleNo": "s99508863",
+    "family": "rocksjoen",
+    "categoryGuess": "sofa"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/mannarp-loveseat-gunnared-beige-s29604033/",
+    "articleNo": "s29604033",
+    "family": "mannarp",
+    "categoryGuess": "sofa"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/kivik-sofa-with-chaise-gunnared-blue-s29499701/",
+    "articleNo": "s29499701",
+    "family": "kivik",
+    "categoryGuess": "sofa"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/pahl-desk-height-adjustable-white-light-green-s69617444/",
+    "articleNo": "s69617444",
+    "family": "pahl",
+    "categoryGuess": "desk"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/oevning-desk-divider-with-compartments-30597951/",
+    "articleNo": "30597951",
+    "family": "oevning",
+    "categoryGuess": "desk"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/kaettil-chair-white-knisa-light-gray-70500344/",
+    "articleNo": "70500344",
+    "family": "kaettil",
+    "categoryGuess": "dining-chair"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/smastad-uppfoera-bookcase-white-blue-with-2-drawers-s89542645/",
+    "articleNo": "s89542645",
+    "family": "smastad",
+    "categoryGuess": "bookshelf"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/storemolla-nightstand-light-grey-beige-stained-40590925/",
+    "articleNo": "40590925",
+    "family": "storemolla",
+    "categoryGuess": "nightstand"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/vuku-wardrobe-white-80331973/",
+    "articleNo": "80331973",
+    "family": "vuku",
+    "categoryGuess": "wardrobe"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/fridhult-sleeper-sofa-knisa-light-gray-20355764/",
+    "articleNo": "20355764",
+    "family": "fridhult",
+    "categoryGuess": "sofa"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/smastad-uppfoera-wardrobe-white-blue-with-3-shelves-s39546518/",
+    "articleNo": "s39546518",
+    "family": "smastad",
+    "categoryGuess": "wardrobe"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/taellasen-upholstered-bed-frame-kulsta-gray-green-loenset-s79514775/",
+    "articleNo": "s79514775",
+    "family": "taellasen",
+    "categoryGuess": "bed"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/hauga-wardrobe-with-sliding-doors-gray-60407271/",
+    "articleNo": "60407271",
+    "family": "hauga",
+    "categoryGuess": "wardrobe"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/eket-media-storage-combination-brown-walnut-effect-with-doors-s39580994/",
+    "articleNo": "s39580994",
+    "family": "eket",
+    "categoryGuess": "tv-unit"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/malmkoeping-loveseat-tibbleby-light-beige-s59626302/",
+    "articleNo": "s59626302",
+    "family": "malmkoeping",
+    "categoryGuess": "sofa"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/norden-gateleg-table-white-10423886/",
+    "articleNo": "10423886",
+    "family": "norden",
+    "categoryGuess": "dining-table"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/vihals-tv-unit-dark-gray-00546595/",
+    "articleNo": "00546595",
+    "family": "vihals",
+    "categoryGuess": "tv-unit"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/smastad-uppfoera-bookcase-white-white-with-2-drawers-s09555854/",
+    "articleNo": "s09555854",
+    "family": "smastad",
+    "categoryGuess": "bookshelf"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/vihals-bed-frame-white-10602449/",
+    "articleNo": "10602449",
+    "family": "vihals",
+    "categoryGuess": "bed"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/utrusta-shelf-for-corner-base-cabinet-white-70602489/",
+    "articleNo": "70602489",
+    "family": "utrusta",
+    "categoryGuess": "storage"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/lagkapten-alex-desk-white-s09521595/",
+    "articleNo": "s09521595",
+    "family": "lagkapten",
+    "categoryGuess": "desk"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/tossberg-chair-metal-black-grann-black-20584435/",
+    "articleNo": "20584435",
+    "family": "tossberg",
+    "categoryGuess": "dining-chair"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/sundsoe-folding-chair-anthracite-outdoor-40575883/",
+    "articleNo": "40575883",
+    "family": "sundsoe",
+    "categoryGuess": "dining-chair"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/bingsta-armchair-vissle-dark-yellow-kabusa-dark-yellow-90455656/",
+    "articleNo": "90455656",
+    "family": "bingsta",
+    "categoryGuess": "armchair"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/grejsimojs-pouf-with-storage-yellow-30603645/",
+    "articleNo": "30603645",
+    "family": "grejsimojs",
+    "categoryGuess": "storage"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/mellgrund-bed-frame-off-white-lyngoer-s19630179/",
+    "articleNo": "s19630179",
+    "family": "mellgrund",
+    "categoryGuess": "bed"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/stockholm-2025-tv-unit-with-sliding-doors-oak-veneer-90586638/",
+    "articleNo": "90586638",
+    "family": "stockholm",
+    "categoryGuess": "tv-unit"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/ramnefjaell-upholstered-bed-frame-idekulla-beige-s09627219/",
+    "articleNo": "s09627219",
+    "family": "ramnefjaell",
+    "categoryGuess": "bed"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/kallax-loberget-desk-and-chair-white-s49555003/",
+    "articleNo": "s49555003",
+    "family": "kallax",
+    "categoryGuess": "dining-chair"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/bjoerksnaes-bed-frame-birch-birch-veneer-loenset-s29501718/",
+    "articleNo": "s29501718",
+    "family": "bjoerksnaes",
+    "categoryGuess": "bed"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/morabo-armchair-grann-bomstad-gray-green-wood-s39317847/",
+    "articleNo": "s39317847",
+    "family": "morabo",
+    "categoryGuess": "armchair"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/fagelfjaellet-bed-frame-black-oak-effect-00607193/",
+    "articleNo": "00607193",
+    "family": "fagelfjaellet",
+    "categoryGuess": "bed"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/brimnes-nightstand-white-10234942/",
+    "articleNo": "10234942",
+    "family": "brimnes",
+    "categoryGuess": "nightstand"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/uppakra-4-5-seat-mod-sofa-samsala-gray-beige-s09620449/",
+    "articleNo": "s09620449",
+    "family": "uppakra",
+    "categoryGuess": "sofa"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/glamberget-extendable-bed-with-storage-pine-80547063/",
+    "articleNo": "80547063",
+    "family": "glamberget",
+    "categoryGuess": "bed"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/gullaberg-desk-with-drop-file-drawers-white-10620556/",
+    "articleNo": "10620556",
+    "family": "gullaberg",
+    "categoryGuess": "desk"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/vittsjoe-desk-black-brown-glass-70607439/",
+    "articleNo": "70607439",
+    "family": "vittsjoe",
+    "categoryGuess": "desk"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/stockholm-2025-shelf-unit-oak-veneer-dark-brown-50586635/",
+    "articleNo": "50586635",
+    "family": "stockholm",
+    "categoryGuess": "bookshelf"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/pinntorp-gateleg-table-light-brown-stained-white-stained-pine-70529465/",
+    "articleNo": "70529465",
+    "family": "pinntorp",
+    "categoryGuess": "dining-table"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/pax-hasvik-wardrobe-with-sliding-doors-white-white-s09560695/",
+    "articleNo": "s09560695",
+    "family": "pax",
+    "categoryGuess": "wardrobe"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/radmansoe-tv-unit-brown-walnut-effect-80598986/",
+    "articleNo": "80598986",
+    "family": "radmansoe",
+    "categoryGuess": "tv-unit"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/saltmyran-sofa-oereryd-blue-70618522/",
+    "articleNo": "70618522",
+    "family": "saltmyran",
+    "categoryGuess": "sofa"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/grillskaer-kitchen-island-shelf-unit-stainless-steel-s29390107/",
+    "articleNo": "s29390107",
+    "family": "grillskaer",
+    "categoryGuess": "bookshelf"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/vitval-desk-top-white-20411411/",
+    "articleNo": "20411411",
+    "family": "vitval",
+    "categoryGuess": "desk"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/laeckoe-loveseat-outdoor-gray-50522733/",
+    "articleNo": "50522733",
+    "family": "laeckoe",
+    "categoryGuess": "sofa"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/oeversidan-led-wardrobe-lighting-strp-w-sensor-dimmable-gray-beige-80589473/",
+    "articleNo": "80589473",
+    "family": "oeversidan",
+    "categoryGuess": "wardrobe"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/nordkisa-nightstand-bamboo-60447677/",
+    "articleNo": "60447677",
+    "family": "nordkisa",
+    "categoryGuess": "nightstand"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/faerjkarl-cabinet-off-white-10597607/",
+    "articleNo": "10597607",
+    "family": "faerjkarl",
+    "categoryGuess": "storage"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/askersund-2-p-door-corner-base-cabinet-set-light-ash-effect-30348377/",
+    "articleNo": "30348377",
+    "family": "askersund",
+    "categoryGuess": "storage"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/kallax-shelving-unit-with-underframe-with-2-doors-4-drawers-white-stained-oak-effect-s59619212/",
+    "articleNo": "s59619212",
+    "family": "kallax",
+    "categoryGuess": "bookshelf"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/uppakra-4-5-seat-mod-sofa-axvall-off-white-s39620438/",
+    "articleNo": "s39620438",
+    "family": "uppakra",
+    "categoryGuess": "sofa"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/guttane-side-table-oak-80587718/",
+    "articleNo": "80587718",
+    "family": "guttane",
+    "categoryGuess": "coffee-table"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/venngarn-sofa-johanneshov-dark-green-20632686/",
+    "articleNo": "20632686",
+    "family": "venngarn",
+    "categoryGuess": "sofa"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/loberget-malskaer-swivel-chair-white-black-s29488571/",
+    "articleNo": "s29488571",
+    "family": "loberget",
+    "categoryGuess": "office-chair"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/storklinta-bedside-table-with-glass-top-s59654856/",
+    "articleNo": "s59654856",
+    "family": "storklinta",
+    "categoryGuess": "nightstand"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/kronoeren-open-wardrobe-pine-10637076/",
+    "articleNo": "10637076",
+    "family": "kronoeren",
+    "categoryGuess": "wardrobe"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/hyltarp-sofa-w-chaise-right-gransel-gray-brown-s39495825/",
+    "articleNo": "s39495825",
+    "family": "hyltarp",
+    "categoryGuess": "sofa"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/tunsta-side-table-anthracite-50299502/",
+    "articleNo": "50299502",
+    "family": "tunsta",
+    "categoryGuess": "coffee-table"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/neiden-bed-frame-pine-luroey-s79248606/",
+    "articleNo": "s79248606",
+    "family": "neiden",
+    "categoryGuess": "bed"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/beteshaest-desk-light-bamboo-80619804/",
+    "articleNo": "80619804",
+    "family": "beteshaest",
+    "categoryGuess": "desk"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/vittsjoe-shelf-unit-black-brown-glass-90305803/",
+    "articleNo": "90305803",
+    "family": "vittsjoe",
+    "categoryGuess": "bookshelf"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/hemnes-tv-unit-black-brown-50566048/",
+    "articleNo": "50566048",
+    "family": "hemnes",
+    "categoryGuess": "tv-unit"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/vikhammer-nightstand-white-30388981/",
+    "articleNo": "30388981",
+    "family": "vikhammer",
+    "categoryGuess": "nightstand"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/vihals-gateleg-table-white-70593574/",
+    "articleNo": "70593574",
+    "family": "vihals",
+    "categoryGuess": "dining-table"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/rosentorp-extendable-table-white-60589902/",
+    "articleNo": "60589902",
+    "family": "rosentorp",
+    "categoryGuess": "dining-table"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/stockholm-2025-loveseat-alhamn-dark-turquoise-10586114/",
+    "articleNo": "10586114",
+    "family": "stockholm",
+    "categoryGuess": "sofa"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/ivar-4-section-shelving-unit-pine-s99407067/",
+    "articleNo": "s99407067",
+    "family": "ivar",
+    "categoryGuess": "bookshelf"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/lillberget-nightstand-white-10567568/",
+    "articleNo": "10567568",
+    "family": "lillberget",
+    "categoryGuess": "nightstand"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/askholmen-chair-outdoor-foldable-dark-brown-20557502/",
+    "articleNo": "20557502",
+    "family": "askholmen",
+    "categoryGuess": "dining-chair"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/grysna-upholstered-bed-frame-vissle-beige-multicolor-s79628461/",
+    "articleNo": "s79628461",
+    "family": "grysna",
+    "categoryGuess": "bed"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/tonstad-desk-oak-veneer-60538205/",
+    "articleNo": "60538205",
+    "family": "tonstad",
+    "categoryGuess": "desk"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/naemmaroe-shelving-unit-outdoor-light-brown-stained-10534653/",
+    "articleNo": "10534653",
+    "family": "naemmaroe",
+    "categoryGuess": "bookshelf"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/rudsta-glass-door-cabinet-anthracite-60434825/",
+    "articleNo": "60434825",
+    "family": "rudsta",
+    "categoryGuess": "storage"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/bleckberget-swivel-chair-klovsta-white-gray-20573272/",
+    "articleNo": "20573272",
+    "family": "bleckberget",
+    "categoryGuess": "office-chair"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/aemmaryd-side-table-white-80609126/",
+    "articleNo": "80609126",
+    "family": "aemmaryd",
+    "categoryGuess": "coffee-table"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/nordkisa-open-wardrobe-with-sliding-door-bamboo-00439468/",
+    "articleNo": "00439468",
+    "family": "nordkisa",
+    "categoryGuess": "wardrobe"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/lanesund-tv-unit-gray-brown-40542449/",
+    "articleNo": "40542449",
+    "family": "lanesund",
+    "categoryGuess": "tv-unit"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/klipsk-bed-tray-white-00258882/",
+    "articleNo": "00258882",
+    "family": "klipsk",
+    "categoryGuess": "bed"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/gullaberg-wardrobe-gray-50573954/",
+    "articleNo": "50573954",
+    "family": "gullaberg",
+    "categoryGuess": "wardrobe"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/sagmaestare-shelf-unit-light-gray-blue-30570249/",
+    "articleNo": "30570249",
+    "family": "sagmaestare",
+    "categoryGuess": "bookshelf"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/baltsar-chair-white-60532147/",
+    "articleNo": "60532147",
+    "family": "baltsar",
+    "categoryGuess": "dining-chair"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/kivik-sectional-4-seat-with-chaise-tresund-anthracite-s69494382/",
+    "articleNo": "s69494382",
+    "family": "kivik",
+    "categoryGuess": "sofa"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/boaxel-wardrobe-combination-anthracite-s19548919/",
+    "articleNo": "s19548919",
+    "family": "boaxel",
+    "categoryGuess": "wardrobe"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/boastad-tv-unit-black-oak-veneer-10542752/",
+    "articleNo": "10542752",
+    "family": "boastad",
+    "categoryGuess": "tv-unit"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/vevelstad-bed-frame-with-2-headboards-white-tolkning-rattan-s89441726/",
+    "articleNo": "s89441726",
+    "family": "vevelstad",
+    "categoryGuess": "bed"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/nordviken-extendable-table-black-70359991/",
+    "articleNo": "70359991",
+    "family": "nordviken",
+    "categoryGuess": "dining-table"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/brimnes-tv-unit-white-20569487/",
+    "articleNo": "20569487",
+    "family": "brimnes",
+    "categoryGuess": "tv-unit"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/bjoerksnaes-bed-frame-birch-birch-veneer-s19501714/",
+    "articleNo": "s19501714",
+    "family": "bjoerksnaes",
+    "categoryGuess": "bed"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/lillesaeter-swivel-chair-axvall-off-white-40618689/",
+    "articleNo": "40618689",
+    "family": "lillesaeter",
+    "categoryGuess": "office-chair"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/skogsta-dining-table-acacia-black-70419264/",
+    "articleNo": "70419264",
+    "family": "skogsta",
+    "categoryGuess": "dining-table"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/elvarli-wardrobe-combination-white-s79158144/",
+    "articleNo": "s79158144",
+    "family": "elvarli",
+    "categoryGuess": "wardrobe"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/froetorp-coffee-table-side-table-set-of-2-anthracite-marble-effect-black-glass-s59621408/",
+    "articleNo": "s59621408",
+    "family": "froetorp",
+    "categoryGuess": "coffee-table"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/saltmyran-loveseat-oereryd-blue-50618537/",
+    "articleNo": "50618537",
+    "family": "saltmyran",
+    "categoryGuess": "sofa"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/norden-gateleg-table-birch-90423887/",
+    "articleNo": "90423887",
+    "family": "norden",
+    "categoryGuess": "dining-table"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/ikea-ps-2026-chair-bright-green-knaebaeck-bright-green-90617970/",
+    "articleNo": "90617970",
+    "family": "ikea",
+    "categoryGuess": "dining-chair"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/fjaellbo-tv-unit-black-00579034/",
+    "articleNo": "00579034",
+    "family": "fjaellbo",
+    "categoryGuess": "tv-unit"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/radmansoe-nightstand-brown-walnut-effect-80593597/",
+    "articleNo": "80593597",
+    "family": "radmansoe",
+    "categoryGuess": "nightstand"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/tuffing-bunk-bed-frame-dark-gray-70299285/",
+    "articleNo": "70299285",
+    "family": "tuffing",
+    "categoryGuess": "bed"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/renberget-swivel-chair-bomstad-black-40611094/",
+    "articleNo": "40611094",
+    "family": "renberget",
+    "categoryGuess": "office-chair"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/klackenaes-sideboard-black-oak-veneer-brown-stained-90506750/",
+    "articleNo": "90506750",
+    "family": "klackenaes",
+    "categoryGuess": "storage"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/veddinge-2-p-door-corner-base-cabinet-set-white-00266783/",
+    "articleNo": "00266783",
+    "family": "veddinge",
+    "categoryGuess": "storage"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/elvarli-wardrobe-combination-white-s29158212/",
+    "articleNo": "s29158212",
+    "family": "elvarli",
+    "categoryGuess": "wardrobe"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/vimund-childs-desk-chair-turquoise-50531964/",
+    "articleNo": "50531964",
+    "family": "vimund",
+    "categoryGuess": "office-chair"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/fyresdal-daybed-frame-black-30424366/",
+    "articleNo": "30424366",
+    "family": "fyresdal",
+    "categoryGuess": "bed"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/vevelstad-bed-frame-with-2-headboards-white-tolkning-rattan-s69441732/",
+    "articleNo": "s69441732",
+    "family": "vevelstad",
+    "categoryGuess": "bed"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/pax-vikanes-wardrobe-combination-gray-beige-red-brown-s09626724/",
+    "articleNo": "s09626724",
+    "family": "pax",
+    "categoryGuess": "wardrobe"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/groetan-chair-tibbleby-dark-beige-00617564/",
+    "articleNo": "00617564",
+    "family": "groetan",
+    "categoryGuess": "dining-chair"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/stickat-bed-pocket-blue-50622964/",
+    "articleNo": "50622964",
+    "family": "stickat",
+    "categoryGuess": "bed"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/poaeng-armchair-dark-green-gunnared-beige-s49625355/",
+    "articleNo": "s49625355",
+    "family": "poaeng",
+    "categoryGuess": "armchair"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/kallax-shelving-unit-with-5-doors-10-drawers-white-s39619213/",
+    "articleNo": "s39619213",
+    "family": "kallax",
+    "categoryGuess": "bookshelf"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/naesinge-chair-dark-brown-stained-kilanda-light-beige-00587581/",
+    "articleNo": "00587581",
+    "family": "naesinge",
+    "categoryGuess": "dining-chair"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/resaroe-mobile-drop-leaf-table-w-storage-pine-20533337/",
+    "articleNo": "20533337",
+    "family": "resaroe",
+    "categoryGuess": "dining-table"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/sjaelsoe-armchair-90555095/",
+    "articleNo": "90555095",
+    "family": "sjaelsoe",
+    "categoryGuess": "armchair"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/bondholmen-loveseat-outdoor-brown-80558184/",
+    "articleNo": "80558184",
+    "family": "bondholmen",
+    "categoryGuess": "sofa"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/jutholmen-chair-outdoor-dark-gray-kuddarna-light-grey-beige-s09579845/",
+    "articleNo": "s09579845",
+    "family": "jutholmen",
+    "categoryGuess": "dining-chair"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/venngarn-loveseat-johanneshov-brown-beige-20613433/",
+    "articleNo": "20613433",
+    "family": "venngarn",
+    "categoryGuess": "sofa"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/sonhult-nesting-tables-set-of-2-yellow-birch-effect-50578555/",
+    "articleNo": "50578555",
+    "family": "sonhult",
+    "categoryGuess": "coffee-table"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/gursken-wardrobe-with-2-doors-light-beige-60586809/",
+    "articleNo": "60586809",
+    "family": "gursken",
+    "categoryGuess": "wardrobe"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/rakkestad-wardrobe-with-2-doors-black-brown-40586805/",
+    "articleNo": "40586805",
+    "family": "rakkestad",
+    "categoryGuess": "wardrobe"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/naemmaroe-shelf-unit-for-sink-light-brown-stained-stainless-steel-outdoor-10615381/",
+    "articleNo": "10615381",
+    "family": "naemmaroe",
+    "categoryGuess": "bookshelf"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/vihals-shelving-unit-with-4-shelves-white-50483289/",
+    "articleNo": "50483289",
+    "family": "vihals",
+    "categoryGuess": "bookshelf"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/grafjaellet-nightstand-anthracite-20570221/",
+    "articleNo": "20570221",
+    "family": "grafjaellet",
+    "categoryGuess": "nightstand"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/skadis-connector-for-wardrobe-white-10477643/",
+    "articleNo": "10477643",
+    "family": "skadis",
+    "categoryGuess": "wardrobe"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/smussla-bedside-table-shelf-unit-white-10469493/",
+    "articleNo": "10469493",
+    "family": "smussla",
+    "categoryGuess": "nightstand"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/grytsholm-nesting-tables-set-of-2-outdoor-black-blue-90597161/",
+    "articleNo": "90597161",
+    "family": "grytsholm",
+    "categoryGuess": "coffee-table"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/malm-bed-frame-oak-veneer-loenset-s99574396/",
+    "articleNo": "s99574396",
+    "family": "malm",
+    "categoryGuess": "bed"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/grillskaer-shelf-unit-for-sink-black-stainless-steel-outdoor-20523277/",
+    "articleNo": "20523277",
+    "family": "grillskaer",
+    "categoryGuess": "bookshelf"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/gullaberg-l-shaped-desk-drop-file-storage-white-60609679/",
+    "articleNo": "60609679",
+    "family": "gullaberg",
+    "categoryGuess": "desk"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/rakkestad-wardrobe-with-sliding-doors-black-brown-60453767/",
+    "articleNo": "60453767",
+    "family": "rakkestad",
+    "categoryGuess": "wardrobe"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/mannarp-sectional-4-seat-with-chaise-gunnared-beige-s49604089/",
+    "articleNo": "s49604089",
+    "family": "mannarp",
+    "categoryGuess": "sofa"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/gamlehult-ottoman-with-storage-rattan-anthracite-10434309/",
+    "articleNo": "10434309",
+    "family": "gamlehult",
+    "categoryGuess": "storage"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/boaxel-shelving-unit-white-s09392616/",
+    "articleNo": "s09392616",
+    "family": "boaxel",
+    "categoryGuess": "bookshelf"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/vaesman-vaesman-table-6-armchairs-outdoor-extendable-light-brown-stained-black-s89582679/",
+    "articleNo": "s89582679",
+    "family": "vaesman",
+    "categoryGuess": "dining-table"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/kjuge-pouf-with-storage-oereryd-gray-beige-40629683/",
+    "articleNo": "40629683",
+    "family": "kjuge",
+    "categoryGuess": "storage"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/eldberget-malskaer-swivel-chair-dark-gray-black-s59331847/",
+    "articleNo": "s59331847",
+    "family": "eldberget",
+    "categoryGuess": "office-chair"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/smastad-uppfoera-wardrobe-white-blue-s09547816/",
+    "articleNo": "s09547816",
+    "family": "smastad",
+    "categoryGuess": "wardrobe"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/saltmyran-sofa-oereryd-gray-beige-50618518/",
+    "articleNo": "50618518",
+    "family": "saltmyran",
+    "categoryGuess": "sofa"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/tonstad-extendable-table-off-white-40600731/",
+    "articleNo": "40600731",
+    "family": "tonstad",
+    "categoryGuess": "dining-table"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/ramnefjaell-upholstered-bed-frame-kilanda-dark-blue-luroey-s29607507/",
+    "articleNo": "s29607507",
+    "family": "ramnefjaell",
+    "categoryGuess": "bed"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/froesjoen-shelf-unit-black-30574902/",
+    "articleNo": "30574902",
+    "family": "froesjoen",
+    "categoryGuess": "bookshelf"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/tonstad-side-table-off-white-20528473/",
+    "articleNo": "20528473",
+    "family": "tonstad",
+    "categoryGuess": "coffee-table"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/smyga-desk-light-gray-40480781/",
+    "articleNo": "40480781",
+    "family": "smyga",
+    "categoryGuess": "desk"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/knarrevik-nightstand-black-20569977/",
+    "articleNo": "20569977",
+    "family": "knarrevik",
+    "categoryGuess": "nightstand"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/havsten-loveseat-outdoor-beige-10542498/",
+    "articleNo": "10542498",
+    "family": "havsten",
+    "categoryGuess": "sofa"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/stockholm-2025-armchair-djurmo-gray-white-40594754/",
+    "articleNo": "40594754",
+    "family": "stockholm",
+    "categoryGuess": "armchair"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/lyckan-chair-birch-veneer-00569191/",
+    "articleNo": "00569191",
+    "family": "lyckan",
+    "categoryGuess": "dining-chair"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/dyvlinge-swivel-chair-kelinge-black-80570831/",
+    "articleNo": "80570831",
+    "family": "dyvlinge",
+    "categoryGuess": "office-chair"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/rosentorp-extendable-table-black-60568240/",
+    "articleNo": "60568240",
+    "family": "rosentorp",
+    "categoryGuess": "dining-table"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/ramnefjaell-upholstered-bed-frame-kilanda-dark-blue-luroey-s89607496/",
+    "articleNo": "s89607496",
+    "family": "ramnefjaell",
+    "categoryGuess": "bed"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/mannarp-sectional-4-seat-with-chaise-saxemara-black-blue-s69604093/",
+    "articleNo": "s69604093",
+    "family": "mannarp",
+    "categoryGuess": "sofa"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/hauga-tv-unit-gray-10593384/",
+    "articleNo": "10593384",
+    "family": "hauga",
+    "categoryGuess": "tv-unit"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/rocksjoen-loveseat-blekinge-white-s39508856/",
+    "articleNo": "s39508856",
+    "family": "rocksjoen",
+    "categoryGuess": "sofa"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/batskaer-shelf-unit-for-sink-outdoor-dark-gray-70623255/",
+    "articleNo": "70623255",
+    "family": "batskaer",
+    "categoryGuess": "bookshelf"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/havberg-swivel-chair-grann-bomstad-golden-brown-50531657/",
+    "articleNo": "50531657",
+    "family": "havberg",
+    "categoryGuess": "office-chair"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/bjoerkberget-swivel-chair-idekulla-blue-40487160/",
+    "articleNo": "40487160",
+    "family": "bjoerkberget",
+    "categoryGuess": "office-chair"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/malmkoeping-3-seat-sofa-with-chaise-tibbleby-beige-gray-s29626817/",
+    "articleNo": "s29626817",
+    "family": "malmkoeping",
+    "categoryGuess": "sofa"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/mullsjoe-swivel-chair-graesnaes-dark-gray-90576583/",
+    "articleNo": "90576583",
+    "family": "mullsjoe",
+    "categoryGuess": "office-chair"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/tonstad-chair-viarp-beige-brown-brown-oak-effect-s19599683/",
+    "articleNo": "s19599683",
+    "family": "tonstad",
+    "categoryGuess": "dining-chair"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/smedstorp-sofa-with-chaise-viarp-beige-brown-black-s99442443/",
+    "articleNo": "s99442443",
+    "family": "smedstorp",
+    "categoryGuess": "sofa"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/skansnaes-extendable-table-brown-beech-veneer-00565758/",
+    "articleNo": "00565758",
+    "family": "skansnaes",
+    "categoryGuess": "dining-table"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/fridhult-sleeper-sofa-skiftebo-yellow-00575451/",
+    "articleNo": "00575451",
+    "family": "fridhult",
+    "categoryGuess": "sofa"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/skruvby-tv-unit-black-blue-10542747/",
+    "articleNo": "10542747",
+    "family": "skruvby",
+    "categoryGuess": "tv-unit"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/taellasen-upholstered-bed-frame-kulsta-light-beige-luroey-s59520254/",
+    "articleNo": "s59520254",
+    "family": "taellasen",
+    "categoryGuess": "bed"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/fjaellbo-desk-black-90587690/",
+    "articleNo": "90587690",
+    "family": "fjaellbo",
+    "categoryGuess": "desk"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/nordviken-extendable-table-black-20368714/",
+    "articleNo": "20368714",
+    "family": "nordviken",
+    "categoryGuess": "dining-table"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/laiva-bookcase-black-brown-40178591/",
+    "articleNo": "40178591",
+    "family": "laiva",
+    "categoryGuess": "bookshelf"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/hemnes-nightstand-white-stain-20200456/",
+    "articleNo": "20200456",
+    "family": "hemnes",
+    "categoryGuess": "nightstand"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/strandmon-wing-chair-with-ottoman-tommaboda-brown-red-s49590365/",
+    "articleNo": "s49590365",
+    "family": "strandmon",
+    "categoryGuess": "dining-chair"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/lagkapten-spaend-desk-black-brown-white-s39563635/",
+    "articleNo": "s39563635",
+    "family": "lagkapten",
+    "categoryGuess": "desk"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/bollpojke-desk-pine-black-00604161/",
+    "articleNo": "00604161",
+    "family": "bollpojke",
+    "categoryGuess": "desk"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/enkroken-loberget-desk-and-chair-white-s79621186/",
+    "articleNo": "s79621186",
+    "family": "enkroken",
+    "categoryGuess": "dining-chair"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/lagkapten-eldberget-vittsjoe-desk-and-storage-combination-and-swivel-chair-black-brown-dark-gray-s99436767/",
+    "articleNo": "s99436767",
+    "family": "lagkapten",
+    "categoryGuess": "office-chair"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/smedstorp-loveseat-lejde-red-brown-black-s69442425/",
+    "articleNo": "s69442425",
+    "family": "smedstorp",
+    "categoryGuess": "sofa"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/vihals-daybed-frame-white-20595090/",
+    "articleNo": "20595090",
+    "family": "vihals",
+    "categoryGuess": "bed"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/bollpojke-desk-pine-white-00591366/",
+    "articleNo": "00591366",
+    "family": "bollpojke",
+    "categoryGuess": "desk"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/viskafors-loveseat-lejde-gray-green-brown-s59443265/",
+    "articleNo": "s59443265",
+    "family": "viskafors",
+    "categoryGuess": "sofa"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/nickebo-2-p-door-corner-base-cabinet-set-matte-anthracite-10537878/",
+    "articleNo": "10537878",
+    "family": "nickebo",
+    "categoryGuess": "storage"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/gunrik-childs-desk-chair-turquoise-00563716/",
+    "articleNo": "00563716",
+    "family": "gunrik",
+    "categoryGuess": "office-chair"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/skytta-aurdal-reach-in-wardrobe-with-sliding-door-black-dark-gray-mehamn-white-s29528218/",
+    "articleNo": "s29528218",
+    "family": "skytta",
+    "categoryGuess": "wardrobe"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/smastad-uppfoera-wardrobe-white-white-with-3-shelves-s69555889/",
+    "articleNo": "s69555889",
+    "family": "smastad",
+    "categoryGuess": "wardrobe"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/baggebo-bookcase-white-20436713/",
+    "articleNo": "20436713",
+    "family": "baggebo",
+    "categoryGuess": "bookshelf"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/uppsta-storage-bag-braided-green-80529554/",
+    "articleNo": "80529554",
+    "family": "uppsta",
+    "categoryGuess": "storage"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/vittsjoe-shelf-unit-black-brown-glass-50214678/",
+    "articleNo": "50214678",
+    "family": "vittsjoe",
+    "categoryGuess": "bookshelf"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/hyltarp-sectional-4-seat-corner-gransel-natural-s09514830/",
+    "articleNo": "s09514830",
+    "family": "hyltarp",
+    "categoryGuess": "sofa"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/besta-shelf-unit-with-doors-dark-gray-lappviken-dark-gray-s89535777/",
+    "articleNo": "s89535777",
+    "family": "besta",
+    "categoryGuess": "bookshelf"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/markus-office-chair-vissle-dark-gray-50588804/",
+    "articleNo": "50588804",
+    "family": "markus",
+    "categoryGuess": "office-chair"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/tallskaer-armchair-outdoor-anthracite-20575148/",
+    "articleNo": "20575148",
+    "family": "tallskaer",
+    "categoryGuess": "armchair"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/tuffing-loft-bed-frame-dark-gray-30299447/",
+    "articleNo": "30299447",
+    "family": "tuffing",
+    "categoryGuess": "bed"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/fagelfjaellet-wardrobe-with-2-doors-off-white-20627996/",
+    "articleNo": "20627996",
+    "family": "fagelfjaellet",
+    "categoryGuess": "wardrobe"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/knoxhult-wall-cabinet-with-door-white-90372265/",
+    "articleNo": "90372265",
+    "family": "knoxhult",
+    "categoryGuess": "storage"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/smaellen-swivel-chair-black-00503435/",
+    "articleNo": "00503435",
+    "family": "smaellen",
+    "categoryGuess": "office-chair"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/fagelfjaellet-bed-frame-off-white-loenset-s19620986/",
+    "articleNo": "s19620986",
+    "family": "fagelfjaellet",
+    "categoryGuess": "bed"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/danderyd-dining-table-white-00568728/",
+    "articleNo": "00568728",
+    "family": "danderyd",
+    "categoryGuess": "dining-table"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/venngarn-sofa-johanneshov-brown-beige-70632636/",
+    "articleNo": "70632636",
+    "family": "venngarn",
+    "categoryGuess": "sofa"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/boaxel-wardrobe-combination-anthracite-s79548916/",
+    "articleNo": "s79548916",
+    "family": "boaxel",
+    "categoryGuess": "wardrobe"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/naesinge-extendable-table-white-00587492/",
+    "articleNo": "00587492",
+    "family": "naesinge",
+    "categoryGuess": "dining-table"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/jaettesta-tv-unit-black-70542749/",
+    "articleNo": "70542749",
+    "family": "jaettesta",
+    "categoryGuess": "tv-unit"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/oeversidan-led-wardrobe-lighting-strp-w-sensor-dimmable-white-80589492/",
+    "articleNo": "80589492",
+    "family": "oeversidan",
+    "categoryGuess": "wardrobe"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/nordkisa-open-wardrobe-with-sliding-door-bamboo-30439476/",
+    "articleNo": "30439476",
+    "family": "nordkisa",
+    "categoryGuess": "wardrobe"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/stockholm-2025-side-table-oak-veneer-dark-brown-90586558/",
+    "articleNo": "90586558",
+    "family": "stockholm",
+    "categoryGuess": "coffee-table"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/garnanaes-coffee-table-white-10555099/",
+    "articleNo": "10555099",
+    "family": "garnanaes",
+    "categoryGuess": "coffee-table"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/elvarli-wardrobe-combination-white-s19157897/",
+    "articleNo": "s19157897",
+    "family": "elvarli",
+    "categoryGuess": "wardrobe"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/vihals-wardrobe-with-2-doors-white-20483257/",
+    "articleNo": "20483257",
+    "family": "vihals",
+    "categoryGuess": "wardrobe"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/gunde-folding-chair-black-00217797/",
+    "articleNo": "00217797",
+    "family": "gunde",
+    "categoryGuess": "dining-chair"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/travsport-markus-desk-and-chair-electric-oak-effect-beige-dark-gray-s79621214/",
+    "articleNo": "s79621214",
+    "family": "travsport",
+    "categoryGuess": "dining-chair"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/mittzon-desk-black-stained-ash-veneer-black-white-s69591378/",
+    "articleNo": "s69591378",
+    "family": "mittzon",
+    "categoryGuess": "desk"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/lisabo-desk-ash-veneer-10606273/",
+    "articleNo": "10606273",
+    "family": "lisabo",
+    "categoryGuess": "desk"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/mullsjoe-desk-oak-veneer-30553240/",
+    "articleNo": "30553240",
+    "family": "mullsjoe",
+    "categoryGuess": "desk"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/kronoeren-nightstand-pine-60637074/",
+    "articleNo": "60637074",
+    "family": "kronoeren",
+    "categoryGuess": "nightstand"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/skogsta-bench-with-storage-acacia-20611882/",
+    "articleNo": "20611882",
+    "family": "skogsta",
+    "categoryGuess": "storage"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/viskafors-1-5-seat-armchair-lejde-anthracite-brown-s29443295/",
+    "articleNo": "s29443295",
+    "family": "viskafors",
+    "categoryGuess": "armchair"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/smedstorp-loveseat-viarp-beige-brown-black-s29442427/",
+    "articleNo": "s29442427",
+    "family": "smedstorp",
+    "categoryGuess": "sofa"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/torald-desk-white-90493955/",
+    "articleNo": "90493955",
+    "family": "torald",
+    "categoryGuess": "desk"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/vihals-nightstand-white-80488737/",
+    "articleNo": "80488737",
+    "family": "vihals",
+    "categoryGuess": "nightstand"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/braennboll-side-table-on-casters-light-ash-effect-white-00586360/",
+    "articleNo": "00586360",
+    "family": "braennboll",
+    "categoryGuess": "coffee-table"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/tallskaer-loveseat-outdoor-anthracite-40575152/",
+    "articleNo": "40575152",
+    "family": "tallskaer",
+    "categoryGuess": "sofa"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/taellasen-upholstered-bed-frame-kulsta-gray-green-loenset-s09514774/",
+    "articleNo": "s09514774",
+    "family": "taellasen",
+    "categoryGuess": "bed"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/baggebo-shelf-unit-metal-white-50481172/",
+    "articleNo": "50481172",
+    "family": "baggebo",
+    "categoryGuess": "bookshelf"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/skansnaes-extendable-table-brown-beech-veneer-70563237/",
+    "articleNo": "70563237",
+    "family": "skansnaes",
+    "categoryGuess": "dining-table"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/tonstad-extendable-table-oak-veneer-40593882/",
+    "articleNo": "40593882",
+    "family": "tonstad",
+    "categoryGuess": "dining-table"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/pinntorp-chair-light-brown-stained-00529478/",
+    "articleNo": "00529478",
+    "family": "pinntorp",
+    "categoryGuess": "dining-chair"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/askholmen-gateleg-table-outdoor-dark-brown-10557526/",
+    "articleNo": "10557526",
+    "family": "askholmen",
+    "categoryGuess": "dining-table"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/slattum-upholstered-bed-frame-vissle-dark-gray-40571253/",
+    "articleNo": "40571253",
+    "family": "slattum",
+    "categoryGuess": "bed"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/boaxel-shelving-unit-anthracite-oak-s89590127/",
+    "articleNo": "s89590127",
+    "family": "boaxel",
+    "categoryGuess": "bookshelf"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/segeroen-armchair-outdoor-dark-green-10514754/",
+    "articleNo": "10514754",
+    "family": "segeroen",
+    "categoryGuess": "armchair"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/holmsund-sleeper-sectional-3-seat-borgunda-beige-s39516903/",
+    "articleNo": "s39516903",
+    "family": "holmsund",
+    "categoryGuess": "sofa"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/vilto-shelf-unit-black-70358741/",
+    "articleNo": "70358741",
+    "family": "vilto",
+    "categoryGuess": "bookshelf"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/glamberget-wardrobe-with-3-sliding-doors-pine-black-20564512/",
+    "articleNo": "20564512",
+    "family": "glamberget",
+    "categoryGuess": "wardrobe"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/borgeby-side-table-black-40619882/",
+    "articleNo": "40619882",
+    "family": "borgeby",
+    "categoryGuess": "coffee-table"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/ikea-ps-2026-side-table-dark-red-80621067/",
+    "articleNo": "80621067",
+    "family": "ikea",
+    "categoryGuess": "coffee-table"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/byas-tv-unit-high-gloss-white-00565782/",
+    "articleNo": "00565782",
+    "family": "byas",
+    "categoryGuess": "tv-unit"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/tonstad-desk-oak-veneer-30538198/",
+    "articleNo": "30538198",
+    "family": "tonstad",
+    "categoryGuess": "desk"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/pax-gullaberg-wardrobe-combination-dark-gray-gray-s19563778/",
+    "articleNo": "s19563778",
+    "family": "pax",
+    "categoryGuess": "wardrobe"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/grunnarp-sleeper-sofa-gunnared-light-brown-pink-10585082/",
+    "articleNo": "10585082",
+    "family": "grunnarp",
+    "categoryGuess": "sofa"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/vihals-bed-frame-white-luroey-s19581838/",
+    "articleNo": "s19581838",
+    "family": "vihals",
+    "categoryGuess": "bed"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/muskan-shelf-unit-white-50424327/",
+    "articleNo": "50424327",
+    "family": "muskan",
+    "categoryGuess": "bookshelf"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/radmansoe-wardrobe-brown-walnut-effect-00593841/",
+    "articleNo": "00593841",
+    "family": "radmansoe",
+    "categoryGuess": "wardrobe"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/fagelfjaellet-nightstand-off-white-60627683/",
+    "articleNo": "60627683",
+    "family": "fagelfjaellet",
+    "categoryGuess": "nightstand"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/besta-tv-bench-with-doors-white-bjoerkoeviken-oak-veneer-s59623370/",
+    "articleNo": "s59623370",
+    "family": "besta",
+    "categoryGuess": "tv-unit"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/froesjoen-shelf-unit-black-70574900/",
+    "articleNo": "70574900",
+    "family": "froesjoen",
+    "categoryGuess": "bookshelf"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/vevelstad-bed-frame-with-2-headboards-white-tolkning-rattan-s79441736/",
+    "articleNo": "s79441736",
+    "family": "vevelstad",
+    "categoryGuess": "bed"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/vitteryd-adjustable-coffee-table-white-20530065/",
+    "articleNo": "20530065",
+    "family": "vitteryd",
+    "categoryGuess": "coffee-table"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/vitval-bunk-bed-frame-white-light-gray-70411277/",
+    "articleNo": "70411277",
+    "family": "vitval",
+    "categoryGuess": "bed"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/uppakra-4-5-seat-mod-sofa-samsala-yellow-brown-s69620427/",
+    "articleNo": "s69620427",
+    "family": "uppakra",
+    "categoryGuess": "sofa"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/voxloev-dining-table-light-bamboo-40434322/",
+    "articleNo": "40434322",
+    "family": "voxloev",
+    "categoryGuess": "dining-table"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/bjoerksnaes-bed-frame-birch-birch-veneer-loenset-s79501711/",
+    "articleNo": "s79501711",
+    "family": "bjoerksnaes",
+    "categoryGuess": "bed"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/alefjaell-office-chair-glose-black-10367461/",
+    "articleNo": "10367461",
+    "family": "alefjaell",
+    "categoryGuess": "office-chair"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/vitval-loft-bed-frame-with-desk-top-white-light-gray-s29303940/",
+    "articleNo": "s29303940",
+    "family": "vitval",
+    "categoryGuess": "desk"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/vihals-shelving-unit-with-10-shelves-dark-gray-50542905/",
+    "articleNo": "50542905",
+    "family": "vihals",
+    "categoryGuess": "bookshelf"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/malmkoeping-loveseat-tibbleby-beige-gray-s49626294/",
+    "articleNo": "s49626294",
+    "family": "malmkoeping",
+    "categoryGuess": "sofa"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/boaxel-wardrobe-combination-anthracite-metal-s39564475/",
+    "articleNo": "s39564475",
+    "family": "boaxel",
+    "categoryGuess": "wardrobe"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/skalboda-armchair-black-90554388/",
+    "articleNo": "90554388",
+    "family": "skalboda",
+    "categoryGuess": "armchair"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/havsten-loveseat-outdoor-beige-beige-s99500961/",
+    "articleNo": "s99500961",
+    "family": "havsten",
+    "categoryGuess": "sofa"
+  }
+]

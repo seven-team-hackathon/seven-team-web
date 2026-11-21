@@ -1,0 +1,7704 @@
+{
+  "model": "claude-haiku-5-5",
+  "items": {
+    "10056770": {
+      "isStandaloneFurniture": false,
+      "category": "none",
+      "typeName": "Storage bag",
+      "roomTypes": [],
+      "styleTags": [],
+      "colors": [
+        "clear"
+      ],
+      "material": "plastic",
+      "widthCm": null,
+      "depthCm": 22.2,
+      "heightCm": 64.8,
+      "dimensionSource": "missing",
+      "confidence": 0.97,
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-dimensions"
+      ]
+    },
+    "10234942": {
+      "isStandaloneFurniture": true,
+      "category": "nightstand",
+      "typeName": "Nightstand",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "white"
+      ],
+      "material": "",
+      "widthCm": 39.1,
+      "depthCm": 41,
+      "heightCm": 53,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "10367461": {
+      "isStandaloneFurniture": true,
+      "category": "office-chair",
+      "typeName": "Office chair",
+      "roomTypes": [
+        "home-office"
+      ],
+      "styleTags": [
+        "modern"
+      ],
+      "colors": [
+        "black"
+      ],
+      "material": "grain leather",
+      "widthCm": 64.1,
+      "depthCm": 64.1,
+      "heightCm": 94.9,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "10423886": {
+      "isStandaloneFurniture": true,
+      "category": "dining-table",
+      "typeName": "Gateleg dining table",
+      "roomTypes": [
+        "dining-room"
+      ],
+      "styleTags": [
+        "scandinavian"
+      ],
+      "colors": [
+        "white"
+      ],
+      "material": "",
+      "widthCm": 88.9,
+      "depthCm": 80,
+      "heightCm": 74,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "10434309": {
+      "isStandaloneFurniture": true,
+      "category": "storage",
+      "typeName": "Storage ottoman",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "cozy"
+      ],
+      "colors": [
+        "rattan",
+        "anthracite"
+      ],
+      "material": "rattan",
+      "widthCm": 61.9,
+      "depthCm": 61.9,
+      "heightCm": 35.9,
+      "dimensionSource": "rules",
+      "confidence": 0.8,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "10469493": {
+      "isStandaloneFurniture": true,
+      "category": "nightstand",
+      "typeName": "Bedside table shelf unit",
+      "roomTypes": [
+        "bedroom",
+        "kids-room"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "white"
+      ],
+      "material": "",
+      "widthCm": 51.1,
+      "depthCm": 32.1,
+      "heightCm": 42.9,
+      "dimensionSource": "model",
+      "confidence": 0.75,
+      "needsReview": true,
+      "reviewReasons": [
+        "dimensions-from-model"
+      ]
+    },
+    "10477643": {
+      "isStandaloneFurniture": false,
+      "category": "none",
+      "typeName": "Wardrobe connector",
+      "roomTypes": [],
+      "styleTags": [],
+      "colors": [
+        "white"
+      ],
+      "material": "",
+      "widthCm": 5.1,
+      "depthCm": 5.7,
+      "heightCm": 19.1,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "10514155": {
+      "isStandaloneFurniture": true,
+      "category": "desk",
+      "typeName": "Desk",
+      "roomTypes": [
+        "home-office"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "modern"
+      ],
+      "colors": [
+        "white"
+      ],
+      "material": "",
+      "widthCm": 152.1,
+      "depthCm": 69.9,
+      "heightCm": 74.9,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "10537878": {
+      "isStandaloneFurniture": false,
+      "category": "storage",
+      "typeName": "Kitchen base cabinet set",
+      "roomTypes": [],
+      "styleTags": [],
+      "colors": [
+        "anthracite"
+      ],
+      "material": "recycled wood",
+      "widthCm": 33.7,
+      "depthCm": null,
+      "heightCm": 75.9,
+      "dimensionSource": "missing",
+      "confidence": 0.6,
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-dimensions"
+      ]
+    },
+    "10539212": {
+      "isStandaloneFurniture": true,
+      "category": "nightstand",
+      "typeName": "Woven nightstand",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "cozy",
+        "scandinavian"
+      ],
+      "colors": [],
+      "material": "",
+      "widthCm": 52.1,
+      "depthCm": 52.1,
+      "heightCm": 69.9,
+      "dimensionSource": "rules",
+      "confidence": 0.7,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "10542747": {
+      "isStandaloneFurniture": true,
+      "category": "tv-unit",
+      "typeName": "TV unit",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "modern"
+      ],
+      "colors": [
+        "black-blue",
+        "oak"
+      ],
+      "material": "",
+      "widthCm": 155.9,
+      "depthCm": 37.5,
+      "heightCm": 60,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "10542752": {
+      "isStandaloneFurniture": true,
+      "category": "tv-unit",
+      "typeName": "TV bench",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "modern",
+        "minimal"
+      ],
+      "colors": [
+        "black",
+        "oak"
+      ],
+      "material": "oak veneer",
+      "widthCm": 181.3,
+      "depthCm": 42.2,
+      "heightCm": 45.1,
+      "dimensionSource": "rules",
+      "confidence": 0.92,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "10555099": {
+      "isStandaloneFurniture": true,
+      "category": "coffee-table",
+      "typeName": "Coffee table with magazine shelf",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "classic"
+      ],
+      "colors": [
+        "white"
+      ],
+      "material": "",
+      "widthCm": 65.1,
+      "depthCm": 65.1,
+      "heightCm": 40,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "10567568": {
+      "isStandaloneFurniture": true,
+      "category": "nightstand",
+      "typeName": "Nightstand",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "white"
+      ],
+      "material": "",
+      "widthCm": 40,
+      "depthCm": 41.9,
+      "heightCm": 48.9,
+      "dimensionSource": "rules",
+      "confidence": 0.97,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "10571259": {
+      "isStandaloneFurniture": true,
+      "category": "bed",
+      "typeName": "Upholstered bed frame",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "cozy",
+        "modern"
+      ],
+      "colors": [
+        "dark gray"
+      ],
+      "material": "upholstered fabric",
+      "widthCm": 101,
+      "depthCm": 195.9,
+      "heightCm": 85.1,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "10585082": {
+      "isStandaloneFurniture": true,
+      "category": "sofa",
+      "typeName": "Sleeper sofa",
+      "roomTypes": [
+        "living-room",
+        "bedroom"
+      ],
+      "styleTags": [
+        "cozy",
+        "modern"
+      ],
+      "colors": [
+        "light brown",
+        "pink"
+      ],
+      "material": "",
+      "widthCm": 232.1,
+      "depthCm": 88.9,
+      "heightCm": 80,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "10586114": {
+      "isStandaloneFurniture": true,
+      "category": "sofa",
+      "typeName": "Loveseat",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "modern",
+        "cozy"
+      ],
+      "colors": [
+        "dark turquoise"
+      ],
+      "material": "",
+      "widthCm": 178.1,
+      "depthCm": 99.1,
+      "heightCm": 69.9,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "10593384": {
+      "isStandaloneFurniture": true,
+      "category": "tv-unit",
+      "typeName": "TV unit",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "modern",
+        "minimal"
+      ],
+      "colors": [
+        "gray"
+      ],
+      "material": "",
+      "widthCm": 206.1,
+      "depthCm": 45.4,
+      "heightCm": 53.7,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "10597607": {
+      "isStandaloneFurniture": true,
+      "category": "storage",
+      "typeName": "Storage cabinet",
+      "roomTypes": [
+        "living-room",
+        "hallway"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "off-white"
+      ],
+      "material": "",
+      "widthCm": 77.5,
+      "depthCm": 44.5,
+      "heightCm": 115.6,
+      "dimensionSource": "rules",
+      "confidence": 0.85,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "10601124": {
+      "isStandaloneFurniture": true,
+      "category": "office-chair",
+      "typeName": "Office chair",
+      "roomTypes": [
+        "home-office"
+      ],
+      "styleTags": [
+        "modern",
+        "minimal"
+      ],
+      "colors": [
+        "black"
+      ],
+      "material": "mesh",
+      "widthCm": 68.9,
+      "depthCm": 66,
+      "heightCm": 129.9,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "10602449": {
+      "isStandaloneFurniture": true,
+      "category": "bed",
+      "typeName": "Bed frame",
+      "roomTypes": [
+        "bedroom",
+        "kids-room"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "white"
+      ],
+      "material": "",
+      "widthCm": 102.9,
+      "depthCm": 195.9,
+      "heightCm": 66,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "10606273": {
+      "isStandaloneFurniture": true,
+      "category": "desk",
+      "typeName": "Desk",
+      "roomTypes": [
+        "home-office"
+      ],
+      "styleTags": [
+        "modern",
+        "minimal"
+      ],
+      "colors": [
+        "ash"
+      ],
+      "material": "ash veneer",
+      "widthCm": 128,
+      "depthCm": 65.1,
+      "heightCm": 74,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "10620556": {
+      "isStandaloneFurniture": true,
+      "category": "desk",
+      "typeName": "Desk with drop file drawers",
+      "roomTypes": [
+        "home-office"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "modern"
+      ],
+      "colors": [
+        "white"
+      ],
+      "material": "",
+      "widthCm": 120,
+      "depthCm": 65.1,
+      "heightCm": 74.9,
+      "dimensionSource": "rules",
+      "confidence": 0.93,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "10637076": {
+      "isStandaloneFurniture": true,
+      "category": "wardrobe",
+      "typeName": "Open wardrobe",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "pine",
+        "natural wood"
+      ],
+      "material": "solid pine",
+      "widthCm": 89.9,
+      "depthCm": 48.9,
+      "heightCm": 181,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "20200456": {
+      "isStandaloneFurniture": true,
+      "category": "nightstand",
+      "typeName": "Nightstand",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "classic"
+      ],
+      "colors": [
+        "white"
+      ],
+      "material": "solid wood",
+      "widthCm": 46,
+      "depthCm": 34.9,
+      "heightCm": 69.9,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "20355764": {
+      "isStandaloneFurniture": true,
+      "category": "sofa",
+      "typeName": "Sleeper sofa",
+      "roomTypes": [
+        "living-room",
+        "bedroom"
+      ],
+      "styleTags": [
+        "cozy",
+        "scandinavian"
+      ],
+      "colors": [
+        "light gray"
+      ],
+      "material": "",
+      "widthCm": 126,
+      "depthCm": 75.9,
+      "heightCm": 61,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "20368714": {
+      "isStandaloneFurniture": true,
+      "category": "dining-table",
+      "typeName": "Extendable dining table",
+      "roomTypes": [
+        "dining-room"
+      ],
+      "styleTags": [
+        "modern",
+        "classic"
+      ],
+      "colors": [
+        "black"
+      ],
+      "material": "solid wood and hardwood veneer",
+      "widthCm": 152.1,
+      "depthCm": 94.9,
+      "heightCm": 74.9,
+      "dimensionSource": "rules",
+      "confidence": 0.93,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "20411411": {
+      "isStandaloneFurniture": false,
+      "category": "desk",
+      "typeName": "Desk top for bed",
+      "roomTypes": [],
+      "styleTags": [],
+      "colors": [
+        "white"
+      ],
+      "material": "",
+      "widthCm": 101.9,
+      "depthCm": 45.1,
+      "heightCm": 73,
+      "dimensionSource": "rules",
+      "confidence": 0.85,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "20436713": {
+      "isStandaloneFurniture": true,
+      "category": "bookshelf",
+      "typeName": "Bookcase",
+      "roomTypes": [
+        "living-room",
+        "home-office"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "white"
+      ],
+      "material": "",
+      "widthCm": 49.8,
+      "depthCm": 25.1,
+      "heightCm": 160,
+      "dimensionSource": "rules",
+      "confidence": 0.93,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "20458837": {
+      "isStandaloneFurniture": true,
+      "category": "wardrobe",
+      "typeName": "Wardrobe",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "white"
+      ],
+      "material": "",
+      "widthCm": 121,
+      "depthCm": 59.1,
+      "heightCm": 211.1,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "20458842": {
+      "isStandaloneFurniture": true,
+      "category": "wardrobe",
+      "typeName": "Open wardrobe",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "white"
+      ],
+      "material": "",
+      "widthCm": 59.1,
+      "depthCm": 48.9,
+      "heightCm": 211.1,
+      "dimensionSource": "rules",
+      "confidence": 0.93,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "20483257": {
+      "isStandaloneFurniture": true,
+      "category": "wardrobe",
+      "typeName": "Wardrobe with mirror",
+      "roomTypes": [
+        "bedroom",
+        "hallway"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "modern"
+      ],
+      "colors": [
+        "white"
+      ],
+      "material": "",
+      "widthCm": 105.1,
+      "depthCm": 57.2,
+      "heightCm": 200,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "20516738": {
+      "isStandaloneFurniture": false,
+      "category": "storage",
+      "typeName": "Base cabinet set",
+      "roomTypes": [],
+      "styleTags": [],
+      "colors": [
+        "brown walnut"
+      ],
+      "material": "foil on particleboard",
+      "widthCm": 33.7,
+      "depthCm": null,
+      "heightCm": 75.9,
+      "dimensionSource": "missing",
+      "confidence": 0.85,
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-dimensions"
+      ]
+    },
+    "20528473": {
+      "isStandaloneFurniture": true,
+      "category": "coffee-table",
+      "typeName": "Side table with drawer",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "scandinavian"
+      ],
+      "colors": [
+        "off-white"
+      ],
+      "material": "",
+      "widthCm": 64.1,
+      "depthCm": 40,
+      "heightCm": 45.1,
+      "dimensionSource": "rules",
+      "confidence": 0.7,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "20530065": {
+      "isStandaloneFurniture": true,
+      "category": "coffee-table",
+      "typeName": "Adjustable coffee table",
+      "roomTypes": [
+        "living-room",
+        "home-office"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "modern"
+      ],
+      "colors": [
+        "white"
+      ],
+      "material": "",
+      "widthCm": 97.2,
+      "depthCm": 61.9,
+      "heightCm": 64.1,
+      "dimensionSource": "rules",
+      "confidence": 0.8,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "20532130": {
+      "isStandaloneFurniture": true,
+      "category": "office-chair",
+      "typeName": "Swivel office chair",
+      "roomTypes": [
+        "home-office"
+      ],
+      "styleTags": [
+        "modern",
+        "minimal"
+      ],
+      "colors": [
+        "black"
+      ],
+      "material": "",
+      "widthCm": 58.1,
+      "depthCm": 55.9,
+      "heightCm": 85.1,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "20533337": {
+      "isStandaloneFurniture": true,
+      "category": "dining-table",
+      "typeName": "Drop-leaf table with storage",
+      "roomTypes": [
+        "dining-room",
+        "home-office",
+        "kids-room"
+      ],
+      "styleTags": [
+        "scandinavian"
+      ],
+      "colors": [
+        "pine"
+      ],
+      "material": "pine",
+      "widthCm": 62.9,
+      "depthCm": 64.1,
+      "heightCm": 91.1,
+      "dimensionSource": "rules",
+      "confidence": 0.85,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "20556507": {
+      "isStandaloneFurniture": true,
+      "category": "coffee-table",
+      "typeName": "Coffee table",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "classic"
+      ],
+      "colors": [
+        "white"
+      ],
+      "material": "",
+      "widthCm": 71.1,
+      "depthCm": 49.8,
+      "heightCm": 47,
+      "dimensionSource": "rules",
+      "confidence": 0.8,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "20564512": {
+      "isStandaloneFurniture": true,
+      "category": "wardrobe",
+      "typeName": "3-door sliding wardrobe",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "pine",
+        "black"
+      ],
+      "material": "pine",
+      "widthCm": 117.2,
+      "depthCm": 62.9,
+      "heightCm": 149.9,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "20569487": {
+      "isStandaloneFurniture": true,
+      "category": "tv-unit",
+      "typeName": "TV unit with drawers",
+      "roomTypes": [
+        "living-room",
+        "bedroom"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "white"
+      ],
+      "material": "",
+      "widthCm": 180,
+      "depthCm": 41,
+      "heightCm": 53,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "20569977": {
+      "isStandaloneFurniture": true,
+      "category": "nightstand",
+      "typeName": "Nightstand with shelf",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "modern",
+        "industrial"
+      ],
+      "colors": [
+        "black"
+      ],
+      "material": "metal",
+      "widthCm": 41.9,
+      "depthCm": 33.7,
+      "heightCm": 52.1,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "20570221": {
+      "isStandaloneFurniture": true,
+      "category": "nightstand",
+      "typeName": "Nightstand",
+      "roomTypes": [
+        "bedroom",
+        "living-room"
+      ],
+      "styleTags": [
+        "industrial"
+      ],
+      "colors": [
+        "anthracite"
+      ],
+      "material": "",
+      "widthCm": 45.1,
+      "depthCm": 35.9,
+      "heightCm": 59.1,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "20573272": {
+      "isStandaloneFurniture": true,
+      "category": "office-chair",
+      "typeName": "Swivel office chair",
+      "roomTypes": [
+        "home-office"
+      ],
+      "styleTags": [
+        "modern"
+      ],
+      "colors": [
+        "white",
+        "gray"
+      ],
+      "material": "polyester fabric",
+      "widthCm": 67.9,
+      "depthCm": 67.9,
+      "heightCm": 89.9,
+      "dimensionSource": "rules",
+      "confidence": 0.93,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "20584435": {
+      "isStandaloneFurniture": true,
+      "category": "dining-chair",
+      "typeName": "Upholstered dining chair",
+      "roomTypes": [
+        "dining-room"
+      ],
+      "styleTags": [
+        "modern"
+      ],
+      "colors": [
+        "black"
+      ],
+      "material": "metal",
+      "widthCm": 61,
+      "depthCm": 53,
+      "heightCm": 81.9,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "20593802": {
+      "isStandaloneFurniture": true,
+      "category": "dining-table",
+      "typeName": "Round dining table",
+      "roomTypes": [
+        "dining-room"
+      ],
+      "styleTags": [
+        "scandinavian"
+      ],
+      "colors": [
+        "acacia",
+        "black"
+      ],
+      "material": "acacia wood",
+      "widthCm": 120,
+      "depthCm": 120,
+      "heightCm": 74,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "20595090": {
+      "isStandaloneFurniture": true,
+      "category": "bed",
+      "typeName": "Daybed frame",
+      "roomTypes": [
+        "bedroom",
+        "living-room"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "white"
+      ],
+      "material": "",
+      "widthCm": 102.9,
+      "depthCm": 195.9,
+      "heightCm": 74.9,
+      "dimensionSource": "rules",
+      "confidence": 0.85,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "20599446": {
+      "isStandaloneFurniture": true,
+      "category": "bed",
+      "typeName": "Bed frame",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "modern",
+        "minimal"
+      ],
+      "colors": [
+        "dark brown"
+      ],
+      "material": "wood veneer",
+      "widthCm": 112.1,
+      "depthCm": 199.1,
+      "heightCm": 100,
+      "dimensionSource": "rules",
+      "confidence": 0.92,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "20600789": {
+      "isStandaloneFurniture": true,
+      "category": "dining-table",
+      "typeName": "Extendable dining table",
+      "roomTypes": [
+        "dining-room"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "black",
+        "brown"
+      ],
+      "material": "ash veneer",
+      "widthCm": 120,
+      "depthCm": 80,
+      "heightCm": 74.9,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "20611882": {
+      "isStandaloneFurniture": true,
+      "category": "storage",
+      "typeName": "Storage bench",
+      "roomTypes": [
+        "hallway",
+        "bedroom",
+        "living-room"
+      ],
+      "styleTags": [
+        "scandinavian"
+      ],
+      "colors": [
+        "acacia"
+      ],
+      "material": "acacia wood",
+      "widthCm": 120,
+      "depthCm": 46,
+      "heightCm": 45.1,
+      "dimensionSource": "rules",
+      "confidence": 0.85,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "20613433": {
+      "isStandaloneFurniture": true,
+      "category": "sofa",
+      "typeName": "Loveseat",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "cozy",
+        "modern"
+      ],
+      "colors": [
+        "brown",
+        "beige"
+      ],
+      "material": "chenille woven fabric",
+      "widthCm": 206.1,
+      "depthCm": 108.9,
+      "heightCm": 80,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": true,
+      "reviewReasons": [
+        "dimensions-look-wrong"
+      ]
+    },
+    "20621659": {
+      "isStandaloneFurniture": false,
+      "category": "none",
+      "typeName": "Food storage container",
+      "roomTypes": [],
+      "styleTags": [],
+      "colors": [
+        "clear"
+      ],
+      "material": "plastic",
+      "widthCm": 17.8,
+      "depthCm": 20.3,
+      "heightCm": 17.8,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "20627996": {
+      "isStandaloneFurniture": true,
+      "category": "wardrobe",
+      "typeName": "Wardrobe with 2 doors",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "off-white"
+      ],
+      "material": "",
+      "widthCm": 81.9,
+      "depthCm": 60,
+      "heightCm": 194,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "20632686": {
+      "isStandaloneFurniture": true,
+      "category": "sofa",
+      "typeName": "Sofa",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "cozy",
+        "modern"
+      ],
+      "colors": [
+        "dark green"
+      ],
+      "material": "chenille twill",
+      "widthCm": 255.9,
+      "depthCm": 108.9,
+      "heightCm": 95.9,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "30299447": {
+      "isStandaloneFurniture": true,
+      "category": "bed",
+      "typeName": "Loft bed frame",
+      "roomTypes": [
+        "kids-room",
+        "bedroom"
+      ],
+      "styleTags": [
+        "modern",
+        "industrial"
+      ],
+      "colors": [
+        "dark gray"
+      ],
+      "material": "",
+      "widthCm": 97.2,
+      "depthCm": 196.9,
+      "heightCm": 179.1,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "30348377": {
+      "isStandaloneFurniture": false,
+      "category": "storage",
+      "typeName": "Base cabinet set",
+      "roomTypes": [],
+      "styleTags": [],
+      "colors": [
+        "light ash"
+      ],
+      "material": "melamine",
+      "widthCm": 33.7,
+      "depthCm": null,
+      "heightCm": 75.9,
+      "dimensionSource": "missing",
+      "confidence": 0.85,
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-dimensions"
+      ]
+    },
+    "30360487": {
+      "isStandaloneFurniture": true,
+      "category": "bed",
+      "typeName": "Stackable bed frame",
+      "roomTypes": [
+        "bedroom",
+        "kids-room"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "pine"
+      ],
+      "material": "pine",
+      "widthCm": 100,
+      "depthCm": 194.9,
+      "heightCm": 22.9,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "30388981": {
+      "isStandaloneFurniture": true,
+      "category": "nightstand",
+      "typeName": "Nightstand with drawers",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "white"
+      ],
+      "material": "",
+      "widthCm": 60,
+      "depthCm": 39.1,
+      "heightCm": 65.1,
+      "dimensionSource": "rules",
+      "confidence": 0.85,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "30424366": {
+      "isStandaloneFurniture": true,
+      "category": "bed",
+      "typeName": "Daybed frame",
+      "roomTypes": [
+        "bedroom",
+        "living-room"
+      ],
+      "styleTags": [
+        "minimal",
+        "modern"
+      ],
+      "colors": [
+        "black"
+      ],
+      "material": "powder coated steel",
+      "widthCm": 105.1,
+      "depthCm": 196.9,
+      "heightCm": 94,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "30439476": {
+      "isStandaloneFurniture": true,
+      "category": "wardrobe",
+      "typeName": "Open wardrobe with sliding door",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "bamboo"
+      ],
+      "material": "bamboo",
+      "widthCm": 120,
+      "depthCm": 47,
+      "heightCm": 122.9,
+      "dimensionSource": "rules",
+      "confidence": 0.85,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "30538198": {
+      "isStandaloneFurniture": true,
+      "category": "desk",
+      "typeName": "Desk",
+      "roomTypes": [
+        "home-office"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "modern"
+      ],
+      "colors": [
+        "oak"
+      ],
+      "material": "oak veneer",
+      "widthCm": 140,
+      "depthCm": 74.9,
+      "heightCm": 74.9,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "30542690": {
+      "isStandaloneFurniture": true,
+      "category": "tv-unit",
+      "typeName": "TV unit with base",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "modern"
+      ],
+      "colors": [
+        "black"
+      ],
+      "material": "solid pine",
+      "widthCm": 160,
+      "depthCm": 47,
+      "heightCm": 61.9,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "30553240": {
+      "isStandaloneFurniture": true,
+      "category": "desk",
+      "typeName": "Desk with cable management",
+      "roomTypes": [
+        "home-office",
+        "bedroom"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "modern"
+      ],
+      "colors": [
+        "oak",
+        "black"
+      ],
+      "material": "oak veneer and metal",
+      "widthCm": 134.9,
+      "depthCm": 69.9,
+      "heightCm": 75.9,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "30570249": {
+      "isStandaloneFurniture": true,
+      "category": "bookshelf",
+      "typeName": "Shelf unit",
+      "roomTypes": [
+        "living-room",
+        "home-office",
+        "hallway"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "modern"
+      ],
+      "colors": [
+        "light gray-blue"
+      ],
+      "material": "",
+      "widthCm": 83.2,
+      "depthCm": 36.2,
+      "heightCm": 127.6,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "30574902": {
+      "isStandaloneFurniture": true,
+      "category": "bookshelf",
+      "typeName": "Open shelf unit",
+      "roomTypes": [
+        "living-room",
+        "home-office",
+        "hallway"
+      ],
+      "styleTags": [
+        "industrial",
+        "modern"
+      ],
+      "colors": [
+        "black"
+      ],
+      "material": "metal",
+      "widthCm": 40,
+      "depthCm": 34.9,
+      "heightCm": 155.9,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "30597951": {
+      "isStandaloneFurniture": false,
+      "category": "none",
+      "typeName": "Desk divider",
+      "roomTypes": [],
+      "styleTags": [],
+      "colors": [],
+      "material": "",
+      "widthCm": 121.3,
+      "depthCm": null,
+      "heightCm": 38.7,
+      "dimensionSource": "missing",
+      "confidence": 0.95,
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-dimensions"
+      ]
+    },
+    "30603645": {
+      "isStandaloneFurniture": true,
+      "category": "storage",
+      "typeName": "Pouf with storage",
+      "roomTypes": [
+        "kids-room",
+        "living-room"
+      ],
+      "styleTags": [
+        "cozy"
+      ],
+      "colors": [
+        "yellow"
+      ],
+      "material": "",
+      "widthCm": 57.2,
+      "depthCm": 32.1,
+      "heightCm": 24.1,
+      "dimensionSource": "rules",
+      "confidence": 0.75,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "30609237": {
+      "isStandaloneFurniture": true,
+      "category": "armchair",
+      "typeName": "Children's swivel armchair",
+      "roomTypes": [
+        "kids-room",
+        "living-room"
+      ],
+      "styleTags": [
+        "cozy",
+        "modern"
+      ],
+      "colors": [
+        "white beige",
+        "red"
+      ],
+      "material": "",
+      "widthCm": 59.1,
+      "depthCm": 61.9,
+      "heightCm": 74.9,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "40178591": {
+      "isStandaloneFurniture": true,
+      "category": "bookshelf",
+      "typeName": "Bookcase",
+      "roomTypes": [
+        "living-room",
+        "home-office",
+        "hallway"
+      ],
+      "styleTags": [
+        "modern",
+        "minimal"
+      ],
+      "colors": [
+        "black-brown"
+      ],
+      "material": "",
+      "widthCm": 61.9,
+      "depthCm": 24.1,
+      "heightCm": 165.1,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "40216357": {
+      "isStandaloneFurniture": false,
+      "category": "storage",
+      "typeName": "Mini storage chest",
+      "roomTypes": [
+        "home-office",
+        "living-room",
+        "hallway"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "birch"
+      ],
+      "material": "birch plywood",
+      "widthCm": 41.9,
+      "depthCm": 17.8,
+      "heightCm": 31.8,
+      "dimensionSource": "rules",
+      "confidence": 0.6,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "40434322": {
+      "isStandaloneFurniture": true,
+      "category": "dining-table",
+      "typeName": "Dining table",
+      "roomTypes": [
+        "dining-room",
+        "kids-room"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "light bamboo"
+      ],
+      "material": "bamboo",
+      "widthCm": 180,
+      "depthCm": 89.9,
+      "heightCm": 74.9,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "40480781": {
+      "isStandaloneFurniture": true,
+      "category": "desk",
+      "typeName": "Children's desk with drawer",
+      "roomTypes": [
+        "kids-room",
+        "home-office"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "light gray"
+      ],
+      "material": "",
+      "widthCm": 121.9,
+      "depthCm": 60,
+      "heightCm": 82.9,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "40487160": {
+      "isStandaloneFurniture": true,
+      "category": "office-chair",
+      "typeName": "Swivel chair",
+      "roomTypes": [
+        "home-office"
+      ],
+      "styleTags": [
+        "classic"
+      ],
+      "colors": [
+        "blue"
+      ],
+      "material": "",
+      "widthCm": 58.1,
+      "depthCm": 59.1,
+      "heightCm": 93,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "40505022": {
+      "isStandaloneFurniture": true,
+      "category": "armchair",
+      "typeName": "Armchair",
+      "roomTypes": [
+        "living-room",
+        "bedroom"
+      ],
+      "styleTags": [
+        "cozy"
+      ],
+      "colors": [
+        "brown",
+        "beige"
+      ],
+      "material": "",
+      "widthCm": 84.1,
+      "depthCm": 94.9,
+      "heightCm": 91.1,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "40541421": {
+      "isStandaloneFurniture": true,
+      "category": "side-table",
+      "typeName": "Narrow side table",
+      "roomTypes": [
+        "living-room",
+        "hallway"
+      ],
+      "styleTags": [
+        "scandinavian"
+      ],
+      "colors": [
+        "oak effect"
+      ],
+      "material": "",
+      "widthCm": 80,
+      "depthCm": 31.1,
+      "heightCm": 52.1,
+      "dimensionSource": "rules",
+      "confidence": 0.75,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "40542449": {
+      "isStandaloneFurniture": true,
+      "category": "tv-unit",
+      "typeName": "TV unit",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "classic"
+      ],
+      "colors": [
+        "gray",
+        "brown"
+      ],
+      "material": "",
+      "widthCm": 161,
+      "depthCm": 47,
+      "heightCm": 54.9,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "40561763": {
+      "isStandaloneFurniture": true,
+      "category": "nightstand",
+      "typeName": "Nightstand with drawer and door",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "classic"
+      ],
+      "colors": [
+        "gray"
+      ],
+      "material": "",
+      "widthCm": 38.1,
+      "depthCm": 40,
+      "heightCm": 74.9,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "40568726": {
+      "isStandaloneFurniture": true,
+      "category": "dining-table",
+      "typeName": "Dining table",
+      "roomTypes": [
+        "dining-room"
+      ],
+      "styleTags": [
+        "scandinavian"
+      ],
+      "colors": [
+        "white"
+      ],
+      "material": "lacquered MDF, tubular steel",
+      "widthCm": 129.9,
+      "depthCm": 80,
+      "heightCm": 74.9,
+      "dimensionSource": "rules",
+      "confidence": 0.92,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "40571253": {
+      "isStandaloneFurniture": true,
+      "category": "bed",
+      "typeName": "Upholstered bed frame",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "cozy"
+      ],
+      "colors": [
+        "dark gray"
+      ],
+      "material": "",
+      "widthCm": 139.1,
+      "depthCm": 195.9,
+      "heightCm": 85.1,
+      "dimensionSource": "rules",
+      "confidence": 0.93,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "40581916": {
+      "isStandaloneFurniture": true,
+      "category": "armchair",
+      "typeName": "Armchair",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "modern"
+      ],
+      "colors": [
+        "red"
+      ],
+      "material": "tubular steel",
+      "widthCm": 86,
+      "depthCm": 81,
+      "heightCm": 67.9,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "40585085": {
+      "isStandaloneFurniture": true,
+      "category": "sofa",
+      "typeName": "Sleeper sofa",
+      "roomTypes": [
+        "living-room",
+        "bedroom"
+      ],
+      "styleTags": [
+        "modern"
+      ],
+      "colors": [
+        "medium gray"
+      ],
+      "material": "",
+      "widthCm": null,
+      "depthCm": null,
+      "heightCm": null,
+      "dimensionSource": "missing",
+      "confidence": 0.95,
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-dimensions"
+      ]
+    },
+    "40586805": {
+      "isStandaloneFurniture": true,
+      "category": "wardrobe",
+      "typeName": "Wardrobe with 2 doors",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "modern"
+      ],
+      "colors": [
+        "black",
+        "brown"
+      ],
+      "material": "",
+      "widthCm": 79.1,
+      "depthCm": 54.9,
+      "heightCm": 175.9,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "40590925": {
+      "isStandaloneFurniture": true,
+      "category": "nightstand",
+      "typeName": "Nightstand",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "light grey-beige",
+        "stained"
+      ],
+      "material": "solid pine",
+      "widthCm": 49.8,
+      "depthCm": 49.8,
+      "heightCm": 72.1,
+      "dimensionSource": "rules",
+      "confidence": 0.97,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "40593882": {
+      "isStandaloneFurniture": true,
+      "category": "dining-table",
+      "typeName": "Extendable dining table",
+      "roomTypes": [
+        "dining-room"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "oak"
+      ],
+      "material": "oak veneer",
+      "widthCm": 140,
+      "depthCm": 85.1,
+      "heightCm": 74.9,
+      "dimensionSource": "rules",
+      "confidence": 0.97,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "40594754": {
+      "isStandaloneFurniture": true,
+      "category": "armchair",
+      "typeName": "Armchair",
+      "roomTypes": [
+        "living-room",
+        "home-office"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "modern",
+        "cozy"
+      ],
+      "colors": [
+        "gray",
+        "white"
+      ],
+      "material": "upholstered fabric with wood details",
+      "widthCm": 75.9,
+      "depthCm": 72.1,
+      "heightCm": 67.9,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "40600731": {
+      "isStandaloneFurniture": true,
+      "category": "dining-table",
+      "typeName": "Extendable dining table",
+      "roomTypes": [
+        "dining-room"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "off-white"
+      ],
+      "material": "matte laminate",
+      "widthCm": 140,
+      "depthCm": 85.1,
+      "heightCm": 74.9,
+      "dimensionSource": "rules",
+      "confidence": 0.96,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "40611094": {
+      "isStandaloneFurniture": true,
+      "category": "office-chair",
+      "typeName": "Swivel office chair",
+      "roomTypes": [
+        "home-office"
+      ],
+      "styleTags": [
+        "modern",
+        "minimal"
+      ],
+      "colors": [
+        "black"
+      ],
+      "material": "polyester and cotton with polyurethane coating",
+      "widthCm": 67,
+      "depthCm": 67,
+      "heightCm": 111.1,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "40613088": {
+      "isStandaloneFurniture": true,
+      "category": "bed",
+      "typeName": "Daybed frame",
+      "roomTypes": [
+        "bedroom",
+        "living-room"
+      ],
+      "styleTags": [
+        "minimal",
+        "modern"
+      ],
+      "colors": [
+        "white"
+      ],
+      "material": "powder coated steel",
+      "widthCm": 105.1,
+      "depthCm": 196.9,
+      "heightCm": 94,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "40618689": {
+      "isStandaloneFurniture": true,
+      "category": "office-chair",
+      "typeName": "Swivel office chair",
+      "roomTypes": [
+        "home-office"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "modern"
+      ],
+      "colors": [
+        "off-white"
+      ],
+      "material": "fabric",
+      "widthCm": 69.9,
+      "depthCm": 79.1,
+      "heightCm": 71.1,
+      "dimensionSource": "rules",
+      "confidence": 0.93,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "40619882": {
+      "isStandaloneFurniture": true,
+      "category": "side-table",
+      "typeName": "Round side table",
+      "roomTypes": [
+        "living-room",
+        "bedroom"
+      ],
+      "styleTags": [
+        "modern",
+        "minimal"
+      ],
+      "colors": [
+        "black"
+      ],
+      "material": "",
+      "widthCm": 46,
+      "depthCm": 46,
+      "heightCm": 54.9,
+      "dimensionSource": "rules",
+      "confidence": 0.85,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "40629683": {
+      "isStandaloneFurniture": false,
+      "category": "storage",
+      "typeName": "Pouf with storage",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "cozy",
+        "scandinavian"
+      ],
+      "colors": [
+        "gray-beige"
+      ],
+      "material": "",
+      "widthCm": 38.1,
+      "depthCm": 38.1,
+      "heightCm": 33,
+      "dimensionSource": "rules",
+      "confidence": 0.7,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "50214678": {
+      "isStandaloneFurniture": true,
+      "category": "bookshelf",
+      "typeName": "Shelf unit",
+      "roomTypes": [
+        "living-room",
+        "home-office"
+      ],
+      "styleTags": [
+        "modern",
+        "minimal"
+      ],
+      "colors": [
+        "black-brown"
+      ],
+      "material": "tempered glass and metal",
+      "widthCm": 51.1,
+      "depthCm": 35.9,
+      "heightCm": 174.9,
+      "dimensionSource": "rules",
+      "confidence": 0.93,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "50299502": {
+      "isStandaloneFurniture": true,
+      "category": "coffee-table",
+      "typeName": "Side table",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "industrial",
+        "modern"
+      ],
+      "colors": [
+        "anthracite"
+      ],
+      "material": "metal and foil",
+      "widthCm": 69.9,
+      "depthCm": 49.8,
+      "heightCm": 37.1,
+      "dimensionSource": "rules",
+      "confidence": 0.8,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "50424129": {
+      "isStandaloneFurniture": true,
+      "category": "armchair",
+      "typeName": "Armchair",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "modern",
+        "cozy"
+      ],
+      "colors": [
+        "dark gray"
+      ],
+      "material": "",
+      "widthCm": 73,
+      "depthCm": 65.1,
+      "heightCm": 74.9,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "50424327": {
+      "isStandaloneFurniture": true,
+      "category": "bookshelf",
+      "typeName": "Shelf unit",
+      "roomTypes": [
+        "living-room",
+        "bedroom"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "white"
+      ],
+      "material": "",
+      "widthCm": 37.1,
+      "depthCm": 37.1,
+      "heightCm": 140,
+      "dimensionSource": "rules",
+      "confidence": 0.85,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "50481172": {
+      "isStandaloneFurniture": true,
+      "category": "bookshelf",
+      "typeName": "Shelf unit",
+      "roomTypes": [
+        "living-room",
+        "bedroom"
+      ],
+      "styleTags": [
+        "industrial",
+        "modern"
+      ],
+      "colors": [
+        "metal",
+        "white"
+      ],
+      "material": "metal",
+      "widthCm": 60,
+      "depthCm": 25.1,
+      "heightCm": 115.9,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "50483289": {
+      "isStandaloneFurniture": true,
+      "category": "bookshelf",
+      "typeName": "Shelving unit with 4 shelves",
+      "roomTypes": [
+        "living-room",
+        "home-office"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "white"
+      ],
+      "material": "",
+      "widthCm": 94.9,
+      "depthCm": 37.1,
+      "heightCm": 89.9,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "50531657": {
+      "isStandaloneFurniture": true,
+      "category": "armchair",
+      "typeName": "Swivel easy chair",
+      "roomTypes": [
+        "living-room",
+        "bedroom"
+      ],
+      "styleTags": [
+        "cozy",
+        "scandinavian"
+      ],
+      "colors": [
+        "golden brown"
+      ],
+      "material": "",
+      "widthCm": 66,
+      "depthCm": 99.1,
+      "heightCm": 92.1,
+      "dimensionSource": "rules",
+      "confidence": 0.85,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "50531964": {
+      "isStandaloneFurniture": true,
+      "category": "office-chair",
+      "typeName": "Child's desk chair",
+      "roomTypes": [
+        "kids-room",
+        "home-office"
+      ],
+      "styleTags": [
+        "modern",
+        "minimal"
+      ],
+      "colors": [
+        "turquoise"
+      ],
+      "material": "",
+      "widthCm": 61.9,
+      "depthCm": 59.1,
+      "heightCm": 86,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "50542905": {
+      "isStandaloneFurniture": true,
+      "category": "bookshelf",
+      "typeName": "Shelving unit with 10 shelves",
+      "roomTypes": [
+        "living-room",
+        "home-office"
+      ],
+      "styleTags": [
+        "industrial",
+        "modern"
+      ],
+      "colors": [
+        "dark gray"
+      ],
+      "material": "",
+      "widthCm": 94.9,
+      "depthCm": 37.1,
+      "heightCm": 200,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "50551202": {
+      "isStandaloneFurniture": true,
+      "category": "armchair",
+      "typeName": "Armchair",
+      "roomTypes": [
+        "living-room",
+        "bedroom"
+      ],
+      "styleTags": [
+        "cozy",
+        "classic"
+      ],
+      "colors": [],
+      "material": "rattan",
+      "widthCm": 58.1,
+      "depthCm": 58.1,
+      "heightCm": 84.1,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "50562026": {
+      "isStandaloneFurniture": true,
+      "category": "tv-unit",
+      "typeName": "TV unit",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "modern"
+      ],
+      "colors": [
+        "brown",
+        "oak"
+      ],
+      "material": "oak veneer",
+      "widthCm": 178.4,
+      "depthCm": 37.1,
+      "heightCm": 54.9,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "50566048": {
+      "isStandaloneFurniture": true,
+      "category": "tv-unit",
+      "typeName": "TV bench",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "classic"
+      ],
+      "colors": [
+        "black-brown"
+      ],
+      "material": "solid wood",
+      "widthCm": 182.9,
+      "depthCm": 47,
+      "heightCm": 57.2,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "50572761": {
+      "isStandaloneFurniture": true,
+      "category": "storage",
+      "typeName": "Storage pouf",
+      "roomTypes": [
+        "living-room",
+        "bedroom"
+      ],
+      "styleTags": [
+        "cozy",
+        "modern"
+      ],
+      "colors": [
+        "dark beige"
+      ],
+      "material": "",
+      "widthCm": 46,
+      "depthCm": 46,
+      "heightCm": 41.9,
+      "dimensionSource": "rules",
+      "confidence": 0.6,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "50573954": {
+      "isStandaloneFurniture": true,
+      "category": "wardrobe",
+      "typeName": "Wardrobe",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "classic"
+      ],
+      "colors": [
+        "gray"
+      ],
+      "material": "",
+      "widthCm": 128,
+      "depthCm": 64.1,
+      "heightCm": 201,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "50578555": {
+      "isStandaloneFurniture": true,
+      "category": "side-table",
+      "typeName": "Nesting tables, set of 2",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "scandinavian"
+      ],
+      "colors": [
+        "yellow",
+        "birch effect"
+      ],
+      "material": "",
+      "widthCm": null,
+      "depthCm": null,
+      "heightCm": null,
+      "dimensionSource": "missing",
+      "confidence": 0.8,
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-dimensions"
+      ]
+    },
+    "50586635": {
+      "isStandaloneFurniture": true,
+      "category": "bookshelf",
+      "typeName": "Shelf unit",
+      "roomTypes": [
+        "living-room",
+        "home-office"
+      ],
+      "styleTags": [
+        "modern",
+        "minimal"
+      ],
+      "colors": [
+        "oak veneer",
+        "dark brown"
+      ],
+      "material": "oak veneer",
+      "widthCm": 120.3,
+      "depthCm": 40.3,
+      "heightCm": 188.3,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "50588804": {
+      "isStandaloneFurniture": true,
+      "category": "office-chair",
+      "typeName": "Office chair",
+      "roomTypes": [
+        "home-office"
+      ],
+      "styleTags": [
+        "modern"
+      ],
+      "colors": [
+        "dark gray"
+      ],
+      "material": "",
+      "widthCm": 69.9,
+      "depthCm": 69.9,
+      "heightCm": 140,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "50611263": {
+      "isStandaloneFurniture": true,
+      "category": "dining-table",
+      "typeName": "Extendable dining table",
+      "roomTypes": [
+        "dining-room"
+      ],
+      "styleTags": [
+        "scandinavian"
+      ],
+      "colors": [],
+      "material": "rubberwood",
+      "widthCm": 160,
+      "depthCm": 89.9,
+      "heightCm": 74.9,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "50611630": {
+      "isStandaloneFurniture": true,
+      "category": "wardrobe",
+      "typeName": "Wardrobe with 2 doors",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "modern"
+      ],
+      "colors": [
+        "black oak"
+      ],
+      "material": "oak effect",
+      "widthCm": 81.9,
+      "depthCm": 60,
+      "heightCm": 194,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "50618518": {
+      "isStandaloneFurniture": true,
+      "category": "sofa",
+      "typeName": "3-seat sofa",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "modern",
+        "cozy"
+      ],
+      "colors": [
+        "gray",
+        "beige"
+      ],
+      "material": "",
+      "widthCm": 187,
+      "depthCm": 79.1,
+      "heightCm": 77.2,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "50618537": {
+      "isStandaloneFurniture": true,
+      "category": "sofa",
+      "typeName": "2-seat sofa (loveseat)",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "modern",
+        "cozy"
+      ],
+      "colors": [
+        "blue"
+      ],
+      "material": "",
+      "widthCm": 147,
+      "depthCm": 79.1,
+      "heightCm": 77.2,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "50620559": {
+      "isStandaloneFurniture": true,
+      "category": "desk",
+      "typeName": "Desk with drop file drawers",
+      "roomTypes": [
+        "home-office"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "white"
+      ],
+      "material": "",
+      "widthCm": 154.9,
+      "depthCm": 65.1,
+      "heightCm": 74.9,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "50622964": {
+      "isStandaloneFurniture": false,
+      "category": "none",
+      "typeName": "Bed pocket",
+      "roomTypes": [],
+      "styleTags": [],
+      "colors": [
+        "blue"
+      ],
+      "material": "",
+      "widthCm": 39.1,
+      "depthCm": null,
+      "heightCm": 29.8,
+      "dimensionSource": "missing",
+      "confidence": 0.95,
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-dimensions"
+      ]
+    },
+    "60282186": {
+      "isStandaloneFurniture": true,
+      "category": "bookshelf",
+      "typeName": "Wall shelf unit",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "white"
+      ],
+      "material": "",
+      "widthCm": 29.8,
+      "depthCm": 27.9,
+      "heightCm": 189.9,
+      "dimensionSource": "rules",
+      "confidence": 0.7,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "60407271": {
+      "isStandaloneFurniture": true,
+      "category": "wardrobe",
+      "typeName": "Wardrobe with sliding doors",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "gray"
+      ],
+      "material": "",
+      "widthCm": 118.1,
+      "depthCm": 54.9,
+      "heightCm": 199.1,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "60434825": {
+      "isStandaloneFurniture": true,
+      "category": "storage",
+      "typeName": "Glass-door cabinet",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "anthracite"
+      ],
+      "material": "",
+      "widthCm": 41.9,
+      "depthCm": 37.1,
+      "heightCm": 154.9,
+      "dimensionSource": "rules",
+      "confidence": 0.85,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "60447677": {
+      "isStandaloneFurniture": true,
+      "category": "nightstand",
+      "typeName": "Nightstand",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "bamboo"
+      ],
+      "material": "bamboo",
+      "widthCm": 40,
+      "depthCm": 40,
+      "heightCm": 67,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "60453767": {
+      "isStandaloneFurniture": true,
+      "category": "wardrobe",
+      "typeName": "Wardrobe with sliding doors",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "modern",
+        "minimal"
+      ],
+      "colors": [
+        "black-brown"
+      ],
+      "material": "",
+      "widthCm": 117.2,
+      "depthCm": 54.9,
+      "heightCm": 175.9,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "60456916": {
+      "isStandaloneFurniture": true,
+      "category": "wardrobe",
+      "typeName": "Wardrobe with sliding doors",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "white"
+      ],
+      "material": "",
+      "widthCm": 118.1,
+      "depthCm": 54.9,
+      "heightCm": 199.1,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "60514153": {
+      "isStandaloneFurniture": true,
+      "category": "desk",
+      "typeName": "Desk",
+      "roomTypes": [
+        "home-office"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "brown"
+      ],
+      "material": "",
+      "widthCm": 152.1,
+      "depthCm": 69.9,
+      "heightCm": 74.9,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "60532147": {
+      "isStandaloneFurniture": true,
+      "category": "dining-chair",
+      "typeName": "Dining chair",
+      "roomTypes": [
+        "dining-room"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "white"
+      ],
+      "material": "solid beech",
+      "widthCm": 58.1,
+      "depthCm": 57.2,
+      "heightCm": 85.1,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "60538205": {
+      "isStandaloneFurniture": true,
+      "category": "desk",
+      "typeName": "Desk",
+      "roomTypes": [
+        "home-office"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "modern"
+      ],
+      "colors": [
+        "oak"
+      ],
+      "material": "oak veneer",
+      "widthCm": 120,
+      "depthCm": 47,
+      "heightCm": 74.9,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "60566062": {
+      "isStandaloneFurniture": true,
+      "category": "tv-unit",
+      "typeName": "TV unit",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "modern",
+        "minimal"
+      ],
+      "colors": [
+        "black-brown"
+      ],
+      "material": "",
+      "widthCm": 160,
+      "depthCm": 34.9,
+      "heightCm": 35.9,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "60568240": {
+      "isStandaloneFurniture": true,
+      "category": "dining-table",
+      "typeName": "Extendable dining table",
+      "roomTypes": [
+        "dining-room"
+      ],
+      "styleTags": [
+        "modern",
+        "minimal"
+      ],
+      "colors": [
+        "black"
+      ],
+      "material": "",
+      "widthCm": 160,
+      "depthCm": 109.9,
+      "heightCm": 74.9,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "60574104": {
+      "isStandaloneFurniture": true,
+      "category": "desk",
+      "typeName": "Desk",
+      "roomTypes": [
+        "kids-room",
+        "home-office"
+      ],
+      "styleTags": [
+        "scandinavian"
+      ],
+      "colors": [
+        "rattan"
+      ],
+      "material": "rattan",
+      "widthCm": 109.9,
+      "depthCm": 53.7,
+      "heightCm": 75.9,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "60586809": {
+      "isStandaloneFurniture": true,
+      "category": "wardrobe",
+      "typeName": "Wardrobe with 2 doors",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "light beige"
+      ],
+      "material": "",
+      "widthCm": 59.4,
+      "depthCm": 54.9,
+      "heightCm": 185.7,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "60589902": {
+      "isStandaloneFurniture": true,
+      "category": "dining-table",
+      "typeName": "Extendable dining table",
+      "roomTypes": [
+        "dining-room"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "modern"
+      ],
+      "colors": [
+        "white"
+      ],
+      "material": "",
+      "widthCm": 154.9,
+      "depthCm": 87,
+      "heightCm": 74.9,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "60597921": {
+      "isStandaloneFurniture": true,
+      "category": "dining-table",
+      "typeName": "Extendable dining table",
+      "roomTypes": [
+        "dining-room"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "cozy"
+      ],
+      "colors": [
+        "beige",
+        "brown"
+      ],
+      "material": "",
+      "widthCm": 120,
+      "depthCm": 80,
+      "heightCm": 74.9,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "60600773": {
+      "isStandaloneFurniture": true,
+      "category": "dining-chair",
+      "typeName": "Dining chair with upholstered seat",
+      "roomTypes": [
+        "dining-room"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "cozy"
+      ],
+      "colors": [
+        "beige",
+        "light beige"
+      ],
+      "material": "solid pine frame",
+      "widthCm": 45.1,
+      "depthCm": 54,
+      "heightCm": 94,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "60609679": {
+      "isStandaloneFurniture": true,
+      "category": "desk",
+      "typeName": "L-shaped desk",
+      "roomTypes": [
+        "home-office"
+      ],
+      "styleTags": [
+        "modern",
+        "scandinavian"
+      ],
+      "colors": [
+        "white"
+      ],
+      "material": "",
+      "widthCm": 154.9,
+      "depthCm": 154.9,
+      "heightCm": 74.9,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "60619942": {
+      "isStandaloneFurniture": true,
+      "category": "nightstand",
+      "typeName": "Nightstand",
+      "roomTypes": [
+        "bedroom",
+        "kids-room"
+      ],
+      "styleTags": [
+        "cozy",
+        "scandinavian"
+      ],
+      "colors": [
+        "pine"
+      ],
+      "material": "solid pine",
+      "widthCm": 29.8,
+      "depthCm": 29.8,
+      "heightCm": 49.8,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "60625815": {
+      "isStandaloneFurniture": true,
+      "category": "bookshelf",
+      "typeName": "Open shelf unit",
+      "roomTypes": [
+        "living-room",
+        "bedroom"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "pine"
+      ],
+      "material": "pine",
+      "widthCm": 80,
+      "depthCm": 34.9,
+      "heightCm": 58.4,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "60627683": {
+      "isStandaloneFurniture": true,
+      "category": "nightstand",
+      "typeName": "Nightstand",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "classic",
+        "scandinavian"
+      ],
+      "colors": [
+        "off-white"
+      ],
+      "material": "",
+      "widthCm": 52.1,
+      "depthCm": 46,
+      "heightCm": 66,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "60637074": {
+      "isStandaloneFurniture": true,
+      "category": "nightstand",
+      "typeName": "Nightstand",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "cozy"
+      ],
+      "colors": [
+        "pine"
+      ],
+      "material": "solid pine",
+      "widthCm": 39.1,
+      "depthCm": 32.1,
+      "heightCm": 54.9,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "70299285": {
+      "isStandaloneFurniture": true,
+      "category": "bed",
+      "typeName": "Bunk bed frame",
+      "roomTypes": [
+        "bedroom",
+        "kids-room"
+      ],
+      "styleTags": [
+        "modern",
+        "minimal"
+      ],
+      "colors": [
+        "dark gray"
+      ],
+      "material": "",
+      "widthCm": 102.9,
+      "depthCm": 196.9,
+      "heightCm": 130.5,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "70358741": {
+      "isStandaloneFurniture": true,
+      "category": "bookshelf",
+      "typeName": "Shelf unit",
+      "roomTypes": [
+        "hallway",
+        "living-room"
+      ],
+      "styleTags": [
+        "modern",
+        "minimal"
+      ],
+      "colors": [
+        "black"
+      ],
+      "material": "",
+      "widthCm": 46,
+      "depthCm": 26,
+      "heightCm": 149.9,
+      "dimensionSource": "rules",
+      "confidence": 0.85,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "70359991": {
+      "isStandaloneFurniture": true,
+      "category": "dining-table",
+      "typeName": "Extendable dining table",
+      "roomTypes": [
+        "dining-room"
+      ],
+      "styleTags": [
+        "modern",
+        "scandinavian"
+      ],
+      "colors": [
+        "black"
+      ],
+      "material": "solid wood and hardwood veneer",
+      "widthCm": 209.9,
+      "depthCm": 105.1,
+      "heightCm": 74.9,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "70367444": {
+      "isStandaloneFurniture": true,
+      "category": "nightstand",
+      "typeName": "Nightstand",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "modern",
+        "minimal"
+      ],
+      "colors": [
+        "brown"
+      ],
+      "material": "",
+      "widthCm": 41.9,
+      "depthCm": 40,
+      "heightCm": 54.9,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "70411239": {
+      "isStandaloneFurniture": true,
+      "category": "bed",
+      "typeName": "Loft bed frame",
+      "roomTypes": [
+        "kids-room",
+        "bedroom"
+      ],
+      "styleTags": [
+        "modern",
+        "minimal"
+      ],
+      "colors": [
+        "white",
+        "light gray"
+      ],
+      "material": "",
+      "widthCm": 102.9,
+      "depthCm": 196.9,
+      "heightCm": 194.9,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "70411277": {
+      "isStandaloneFurniture": true,
+      "category": "bed",
+      "typeName": "Bunk bed frame",
+      "roomTypes": [
+        "kids-room",
+        "bedroom"
+      ],
+      "styleTags": [
+        "modern",
+        "minimal"
+      ],
+      "colors": [
+        "white",
+        "light gray"
+      ],
+      "material": "",
+      "widthCm": 102.9,
+      "depthCm": 196.9,
+      "heightCm": 161.9,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "70419264": {
+      "isStandaloneFurniture": true,
+      "category": "dining-table",
+      "typeName": "Dining table",
+      "roomTypes": [
+        "dining-room"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "modern"
+      ],
+      "colors": [
+        "acacia",
+        "black"
+      ],
+      "material": "acacia solid wood",
+      "widthCm": 235,
+      "depthCm": 100,
+      "heightCm": 74,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "70500344": {
+      "isStandaloneFurniture": true,
+      "category": "dining-chair",
+      "typeName": "Padded dining chair",
+      "roomTypes": [
+        "dining-room"
+      ],
+      "styleTags": [
+        "cozy",
+        "scandinavian"
+      ],
+      "colors": [
+        "white",
+        "light gray"
+      ],
+      "material": "Foam padding, fabric cover",
+      "widthCm": 46,
+      "depthCm": 52.1,
+      "heightCm": 88.9,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "70529465": {
+      "isStandaloneFurniture": true,
+      "category": "dining-table",
+      "typeName": "Gateleg dining table",
+      "roomTypes": [
+        "dining-room"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "classic"
+      ],
+      "colors": [
+        "light brown",
+        "white"
+      ],
+      "material": "Solid pine",
+      "widthCm": 67,
+      "depthCm": 74.9,
+      "heightCm": 74.9,
+      "dimensionSource": "rules",
+      "confidence": 0.93,
+      "needsReview": true,
+      "reviewReasons": [
+        "dimensions-look-wrong"
+      ]
+    },
+    "70542749": {
+      "isStandaloneFurniture": true,
+      "category": "tv-unit",
+      "typeName": "TV bench",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "modern",
+        "minimal"
+      ],
+      "colors": [
+        "black"
+      ],
+      "material": "",
+      "widthCm": 160,
+      "depthCm": 40,
+      "heightCm": 48.9,
+      "dimensionSource": "rules",
+      "confidence": 0.93,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "70563237": {
+      "isStandaloneFurniture": true,
+      "category": "dining-table",
+      "typeName": "Round extendable dining table",
+      "roomTypes": [
+        "dining-room"
+      ],
+      "styleTags": [
+        "classic",
+        "scandinavian"
+      ],
+      "colors": [
+        "brown",
+        "beech"
+      ],
+      "material": "Beech veneer, solid wood edges",
+      "widthCm": 114.9,
+      "depthCm": 114.9,
+      "heightCm": 74.9,
+      "dimensionSource": "rules",
+      "confidence": 0.93,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "70571256": {
+      "isStandaloneFurniture": true,
+      "category": "bed",
+      "typeName": "Upholstered bed frame",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "cozy",
+        "modern"
+      ],
+      "colors": [
+        "dark gray"
+      ],
+      "material": "Upholstered fabric",
+      "widthCm": 155.9,
+      "depthCm": 208,
+      "heightCm": 85.1,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "70573953": {
+      "isStandaloneFurniture": true,
+      "category": "wardrobe",
+      "typeName": "Wardrobe",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "classic",
+        "scandinavian"
+      ],
+      "colors": [
+        "white"
+      ],
+      "material": "",
+      "widthCm": 128,
+      "depthCm": 64.1,
+      "heightCm": 201,
+      "dimensionSource": "rules",
+      "confidence": 0.93,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "70574900": {
+      "isStandaloneFurniture": true,
+      "category": "bookshelf",
+      "typeName": "Shelf unit",
+      "roomTypes": [
+        "living-room",
+        "home-office"
+      ],
+      "styleTags": [
+        "industrial",
+        "modern"
+      ],
+      "colors": [
+        "black"
+      ],
+      "material": "Metal",
+      "widthCm": 40,
+      "depthCm": 34.9,
+      "heightCm": 95.9,
+      "dimensionSource": "rules",
+      "confidence": 0.92,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "70581359": {
+      "isStandaloneFurniture": true,
+      "category": "dining-table",
+      "typeName": "Extendable dining table",
+      "roomTypes": [
+        "dining-room"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "modern"
+      ],
+      "colors": [
+        "oak",
+        "black"
+      ],
+      "material": "Oak veneer",
+      "widthCm": 149.9,
+      "depthCm": 80,
+      "heightCm": 77.2,
+      "dimensionSource": "rules",
+      "confidence": 0.93,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "70585079": {
+      "isStandaloneFurniture": true,
+      "category": "sofa",
+      "typeName": "Sleeper sofa",
+      "roomTypes": [
+        "living-room",
+        "bedroom"
+      ],
+      "styleTags": [
+        "cozy",
+        "modern"
+      ],
+      "colors": [
+        "beige"
+      ],
+      "material": "Upholstered fabric",
+      "widthCm": 232.1,
+      "depthCm": 88.9,
+      "heightCm": 80,
+      "dimensionSource": "rules",
+      "confidence": 0.94,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "70587498": {
+      "isStandaloneFurniture": true,
+      "category": "dining-table",
+      "typeName": "Extendable dining table",
+      "roomTypes": [
+        "dining-room"
+      ],
+      "styleTags": [
+        "classic"
+      ],
+      "colors": [
+        "dark brown"
+      ],
+      "material": "Beech veneer",
+      "widthCm": 129.9,
+      "depthCm": 80,
+      "heightCm": 74.9,
+      "dimensionSource": "rules",
+      "confidence": 0.94,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "70593574": {
+      "isStandaloneFurniture": true,
+      "category": "dining-table",
+      "typeName": "Gateleg extendable dining table",
+      "roomTypes": [
+        "dining-room"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "white"
+      ],
+      "material": "",
+      "widthCm": 94.9,
+      "depthCm": 89.9,
+      "heightCm": 74.9,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "70602489": {
+      "isStandaloneFurniture": false,
+      "category": "none",
+      "typeName": "Corner base cabinet shelf",
+      "roomTypes": [],
+      "styleTags": [],
+      "colors": [
+        "white"
+      ],
+      "material": "melamine",
+      "widthCm": 91.8,
+      "depthCm": 58.4,
+      "heightCm": null,
+      "dimensionSource": "missing",
+      "confidence": 0.93,
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-dimensions"
+      ]
+    },
+    "70607439": {
+      "isStandaloneFurniture": true,
+      "category": "desk",
+      "typeName": "Desk with open shelves",
+      "roomTypes": [
+        "home-office"
+      ],
+      "styleTags": [
+        "modern",
+        "minimal"
+      ],
+      "colors": [
+        "black-brown",
+        "glass"
+      ],
+      "material": "glass and wood",
+      "widthCm": 109.9,
+      "depthCm": 60,
+      "heightCm": 74.9,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "70613911": {
+      "isStandaloneFurniture": true,
+      "category": "armchair",
+      "typeName": "Recliner rocker swivel armchair",
+      "roomTypes": [
+        "living-room",
+        "bedroom"
+      ],
+      "styleTags": [
+        "cozy",
+        "modern"
+      ],
+      "colors": [
+        "beige"
+      ],
+      "material": "",
+      "widthCm": 87.9,
+      "depthCm": 97.2,
+      "heightCm": 107,
+      "dimensionSource": "rules",
+      "confidence": 0.93,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "70618522": {
+      "isStandaloneFurniture": true,
+      "category": "sofa",
+      "typeName": "3-seat sofa",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "modern",
+        "minimal",
+        "cozy"
+      ],
+      "colors": [
+        "blue"
+      ],
+      "material": "",
+      "widthCm": 187,
+      "depthCm": 79.1,
+      "heightCm": 77.2,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "70620582": {
+      "isStandaloneFurniture": true,
+      "category": "dining-chair",
+      "typeName": "Upholstered dining chair",
+      "roomTypes": [
+        "dining-room"
+      ],
+      "styleTags": [
+        "cozy",
+        "classic"
+      ],
+      "colors": [
+        "dark red"
+      ],
+      "material": "",
+      "widthCm": 54.9,
+      "depthCm": 51.1,
+      "heightCm": 74.9,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "70630454": {
+      "isStandaloneFurniture": true,
+      "category": "dining-table",
+      "typeName": "Extendable dining table",
+      "roomTypes": [
+        "dining-room"
+      ],
+      "styleTags": [
+        "modern",
+        "classic"
+      ],
+      "colors": [
+        "black",
+        "walnut"
+      ],
+      "material": "walnut veneer",
+      "widthCm": 235,
+      "depthCm": 100,
+      "heightCm": 74.9,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "70632636": {
+      "isStandaloneFurniture": true,
+      "category": "sofa",
+      "typeName": "3-seat sofa",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "cozy",
+        "modern"
+      ],
+      "colors": [
+        "brown",
+        "beige"
+      ],
+      "material": "chenille woven twill",
+      "widthCm": 255.9,
+      "depthCm": 108.9,
+      "heightCm": 95.9,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "80331973": {
+      "isStandaloneFurniture": true,
+      "category": "wardrobe",
+      "typeName": "Wardrobe",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "minimal",
+        "scandinavian"
+      ],
+      "colors": [
+        "white"
+      ],
+      "material": "polypropylene plastic",
+      "widthCm": 74,
+      "depthCm": 51.1,
+      "heightCm": 148.9,
+      "dimensionSource": "rules",
+      "confidence": 0.85,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "80388587": {
+      "isStandaloneFurniture": true,
+      "category": "dining-table",
+      "typeName": "Extendable dining table",
+      "roomTypes": [
+        "dining-room"
+      ],
+      "styleTags": [
+        "classic",
+        "scandinavian"
+      ],
+      "colors": [
+        "brown"
+      ],
+      "material": "",
+      "widthCm": 205.1,
+      "depthCm": 94.9,
+      "heightCm": 74.9,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "80395248": {
+      "isStandaloneFurniture": true,
+      "category": "bed",
+      "typeName": "Bed frame",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "pine"
+      ],
+      "material": "solid pine",
+      "widthCm": 139.1,
+      "depthCm": 194.9,
+      "heightCm": 65.1,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "80430591": {
+      "isStandaloneFurniture": false,
+      "category": "none",
+      "typeName": "Wall shelf unit",
+      "roomTypes": [],
+      "styleTags": [],
+      "colors": [
+        "black-brown"
+      ],
+      "material": "",
+      "widthCm": 29.8,
+      "depthCm": 27.9,
+      "heightCm": 189.9,
+      "dimensionSource": "rules",
+      "confidence": 0.6,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "80458839": {
+      "isStandaloneFurniture": true,
+      "category": "wardrobe",
+      "typeName": "Open wardrobe",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "classic",
+        "scandinavian"
+      ],
+      "colors": [
+        "dark-brown",
+        "stained"
+      ],
+      "material": "",
+      "widthCm": 59.1,
+      "depthCm": 48.9,
+      "heightCm": 211.1,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "80487827": {
+      "isStandaloneFurniture": true,
+      "category": "bookshelf",
+      "typeName": "Bookcase",
+      "roomTypes": [
+        "living-room",
+        "home-office"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "white"
+      ],
+      "material": "",
+      "widthCm": 81,
+      "depthCm": 39.1,
+      "heightCm": 211.1,
+      "dimensionSource": "rules",
+      "confidence": 0.93,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "80488737": {
+      "isStandaloneFurniture": true,
+      "category": "nightstand",
+      "typeName": "Nightstand",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "white"
+      ],
+      "material": "",
+      "widthCm": 37.1,
+      "depthCm": 37.1,
+      "heightCm": 58.1,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "80501885": {
+      "isStandaloneFurniture": true,
+      "category": "office-chair",
+      "typeName": "Child's desk chair",
+      "roomTypes": [
+        "kids-room",
+        "home-office"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "modern"
+      ],
+      "colors": [
+        "white",
+        "light gray"
+      ],
+      "material": "",
+      "widthCm": 53,
+      "depthCm": 53,
+      "heightCm": 82.9,
+      "dimensionSource": "rules",
+      "confidence": 0.85,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "80529554": {
+      "isStandaloneFurniture": false,
+      "category": "none",
+      "typeName": "Storage bag",
+      "roomTypes": [],
+      "styleTags": [],
+      "colors": [
+        "green"
+      ],
+      "material": "braided cotton",
+      "widthCm": 34.9,
+      "depthCm": 34.9,
+      "heightCm": 34.9,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "80547063": {
+      "isStandaloneFurniture": true,
+      "category": "bed",
+      "typeName": "Extendable bed",
+      "roomTypes": [
+        "bedroom",
+        "kids-room"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "pine"
+      ],
+      "material": "pine",
+      "widthCm": 104.1,
+      "depthCm": 201,
+      "heightCm": 34.9,
+      "dimensionSource": "rules",
+      "confidence": 0.92,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "80570831": {
+      "isStandaloneFurniture": true,
+      "category": "office-chair",
+      "typeName": "Swivel chair",
+      "roomTypes": [
+        "home-office"
+      ],
+      "styleTags": [
+        "modern",
+        "classic"
+      ],
+      "colors": [
+        "black"
+      ],
+      "material": "",
+      "widthCm": 62.9,
+      "depthCm": 74.9,
+      "heightCm": 67.9,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "80579327": {
+      "isStandaloneFurniture": true,
+      "category": "tv-unit",
+      "typeName": "TV unit",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "cozy",
+        "scandinavian"
+      ],
+      "colors": [
+        "rattan"
+      ],
+      "material": "rattan",
+      "widthCm": 156.8,
+      "depthCm": 41,
+      "heightCm": 48.6,
+      "dimensionSource": "rules",
+      "confidence": 0.93,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "80587718": {
+      "isStandaloneFurniture": true,
+      "category": "side-table",
+      "typeName": "Side table",
+      "roomTypes": [
+        "living-room",
+        "bedroom"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "modern"
+      ],
+      "colors": [
+        "oak"
+      ],
+      "material": "oak",
+      "widthCm": 58.1,
+      "depthCm": 39.1,
+      "heightCm": 32.1,
+      "dimensionSource": "rules",
+      "confidence": 0.85,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "80593597": {
+      "isStandaloneFurniture": true,
+      "category": "nightstand",
+      "typeName": "Nightstand with drawer",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "brown walnut"
+      ],
+      "material": "",
+      "widthCm": 54,
+      "depthCm": 38.4,
+      "heightCm": 58.1,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "80598986": {
+      "isStandaloneFurniture": true,
+      "category": "tv-unit",
+      "typeName": "TV unit",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "brown walnut"
+      ],
+      "material": "",
+      "widthCm": 176.5,
+      "depthCm": 48.3,
+      "heightCm": 66,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "80609126": {
+      "isStandaloneFurniture": true,
+      "category": "nightstand",
+      "typeName": "Side table with shelf",
+      "roomTypes": [
+        "living-room",
+        "bedroom"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "white"
+      ],
+      "material": "",
+      "widthCm": 59.1,
+      "depthCm": 40,
+      "heightCm": 58.1,
+      "dimensionSource": "rules",
+      "confidence": 0.7,
+      "needsReview": true,
+      "reviewReasons": [
+        "dimensions-look-wrong"
+      ]
+    },
+    "80619804": {
+      "isStandaloneFurniture": true,
+      "category": "desk",
+      "typeName": "Desk with drawer",
+      "roomTypes": [
+        "home-office",
+        "kids-room"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "light bamboo"
+      ],
+      "material": "bamboo",
+      "widthCm": 120,
+      "depthCm": 60,
+      "heightCm": 75.9,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "80621067": {
+      "isStandaloneFurniture": true,
+      "category": "side-table",
+      "typeName": "Folding side table",
+      "roomTypes": [
+        "living-room",
+        "bedroom",
+        "home-office"
+      ],
+      "styleTags": [
+        "modern",
+        "minimal"
+      ],
+      "colors": [
+        "dark red"
+      ],
+      "material": "",
+      "widthCm": 49.8,
+      "depthCm": 40,
+      "heightCm": 51.1,
+      "dimensionSource": "rules",
+      "confidence": 0.8,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "90305704": {
+      "isStandaloneFurniture": true,
+      "category": "bed",
+      "typeName": "Extendable bed frame",
+      "roomTypes": [
+        "kids-room",
+        "bedroom"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "white"
+      ],
+      "material": "solid wood",
+      "widthCm": 107,
+      "depthCm": 128,
+      "heightCm": 100,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "90305803": {
+      "isStandaloneFurniture": true,
+      "category": "bookshelf",
+      "typeName": "Shelf unit",
+      "roomTypes": [
+        "living-room",
+        "home-office"
+      ],
+      "styleTags": [
+        "modern",
+        "minimal"
+      ],
+      "colors": [
+        "black-brown"
+      ],
+      "material": "tempered glass and metal",
+      "widthCm": 100,
+      "depthCm": 35.9,
+      "heightCm": 93,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "90372265": {
+      "isStandaloneFurniture": false,
+      "category": "none",
+      "typeName": "Kitchen wall cabinet",
+      "roomTypes": [],
+      "styleTags": [],
+      "colors": [
+        "white"
+      ],
+      "material": "",
+      "widthCm": 38.1,
+      "depthCm": 30.5,
+      "heightCm": 76.2,
+      "dimensionSource": "rules",
+      "confidence": 0.85,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "90423887": {
+      "isStandaloneFurniture": true,
+      "category": "dining-table",
+      "typeName": "Gateleg dining table",
+      "roomTypes": [
+        "dining-room"
+      ],
+      "styleTags": [
+        "scandinavian"
+      ],
+      "colors": [
+        "birch"
+      ],
+      "material": "birch",
+      "widthCm": 88.9,
+      "depthCm": 80,
+      "heightCm": 74,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "90455656": {
+      "isStandaloneFurniture": true,
+      "category": "armchair",
+      "typeName": "Armchair",
+      "roomTypes": [
+        "living-room",
+        "home-office"
+      ],
+      "styleTags": [
+        "cozy",
+        "modern"
+      ],
+      "colors": [
+        "dark yellow"
+      ],
+      "material": "",
+      "widthCm": 69.9,
+      "depthCm": 58.1,
+      "heightCm": 75.9,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "90493955": {
+      "isStandaloneFurniture": true,
+      "category": "desk",
+      "typeName": "Desk",
+      "roomTypes": [
+        "home-office"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "white"
+      ],
+      "material": "",
+      "widthCm": 65.1,
+      "depthCm": 40,
+      "heightCm": 74.9,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "90506750": {
+      "isStandaloneFurniture": true,
+      "category": "storage",
+      "typeName": "Sideboard",
+      "roomTypes": [
+        "dining-room",
+        "living-room"
+      ],
+      "styleTags": [
+        "modern",
+        "classic"
+      ],
+      "colors": [
+        "black",
+        "oak"
+      ],
+      "material": "oak veneer",
+      "widthCm": 120,
+      "depthCm": 41,
+      "heightCm": 97.2,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "90554388": {
+      "isStandaloneFurniture": true,
+      "category": "armchair",
+      "typeName": "Armchair",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "modern",
+        "cozy"
+      ],
+      "colors": [
+        "black"
+      ],
+      "material": "",
+      "widthCm": 64.1,
+      "depthCm": 68.9,
+      "heightCm": 71.1,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "90555095": {
+      "isStandaloneFurniture": true,
+      "category": "armchair",
+      "typeName": "Armchair",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "cozy"
+      ],
+      "colors": [],
+      "material": "solid pine",
+      "widthCm": 64.1,
+      "depthCm": 62.9,
+      "heightCm": 72.1,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "90569097": {
+      "isStandaloneFurniture": true,
+      "category": "dining-table",
+      "typeName": "Extendable dining table",
+      "roomTypes": [
+        "dining-room"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "white"
+      ],
+      "material": "",
+      "widthCm": 84.1,
+      "depthCm": 74,
+      "heightCm": 74.9,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "90574881": {
+      "isStandaloneFurniture": true,
+      "category": "tv-unit",
+      "typeName": "TV unit",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "black-brown"
+      ],
+      "material": "",
+      "widthCm": 146.7,
+      "depthCm": 39.1,
+      "heightCm": 59.7,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "90576583": {
+      "isStandaloneFurniture": true,
+      "category": "office-chair",
+      "typeName": "Swivel office chair",
+      "roomTypes": [
+        "home-office"
+      ],
+      "styleTags": [
+        "modern"
+      ],
+      "colors": [
+        "dark gray"
+      ],
+      "material": "",
+      "widthCm": 67,
+      "depthCm": 67,
+      "heightCm": 91.1,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "90586515": {
+      "isStandaloneFurniture": true,
+      "category": "bookshelf",
+      "typeName": "Shelving unit bench",
+      "roomTypes": [
+        "living-room",
+        "hallway"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "oak"
+      ],
+      "material": "oak veneer",
+      "widthCm": 180,
+      "depthCm": 40.6,
+      "heightCm": 43.8,
+      "dimensionSource": "rules",
+      "confidence": 0.85,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "90586558": {
+      "isStandaloneFurniture": true,
+      "category": "side-table",
+      "typeName": "Side table",
+      "roomTypes": [
+        "living-room",
+        "bedroom"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "modern"
+      ],
+      "colors": [
+        "dark brown"
+      ],
+      "material": "oak veneer",
+      "widthCm": 54.9,
+      "depthCm": 54.9,
+      "heightCm": 47.9,
+      "dimensionSource": "rules",
+      "confidence": 0.85,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "90586638": {
+      "isStandaloneFurniture": true,
+      "category": "tv-unit",
+      "typeName": "TV unit with sliding doors",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "modern"
+      ],
+      "colors": [
+        "oak"
+      ],
+      "material": "oak veneer",
+      "widthCm": 178.8,
+      "depthCm": 41.9,
+      "heightCm": 56.2,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "90587690": {
+      "isStandaloneFurniture": true,
+      "category": "desk",
+      "typeName": "Desk with storage",
+      "roomTypes": [
+        "home-office"
+      ],
+      "styleTags": [
+        "industrial"
+      ],
+      "colors": [
+        "black"
+      ],
+      "material": "metal and solid wood",
+      "widthCm": 140,
+      "depthCm": 69.9,
+      "heightCm": 74.9,
+      "dimensionSource": "rules",
+      "confidence": 0.93,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "90617970": {
+      "isStandaloneFurniture": true,
+      "category": "dining-chair",
+      "typeName": "Padded dining chair",
+      "roomTypes": [
+        "dining-room"
+      ],
+      "styleTags": [
+        "modern",
+        "cozy"
+      ],
+      "colors": [
+        "bright green"
+      ],
+      "material": "",
+      "widthCm": 44.1,
+      "depthCm": 54.9,
+      "heightCm": 75.9,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "00217797": {
+      "isStandaloneFurniture": true,
+      "category": "dining-chair",
+      "typeName": "Folding chair",
+      "roomTypes": [
+        "dining-room"
+      ],
+      "styleTags": [
+        "minimal",
+        "modern"
+      ],
+      "colors": [
+        "black"
+      ],
+      "material": "",
+      "widthCm": 41,
+      "depthCm": 45.1,
+      "heightCm": 78.1,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "00258882": {
+      "isStandaloneFurniture": false,
+      "category": "none",
+      "typeName": "Bed tray",
+      "roomTypes": [],
+      "styleTags": [],
+      "colors": [
+        "white"
+      ],
+      "material": "",
+      "widthCm": 36.2,
+      "depthCm": 55.9,
+      "heightCm": 26,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "00266783": {
+      "isStandaloneFurniture": false,
+      "category": "storage",
+      "typeName": "Base cabinet door set",
+      "roomTypes": [],
+      "styleTags": [],
+      "colors": [
+        "white"
+      ],
+      "material": "lacquered",
+      "widthCm": 33.7,
+      "depthCm": null,
+      "heightCm": 75.9,
+      "dimensionSource": "missing",
+      "confidence": 0.8,
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-dimensions"
+      ]
+    },
+    "00395252": {
+      "isStandaloneFurniture": true,
+      "category": "bed",
+      "typeName": "Bed frame",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "pine"
+      ],
+      "material": "solid pine",
+      "widthCm": 101,
+      "depthCm": 194.9,
+      "heightCm": 65.1,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "00439468": {
+      "isStandaloneFurniture": true,
+      "category": "wardrobe",
+      "typeName": "Open wardrobe with sliding door",
+      "roomTypes": [
+        "bedroom",
+        "hallway"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "bamboo"
+      ],
+      "material": "bamboo",
+      "widthCm": 120,
+      "depthCm": 47,
+      "heightCm": 186.1,
+      "dimensionSource": "rules",
+      "confidence": 0.8,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "00453765": {
+      "isStandaloneFurniture": true,
+      "category": "wardrobe",
+      "typeName": "Wardrobe with 3 doors",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "modern",
+        "minimal"
+      ],
+      "colors": [
+        "black-brown"
+      ],
+      "material": "",
+      "widthCm": 117.2,
+      "depthCm": 54.9,
+      "heightCm": 175.9,
+      "dimensionSource": "rules",
+      "confidence": 0.85,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "00488963": {
+      "isStandaloneFurniture": true,
+      "category": "nightstand",
+      "typeName": "Nightstand",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "white"
+      ],
+      "material": "",
+      "widthCm": 39.7,
+      "depthCm": 35.6,
+      "heightCm": 62.5,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "00503435": {
+      "isStandaloneFurniture": true,
+      "category": "office-chair",
+      "typeName": "Swivel office chair",
+      "roomTypes": [
+        "home-office"
+      ],
+      "styleTags": [
+        "modern"
+      ],
+      "colors": [
+        "black"
+      ],
+      "material": "",
+      "widthCm": 65.1,
+      "depthCm": 65.1,
+      "heightCm": 85.1,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "00529478": {
+      "isStandaloneFurniture": true,
+      "category": "dining-chair",
+      "typeName": "Dining chair",
+      "roomTypes": [
+        "dining-room"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "classic"
+      ],
+      "colors": [
+        "light brown"
+      ],
+      "material": "solid wood",
+      "widthCm": 40,
+      "depthCm": 48.9,
+      "heightCm": 82.9,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "00546595": {
+      "isStandaloneFurniture": true,
+      "category": "tv-unit",
+      "typeName": "TV unit",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "modern",
+        "minimal"
+      ],
+      "colors": [
+        "dark gray"
+      ],
+      "material": "",
+      "widthCm": 146.1,
+      "depthCm": 37.1,
+      "heightCm": 49.8,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "00563716": {
+      "isStandaloneFurniture": true,
+      "category": "office-chair",
+      "typeName": "Child's desk chair",
+      "roomTypes": [
+        "kids-room",
+        "home-office"
+      ],
+      "styleTags": [
+        "modern"
+      ],
+      "colors": [
+        "turquoise"
+      ],
+      "material": "",
+      "widthCm": 58.1,
+      "depthCm": 62.9,
+      "heightCm": 101.9,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "00565758": {
+      "isStandaloneFurniture": true,
+      "category": "dining-table",
+      "typeName": "Extendable dining table",
+      "roomTypes": [
+        "dining-room"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "classic"
+      ],
+      "colors": [
+        "brown"
+      ],
+      "material": "beech veneer",
+      "widthCm": 149.9,
+      "depthCm": 89.9,
+      "heightCm": 74.9,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "00565782": {
+      "isStandaloneFurniture": true,
+      "category": "tv-unit",
+      "typeName": "TV unit",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "white"
+      ],
+      "material": "",
+      "widthCm": 160,
+      "depthCm": 41.9,
+      "heightCm": 45.1,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "00568728": {
+      "isStandaloneFurniture": true,
+      "category": "dining-table",
+      "typeName": "Dining table",
+      "roomTypes": [
+        "dining-room"
+      ],
+      "styleTags": [
+        "modern",
+        "minimal"
+      ],
+      "colors": [
+        "white"
+      ],
+      "material": "lacquered MDF, tubular steel",
+      "widthCm": 180,
+      "depthCm": 89.9,
+      "heightCm": 74.9,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "00569191": {
+      "isStandaloneFurniture": true,
+      "category": "dining-chair",
+      "typeName": "Dining chair",
+      "roomTypes": [
+        "dining-room"
+      ],
+      "styleTags": [
+        "scandinavian"
+      ],
+      "colors": [
+        "birch"
+      ],
+      "material": "birch veneer",
+      "widthCm": 45.1,
+      "depthCm": 51.1,
+      "heightCm": 82.9,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "00575451": {
+      "isStandaloneFurniture": true,
+      "category": "sofa",
+      "typeName": "Sleeper sofa",
+      "roomTypes": [
+        "living-room",
+        "bedroom"
+      ],
+      "styleTags": [
+        "cozy",
+        "scandinavian"
+      ],
+      "colors": [
+        "yellow"
+      ],
+      "material": "",
+      "widthCm": 126,
+      "depthCm": 75.9,
+      "heightCm": 61,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "00579034": {
+      "isStandaloneFurniture": true,
+      "category": "tv-unit",
+      "typeName": "TV bench",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "industrial"
+      ],
+      "colors": [
+        "black"
+      ],
+      "material": "metal and solid wood",
+      "widthCm": 198.1,
+      "depthCm": 45.1,
+      "heightCm": 54,
+      "dimensionSource": "rules",
+      "confidence": 0.85,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "00587492": {
+      "isStandaloneFurniture": true,
+      "category": "dining-table",
+      "typeName": "Extendable dining table",
+      "roomTypes": [
+        "dining-room"
+      ],
+      "styleTags": [
+        "classic",
+        "scandinavian"
+      ],
+      "colors": [
+        "white"
+      ],
+      "material": "",
+      "widthCm": 129.9,
+      "depthCm": 80,
+      "heightCm": 74.9,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "00587581": {
+      "isStandaloneFurniture": true,
+      "category": "dining-chair",
+      "typeName": "Dining chair",
+      "roomTypes": [
+        "dining-room"
+      ],
+      "styleTags": [
+        "cozy",
+        "classic"
+      ],
+      "colors": [
+        "dark brown",
+        "light beige"
+      ],
+      "material": "wood with fabric cover",
+      "widthCm": 41.9,
+      "depthCm": 54,
+      "heightCm": 89.9,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "00591366": {
+      "isStandaloneFurniture": true,
+      "category": "desk",
+      "typeName": "Desk",
+      "roomTypes": [
+        "home-office",
+        "bedroom",
+        "kids-room"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "classic"
+      ],
+      "colors": [
+        "pine",
+        "white"
+      ],
+      "material": "pine wood",
+      "widthCm": 89.9,
+      "depthCm": 54.9,
+      "heightCm": 74.9,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "00593841": {
+      "isStandaloneFurniture": true,
+      "category": "wardrobe",
+      "typeName": "Wardrobe",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "classic",
+        "modern"
+      ],
+      "colors": [
+        "brown walnut"
+      ],
+      "material": "walnut effect wood",
+      "widthCm": 118.4,
+      "depthCm": 64.5,
+      "heightCm": 189.5,
+      "dimensionSource": "rules",
+      "confidence": 0.93,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "00604161": {
+      "isStandaloneFurniture": true,
+      "category": "desk",
+      "typeName": "Desk",
+      "roomTypes": [
+        "home-office",
+        "bedroom",
+        "kids-room"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "classic"
+      ],
+      "colors": [
+        "pine",
+        "black"
+      ],
+      "material": "pine wood",
+      "widthCm": 89.9,
+      "depthCm": 54.9,
+      "heightCm": 74.9,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "00607193": {
+      "isStandaloneFurniture": true,
+      "category": "bed",
+      "typeName": "Bed frame",
+      "roomTypes": [
+        "bedroom",
+        "kids-room"
+      ],
+      "styleTags": [
+        "classic"
+      ],
+      "colors": [
+        "black oak"
+      ],
+      "material": "oak effect wood",
+      "widthCm": 105.1,
+      "depthCm": 196.9,
+      "heightCm": 101,
+      "dimensionSource": "rules",
+      "confidence": 0.93,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "00611265": {
+      "isStandaloneFurniture": true,
+      "category": "dining-table",
+      "typeName": "Extendable dining table",
+      "roomTypes": [
+        "dining-room"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "classic"
+      ],
+      "colors": [
+        "natural wood"
+      ],
+      "material": "rubberwood",
+      "widthCm": 240,
+      "depthCm": 100,
+      "heightCm": 74.9,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "00617564": {
+      "isStandaloneFurniture": true,
+      "category": "dining-chair",
+      "typeName": "Dining chair",
+      "roomTypes": [
+        "dining-room"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "classic"
+      ],
+      "colors": [
+        "dark beige"
+      ],
+      "material": "solid pine",
+      "widthCm": 47,
+      "depthCm": 44.1,
+      "heightCm": 80,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "00628242": {
+      "isStandaloneFurniture": true,
+      "category": "wardrobe",
+      "typeName": "Wardrobe with 2 doors",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "classic",
+        "modern"
+      ],
+      "colors": [
+        "dark gray-blue"
+      ],
+      "material": "wood",
+      "widthCm": 81.9,
+      "depthCm": 60,
+      "heightCm": 194,
+      "dimensionSource": "rules",
+      "confidence": 0.93,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "00628751": {
+      "isStandaloneFurniture": true,
+      "category": "desk",
+      "typeName": "Foldable desk",
+      "roomTypes": [
+        "home-office",
+        "dining-room",
+        "kids-room"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "green"
+      ],
+      "material": "pine",
+      "widthCm": 100,
+      "depthCm": 54.9,
+      "heightCm": 74.9,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s09392616": {
+      "isStandaloneFurniture": true,
+      "category": "bookshelf",
+      "typeName": "Shelving unit",
+      "roomTypes": [
+        "home-office",
+        "living-room"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "white"
+      ],
+      "material": "",
+      "widthCm": 61.9,
+      "depthCm": 40,
+      "heightCm": 200.7,
+      "dimensionSource": "rules",
+      "confidence": 0.7,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s09494403": {
+      "isStandaloneFurniture": true,
+      "category": "sofa",
+      "typeName": "6-seat sectional sofa",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "cozy",
+        "modern"
+      ],
+      "colors": [
+        "anthracite"
+      ],
+      "material": "polyester upholstery",
+      "widthCm": 368,
+      "depthCm": 256.9,
+      "heightCm": 82.9,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s09514774": {
+      "isStandaloneFurniture": true,
+      "category": "bed",
+      "typeName": "Upholstered bed frame",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "modern",
+        "cozy"
+      ],
+      "colors": [
+        "gray-green"
+      ],
+      "material": "",
+      "widthCm": 148.9,
+      "depthCm": 202.9,
+      "heightCm": 107,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s09514830": {
+      "isStandaloneFurniture": true,
+      "category": "sofa",
+      "typeName": "4-seat corner sectional sofa",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "cozy",
+        "modern"
+      ],
+      "colors": [
+        "natural"
+      ],
+      "material": "",
+      "widthCm": 263.8,
+      "depthCm": 93,
+      "heightCm": 91.1,
+      "dimensionSource": "model",
+      "confidence": 0.9,
+      "needsReview": true,
+      "reviewReasons": [
+        "dimensions-from-model"
+      ]
+    },
+    "s09514991": {
+      "isStandaloneFurniture": true,
+      "category": "sofa",
+      "typeName": "Sofa with chaise",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "cozy",
+        "modern"
+      ],
+      "colors": [
+        "blue"
+      ],
+      "material": "chenille cotton and polyester",
+      "widthCm": 261.9,
+      "depthCm": 93,
+      "heightCm": 91.1,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s09521595": {
+      "isStandaloneFurniture": true,
+      "category": "desk",
+      "typeName": "Desk with storage",
+      "roomTypes": [
+        "home-office"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "white"
+      ],
+      "material": "",
+      "widthCm": 140,
+      "depthCm": 60,
+      "heightCm": 73,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s09547816": {
+      "isStandaloneFurniture": true,
+      "category": "wardrobe",
+      "typeName": "Kids wardrobe",
+      "roomTypes": [
+        "kids-room"
+      ],
+      "styleTags": [
+        "scandinavian"
+      ],
+      "colors": [
+        "white",
+        "blue"
+      ],
+      "material": "",
+      "widthCm": 60,
+      "depthCm": 65.1,
+      "heightCm": 135.9,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s09555854": {
+      "isStandaloneFurniture": true,
+      "category": "bookshelf",
+      "typeName": "Bookcase with drawers",
+      "roomTypes": [
+        "living-room",
+        "kids-room"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "white"
+      ],
+      "material": "",
+      "widthCm": 60,
+      "depthCm": 65.1,
+      "heightCm": 195.9,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s09560695": {
+      "isStandaloneFurniture": true,
+      "category": "wardrobe",
+      "typeName": "Wardrobe with sliding doors",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "white"
+      ],
+      "material": "",
+      "widthCm": 200,
+      "depthCm": 66,
+      "heightCm": 236.5,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s09620449": {
+      "isStandaloneFurniture": true,
+      "category": "sofa",
+      "typeName": "4.5-seat modular sofa",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "modern",
+        "cozy"
+      ],
+      "colors": [
+        "gray",
+        "beige"
+      ],
+      "material": "",
+      "widthCm": 358.1,
+      "depthCm": 107,
+      "heightCm": 94.9,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s09626724": {
+      "isStandaloneFurniture": true,
+      "category": "wardrobe",
+      "typeName": "Wardrobe combination",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "modern",
+        "scandinavian"
+      ],
+      "colors": [
+        "gray",
+        "beige",
+        "red-brown"
+      ],
+      "material": "",
+      "widthCm": 200,
+      "depthCm": 60,
+      "heightCm": 201.3,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s09627219": {
+      "isStandaloneFurniture": true,
+      "category": "bed",
+      "typeName": "Upholstered bed frame",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "cozy",
+        "modern"
+      ],
+      "colors": [
+        "beige"
+      ],
+      "material": "upholstered",
+      "widthCm": 161.9,
+      "depthCm": 212.1,
+      "heightCm": 100,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s19157897": {
+      "isStandaloneFurniture": true,
+      "category": "wardrobe",
+      "typeName": "Wardrobe combination",
+      "roomTypes": [
+        "bedroom",
+        "home-office"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "white"
+      ],
+      "material": "",
+      "widthCm": null,
+      "depthCm": null,
+      "heightCm": 349.9,
+      "dimensionSource": "missing",
+      "confidence": 0.85,
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-dimensions"
+      ]
+    },
+    "s19403817": {
+      "isStandaloneFurniture": true,
+      "category": "bookshelf",
+      "typeName": "Shelving unit with bottle racks",
+      "roomTypes": [
+        "living-room",
+        "dining-room"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "classic"
+      ],
+      "colors": [
+        "pine"
+      ],
+      "material": "solid pine",
+      "widthCm": 88.9,
+      "depthCm": 29.8,
+      "heightCm": 124.1,
+      "dimensionSource": "rules",
+      "confidence": 0.8,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s19501714": {
+      "isStandaloneFurniture": true,
+      "category": "bed",
+      "typeName": "Bed frame with headboard",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "classic"
+      ],
+      "colors": [
+        "birch"
+      ],
+      "material": "birch veneer",
+      "widthCm": 172.1,
+      "depthCm": 214.9,
+      "heightCm": 42.9,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": true,
+      "reviewReasons": [
+        "dimensions-look-wrong"
+      ]
+    },
+    "s19548919": {
+      "isStandaloneFurniture": true,
+      "category": "wardrobe",
+      "typeName": "Wardrobe combination",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "modern",
+        "minimal"
+      ],
+      "colors": [
+        "anthracite"
+      ],
+      "material": "",
+      "widthCm": 81.9,
+      "depthCm": 40,
+      "heightCm": 200.7,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s19563778": {
+      "isStandaloneFurniture": true,
+      "category": "wardrobe",
+      "typeName": "Wardrobe combination",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "modern",
+        "minimal"
+      ],
+      "colors": [
+        "dark gray",
+        "gray"
+      ],
+      "material": "",
+      "widthCm": 249.9,
+      "depthCm": 60,
+      "heightCm": 236.5,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s19563924": {
+      "isStandaloneFurniture": true,
+      "category": "tv-unit",
+      "typeName": "TV storage combination",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "modern",
+        "scandinavian"
+      ],
+      "colors": [
+        "black",
+        "oak"
+      ],
+      "material": "oak veneer",
+      "widthCm": 181.3,
+      "depthCm": 42.2,
+      "heightCm": null,
+      "dimensionSource": "missing",
+      "confidence": 0.9,
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-dimensions"
+      ]
+    },
+    "s19574395": {
+      "isStandaloneFurniture": true,
+      "category": "bed",
+      "typeName": "Bed frame",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "classic",
+        "scandinavian"
+      ],
+      "colors": [
+        "oak",
+        "off-white"
+      ],
+      "material": "oak veneer",
+      "widthCm": 149.9,
+      "depthCm": 199.1,
+      "heightCm": 100,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s19581838": {
+      "isStandaloneFurniture": true,
+      "category": "bed",
+      "typeName": "Bed frame",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "cozy"
+      ],
+      "colors": [
+        "white"
+      ],
+      "material": "",
+      "widthCm": 159.1,
+      "depthCm": 208,
+      "heightCm": 66,
+      "dimensionSource": "rules",
+      "confidence": 0.93,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s19599683": {
+      "isStandaloneFurniture": true,
+      "category": "dining-chair",
+      "typeName": "Upholstered dining chair",
+      "roomTypes": [
+        "dining-room"
+      ],
+      "styleTags": [
+        "cozy",
+        "scandinavian"
+      ],
+      "colors": [
+        "beige",
+        "brown"
+      ],
+      "material": "fabric upholstery",
+      "widthCm": 47,
+      "depthCm": 55.9,
+      "heightCm": 87.9,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s19620986": {
+      "isStandaloneFurniture": true,
+      "category": "bed",
+      "typeName": "Bed frame",
+      "roomTypes": [
+        "bedroom",
+        "kids-room"
+      ],
+      "styleTags": [
+        "classic"
+      ],
+      "colors": [
+        "off-white"
+      ],
+      "material": "",
+      "widthCm": 105.1,
+      "depthCm": 196.9,
+      "heightCm": 101,
+      "dimensionSource": "rules",
+      "confidence": 0.93,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s19621919": {
+      "isStandaloneFurniture": true,
+      "category": "desk",
+      "typeName": "Desk",
+      "roomTypes": [
+        "home-office"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "ash",
+        "white"
+      ],
+      "material": "",
+      "widthCm": 120,
+      "depthCm": 69.9,
+      "heightCm": 74.9,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s19630179": {
+      "isStandaloneFurniture": true,
+      "category": "bed",
+      "typeName": "Metal bed frame",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "classic",
+        "cozy"
+      ],
+      "colors": [
+        "off-white"
+      ],
+      "material": "powder-coated steel",
+      "widthCm": 141.9,
+      "depthCm": 198.1,
+      "heightCm": 146.1,
+      "dimensionSource": "rules",
+      "confidence": 0.93,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s29158212": {
+      "isStandaloneFurniture": true,
+      "category": "wardrobe",
+      "typeName": "Wardrobe combination",
+      "roomTypes": [
+        "bedroom",
+        "hallway"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "white"
+      ],
+      "material": "",
+      "widthCm": 84.5,
+      "depthCm": 54.9,
+      "heightCm": 215.9,
+      "dimensionSource": "rules",
+      "confidence": 0.8,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s29303940": {
+      "isStandaloneFurniture": true,
+      "category": "bed",
+      "typeName": "Loft bed frame with desk top",
+      "roomTypes": [
+        "kids-room",
+        "bedroom"
+      ],
+      "styleTags": [
+        "modern",
+        "scandinavian"
+      ],
+      "colors": [
+        "white",
+        "light gray"
+      ],
+      "material": "",
+      "widthCm": 196.9,
+      "depthCm": 102.9,
+      "heightCm": 194.9,
+      "dimensionSource": "rules",
+      "confidence": 0.85,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s29390107": {
+      "isStandaloneFurniture": true,
+      "category": "storage",
+      "typeName": "Kitchen island shelf unit",
+      "roomTypes": [
+        "dining-room"
+      ],
+      "styleTags": [
+        "industrial",
+        "modern"
+      ],
+      "colors": [
+        "stainless steel"
+      ],
+      "material": "stainless steel",
+      "widthCm": 86,
+      "depthCm": 61,
+      "heightCm": 92.1,
+      "dimensionSource": "rules",
+      "confidence": 0.75,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s29442427": {
+      "isStandaloneFurniture": true,
+      "category": "sofa",
+      "typeName": "Loveseat sofa",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "cozy",
+        "modern"
+      ],
+      "colors": [
+        "beige",
+        "brown",
+        "black"
+      ],
+      "material": "",
+      "widthCm": 165.1,
+      "depthCm": 94,
+      "heightCm": 87.9,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s29443295": {
+      "isStandaloneFurniture": true,
+      "category": "armchair",
+      "typeName": "1.5-seat armchair",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "cozy",
+        "classic"
+      ],
+      "colors": [
+        "anthracite",
+        "brown"
+      ],
+      "material": "",
+      "widthCm": 134,
+      "depthCm": 89.9,
+      "heightCm": 74,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s29488571": {
+      "isStandaloneFurniture": true,
+      "category": "office-chair",
+      "typeName": "Swivel office chair",
+      "roomTypes": [
+        "home-office"
+      ],
+      "styleTags": [
+        "modern",
+        "minimal"
+      ],
+      "colors": [
+        "white",
+        "black"
+      ],
+      "material": "",
+      "widthCm": 67,
+      "depthCm": 67,
+      "heightCm": 89.9,
+      "dimensionSource": "rules",
+      "confidence": 0.93,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s29499701": {
+      "isStandaloneFurniture": true,
+      "category": "sofa",
+      "typeName": "Sofa with chaise",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "cozy",
+        "modern"
+      ],
+      "colors": [
+        "blue"
+      ],
+      "material": "",
+      "widthCm": 280,
+      "depthCm": 162.9,
+      "heightCm": 82.9,
+      "dimensionSource": "rules",
+      "confidence": 0.94,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s29501718": {
+      "isStandaloneFurniture": true,
+      "category": "bed",
+      "typeName": "Bed frame",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "birch"
+      ],
+      "material": "birch veneer",
+      "widthCm": 172.1,
+      "depthCm": 214.9,
+      "heightCm": 42.9,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s29528218": {
+      "isStandaloneFurniture": true,
+      "category": "wardrobe",
+      "typeName": "Reach-in wardrobe with sliding door",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "modern",
+        "minimal"
+      ],
+      "colors": [
+        "black",
+        "dark gray",
+        "white"
+      ],
+      "material": "",
+      "widthCm": 152.1,
+      "depthCm": 65.1,
+      "heightCm": 239.7,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s29604033": {
+      "isStandaloneFurniture": true,
+      "category": "sofa",
+      "typeName": "Loveseat sofa",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "cozy",
+        "modern"
+      ],
+      "colors": [
+        "beige"
+      ],
+      "material": "",
+      "widthCm": 158.1,
+      "depthCm": 94.9,
+      "heightCm": 95.9,
+      "dimensionSource": "rules",
+      "confidence": 0.94,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s29607507": {
+      "isStandaloneFurniture": true,
+      "category": "bed",
+      "typeName": "Upholstered bed frame",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "cozy",
+        "modern"
+      ],
+      "colors": [
+        "dark blue"
+      ],
+      "material": "",
+      "widthCm": 111.1,
+      "depthCm": 200,
+      "heightCm": 100,
+      "dimensionSource": "rules",
+      "confidence": 0.94,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s29626817": {
+      "isStandaloneFurniture": true,
+      "category": "sofa",
+      "typeName": "3-seat sofa with chaise",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "cozy",
+        "modern"
+      ],
+      "colors": [
+        "beige",
+        "gray"
+      ],
+      "material": "",
+      "widthCm": 253,
+      "depthCm": null,
+      "heightCm": 100,
+      "dimensionSource": "missing",
+      "confidence": 0.93,
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-dimensions"
+      ]
+    },
+    "s39317847": {
+      "isStandaloneFurniture": true,
+      "category": "armchair",
+      "typeName": "Armchair",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "modern",
+        "cozy"
+      ],
+      "colors": [
+        "gray-green",
+        "wood"
+      ],
+      "material": "leather",
+      "widthCm": 91.1,
+      "depthCm": 92.1,
+      "heightCm": 81,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s39495825": {
+      "isStandaloneFurniture": true,
+      "category": "sofa",
+      "typeName": "Corner sofa with chaise",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "cozy",
+        "modern"
+      ],
+      "colors": [
+        "gray-brown"
+      ],
+      "material": "",
+      "widthCm": 261.9,
+      "depthCm": 93,
+      "heightCm": 91.1,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s39508856": {
+      "isStandaloneFurniture": true,
+      "category": "sofa",
+      "typeName": "2-seat loveseat sofa",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "classic",
+        "cozy"
+      ],
+      "colors": [
+        "white"
+      ],
+      "material": "",
+      "widthCm": 141.9,
+      "depthCm": 77.2,
+      "heightCm": 80,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s39516007": {
+      "isStandaloneFurniture": true,
+      "category": "wardrobe",
+      "typeName": "Wardrobe with sliding doors",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "minimal",
+        "modern"
+      ],
+      "colors": [
+        "black",
+        "dark gray"
+      ],
+      "material": "",
+      "widthCm": 176.8,
+      "depthCm": 65.1,
+      "heightCm": 204.5,
+      "dimensionSource": "rules",
+      "confidence": 0.85,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s39516903": {
+      "isStandaloneFurniture": true,
+      "category": "sofa",
+      "typeName": "3-seat sleeper sectional sofa",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "cozy",
+        "modern"
+      ],
+      "colors": [
+        "beige"
+      ],
+      "material": "",
+      "widthCm": 229.9,
+      "depthCm": 89.9,
+      "heightCm": 95.9,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s39546518": {
+      "isStandaloneFurniture": true,
+      "category": "wardrobe",
+      "typeName": "Wardrobe with shelves",
+      "roomTypes": [
+        "kids-room",
+        "bedroom"
+      ],
+      "styleTags": [
+        "scandinavian"
+      ],
+      "colors": [
+        "white",
+        "blue"
+      ],
+      "material": "",
+      "widthCm": 60,
+      "depthCm": 65.1,
+      "heightCm": 135.9,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s39563635": {
+      "isStandaloneFurniture": true,
+      "category": "desk",
+      "typeName": "Desk",
+      "roomTypes": [
+        "home-office"
+      ],
+      "styleTags": [
+        "modern",
+        "minimal"
+      ],
+      "colors": [
+        "black-brown",
+        "white"
+      ],
+      "material": "",
+      "widthCm": 120,
+      "depthCm": 60,
+      "heightCm": 73,
+      "dimensionSource": "rules",
+      "confidence": 0.92,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s39563904": {
+      "isStandaloneFurniture": true,
+      "category": "bed",
+      "typeName": "Extendable bed frame with guard rail",
+      "roomTypes": [
+        "bedroom",
+        "kids-room"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "white"
+      ],
+      "material": "",
+      "widthCm": 107,
+      "depthCm": 125.1,
+      "heightCm": 71.1,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": true,
+      "reviewReasons": [
+        "dimensions-look-wrong"
+      ]
+    },
+    "s39564475": {
+      "isStandaloneFurniture": true,
+      "category": "wardrobe",
+      "typeName": "Wardrobe combination",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "industrial",
+        "modern"
+      ],
+      "colors": [
+        "anthracite"
+      ],
+      "material": "metal",
+      "widthCm": 61.9,
+      "depthCm": 40,
+      "heightCm": 200.7,
+      "dimensionSource": "rules",
+      "confidence": 0.85,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s39574318": {
+      "isStandaloneFurniture": true,
+      "category": "sofa",
+      "typeName": "4-seat sectional sofa",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "modern",
+        "minimal"
+      ],
+      "colors": [
+        "dark turquoise"
+      ],
+      "material": "",
+      "widthCm": 308,
+      "depthCm": 99.1,
+      "heightCm": null,
+      "dimensionSource": "missing",
+      "confidence": 0.92,
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-dimensions"
+      ]
+    },
+    "s39580994": {
+      "isStandaloneFurniture": true,
+      "category": "tv-unit",
+      "typeName": "Media storage combination",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "modern"
+      ],
+      "colors": [
+        "brown walnut"
+      ],
+      "material": "",
+      "widthCm": 280,
+      "depthCm": 34.9,
+      "heightCm": 34.9,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s39613391": {
+      "isStandaloneFurniture": true,
+      "category": "bed",
+      "typeName": "Bed frame",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "classic"
+      ],
+      "colors": [
+        "off-white"
+      ],
+      "material": "powder-coated steel",
+      "widthCm": 160,
+      "depthCm": 209.9,
+      "heightCm": 146.1,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s39619213": {
+      "isStandaloneFurniture": true,
+      "category": "bookshelf",
+      "typeName": "Shelving unit with doors and drawers",
+      "roomTypes": [
+        "living-room",
+        "bedroom"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "white"
+      ],
+      "material": "",
+      "widthCm": 181.9,
+      "depthCm": 39.1,
+      "heightCm": 181.9,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s39620438": {
+      "isStandaloneFurniture": true,
+      "category": "sofa",
+      "typeName": "4.5-seat modular sofa",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "modern",
+        "cozy"
+      ],
+      "colors": [
+        "off-white"
+      ],
+      "material": "fabric",
+      "widthCm": 358.1,
+      "depthCm": 107,
+      "heightCm": 94.9,
+      "dimensionSource": "rules",
+      "confidence": 0.97,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s49508851": {
+      "isStandaloneFurniture": true,
+      "category": "armchair",
+      "typeName": "Armchair",
+      "roomTypes": [
+        "living-room",
+        "bedroom"
+      ],
+      "styleTags": [
+        "classic",
+        "cozy"
+      ],
+      "colors": [
+        "light beige"
+      ],
+      "material": "",
+      "widthCm": 75.9,
+      "depthCm": 78.1,
+      "heightCm": 80,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s49555003": {
+      "isStandaloneFurniture": true,
+      "category": "desk",
+      "typeName": "Desk and chair set",
+      "roomTypes": [
+        "home-office"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "modern"
+      ],
+      "colors": [
+        "white"
+      ],
+      "material": "",
+      "widthCm": null,
+      "depthCm": null,
+      "heightCm": null,
+      "dimensionSource": "missing",
+      "confidence": 0.7,
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-dimensions"
+      ]
+    },
+    "s49563913": {
+      "isStandaloneFurniture": true,
+      "category": "bed",
+      "typeName": "Bed frame with storage",
+      "roomTypes": [
+        "bedroom",
+        "kids-room"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "modern"
+      ],
+      "colors": [
+        "white"
+      ],
+      "material": "",
+      "widthCm": 102.9,
+      "depthCm": 195.9,
+      "heightCm": 88.9,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s49590365": {
+      "isStandaloneFurniture": true,
+      "category": "armchair",
+      "typeName": "Wing chair with ottoman",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "classic",
+        "cozy"
+      ],
+      "colors": [
+        "brown-red"
+      ],
+      "material": "",
+      "widthCm": null,
+      "depthCm": null,
+      "heightCm": null,
+      "dimensionSource": "missing",
+      "confidence": 0.9,
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-dimensions"
+      ]
+    },
+    "s49604089": {
+      "isStandaloneFurniture": true,
+      "category": "sofa",
+      "typeName": "4-seat sectional sofa with chaise",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "modern",
+        "cozy"
+      ],
+      "colors": [
+        "beige"
+      ],
+      "material": "",
+      "widthCm": 300,
+      "depthCm": 94.9,
+      "heightCm": 95.9,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s49625355": {
+      "isStandaloneFurniture": true,
+      "category": "armchair",
+      "typeName": "Armchair",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "cozy"
+      ],
+      "colors": [
+        "dark green",
+        "beige"
+      ],
+      "material": "layer-glued bent wood",
+      "widthCm": 67.9,
+      "depthCm": 81.9,
+      "heightCm": 100,
+      "dimensionSource": "rules",
+      "confidence": 0.97,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s49626294": {
+      "isStandaloneFurniture": true,
+      "category": "sofa",
+      "typeName": "Loveseat",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "modern"
+      ],
+      "colors": [
+        "beige",
+        "gray"
+      ],
+      "material": "",
+      "widthCm": 180,
+      "depthCm": null,
+      "heightCm": 100,
+      "dimensionSource": "missing",
+      "confidence": 0.95,
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-dimensions"
+      ]
+    },
+    "s59331847": {
+      "isStandaloneFurniture": true,
+      "category": "office-chair",
+      "typeName": "Swivel chair",
+      "roomTypes": [
+        "home-office"
+      ],
+      "styleTags": [
+        "modern"
+      ],
+      "colors": [
+        "dark gray",
+        "black"
+      ],
+      "material": "",
+      "widthCm": 67,
+      "depthCm": 67,
+      "heightCm": 89.9,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s59443265": {
+      "isStandaloneFurniture": true,
+      "category": "sofa",
+      "typeName": "2-seat sofa",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "cozy",
+        "classic"
+      ],
+      "colors": [
+        "gray",
+        "green",
+        "brown"
+      ],
+      "material": "",
+      "widthCm": 194,
+      "depthCm": 89.9,
+      "heightCm": 74,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s59520254": {
+      "isStandaloneFurniture": true,
+      "category": "bed",
+      "typeName": "Upholstered bed frame",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "cozy",
+        "modern"
+      ],
+      "colors": [
+        "light beige"
+      ],
+      "material": "",
+      "widthCm": 208,
+      "depthCm": 214.9,
+      "heightCm": 107,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s59590402": {
+      "isStandaloneFurniture": true,
+      "category": "bookshelf",
+      "typeName": "Shelving unit",
+      "roomTypes": [
+        "living-room",
+        "home-office"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "modern"
+      ],
+      "colors": [
+        "black-brown"
+      ],
+      "material": "",
+      "widthCm": 60,
+      "depthCm": 40,
+      "heightCm": 193,
+      "dimensionSource": "rules",
+      "confidence": 0.85,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s59619212": {
+      "isStandaloneFurniture": true,
+      "category": "bookshelf",
+      "typeName": "Shelving unit with underframe",
+      "roomTypes": [
+        "living-room",
+        "home-office"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "white",
+        "stained oak effect"
+      ],
+      "material": "",
+      "widthCm": 147,
+      "depthCm": 39.1,
+      "heightCm": 94,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s59621917": {
+      "isStandaloneFurniture": true,
+      "category": "desk",
+      "typeName": "Desk",
+      "roomTypes": [
+        "home-office"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "white"
+      ],
+      "material": "",
+      "widthCm": 120,
+      "depthCm": 69.9,
+      "heightCm": 74.9,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s59623370": {
+      "isStandaloneFurniture": true,
+      "category": "tv-unit",
+      "typeName": "TV bench",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "modern"
+      ],
+      "colors": [
+        "white",
+        "oak"
+      ],
+      "material": "oak veneer",
+      "widthCm": 240,
+      "depthCm": 41.9,
+      "heightCm": 40,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s59626302": {
+      "isStandaloneFurniture": true,
+      "category": "sofa",
+      "typeName": "2-seat sofa",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "cozy",
+        "modern"
+      ],
+      "colors": [
+        "light beige"
+      ],
+      "material": "",
+      "widthCm": 180,
+      "depthCm": null,
+      "heightCm": 100,
+      "dimensionSource": "missing",
+      "confidence": 0.95,
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-dimensions"
+      ]
+    },
+    "s59654856": {
+      "isStandaloneFurniture": true,
+      "category": "nightstand",
+      "typeName": "Bedside table",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "minimal",
+        "modern"
+      ],
+      "colors": [],
+      "material": "",
+      "widthCm": 40,
+      "depthCm": 47.9,
+      "heightCm": 53.3,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s69326548": {
+      "isStandaloneFurniture": true,
+      "category": "bed",
+      "typeName": "Bed frame",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "modern",
+        "minimal"
+      ],
+      "colors": [
+        "white"
+      ],
+      "material": "",
+      "widthCm": 107,
+      "depthCm": 125.1,
+      "heightCm": 71.1,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s69441732": {
+      "isStandaloneFurniture": true,
+      "category": "bed",
+      "typeName": "Bed frame with headboards",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "modern"
+      ],
+      "colors": [
+        "white",
+        "rattan"
+      ],
+      "material": "powder-coated metal",
+      "widthCm": 141,
+      "depthCm": 196.9,
+      "heightCm": 27,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s69442425": {
+      "isStandaloneFurniture": true,
+      "category": "sofa",
+      "typeName": "Loveseat",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "cozy",
+        "modern"
+      ],
+      "colors": [
+        "red",
+        "brown",
+        "black"
+      ],
+      "material": "foam upholstery",
+      "widthCm": 165.1,
+      "depthCm": 94,
+      "heightCm": 87.9,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s69443340": {
+      "isStandaloneFurniture": true,
+      "category": "sofa",
+      "typeName": "Sofa",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "classic",
+        "cozy"
+      ],
+      "colors": [
+        "gray",
+        "green",
+        "birch"
+      ],
+      "material": "upholstery with pocket springs",
+      "widthCm": 224.2,
+      "depthCm": 89.9,
+      "heightCm": 74,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s69494382": {
+      "isStandaloneFurniture": true,
+      "category": "sofa",
+      "typeName": "4-seat sectional sofa with chaise",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "cozy",
+        "modern"
+      ],
+      "colors": [
+        "anthracite"
+      ],
+      "material": "upholstery with pocket springs",
+      "widthCm": 318.1,
+      "depthCm": 162.9,
+      "heightCm": 82.9,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s69555889": {
+      "isStandaloneFurniture": true,
+      "category": "wardrobe",
+      "typeName": "Wardrobe combination",
+      "roomTypes": [
+        "bedroom",
+        "kids-room"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "white"
+      ],
+      "material": "",
+      "widthCm": 60,
+      "depthCm": 65.1,
+      "heightCm": 135.9,
+      "dimensionSource": "rules",
+      "confidence": 0.8,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s69591378": {
+      "isStandaloneFurniture": true,
+      "category": "desk",
+      "typeName": "Desk",
+      "roomTypes": [
+        "home-office"
+      ],
+      "styleTags": [
+        "modern",
+        "minimal"
+      ],
+      "colors": [
+        "black",
+        "black stained ash"
+      ],
+      "material": "ash veneer",
+      "widthCm": 160,
+      "depthCm": 80,
+      "heightCm": 85.1,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s69604093": {
+      "isStandaloneFurniture": true,
+      "category": "sofa",
+      "typeName": "4-seat sectional sofa with chaise",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "modern",
+        "cozy"
+      ],
+      "colors": [
+        "black",
+        "blue"
+      ],
+      "material": "upholstery",
+      "widthCm": 300,
+      "depthCm": 94.9,
+      "heightCm": 95.9,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s69617444": {
+      "isStandaloneFurniture": true,
+      "category": "desk",
+      "typeName": "Height-adjustable children's desk",
+      "roomTypes": [
+        "kids-room",
+        "home-office"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "white",
+        "light green"
+      ],
+      "material": "",
+      "widthCm": 95.9,
+      "depthCm": 58.1,
+      "heightCm": 72.1,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s69620427": {
+      "isStandaloneFurniture": true,
+      "category": "sofa",
+      "typeName": "4.5-seat modular sofa",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "modern",
+        "cozy"
+      ],
+      "colors": [
+        "yellow",
+        "brown"
+      ],
+      "material": "upholstery",
+      "widthCm": 358.1,
+      "depthCm": 107,
+      "heightCm": 94.9,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s69621120": {
+      "isStandaloneFurniture": true,
+      "category": "bed",
+      "typeName": "Bed frame",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "classic",
+        "cozy"
+      ],
+      "colors": [
+        "black",
+        "oak"
+      ],
+      "material": "",
+      "widthCm": 105.1,
+      "depthCm": 196.9,
+      "heightCm": 101,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s79158144": {
+      "isStandaloneFurniture": true,
+      "category": "wardrobe",
+      "typeName": "Wardrobe combination",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "white"
+      ],
+      "material": "",
+      "widthCm": 124.8,
+      "depthCm": 54.9,
+      "heightCm": 215.9,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s79248606": {
+      "isStandaloneFurniture": true,
+      "category": "bed",
+      "typeName": "Bed frame",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "pine",
+        "natural wood"
+      ],
+      "material": "solid pine",
+      "widthCm": 139.1,
+      "depthCm": 194.9,
+      "heightCm": 65.1,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s79441736": {
+      "isStandaloneFurniture": true,
+      "category": "bed",
+      "typeName": "Bed frame with headboards",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "modern",
+        "minimal"
+      ],
+      "colors": [
+        "white"
+      ],
+      "material": "powder-coated metal",
+      "widthCm": 158.1,
+      "depthCm": 208.9,
+      "heightCm": 27,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s79443330": {
+      "isStandaloneFurniture": true,
+      "category": "sofa",
+      "typeName": "3-seat sofa",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "classic",
+        "cozy"
+      ],
+      "colors": [
+        "anthracite",
+        "birch"
+      ],
+      "material": "",
+      "widthCm": 224.2,
+      "depthCm": 89.9,
+      "heightCm": 74,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s79501711": {
+      "isStandaloneFurniture": true,
+      "category": "bed",
+      "typeName": "Bed frame",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "classic"
+      ],
+      "colors": [
+        "birch",
+        "natural wood"
+      ],
+      "material": "birch veneer",
+      "widthCm": 213,
+      "depthCm": 214.9,
+      "heightCm": 42.9,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s79514695": {
+      "isStandaloneFurniture": true,
+      "category": "sofa",
+      "typeName": "Loveseat",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "classic",
+        "cozy"
+      ],
+      "colors": [
+        "gray",
+        "white"
+      ],
+      "material": "",
+      "widthCm": 141.9,
+      "depthCm": 77.2,
+      "heightCm": 80,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s79514775": {
+      "isStandaloneFurniture": true,
+      "category": "bed",
+      "typeName": "Upholstered bed frame",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "modern",
+        "cozy"
+      ],
+      "colors": [
+        "gray-green"
+      ],
+      "material": "",
+      "widthCm": 208,
+      "depthCm": 214.9,
+      "heightCm": 107,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s79516897": {
+      "isStandaloneFurniture": true,
+      "category": "sofa",
+      "typeName": "3-seat sleeper sectional sofa",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "modern",
+        "cozy"
+      ],
+      "colors": [
+        "dark gray"
+      ],
+      "material": "",
+      "widthCm": 229.9,
+      "depthCm": 89.9,
+      "heightCm": 95.9,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s79548916": {
+      "isStandaloneFurniture": true,
+      "category": "wardrobe",
+      "typeName": "Wardrobe combination",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "minimal",
+        "modern"
+      ],
+      "colors": [
+        "anthracite"
+      ],
+      "material": "",
+      "widthCm": 61.9,
+      "depthCm": 40,
+      "heightCm": 200.7,
+      "dimensionSource": "rules",
+      "confidence": 0.85,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s79574298": {
+      "isStandaloneFurniture": true,
+      "category": "sofa",
+      "typeName": "3-seat sofa",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "modern",
+        "cozy"
+      ],
+      "colors": [
+        "dark brown"
+      ],
+      "material": "",
+      "widthCm": 242.9,
+      "depthCm": 99.1,
+      "heightCm": 69.9,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s79585372": {
+      "isStandaloneFurniture": true,
+      "category": "desk",
+      "typeName": "Desk",
+      "roomTypes": [
+        "home-office",
+        "kids-room"
+      ],
+      "styleTags": [
+        "modern",
+        "minimal"
+      ],
+      "colors": [
+        "gray",
+        "black"
+      ],
+      "material": "",
+      "widthCm": 140,
+      "depthCm": 60,
+      "heightCm": 73,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s79621186": {
+      "isStandaloneFurniture": true,
+      "category": "desk",
+      "typeName": "Desk and chair set",
+      "roomTypes": [
+        "home-office",
+        "kids-room"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "white"
+      ],
+      "material": "",
+      "widthCm": 67,
+      "depthCm": 67,
+      "heightCm": 89.9,
+      "dimensionSource": "rules",
+      "confidence": 0.8,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s79621214": {
+      "isStandaloneFurniture": true,
+      "category": "desk",
+      "typeName": "Height-adjustable desk and chair set",
+      "roomTypes": [
+        "home-office"
+      ],
+      "styleTags": [
+        "modern",
+        "minimal"
+      ],
+      "colors": [
+        "oak",
+        "beige",
+        "dark gray"
+      ],
+      "material": "",
+      "widthCm": 120,
+      "depthCm": 69.9,
+      "heightCm": 126,
+      "dimensionSource": "rules",
+      "confidence": 0.8,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s79621921": {
+      "isStandaloneFurniture": true,
+      "category": "desk",
+      "typeName": "Desk",
+      "roomTypes": [
+        "home-office"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "white"
+      ],
+      "material": "",
+      "widthCm": 160,
+      "depthCm": 80,
+      "heightCm": 74.9,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s79628461": {
+      "isStandaloneFurniture": true,
+      "category": "bed",
+      "typeName": "Upholstered bed frame",
+      "roomTypes": [
+        "kids-room",
+        "bedroom"
+      ],
+      "styleTags": [
+        "cozy",
+        "scandinavian"
+      ],
+      "colors": [
+        "beige",
+        "multicolor"
+      ],
+      "material": "",
+      "widthCm": 102.9,
+      "depthCm": 198.1,
+      "heightCm": 109.9,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s79630181": {
+      "isStandaloneFurniture": true,
+      "category": "bed",
+      "typeName": "Metal bed frame",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "classic"
+      ],
+      "colors": [
+        "off-white"
+      ],
+      "material": "powder-coated steel",
+      "widthCm": 104.1,
+      "depthCm": 198.1,
+      "heightCm": 128.9,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s89441726": {
+      "isStandaloneFurniture": true,
+      "category": "bed",
+      "typeName": "Bed frame with headboards",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "modern"
+      ],
+      "colors": [
+        "white"
+      ],
+      "material": "powder-coated metal",
+      "widthCm": 158.1,
+      "depthCm": 208.9,
+      "heightCm": 27,
+      "dimensionSource": "rules",
+      "confidence": 0.8,
+      "needsReview": true,
+      "reviewReasons": [
+        "dimensions-look-wrong"
+      ]
+    },
+    "s89523114": {
+      "isStandaloneFurniture": true,
+      "category": "wardrobe",
+      "typeName": "Wardrobe combination",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "modern",
+        "minimal"
+      ],
+      "colors": [
+        "black",
+        "white",
+        "oak"
+      ],
+      "material": "",
+      "widthCm": 152.1,
+      "depthCm": 65.1,
+      "heightCm": 240,
+      "dimensionSource": "rules",
+      "confidence": 0.85,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s89535777": {
+      "isStandaloneFurniture": true,
+      "category": "bookshelf",
+      "typeName": "Shelf unit with doors",
+      "roomTypes": [
+        "living-room",
+        "home-office"
+      ],
+      "styleTags": [
+        "modern",
+        "minimal"
+      ],
+      "colors": [
+        "dark gray"
+      ],
+      "material": "",
+      "widthCm": 120,
+      "depthCm": 41.9,
+      "heightCm": 64.1,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s89542645": {
+      "isStandaloneFurniture": true,
+      "category": "bookshelf",
+      "typeName": "Bookcase with drawers",
+      "roomTypes": [
+        "kids-room",
+        "living-room"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "modern"
+      ],
+      "colors": [
+        "white",
+        "blue"
+      ],
+      "material": "",
+      "widthCm": 60,
+      "depthCm": 65.1,
+      "heightCm": 195.9,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s89590127": {
+      "isStandaloneFurniture": true,
+      "category": "bookshelf",
+      "typeName": "Shelving unit",
+      "roomTypes": [
+        "living-room",
+        "home-office"
+      ],
+      "styleTags": [
+        "modern",
+        "minimal"
+      ],
+      "colors": [
+        "anthracite",
+        "oak"
+      ],
+      "material": "",
+      "widthCm": 62.5,
+      "depthCm": 40,
+      "heightCm": 200.7,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s89607496": {
+      "isStandaloneFurniture": true,
+      "category": "bed",
+      "typeName": "Upholstered bed frame",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "cozy",
+        "modern"
+      ],
+      "colors": [
+        "dark blue"
+      ],
+      "material": "upholstered fabric",
+      "widthCm": 202.9,
+      "depthCm": 212.1,
+      "heightCm": 100,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s99436767": {
+      "isStandaloneFurniture": true,
+      "category": "desk",
+      "typeName": "Desk and storage combination with chair",
+      "roomTypes": [
+        "home-office"
+      ],
+      "styleTags": [
+        "modern",
+        "minimal"
+      ],
+      "colors": [
+        "black-brown",
+        "dark gray"
+      ],
+      "material": "",
+      "widthCm": null,
+      "depthCm": null,
+      "heightCm": null,
+      "dimensionSource": "missing",
+      "confidence": 0.7,
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-dimensions"
+      ]
+    },
+    "s99442443": {
+      "isStandaloneFurniture": true,
+      "category": "sofa",
+      "typeName": "Sofa with chaise",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "cozy",
+        "modern"
+      ],
+      "colors": [
+        "beige",
+        "brown",
+        "black"
+      ],
+      "material": "",
+      "widthCm": 246.1,
+      "depthCm": 94,
+      "heightCm": 87.9,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s99508863": {
+      "isStandaloneFurniture": true,
+      "category": "sofa",
+      "typeName": "2-seat loveseat sofa",
+      "roomTypes": [
+        "living-room",
+        "bedroom"
+      ],
+      "styleTags": [
+        "cozy",
+        "classic"
+      ],
+      "colors": [
+        "light beige"
+      ],
+      "material": "",
+      "widthCm": 141.9,
+      "depthCm": 77.2,
+      "heightCm": 80,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s99528248": {
+      "isStandaloneFurniture": true,
+      "category": "desk",
+      "typeName": "Sit/stand desk",
+      "roomTypes": [
+        "home-office"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "modern"
+      ],
+      "colors": [
+        "birch",
+        "white"
+      ],
+      "material": "birch veneer",
+      "widthCm": 140,
+      "depthCm": 60,
+      "heightCm": 126,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s99529196": {
+      "isStandaloneFurniture": true,
+      "category": "desk",
+      "typeName": "Sit/stand desk",
+      "roomTypes": [
+        "home-office"
+      ],
+      "styleTags": [
+        "modern",
+        "industrial"
+      ],
+      "colors": [
+        "black"
+      ],
+      "material": "stained ash veneer",
+      "widthCm": 160,
+      "depthCm": 60,
+      "heightCm": 126,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s99574396": {
+      "isStandaloneFurniture": true,
+      "category": "bed",
+      "typeName": "Bed frame",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "oak"
+      ],
+      "material": "oak veneer",
+      "widthCm": 149.9,
+      "depthCm": 199.1,
+      "heightCm": 100,
+      "dimensionSource": "rules",
+      "confidence": 0.95,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "00496048": {
+      "isStandaloneFurniture": true,
+      "category": "side-table",
+      "typeName": "Side table with shelves",
+      "roomTypes": [
+        "living-room",
+        "bedroom"
+      ],
+      "styleTags": [
+        "scandinavian",
+        "minimal"
+      ],
+      "colors": [
+        "white"
+      ],
+      "material": "",
+      "widthCm": 46,
+      "depthCm": 35.9,
+      "heightCm": 62.9,
+      "dimensionSource": "rules",
+      "confidence": 0.9,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "00586360": {
+      "isStandaloneFurniture": true,
+      "category": "coffee-table",
+      "typeName": "Side table on casters",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "scandinavian"
+      ],
+      "colors": [
+        "light ash effect",
+        "white"
+      ],
+      "material": "",
+      "widthCm": 68.9,
+      "depthCm": 39.1,
+      "heightCm": 40,
+      "dimensionSource": "rules",
+      "confidence": 0.8,
+      "needsReview": false,
+      "reviewReasons": []
+    },
+    "s59621408": {
+      "isStandaloneFurniture": true,
+      "category": "coffee-table",
+      "typeName": "Coffee table set",
+      "roomTypes": [
+        "living-room"
+      ],
+      "styleTags": [
+        "modern",
+        "minimal"
+      ],
+      "colors": [
+        "anthracite",
+        "black"
+      ],
+      "material": "smoked glass and tubular steel",
+      "widthCm": null,
+      "depthCm": null,
+      "heightCm": null,
+      "dimensionSource": "missing",
+      "confidence": 0.75,
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-dimensions"
+      ]
+    }
+  },
+  "usage": {
+    "inputTokens": 155218,
+    "outputTokens": 83414,
+    "requests": 35
+  }
+}
