@@ -117,7 +117,7 @@ export function FlowSteps({ currentStep, furthestStep, skippedSteps, onStepSelec
                 disabled={!isSelectable && !isCurrent}
                 onClick={() => isSelectable && onStepSelect(step.id)}
                 className={cn(
-                  "rounded-full border border-transparent text-xs font-semibold text-muted-foreground hover:text-foreground",
+                  "rounded-full border border-primary/30 bg-muted text-xs font-semibold text-foreground hover:bg-muted hover:text-foreground",
                   isCurrent && "border-primary bg-transparent text-primary hover:bg-transparent hover:text-primary",
                 )}
               >

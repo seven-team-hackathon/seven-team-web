@@ -59,92 +59,125 @@
 }
 
 :root {
-  --background: oklch(0.977 0.007 80.7);
-  --foreground: oklch(0.285 0.004 84.6);
-  --card: oklch(0.994 0.006 84.6);
-  --card-foreground: oklch(0.285 0.004 84.6);
-  --popover: oklch(0.994 0.006 84.6);
-  --popover-foreground: oklch(0.285 0.004 84.6);
-  --primary: oklch(0.445 0.04 164.3);
-  --primary-foreground: oklch(0.977 0.007 80.7);
-  --secondary: oklch(0.908 0.019 75.3);
-  --secondary-foreground: oklch(0.285 0.004 84.6);
-  --muted: oklch(0.942 0.014 78.3);
-  --muted-foreground: oklch(0.521 0.016 74.3);
-  --accent: oklch(0.931 0.017 76.1);
-  --accent-foreground: oklch(0.285 0.004 84.6);
-  --destructive: oklch(0.501 0.178 28.7);
-  --border: oklch(0.894 0.018 78.2);
-  --input: oklch(0.894 0.018 78.2);
-  --ring: oklch(0.445 0.04 164.3);
-  --terracotta: oklch(0.579 0.129 41.3);
-  --terracotta-foreground: oklch(1 0 0);
-  --wood: oklch(0.5 0.052 58.7);
-  --wood-foreground: oklch(0.977 0.007 80.7);
-  --wood-soft: oklch(0.641 0.06 59.3);
-  --plant: oklch(0.727 0.044 161.2);
-  --success: oklch(0.536 0.079 146.5);
-  --success-foreground: oklch(1 0 0);
-  --warning: oklch(0.751 0.13 79.8);
-  --warning-foreground: oklch(0.285 0.004 84.6);
-  --chart-1: oklch(0.445 0.04 164.3);
-  --chart-2: oklch(0.579 0.129 41.3);
-  --chart-3: oklch(0.5 0.052 58.7);
-  --chart-4: oklch(0.751 0.13 79.8);
-  --chart-5: oklch(0.727 0.044 161.2);
+  --bg: #F2F2F7;
+  --surface: #FFFFFF;
+  --muted: #F2F2F7;
+  --border: #D1D1D6;
+  --foreground: #1C1C1E;
+  --muted-foreground: #6C6C70;
+
+  --primary: #007AFF;
+  --primary-hover: #0066D6;
+  --on-primary: #FFFFFF;
+  --primary-soft: #E5F1FF;
+
+  --accent: #FF9500;
+  --on-accent: #1C1C1E;
+
+  --success: #34C759;
+  --warning: #FFCC00;
+  --destructive: #FF3B30;
+  --on-error: #FFFFFF;
+  --ring: #007AFF;
+
+  --card: #FFFFFF;
+  --card-foreground: #1C1C1E;
+  --popover: #FFFFFF;
+  --popover-foreground: #1C1C1E;
+  --primary-foreground: #FFFFFF;
+  --secondary: #007AFF;
+  --secondary-foreground: #FFFFFF;
+  --accent-foreground: #1C1C1E;
+  --input: #D1D1D6;
+
   --radius: 0.625rem;
-  --sidebar: oklch(0.942 0.014 78.3);
-  --sidebar-foreground: oklch(0.285 0.004 84.6);
-  --sidebar-primary: oklch(0.445 0.04 164.3);
-  --sidebar-primary-foreground: oklch(0.977 0.007 80.7);
-  --sidebar-accent: oklch(0.931 0.017 76.1);
-  --sidebar-accent-foreground: oklch(0.285 0.004 84.6);
-  --sidebar-border: oklch(0.894 0.018 78.2);
-  --sidebar-ring: oklch(0.445 0.04 164.3);
+  --sidebar: #F2F2F7;
+  --sidebar-foreground: #1C1C1E;
+  --sidebar-primary: #007AFF;
+  --sidebar-primary-foreground: #FFFFFF;
+  --sidebar-accent: #FF9500;
+  --sidebar-accent-foreground: #1C1C1E;
+  --sidebar-border: #D1D1D6;
+  --sidebar-ring: #007AFF;
+
+  --chart-1: #007AFF;
+  --chart-2: #FF9500;
+  --chart-3: #34C759;
+  --chart-4: #FFCC00;
+  --chart-5: #FF3B30;
+
+  --terracotta: #FF9500;
+  --terracotta-foreground: #1C1C1E;
+  --wood: #007AFF;
+  --wood-foreground: #FFFFFF;
+  --wood-soft: #A8A29E;
+  --plant: #34C759;
+
+  --success-foreground: #FFFFFF;
+  --warning-foreground: #000000;
+
+  --shadow-card: 0 1px 3px rgba(0,0,0,.06), 0 8px 24px rgba(0,0,0,.05);
+  --font: -apple-system, BlinkMacSystemFont, "SF Pro Text", Inter, system-ui, sans-serif;
 }
 
 .dark {
-  --background: oklch(0.228 0.005 67.6);
-  --foreground: oklch(0.951 0.011 76.6);
-  --card: oklch(0.275 0.007 67.5);
-  --card-foreground: oklch(0.951 0.011 76.6);
-  --popover: oklch(0.275 0.007 67.5);
-  --popover-foreground: oklch(0.951 0.011 76.6);
-  --primary: oklch(0.727 0.044 161.2);
-  --primary-foreground: oklch(0.228 0.005 67.6);
-  --secondary: oklch(0.288 0.009 67.4);
-  --secondary-foreground: oklch(0.951 0.011 76.6);
-  --muted: oklch(0.288 0.009 67.4);
-  --muted-foreground: oklch(0.693 0.018 76.1);
-  --accent: oklch(0.312 0.01 73.5);
-  --accent-foreground: oklch(0.951 0.011 76.6);
-  --destructive: oklch(0.666 0.159 25.9);
-  --border: oklch(0.332 0.011 67.4);
-  --input: oklch(0.332 0.011 67.4);
-  --ring: oklch(0.727 0.044 161.2);
-  --terracotta: oklch(0.716 0.117 43.2);
-  --terracotta-foreground: oklch(0.228 0.005 67.6);
-  --wood: oklch(0.659 0.066 61.5);
-  --wood-foreground: oklch(0.228 0.005 67.6);
-  --wood-soft: oklch(0.554 0.056 58.4);
-  --plant: oklch(0.566 0.046 162.1);
-  --success: oklch(0.71 0.083 146.7);
-  --success-foreground: oklch(0.228 0.005 67.6);
-  --warning: oklch(0.807 0.124 84.4);
-  --warning-foreground: oklch(0.228 0.005 67.6);
-  --chart-1: oklch(0.727 0.044 161.2);
-  --chart-2: oklch(0.716 0.117 43.2);
-  --chart-3: oklch(0.659 0.066 61.5);
-  --chart-4: oklch(0.807 0.124 84.4);
-  --chart-5: oklch(0.71 0.083 146.7);
-  --sidebar: oklch(0.275 0.007 67.5);
-  --sidebar-foreground: oklch(0.951 0.011 76.6);
-  --sidebar-primary: oklch(0.727 0.044 161.2);
-  --sidebar-primary-foreground: oklch(0.228 0.005 67.6);
-  --sidebar-accent: oklch(0.312 0.01 73.5);
-  --sidebar-accent-foreground: oklch(0.951 0.011 76.6);
-  --sidebar-border: oklch(0.332 0.011 67.4);
-  --sidebar-ring: oklch(0.727 0.044 161.2);
+  --bg: #000000;
+  --surface: #1C1C1E;
+  --muted: #2C2C2E;
+  --border: #38383A;
+  --foreground: #FFFFFF;
+  --muted-foreground: #AEAEB2;
+
+  --primary: #0A84FF;
+  --primary-hover: #409CFF;
+  --on-primary: #FFFFFF;
+  --primary-soft: #0F2A4A;
+
+  --accent: #FF9F0A;
+  --on-accent: #1C1C1E;
+
+  --success: #30D158;
+  --warning: #FFD60A;
+  --destructive: #FF453A;
+  --on-error: #1C1C1E;
+  --ring: #0A84FF;
+
+  --card: #1C1C1E;
+  --card-foreground: #FFFFFF;
+  --popover: #1C1C1E;
+  --popover-foreground: #FFFFFF;
+  --primary-foreground: #FFFFFF;
+  --secondary: #0A84FF;
+  --secondary-foreground: #FFFFFF;
+  --accent-foreground: #1C1C1E;
+  --input: #38383A;
+
+  --sidebar: #1C1C1E;
+  --sidebar-foreground: #FFFFFF;
+  --sidebar-primary: #0A84FF;
+  --sidebar-primary-foreground: #FFFFFF;
+  --sidebar-accent: #FF9F0A;
+  --sidebar-accent-foreground: #1C1C1E;
+  --sidebar-border: #38383A;
+  --sidebar-ring: #0A84FF;
+
+  --chart-1: #0A84FF;
+  --chart-2: #FF9F0A;
+  --chart-3: #30D158;
+  --chart-4: #FFD60A;
+  --chart-5: #FF453A;
+
+  --terracotta: #FF9F0A;
+  --terracotta-foreground: #1C1C1E;
+  --wood: #0A84FF;
+  --wood-foreground: #FFFFFF;
+  --wood-soft: #408AFF;
+  --plant: #30D158;
+
+  --success-foreground: #000000;
+  --warning-foreground: #000000;
+
+  --shadow-card: none;
 }
 
 @layer base {
