@@ -9,7 +9,32 @@
 - Provide visible focus-visible styles for interactive elements and never remove focus indicators without an accessible replacement.
 - Ensure hover-only information is also accessible to keyboard and touch users.
 - Respect prefers-reduced-motion for nonessential animations.
-- Maintain sufficient text and control contrast against the dark interface.
+- Maintain sufficient text and control contrast in both light and dark themes.
 - Keep transitions restrained and limit them to properties that do not cause unnecessary layout shifts.
-- Never hardcode a hex value in a className. If the colour is missing, add it to `@theme inline` first.- Conditional classes go through `cn()` with `&&` or a single `?:`, never string concatenation: `cn(base, isActive ? 'text-warm-gold' : 'text-soft-lavender', className)`.
+- Never hardcode a hex value in a className. If the colour is missing, add it to `@theme inline` first.
+- Conditional classes go through `cn()` with `&&` or a single `?:`, never string concatenation: `cn(base, isActive ? 'text-primary' : 'text-muted-foreground', className)`.
+
+## Colour palette
+
+The Roomfit palette is warm and natural: linen, sage, terracotta and walnut. Tokens live in `app/globals.css` with light (`:root`) and dark (`.dark`) values. Use tokens only, never raw colours.
+
+| Token | Colour | Use for |
+| --- | --- | --- |
+| `background` / `foreground` | linen / graphite | page background and body text |
+| `card`, `popover` | warm white | cards, menus, dialogs |
+| `primary` | deep sage | main actions, active states, focus ring |
+| `secondary` | sand | secondary buttons, surfaces |
+| `muted` / `muted-foreground` | light sand / warm grey | subtle surfaces, captions, dimensions |
+| `accent` | soft sand | hover and highlighted rows (shadcn) |
+| `border`, `input` | light sand | borders, inputs, room grid lines |
+| `terracotta` | terracotta | AI features and suggestions, highlights, badges |
+| `wood` | walnut | furniture on the room plan, decorative accents |
+| `success` | green | "fits the room" |
+| `warning` | ochre | "tight fit, little space to walk through" |
+| `destructive` | brick red | "does not fit", delete actions |
+| `chart-1`…`chart-5` | sage, terracotta, walnut, ochre, light green | charts and furniture categories |
+
+- Every colour has a `-foreground` pair for text on that background: `bg-terracotta text-terracotta-foreground`.
+- For soft tinted backgrounds use opacity and the base colour for text: `bg-success/15 text-success`.
+- Do not use `terracotta` for main actions; that is `primary`. Keep terracotta for what the AI suggests.
 - Icon-only controls get `aria-label`, decorative icons get `aria-hidden`.

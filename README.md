@@ -1,6 +1,6 @@
-# seven-team-web
+# Roomfit
 
-A hackathon problem-solving web app built with Next.js, React, Tailwind CSS, shadcn/ui and the Anthropic SDK.
+An AI interior planner that shows how furniture looks together, whether it fits the room and how to use the space best, before you buy anything. Built with Next.js, React, Tailwind CSS, shadcn/ui and the Anthropic SDK.
 
 ## Getting started
 
