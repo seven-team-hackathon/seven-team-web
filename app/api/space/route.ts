@@ -11,6 +11,7 @@ import {
 } from "@/lib/contracts/fixtures"
 import type { SpaceKind } from "@/lib/contracts/space"
 import { extractSpaceFromPhoto } from "@/lib/space/extract-space"
+import type { ExtractSpaceResult } from "@/lib/space/extract-space"
 import { extractSpaceFromPlan } from "@/lib/space/extract-plan"
 
 const mockDrafts = {
@@ -19,6 +20,28 @@ const mockDrafts = {
 } satisfies Record<SpaceKind, unknown>
 
 export const maxDuration = 90
+
+async function analyzeUpload(
+  kind: SpaceKind,
+  file: File
+): Promise<ExtractSpaceResult> {
+  try {
+    return kind === "plan"
+      ? await extractSpaceFromPlan(file)
+      : await extractSpaceFromPhoto(file)
+  } catch (error) {
+    console.error(
+      "Space analysis failed:",
+      error instanceof Error ? error.message : "unknown error"
+    )
+
+    return {
+      ok: false,
+      code: "model_failed",
+      message: "The image analysis failed.",
+    }
+  }
+}
 
 export async function POST(request: Request) {
   const limited = guardRateLimit(request, spaceRateLimiter)
@@ -53,10 +76,7 @@ export async function POST(request: Request) {
     )
   }
 
-  const result =
-    upload.kind === "plan"
-      ? await extractSpaceFromPlan(upload.file)
-      : await extractSpaceFromPhoto(upload.file)
+  const result = await analyzeUpload(upload.kind, upload.file)
 
   if (!result.ok) {
     return apiErrorResponse(result.code, result.message)

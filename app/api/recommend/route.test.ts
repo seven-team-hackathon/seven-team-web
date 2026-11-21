@@ -1,6 +1,9 @@
 import { afterEach, describe, expect, it, vi } from "vitest"
 
+vi.mock("@/lib/recommend/recommend", () => ({ recommend: vi.fn() }))
+
 import { POST } from "@/app/api/recommend/route"
+import { recommend } from "@/lib/recommend/recommend"
 import { apiErrorSchema } from "@/lib/contracts/api-error"
 import {
   recommendRequestEstimatedFixture,
@@ -75,6 +78,27 @@ describe("POST /api/recommend", () => {
 
     expect(dimensionsBasis).toBe("user")
     expect(payload.meta.dimensionsBasis).toBe("user")
+  })
+
+  it("returns a json error when the pipeline throws unexpectedly", async () => {
+    vi.stubEnv("MOCK_API", "false")
+    vi.stubEnv("ANTHROPIC_API_KEY", "test-key")
+    vi.mocked(recommend).mockRejectedValueOnce(new Error("boom"))
+
+    const response = await POST(
+      new Request("http://localhost/api/recommend", {
+        method: "POST",
+        headers: {
+          "content-type": "application/json",
+          "x-forwarded-for": "9.9.9.9",
+        },
+        body: JSON.stringify(recommendRequestFixture),
+      })
+    )
+    const payload = apiErrorSchema.parse(await response.json())
+
+    expect(response.status).toBe(502)
+    expect(payload.error.code).toBe("model_failed")
   })
 
   it("reports that the AI service is not configured when mock mode is off and the key is missing", async () => {

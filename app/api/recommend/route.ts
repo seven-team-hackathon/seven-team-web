@@ -48,5 +48,14 @@ export async function POST(request: Request) {
     )
   }
 
-  return Response.json(await recommend(parsed.data))
+  try {
+    return Response.json(await recommend(parsed.data))
+  } catch (error) {
+    console.error(
+      "Recommendation failed:",
+      error instanceof Error ? error.message : "unknown error"
+    )
+
+    return apiErrorResponse("model_failed", "The recommendation failed.")
+  }
 }

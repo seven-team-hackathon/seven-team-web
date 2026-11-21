@@ -83,7 +83,7 @@ Rules for the UI:
 - `rooms` can be empty, for example when the model could not find any room. Then let the user draw the room on the image and enter the sizes. The same applies to a room without `dimensions`.
 - When exactly one room is found, `roomType` and `dimensions` are also set at the top level of the draft.
 - `needsUserInput` contains `dimensions` when at least one room has no size.
-- Bounds and sizes are read by a model and can be wrong. Always let the user move the rectangle and edit the sizes, and keep sending `dimensionsBasis: "estimated"` unless the user typed the dimensions.
+- Bounds and sizes are read by a model and can be wrong. Always let the user move the rectangle and edit the sizes. Send `dimensionsBasis: "user"` once the user has seen and confirmed the sizes in the room form (the current UI does this), and `"estimated"` when sizes from a photo are used without that confirmation: only then does the backend apply its 15% safety margin.
 - A non-plan image returns `422` with `unreadable_space`.
 - `rooms` is part of the shared `spaceDraftSchema` in `lib/contracts/space.ts` (`detectedRoomSchema`, `imageBoundsSchema`), so parsing the response with that schema keeps it. Before this change zod dropped the field.
 
