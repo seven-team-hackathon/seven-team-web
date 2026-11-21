@@ -10,5 +10,7 @@
 - `export function`, named, no default export. Not `const X = () => {}`. Pages and layouts under `app/` are the only default exports (Next requires it).
 - `className` merged via `cn()`, then `{...props}` spread last.
 
+UI copy is written for end users of a finished product. Never mention MVP, demo data, mocks, simulated payments, AI models, JSON or other implementation details in the interface; keep that in `docs/`.
+
 Include useful loading and error feedback. Empty states are required for primary pages but optional inside dialogs.
 Use semantic HTML and support keyboard interaction. Follow-up accessibility improvements may be tracked separately when they would significantly increase the scope of a small feature.

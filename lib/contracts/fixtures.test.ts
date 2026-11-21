@@ -22,6 +22,12 @@ describe("contract fixtures", () => {
     expect(spaceDraftSchema.safeParse(spaceDraftPhotoFixture).success).toBe(true)
   })
 
+  it("detects every room of a multi-room plan with its own bounds", () => {
+    const rooms = spaceDraftPlanFixture.rooms ?? []
+    expect(rooms.map((room) => room.roomType)).toEqual(["living-room", "bedroom", "hallway"])
+    expect(new Set(rooms.map((room) => room.id)).size).toBe(rooms.length)
+  })
+
   it("asks the user for dimensions when the space comes from a photo", () => {
     expect(spaceDraftPhotoFixture.needsUserInput).toContain("dimensions")
   })

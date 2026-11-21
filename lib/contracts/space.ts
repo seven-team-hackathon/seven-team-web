@@ -40,6 +40,22 @@ export const openingSchema = z.object({
   wall: wallSchema.optional(),
 })
 
+const unitSchema = z.number().min(0).max(1)
+
+export const imageBoundsSchema = z.object({
+  x: unitSchema,
+  y: unitSchema,
+  width: unitSchema.positive(),
+  height: unitSchema.positive(),
+})
+
+export const detectedRoomSchema = z.object({
+  id: z.string().min(1),
+  roomType: roomTypeSchema.optional(),
+  dimensions: detectedDimensionsSchema.optional(),
+  bounds: imageBoundsSchema,
+})
+
 export const spaceDraftSchema = z.object({
   kind: spaceKindSchema,
   roomType: roomTypeSchema.optional(),
@@ -47,6 +63,7 @@ export const spaceDraftSchema = z.object({
   openings: z.array(openingSchema),
   styleHints: z.array(z.string().min(1).max(60)),
   needsUserInput: z.array(missingSpaceFieldSchema),
+  rooms: z.array(detectedRoomSchema).optional(),
 })
 
 export const confirmedSpaceSchema = z.object({
@@ -62,6 +79,10 @@ export type DimensionSource = z.infer<typeof dimensionSourceSchema>
 export type Opening = z.infer<typeof openingSchema>
 
 export type MissingSpaceField = z.infer<typeof missingSpaceFieldSchema>
+
+export type ImageBounds = z.infer<typeof imageBoundsSchema>
+
+export type DetectedRoom = z.infer<typeof detectedRoomSchema>
 
 export type SpaceDraft = z.infer<typeof spaceDraftSchema>
 
