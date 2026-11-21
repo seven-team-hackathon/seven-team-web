@@ -13,7 +13,7 @@ import {
 import { useState } from "react"
 import { toast } from "sonner"
 import type { RecommendationResponse } from "@/lib/contracts/recommendation"
-import type { RoomType } from "@/lib/contracts/room-type"
+import type { ConfirmedSpace } from "@/lib/contracts/space"
 import { formatPrice } from "@/lib/format-price"
 import { pluralize } from "@/lib/pluralize"
 import { CATEGORY_META, FREE_CATEGORY_COUNT, ROOM_TYPE_META } from "@/lib/planner/options"
@@ -24,7 +24,7 @@ import { PaywallDialog, type PaywallPlanId } from "@/components/planner/paywall-
 
 const PURCHASE_MESSAGES: Readonly<Record<PaywallPlanId, string>> = {
   iteration: "Full selection unlocked",
-  pro: "Pro subscription activated",
+  pro: "Monthly plan activated",
 }
 
 function FitSummary({ fit }: { fit: RecommendationResponse["fit"] }) {
@@ -53,14 +53,21 @@ function FitSummary({ fit }: { fit: RecommendationResponse["fit"] }) {
 }
 
 type ResultsStepProps = {
-  roomType: RoomType
+  space: ConfirmedSpace
   recommendation: RecommendationResponse
   isUnlocked: boolean
   onUnlock: () => void
   onOpenLayout: () => void
 }
 
-export function ResultsStep({ roomType, recommendation, isUnlocked, onUnlock, onOpenLayout }: ResultsStepProps) {
+export function ResultsStep({
+  space,
+  recommendation,
+  isUnlocked,
+  onUnlock,
+  onOpenLayout,
+}: ResultsStepProps) {
+  const roomType = space.roomType
   const [isPaywallOpen, setIsPaywallOpen] = useState(false)
   const { items, totals, fit, meta } = recommendation
   const unmatchedCategories = meta.unmatchedCategories ?? []
@@ -91,6 +98,7 @@ export function ResultsStep({ roomType, recommendation, isUnlocked, onUnlock, on
         </CardDescription>
       </CardHeader>
       <CardContent className="mx-auto flex w-full max-w-4xl flex-col gap-6">
+
         {meta.dimensionsBasis === "estimated" && (
           <p className="flex gap-2.5 rounded-xl border border-warning/40 bg-warning/10 p-3.5 text-sm">
             <RulerIcon aria-hidden className="mt-0.5 size-4 shrink-0 text-warning" />

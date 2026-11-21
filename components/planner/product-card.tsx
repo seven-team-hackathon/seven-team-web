@@ -2,7 +2,7 @@ import { ExternalLinkIcon } from "lucide-react"
 import { cn } from "@/lib/utils"
 import type { RecommendedItem } from "@/lib/contracts/recommendation"
 import { formatPrice } from "@/lib/format-price"
-import { CATEGORY_META, TONE_CLASS_NAMES } from "@/lib/planner/options"
+import { CATEGORY_META } from "@/lib/planner/options"
 import { buttonVariants } from "@/components/ui/button"
 
 type ProductCardProps = {
@@ -16,7 +16,12 @@ export function ProductCard({ item, isCompact = false }: ProductCardProps) {
 
   return (
     <article className="flex gap-3 rounded-xl border bg-background p-3">
-      <div className={cn("grid size-14 flex-none place-items-center rounded-lg", TONE_CLASS_NAMES[meta.tone].tint, isCompact && "size-10")}>
+      <div
+        className={cn(
+          "grid size-14 flex-none place-items-center rounded-lg border border-border text-primary",
+          isCompact && "size-10",
+        )}
+      >
         <Icon aria-hidden className={cn("size-6", isCompact && "size-5")} />
       </div>
       <div className="flex min-w-0 flex-1 flex-col gap-0.5">

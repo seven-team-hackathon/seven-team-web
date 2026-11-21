@@ -7,6 +7,7 @@ import { getThrownErrorMessage, getUserErrorMessage } from "@/lib/api/user-error
 import { spaceDraftSchema, type SpaceDraft, type SpaceKind } from "@/lib/contracts/space"
 import { getImageSize, type ImageSize } from "@/lib/images/image-size"
 import { resizeImage } from "@/lib/images/resize-image"
+import { applySamplePlanDefaults } from "@/lib/planner/sample-defaults"
 import { createSamplePhotoFile } from "@/lib/planner/sample-photo"
 import { createSamplePlanFile } from "@/lib/planner/sample-plan"
 import { validateSpaceFileSize } from "@/lib/planner/space-file"
@@ -18,9 +19,28 @@ export type SpaceUpload = {
   readonly file: File | null
 }
 
-const ANALYZING_STAGES = ["Reading the image", "Finding walls and dimensions", "Detecting doors and windows"]
+const ANALYZING_STAGES: Readonly<Record<SpaceKind, readonly string[]>> = {
+  photo: [
+    "Uploading your photo",
+    "Reading the image",
+    "Finding walls and dimensions",
+    "Detecting doors and windows",
+    "Picking up the style of the room",
+  ],
+  plan: [
+    "Uploading your plan",
+    "Reading the plan",
+    "Finding the rooms",
+    "Reading sizes from the labels",
+    "Detecting doors and windows",
+  ],
+}
 const ANALYZE_ERROR_MESSAGE = "We could not read this image. Please try again."
-const STAGE_INTERVAL_MS = 700
+const STAGE_INTERVAL_MS = 1100
+
+function wait(milliseconds: number): Promise<void> {
+  return new Promise((resolve) => setTimeout(resolve, milliseconds))
+}
 const CARD_SPACING_CLASS_NAME = "[--card-spacing:--spacing(6)] sm:[--card-spacing:--spacing(10)]"
 
 type StageStatus = "done" | "active" | "pending"
@@ -74,7 +94,9 @@ async function analyzeSpace(upload: SpaceUpload): Promise<AnalyzedSpace> {
   const response = await fetch("/api/space", { method: "POST", body: form })
   const body: unknown = await response.json()
   if (!response.ok) throw new Error(getUserErrorMessage(body, ANALYZE_ERROR_MESSAGE))
-  const draft = spaceDraftSchema.parse(body)
+  const analyzedDraft = spaceDraftSchema.parse(body)
+  const isSamplePlan = upload.file === null && upload.kind === "plan"
+  const draft = isSamplePlan ? applySamplePlanDefaults(analyzedDraft) : analyzedDraft
   return { draft, image: { file, ...(await getImageSize(file)) } }
 }
 
@@ -87,11 +109,13 @@ export function AnalyzingStep({ upload, onAnalyzed }: AnalyzingStepProps) {
   const [attempt, setAttempt] = useState(0)
   const [activeIndex, setActiveIndex] = useState(0)
   const [errorMessage, setErrorMessage] = useState<string | null>(null)
+  const stages = ANALYZING_STAGES[upload.kind]
 
   useEffect(() => {
     let isCancelled = false
-    analyzeSpace(upload)
-      .then(({ draft, image }) => {
+    const minimumDuration = ANALYZING_STAGES[upload.kind].length * STAGE_INTERVAL_MS
+    Promise.all([analyzeSpace(upload), wait(minimumDuration)])
+      .then(([{ draft, image }]) => {
         if (!isCancelled) onAnalyzed(draft, image)
       })
       .catch((error: unknown) => {
@@ -104,10 +128,10 @@ export function AnalyzingStep({ upload, onAnalyzed }: AnalyzingStepProps) {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setActiveIndex((index) => Math.min(index + 1, ANALYZING_STAGES.length - 1))
+      setActiveIndex((index) => Math.min(index + 1, stages.length - 1))
     }, STAGE_INTERVAL_MS)
     return () => clearInterval(interval)
-  }, [attempt])
+  }, [attempt, stages.length])
 
   function handleRetry() {
     setErrorMessage(null)
@@ -137,10 +161,12 @@ export function AnalyzingStep({ upload, onAnalyzed }: AnalyzingStepProps) {
           <div className="grid size-16 place-items-center rounded-2xl bg-terracotta/15">
             <ScanLineIcon aria-hidden className="size-8 text-terracotta" />
           </div>
-          <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">Analyzing your room</h2>
+          <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">
+            {upload.kind === "plan" ? "Analyzing your plan" : "Analyzing your room"}
+          </h2>
         </div>
         <ol role="status" aria-live="polite" className="flex w-fit flex-col gap-3 text-left">
-          {ANALYZING_STAGES.map((stage, index) => {
+          {stages.map((stage, index) => {
             const status = getStageStatus(index, activeIndex)
             return (
               <li

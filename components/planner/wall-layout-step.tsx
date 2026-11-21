@@ -9,6 +9,7 @@ import { pluralize } from "@/lib/pluralize"
 import { checkWallLayout, sortForDrawing, type WallItem, type WallSide, type WallSize } from "@/lib/planner/wall-layout"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { DownloadPlanButton } from "@/components/planner/download-plan-button"
 import { StatusPill } from "@/components/planner/status-pill"
 
 const CANVAS_WALL_WIDTH_PX = 800
@@ -94,6 +95,7 @@ function WallFurniture({
 
 type WallLayoutStepProps = {
   wall: WallSize
+  roomLabel: string
   wallSide: WallSide
   wallLengths: Readonly<Record<WallSide, number>>
   photoUrl: string
@@ -105,6 +107,7 @@ type WallLayoutStepProps = {
 
 export function WallLayoutStep({
   wall,
+  roomLabel,
   wallSide,
   wallLengths,
   photoUrl,
@@ -183,7 +186,8 @@ export function WallLayoutStep({
       <CardHeader className="justify-items-center gap-3 text-center">
         <CardTitle className="text-2xl font-bold tracking-tight sm:text-3xl">See it on your wall</CardTitle>
         <CardDescription className="text-base">
-          Move the furniture along the wall from your photo to check that everything fits.
+          <b className="text-foreground">{roomLabel}</b>. Move the furniture along the wall from your photo to check
+          that everything fits.
         </CardDescription>
       </CardHeader>
       <CardContent className="mx-auto flex w-full max-w-4xl flex-col gap-4">
@@ -201,7 +205,7 @@ export function WallLayoutStep({
               </Button>
             ))}
           </div>
-          <div className="grid grid-cols-2 gap-2 sm:flex">
+          <div className="grid grid-cols-3 gap-2 sm:flex">
             <Button variant="outline" size="lg" disabled={!selectedId} onClick={handleRemove}>
               <XIcon data-icon="inline-start" aria-hidden />
               Remove
@@ -210,6 +214,7 @@ export function WallLayoutStep({
               <WandSparklesIcon data-icon="inline-start" aria-hidden />
               Arrange
             </Button>
+            <DownloadPlanButton svgRef={svgRef} fileName="room-wall.png" />
           </div>
         </div>
 

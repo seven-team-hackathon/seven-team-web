@@ -6,6 +6,7 @@ import type { RecommendationResponse } from "@/lib/contracts/recommendation"
 import type { ConfirmedSpace, SpaceDraft, SpaceKind } from "@/lib/contracts/space"
 import { autoArrange, type LayoutItem } from "@/lib/planner/layout"
 import { FREE_CATEGORY_COUNT } from "@/lib/planner/options"
+import { getRoomLabel } from "@/lib/planner/room-label"
 import { arrangeOnWall, getWallSize, type WallItem, type WallSide } from "@/lib/planner/wall-layout"
 import type { ImageRef } from "@/lib/images/image-size"
 import { WHOLE_IMAGE_BOUNDS, type RoomBounds } from "@/lib/planner/room-bounds"
@@ -94,6 +95,13 @@ function getPhotoSpace(draft: SpaceDraft, isSample: boolean): SpaceInput | null 
   }
 }
 
+function getUnavailableSteps(progress: FlowProgress): FlowStep[] {
+  const unavailable: FlowStep[] = []
+  if (progress.isRoomSkipped || progress.recommendation) unavailable.push("room")
+  if (progress.recommendation) unavailable.push("preferences")
+  return unavailable
+}
+
 export function PlannerFlow() {
   const [flow, setFlow] = useState<FlowState>({ step: "upload" })
   const [progress, setProgress] = useState<FlowProgress>(INITIAL_PROGRESS)
@@ -169,15 +177,18 @@ export function PlannerFlow() {
 
   function handleStepSelect(step: FlowStep) {
     const { draft, preferencesSpace, space, recommendation } = progress
+    const hasResults = recommendation !== null
     switch (step) {
       case "upload":
         setFlow({ step: "upload" })
         break
       case "room":
-        if (draft) setFlow({ step: "room", draft })
+        if (draft && !hasResults) setFlow({ step: "room", draft })
         break
       case "preferences":
-        if (preferencesSpace) setFlow({ step: "preferences", space: preferencesSpace, variant: draft?.kind ?? "plan" })
+        if (preferencesSpace && !hasResults) {
+          setFlow({ step: "preferences", space: preferencesSpace, variant: draft?.kind ?? "plan" })
+        }
         break
       case "results":
         if (space && recommendation) setFlow({ step: "results", space, recommendation })
@@ -199,6 +210,7 @@ export function PlannerFlow() {
         return (
           <FloorLayoutStep
             room={space.dimensions}
+            roomLabel={getRoomLabel(space)}
             planImage={image}
             roomBounds={progress.roomBounds ?? WHOLE_IMAGE_BOUNDS}
             items={layout.items}
@@ -210,6 +222,7 @@ export function PlannerFlow() {
         return (
           <WallLayoutStep
             wall={getWallSize(space, layout.wallSide)}
+            roomLabel={getRoomLabel(space)}
             wallSide={layout.wallSide}
             wallLengths={{ width: space.dimensions.widthCm, length: space.dimensions.lengthCm }}
             photoUrl={image.url}
@@ -250,7 +263,7 @@ export function PlannerFlow() {
       case "results":
         return (
           <ResultsStep
-            roomType={flow.space.roomType}
+            space={flow.space}
             recommendation={flow.recommendation}
             isUnlocked={progress.isUnlocked}
             onUnlock={handleUnlock}
@@ -267,7 +280,7 @@ export function PlannerFlow() {
       <FlowSteps
         currentStep={flow.step}
         furthestStep={progress.furthestStep}
-        skippedSteps={progress.isRoomSkipped ? ["room"] : []}
+        skippedSteps={getUnavailableSteps(progress)}
         onStepSelect={handleStepSelect}
       />
       <div className="flex flex-1 flex-col *:flex-1">{renderStep()}</div>

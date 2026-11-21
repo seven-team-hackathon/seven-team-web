@@ -5,8 +5,9 @@ import { useState, type FormEvent } from "react"
 import { roomTypeSchema, type RoomType } from "@/lib/contracts/room-type"
 import { confirmedSpaceSchema, type ConfirmedSpace, type Opening, type SpaceDraft } from "@/lib/contracts/space"
 import type { DetectedRoom, PlanDraft } from "@/lib/planner/plan-rooms"
+import { estimateRoomSize, getTypicalRoomSize, type EstimatedRoomSize } from "@/lib/planner/estimate-room-size"
 import { cn } from "@/lib/utils"
-import type { ImageRef } from "@/lib/images/image-size"
+import type { ImageRef, ImageSize } from "@/lib/images/image-size"
 import { ROOM_TYPE_META } from "@/lib/planner/options"
 import { WHOLE_IMAGE_BOUNDS, isSameBounds, type RoomBounds } from "@/lib/planner/room-bounds"
 import { Button } from "@/components/ui/button"
@@ -33,6 +34,11 @@ function toOptionalNumber(value: string): number | undefined {
   return value.trim() === "" ? undefined : Number(value)
 }
 
+function toPositiveNumber(value: string): number | null {
+  const number = Number(value)
+  return value.trim() !== "" && number > 0 ? number : null
+}
+
 function describeOpening(opening: Opening): string {
   const parts = [opening.type === "door" ? "Door" : "Window"]
   if (opening.widthCm) parts.push(`${opening.widthCm} cm`)
@@ -43,6 +49,21 @@ function describeOpening(opening: Opening): string {
 function shouldCheckDimensions(draft: SpaceDraft, room: DetectedRoom | null): boolean {
   const confidence = (room ?? draft).dimensions?.confidence ?? 0
   return draft.needsUserInput.includes("dimensions") || confidence < LOW_CONFIDENCE
+}
+
+const UNIT_IMAGE_SIZE: ImageSize = { width: 1, height: 1 }
+
+function getStartingSize(
+  draft: PlanDraft,
+  room: DetectedRoom | null,
+  rooms: readonly DetectedRoom[],
+  image: ImageSize,
+): EstimatedRoomSize {
+  if (room) return estimateRoomSize(room, rooms, image)
+  if (draft.dimensions) {
+    return { ...getTypicalRoomSize(draft.roomType), ...draft.dimensions }
+  }
+  return getTypicalRoomSize(draft.roomType)
 }
 
 function findInitialRoom(rooms: readonly DetectedRoom[], bounds: RoomBounds | null): DetectedRoom | null {
@@ -63,7 +84,8 @@ export function RoomStep({ draft, planImage, initialSpace, initialBounds, onConf
   const initialRoom = findInitialRoom(rooms, initialBounds)
   const [selectedRoom, setSelectedRoom] = useState<DetectedRoom | null>(initialRoom)
   const [bounds, setBounds] = useState<RoomBounds>(initialBounds ?? initialRoom?.bounds ?? WHOLE_IMAGE_BOUNDS)
-  const startingSize = initialSpace?.dimensions ?? initialRoom?.dimensions ?? draft.dimensions
+  const imageSize = planImage ?? UNIT_IMAGE_SIZE
+  const startingSize = initialSpace?.dimensions ?? getStartingSize(draft, initialRoom, rooms, imageSize)
   const [roomType, setRoomType] = useState<RoomType | null>(
     initialSpace?.roomType ?? initialRoom?.roomType ?? draft.roomType ?? null,
   )
@@ -77,9 +99,10 @@ export function RoomStep({ draft, planImage, initialSpace, initialBounds, onConf
     setSelectedRoom(room)
     setBounds(room.bounds)
     setRoomType(room.roomType ?? null)
-    setWidth(toFieldValue(room.dimensions?.widthCm))
-    setLength(toFieldValue(room.dimensions?.lengthCm))
-    setCeilingHeight(toFieldValue(room.dimensions?.ceilingHeightCm))
+    const size = estimateRoomSize(room, rooms, imageSize)
+    setWidth(toFieldValue(size.widthCm))
+    setLength(toFieldValue(size.lengthCm))
+    setCeilingHeight(toFieldValue(size.ceilingHeightCm))
     setHasSubmitted(false)
   }
 
@@ -121,6 +144,7 @@ export function RoomStep({ draft, planImage, initialSpace, initialBounds, onConf
             image={planImage}
             rooms={rooms}
             selectedRoomId={selectedRoom?.id ?? null}
+            selectedDetails={{ roomType, widthCm: toPositiveNumber(width), lengthCm: toPositiveNumber(length) }}
             onRoomSelect={handleRoomSelect}
           />
         )}

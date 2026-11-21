@@ -1,4 +1,3 @@
-import { ROOM_TYPE_META } from "@/lib/planner/options"
 import { SAMPLE_PLAN_ROOMS, type DetectedRoom } from "@/lib/planner/plan-rooms"
 
 const CANVAS_WIDTH = 1200
@@ -30,18 +29,6 @@ function drawRoom(context: CanvasRenderingContext2D, room: DetectedRoom) {
   context.strokeStyle = INK
   context.lineWidth = WALL_WIDTH
   context.strokeRect(rect.left, rect.top, rect.width, rect.height)
-
-  const label = room.roomType ? ROOM_TYPE_META[room.roomType].label : "Room"
-  const centerX = rect.left + rect.width / 2
-  const centerY = rect.top + rect.height / 2
-  context.fillStyle = INK
-  context.textAlign = "center"
-  context.font = "bold 30px sans-serif"
-  context.fillText(label, centerX, centerY)
-  if (room.dimensions) {
-    context.font = "26px sans-serif"
-    context.fillText(`${room.dimensions.widthCm} × ${room.dimensions.lengthCm} cm`, centerX, centerY + 38)
-  }
 }
 
 function drawDoor(context: CanvasRenderingContext2D, room: DetectedRoom) {

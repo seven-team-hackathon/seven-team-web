@@ -17,6 +17,7 @@ import type { RoomBounds } from "@/lib/planner/room-bounds"
 import { pluralize } from "@/lib/pluralize"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { DownloadPlanButton } from "@/components/planner/download-plan-button"
 import { FurnitureShape } from "@/components/planner/furniture-shape"
 import { StatusPill } from "@/components/planner/status-pill"
 
@@ -47,6 +48,7 @@ type DragState = {
 
 type FloorLayoutStepProps = {
   room: RoomSize
+  roomLabel: string
   planImage: ImageRef
   roomBounds: RoomBounds
   items: readonly LayoutItem[]
@@ -56,6 +58,7 @@ type FloorLayoutStepProps = {
 
 export function FloorLayoutStep({
   room,
+  roomLabel,
   planImage,
   roomBounds,
   items,
@@ -158,22 +161,20 @@ export function FloorLayoutStep({
       <CardHeader className="justify-items-center gap-3 text-center">
         <CardTitle className="text-2xl font-bold tracking-tight sm:text-3xl">See it in your room</CardTitle>
         <CardDescription className="text-base">
-          Move the furniture around your plan to check that everything fits.
+          <b className="text-foreground">{roomLabel}</b>. Move the furniture around to check that everything fits.
         </CardDescription>
       </CardHeader>
       <CardContent className="mx-auto flex w-full max-w-4xl flex-col gap-4">
         <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
           <div className="flex flex-wrap items-center gap-2">
-            <StatusPill isWarning={false}>
-              {room.widthCm}×{room.lengthCm} cm
-            </StatusPill>
+            <StatusPill isWarning={false}>{roomLabel}</StatusPill>
             <StatusPill isWarning={hasConflicts}>
               {hasConflicts && <TriangleAlertIcon aria-hidden className="size-3.5" />}
               {!hasConflicts && <CheckIcon aria-hidden className="size-3.5" />}
               {hasConflicts ? pluralize(conflicts.length, "conflict", "conflicts") : "Everything fits"}
             </StatusPill>
           </div>
-          <div className="grid grid-cols-3 gap-2 sm:flex">
+          <div className="grid grid-cols-2 gap-2 sm:flex">
             <Button variant="outline" size="lg" disabled={!selectedId} onClick={handleRotate}>
               <RotateCwIcon data-icon="inline-start" aria-hidden />
               Rotate
@@ -186,6 +187,7 @@ export function FloorLayoutStep({
               <WandSparklesIcon data-icon="inline-start" aria-hidden />
               Arrange
             </Button>
+            <DownloadPlanButton svgRef={svgRef} fileName="room-plan.png" />
           </div>
         </div>
 
