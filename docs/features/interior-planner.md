@@ -2,7 +2,7 @@
 
 Users upload a photo of a room (or part of it), optionally describe what they want and set a budget, and receive links to real IKEA US furniture with a short explanation for each pick. Nothing is generated: the result is a list of existing products.
 
-Status: contracts and mock endpoints are ready. The catalog (294 products), candidate filtering and fit checks are implemented. The AI steps (reading the photo, ranking and explaining) replace the mock responses later without changing the contracts.
+Status: the real pipeline is implemented. With `MOCK_API` unset or not `true` and `ANTHROPIC_API_KEY` set, `/api/space` analyzes the photo with Claude and `/api/recommend` picks products from the catalog and explains each pick. With `MOCK_API=true` both endpoints return fixtures.
 
 ## Scope of the first iteration
 
@@ -33,7 +33,7 @@ All dimensions are centimeters and all prices are USD. The only market is `us`.
 
 ## Mock mode
 
-Add `MOCK_API=true` to `.env.local`. While the real pipeline is not implemented, both endpoints return `model_failed` (502) unless mock mode is on.
+Add `MOCK_API=true` to `.env.local` to get fixture responses without calling the AI. Without it the endpoints use the real pipeline and return `model_failed` (502) when `ANTHROPIC_API_KEY` is missing.
 
 Mock responses are always the same:
 
@@ -77,7 +77,9 @@ JSON body `RecommendRequest`:
 - `space` (`ConfirmedSpace`): `roomType` (required), `dimensions`, `openings`, optional `dimensionsBasis` (`"user"` or `"estimated"`, default `"user"`) and optional `styleHints` from the photo analysis.
 - `preferences`: `market`, `household` (send `false` for both flags when unknown), `budget` in USD, `categories` (at least one), optional `note` (up to 500 characters), and optional `roomType` and `style`. When `roomType` or `style` are omitted the backend uses the room type of the space and the style cues from the photo and the note.
 
-Response 200: `RecommendationResponse` with `items` (one entry per category with a `primary` product and up to 3 `alternatives`), `totals`, `fit`, `usage` and `meta` (`rankedBy` and `dimensionsBasis`).
+Response 200: `RecommendationResponse` with `items` (one entry per category with a `primary` product and up to 3 `alternatives`), `totals`, `fit`, `usage` and `meta` (`rankedBy`, `dimensionsBasis` and optional `unmatchedCategories`).
+
+`meta.unmatchedCategories` lists requested categories for which no product fits the room and the budget. Those categories are missing from `items`: show an empty state for them, for example "Nothing fits this budget and space, try a higher budget". `items` can be empty.
 
 ## Honesty rules for the UI
 

@@ -68,6 +68,7 @@ export const recommendationResponseSchema = z.object({
   meta: z.object({
     rankedBy: rankedBySchema,
     dimensionsBasis: dimensionsBasisSchema,
+    unmatchedCategories: z.array(furnitureCategorySchema).optional(),
   }),
 })
 

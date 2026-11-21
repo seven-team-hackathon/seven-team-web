@@ -77,8 +77,9 @@ describe("POST /api/recommend", () => {
     expect(payload.meta.dimensionsBasis).toBe("user")
   })
 
-  it("reports that the pipeline is not ready when mock mode is off", async () => {
+  it("reports that the AI service is not configured when mock mode is off and the key is missing", async () => {
     vi.stubEnv("MOCK_API", "false")
+    vi.stubEnv("ANTHROPIC_API_KEY", "")
 
     const response = await POST(
       buildRequest(JSON.stringify(recommendRequestFixture))

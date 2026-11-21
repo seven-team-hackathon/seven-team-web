@@ -1,7 +1,8 @@
 import { apiErrorResponse } from "@/lib/api/api-error-response"
-import { isMockApiEnabled, pipelineNotReadyMessage } from "@/lib/api/mock-mode"
+import { isMockApiEnabled } from "@/lib/api/mock-mode"
 import { validateSpaceUploadForm } from "@/lib/api/space-upload-rules"
 import { spaceDraftPhotoFixture } from "@/lib/contracts/fixtures"
+import { extractSpaceFromPhoto } from "@/lib/space/extract-space"
 
 export async function POST(request: Request) {
   const form = await request.formData().catch(() => null)
@@ -19,9 +20,22 @@ export async function POST(request: Request) {
     return apiErrorResponse(upload.code, upload.message)
   }
 
-  if (!isMockApiEnabled()) {
-    return apiErrorResponse("model_failed", pipelineNotReadyMessage)
+  if (isMockApiEnabled()) {
+    return Response.json(spaceDraftPhotoFixture)
   }
 
-  return Response.json(spaceDraftPhotoFixture)
+  if (!process.env.ANTHROPIC_API_KEY) {
+    return apiErrorResponse(
+      "model_failed",
+      "The AI service is not configured on the server."
+    )
+  }
+
+  const result = await extractSpaceFromPhoto(upload.file)
+
+  if (!result.ok) {
+    return apiErrorResponse(result.code, result.message)
+  }
+
+  return Response.json(result.draft)
 }
