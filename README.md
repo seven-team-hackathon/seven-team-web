@@ -76,7 +76,7 @@ The judge is itself a model, so 94.1% is an estimate, not ground truth.
 
 - **Catalog:** a sample of IKEA US (294 products), collected from public product pages and classified by Claude. Prices and availability can change, and stock and delivery depend on the ZIP code and are not tracked. Product links point to ikea.com. IKEA's terms restrict automated data collection in some countries, so this catalog is for the hackathon demo; scaling it needs an affiliate feed or partnership.
 - **Rate limits are in memory.** On serverless hosting each instance counts separately, so they reduce abuse but are not a hard guarantee.
-- **Photo-only first iteration.** Floor plan upload is not supported yet (`kind=plan` returns 400).
+- **Floor plans** are analyzed by the model (rooms, bounds and labeled sizes). It was checked only on a synthetic, clean plan so far (all rooms found, sizes exact, bounds overlap 0.92-0.98 IoU); real plans are expected to be harder, and the UI lets the user correct the room and sizes.
 - **Size from a photo is approximate** and unvalidated against real rooms so far.
 - **Single market (US)** and English only.
 

@@ -5,8 +5,18 @@ import {
   spaceRateLimiter,
 } from "@/lib/api/route-rate-limits"
 import { validateSpaceUploadForm } from "@/lib/api/space-upload-rules"
-import { spaceDraftPhotoFixture } from "@/lib/contracts/fixtures"
+import {
+  spaceDraftPhotoFixture,
+  spaceDraftPlanFixture,
+} from "@/lib/contracts/fixtures"
+import type { SpaceKind } from "@/lib/contracts/space"
 import { extractSpaceFromPhoto } from "@/lib/space/extract-space"
+import { extractSpaceFromPlan } from "@/lib/space/extract-plan"
+
+const mockDrafts = {
+  plan: spaceDraftPlanFixture,
+  photo: spaceDraftPhotoFixture,
+} satisfies Record<SpaceKind, unknown>
 
 export const maxDuration = 90
 
@@ -33,7 +43,7 @@ export async function POST(request: Request) {
   }
 
   if (isMockApiEnabled()) {
-    return Response.json(spaceDraftPhotoFixture)
+    return Response.json(mockDrafts[upload.kind])
   }
 
   if (!process.env.ANTHROPIC_API_KEY) {
@@ -43,7 +53,10 @@ export async function POST(request: Request) {
     )
   }
 
-  const result = await extractSpaceFromPhoto(upload.file)
+  const result =
+    upload.kind === "plan"
+      ? await extractSpaceFromPlan(upload.file)
+      : await extractSpaceFromPhoto(upload.file)
 
   if (!result.ok) {
     return apiErrorResponse(result.code, result.message)

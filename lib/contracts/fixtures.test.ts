@@ -6,6 +6,7 @@ import {
   recommendRequestFixture,
   recommendationFixture,
   spaceDraftPhotoFixture,
+  spaceDraftPlanFixture,
 } from "@/lib/contracts/fixtures"
 import {
   recommendRequestSchema,
@@ -16,6 +17,17 @@ import { spaceDraftSchema } from "@/lib/contracts/space"
 describe("contract fixtures", () => {
   it("matches the space draft schema for a photo", () => {
     expect(spaceDraftSchema.safeParse(spaceDraftPhotoFixture).success).toBe(true)
+  })
+
+  it("matches the space draft schema for a plan with rooms", () => {
+    expect(spaceDraftSchema.safeParse(spaceDraftPlanFixture).success).toBe(true)
+    expect(spaceDraftPlanFixture.rooms).toHaveLength(3)
+  })
+
+  it("keeps the rooms when a plan draft is parsed", () => {
+    const parsed = spaceDraftSchema.parse(spaceDraftPlanFixture)
+
+    expect(parsed.rooms?.[0]?.bounds.width).toBeGreaterThan(0)
   })
 
   it("asks the user to confirm dimensions estimated from a photo", () => {

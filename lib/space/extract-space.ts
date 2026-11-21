@@ -5,6 +5,7 @@ import { analyzePhotoWithClaude } from "@/lib/space/photo-analysis"
 import type {
   PhotoAnalysis,
   PhotoAnalyzer,
+  PhotoImage,
 } from "@/lib/space/photo-analysis"
 import { toPhotoMediaType } from "@/lib/space/photo-media-types"
 
@@ -100,13 +101,25 @@ export function buildSpaceDraft(analysis: PhotoAnalysis): SpaceDraft | null {
   }
 }
 
+export async function readPhotoImage(file: File): Promise<PhotoImage | null> {
+  const mediaType = toPhotoMediaType(file.type)
+
+  if (!mediaType) {
+    return null
+  }
+
+  const base64 = Buffer.from(await file.arrayBuffer()).toString("base64")
+
+  return { base64, mediaType }
+}
+
 export async function extractSpaceFromPhoto(
   file: File,
   analyze: PhotoAnalyzer = analyzePhotoWithClaude
 ): Promise<ExtractSpaceResult> {
-  const mediaType = toPhotoMediaType(file.type)
+  const image = await readPhotoImage(file)
 
-  if (!mediaType) {
+  if (!image) {
     return {
       ok: false,
       code: "unsupported_media_type",
@@ -114,8 +127,7 @@ export async function extractSpaceFromPhoto(
     }
   }
 
-  const base64 = Buffer.from(await file.arrayBuffer()).toString("base64")
-  const outcome = await analyze({ base64, mediaType })
+  const outcome = await analyze(image)
 
   if (outcome.kind === "failed") {
     return {

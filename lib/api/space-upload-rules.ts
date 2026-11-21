@@ -33,14 +33,6 @@ export function validateSpaceUploadForm(form: FormData): SpaceUploadResult {
     }
   }
 
-  if (kind.data === "plan") {
-    return {
-      ok: false,
-      code: "invalid_input",
-      message: "Floor plan upload is not supported yet. Use kind=photo.",
-    }
-  }
-
   const file = form.get("file")
 
   if (!(file instanceof File) || file.size === 0) {

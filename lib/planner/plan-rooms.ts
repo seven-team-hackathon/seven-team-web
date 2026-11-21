@@ -1,28 +1,15 @@
-import { z } from "zod"
-import { roomTypeSchema } from "@/lib/contracts/room-type"
-import { detectedDimensionsSchema, type SpaceDraft } from "@/lib/contracts/space"
+import {
+  detectedRoomSchema,
+  imageBoundsSchema,
+  type DetectedRoom,
+  type SpaceDraft,
+} from "@/lib/contracts/space"
 
-const unitSchema = z.number().min(0).max(1)
+export { detectedRoomSchema, imageBoundsSchema }
 
-export const imageBoundsSchema = z.object({
-  x: unitSchema,
-  y: unitSchema,
-  width: unitSchema.positive(),
-  height: unitSchema.positive(),
-})
+export type { DetectedRoom }
 
-export const detectedRoomSchema = z.object({
-  id: z.string().min(1),
-  roomType: roomTypeSchema.optional(),
-  dimensions: detectedDimensionsSchema.optional(),
-  bounds: imageBoundsSchema,
-})
-
-export type DetectedRoom = z.infer<typeof detectedRoomSchema>
-
-export type PlanDraft = SpaceDraft & {
-  readonly rooms?: readonly DetectedRoom[]
-}
+export type PlanDraft = SpaceDraft
 
 export const SAMPLE_PLAN_ROOMS: readonly DetectedRoom[] = [
   {

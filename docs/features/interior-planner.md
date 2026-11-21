@@ -6,7 +6,7 @@ Status: the real pipeline is implemented. With `MOCK_API` unset or not `true` an
 
 ## Scope of the first iteration
 
-- **Photo only.** `kind=plan` is not supported yet and returns 400 (`invalid_input`).
+- **Photo or floor plan.** `kind=photo` estimates the visible area of one room. `kind=plan` finds the rooms on a floor plan, so the user can pick one (see "Floor plans").
 - **Dimensions are optional.** The photo analysis returns an estimate of the visible area. The user may accept it or enter real dimensions.
 - **Be honest about estimates.** When dimensions are only estimated from the photo, the backend is more conservative and the UI must say so (see "Honesty rules").
 
@@ -47,7 +47,7 @@ Input validation is real, so error states can be tested now. `recommendRequestEs
 
 Multipart form data:
 
-- `kind`: `photo` (`plan` returns 400 for now)
+- `kind`: `photo` or `plan`
 - `file`: image, JPEG, PNG or WebP, at most 4 MB
 
 Resize the image on the client (about 1600 px on the long side) before upload.
@@ -69,6 +69,25 @@ const response = await fetch("/api/space", { method: "POST", body: form })
 ```
 
 In React Native append the file as `{ uri, name, type }` and do not set the `content-type` header manually.
+
+## Floor plans
+
+With `kind=plan` the response is a `SpaceDraft` with `kind: "plan"` and a `rooms` array. Each room has:
+
+- `id`: `room-1`, `room-2`, ... in reading order.
+- `bounds`: the rectangle of the room as fractions of the whole image (`x`, `y` is the top-left corner, `width` and `height` follow, all between 0 and 1). Use it to highlight the room over the uploaded image.
+- `roomType` (optional) and `dimensions` (optional): `widthCm` is the left-right size as drawn on the image and `lengthCm` the top-bottom size. `dimensions.source` is `plan-labels` when the sizes were read from text on the plan (feet, inches and meters are converted to centimeters) or `estimated` when they were inferred. Rooms such as kitchens and bathrooms come without `roomType`.
+
+Rules for the UI:
+
+- `rooms` can be empty, for example when the model could not find any room. Then let the user draw the room on the image and enter the sizes. The same applies to a room without `dimensions`.
+- When exactly one room is found, `roomType` and `dimensions` are also set at the top level of the draft.
+- `needsUserInput` contains `dimensions` when at least one room has no size.
+- Bounds and sizes are read by a model and can be wrong. Always let the user move the rectangle and edit the sizes, and keep sending `dimensionsBasis: "estimated"` unless the user typed the dimensions.
+- A non-plan image returns `422` with `unreadable_space`.
+- `rooms` is part of the shared `spaceDraftSchema` in `lib/contracts/space.ts` (`detectedRoomSchema`, `imageBoundsSchema`), so parsing the response with that schema keeps it. Before this change zod dropped the field.
+
+Resize the plan on the client with care: small text needs enough pixels to be read, so do not go below about 1600 px on the long side.
 
 ## POST /api/recommend
 

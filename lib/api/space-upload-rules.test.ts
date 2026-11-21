@@ -32,13 +32,12 @@ describe("validateSpaceUploadForm", () => {
     expect(result.ok).toBe(true)
   })
 
-  it("rejects a floor plan as not supported yet", () => {
+  it("accepts a floor plan and keeps the kind", () => {
     const result = validateSpaceUploadForm(
       buildForm({ kind: "plan", file: buildImage("image/png") })
     )
 
-    expect(!result.ok && result.code).toBe("invalid_input")
-    expect(!result.ok && result.message).toContain("not supported")
+    expect(result.ok && result.kind).toBe("plan")
   })
 
   it("accepts a jpeg photo and keeps the kind", () => {
