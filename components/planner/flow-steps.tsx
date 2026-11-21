@@ -87,7 +87,7 @@ function MobileFlowSteps({ currentStep, furthestStep, skippedSteps, onStepSelect
         {steps.map((step, index) => (
           <span
             key={step.id}
-            className={cn("h-1 flex-1 rounded-full bg-secondary", index <= currentIndex && "bg-primary")}
+            className={cn("h-1 flex-1 rounded-full bg-border", index <= currentIndex && "bg-primary")}
           />
         ))}
       </div>
