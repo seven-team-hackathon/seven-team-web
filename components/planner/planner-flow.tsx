@@ -8,6 +8,7 @@ import { MAX_VISUALIZED_PRODUCTS } from "@/lib/contracts/visualization"
 import { CATEGORY_META, FREE_CATEGORY_COUNT } from "@/lib/planner/options"
 import type { ImageRef } from "@/lib/images/image-size"
 import type { RoomBounds } from "@/lib/planner/room-bounds"
+import { SAMPLE_PHOTO_SPACE } from "@/lib/planner/sample-photo"
 import { AnalyzingStep, type AnalyzedImage, type SpaceUpload } from "@/components/planner/analyzing-step"
 import { FlowSteps, getFurtherStep, type FlowStep } from "@/components/planner/flow-steps"
 import { PreferencesStep, type SpaceInput } from "@/components/planner/preferences-step"
@@ -35,6 +36,7 @@ type SpaceImage = ImageRef & {
 type FlowProgress = {
   readonly furthestStep: FlowStep
   readonly draft: SpaceDraft | null
+  readonly isRoomSkipped: boolean
   readonly image: SpaceImage | null
   readonly roomBounds: RoomBounds | null
   readonly preferencesSpace: SpaceInput | null
@@ -48,6 +50,7 @@ type FlowProgress = {
 const INITIAL_PROGRESS: FlowProgress = {
   furthestStep: "upload",
   draft: null,
+  isRoomSkipped: false,
   image: null,
   roomBounds: null,
   preferencesSpace: null,
@@ -65,21 +68,23 @@ function getPreviewProducts(recommendation: RecommendationResponse, isUnlocked: 
     .map(({ category, primary }) => ({ articleNo: primary.articleNo, label: CATEGORY_META[category].label }))
 }
 
-function getPhotoSpace(draft: SpaceDraft): SpaceInput | null {
-  if (draft.kind !== "photo" || !draft.dimensions) return null
-  const { widthCm, lengthCm, ceilingHeightCm } = draft.dimensions
+function getPhotoSpace(draft: SpaceDraft, isSample: boolean): SpaceInput | null {
+  if (draft.kind !== "photo") return null
+  const dimensions = draft.dimensions ?? (isSample ? SAMPLE_PHOTO_SPACE.dimensions : null)
+  if (!dimensions) return null
+  const { widthCm, lengthCm, ceilingHeightCm } = dimensions
   return {
-    roomType: draft.roomType ?? null,
+    roomType: draft.roomType ?? (isSample ? SAMPLE_PHOTO_SPACE.roomType : null),
     dimensions: { widthCm, lengthCm, ceilingHeightCm },
     dimensionsBasis: "estimated",
-    openings: draft.openings,
+    openings: draft.openings.length === 0 && isSample ? SAMPLE_PHOTO_SPACE.openings : draft.openings,
     styleHints: draft.styleHints,
   }
 }
 
-function getSkippedSteps({ draft, image }: FlowProgress): FlowStep[] {
+function getSkippedSteps({ isRoomSkipped, image }: FlowProgress): FlowStep[] {
   const skipped: FlowStep[] = []
-  if (draft && getPhotoSpace(draft)) skipped.push("room")
+  if (isRoomSkipped) skipped.push("room")
   if (image?.kind !== "photo") skipped.push("preview")
   return skipped
 }
@@ -101,10 +106,18 @@ export function PlannerFlow() {
   function handleAnalyzed(draft: SpaceDraft, { file, width, height }: AnalyzedImage) {
     releaseImage()
     const image: SpaceImage = { kind: draft.kind, file, url: URL.createObjectURL(file), width, height }
-    const photoSpace = getPhotoSpace(draft)
+    const isSample = flow.step === "analyzing" && flow.upload.file === null
+    const photoSpace = getPhotoSpace(draft, isSample)
 
     if (photoSpace) {
-      setProgress((current) => ({ ...current, draft, image, preferencesSpace: photoSpace, furthestStep: "preferences" }))
+      setProgress((current) => ({
+        ...current,
+        draft,
+        isRoomSkipped: true,
+        image,
+        preferencesSpace: photoSpace,
+        furthestStep: "preferences",
+      }))
       setFlow({ step: "preferences", space: photoSpace, variant: "photo" })
       return
     }

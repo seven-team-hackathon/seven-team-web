@@ -23,8 +23,8 @@ export function getFurtherStep(first: FlowStep, second: FlowStep): FlowStep {
   return getStepOrder(first) >= getStepOrder(second) ? first : second
 }
 
-function isReachable(step: FlowStepItem, furthestStep: FlowStep): boolean {
-  return getStepOrder(step.id) <= getStepOrder(furthestStep) && !step.isTransient
+function isReachable(step: FlowStepItem, furthestStep: FlowStep, skippedSteps: readonly FlowStep[]): boolean {
+  return getStepOrder(step.id) <= getStepOrder(furthestStep) && !step.isTransient && !skippedSteps.includes(step.id)
 }
 
 function findSelectableStep(
@@ -32,9 +32,10 @@ function findSelectableStep(
   fromIndex: number,
   direction: 1 | -1,
   furthestStep: FlowStep,
+  skippedSteps: readonly FlowStep[],
 ): FlowStep | null {
   for (let index = fromIndex + direction; index >= 0 && index < steps.length; index += direction) {
-    if (isReachable(steps[index], furthestStep)) return steps[index].id
+    if (isReachable(steps[index], furthestStep, skippedSteps)) return steps[index].id
   }
   return null
 }
@@ -46,14 +47,11 @@ type FlowStepsProps = {
   onStepSelect: (step: FlowStep) => void
 }
 
-type StepListProps = Omit<FlowStepsProps, "skippedSteps"> & {
-  steps: readonly FlowStepItem[]
-}
-
-function MobileFlowSteps({ steps, currentStep, furthestStep, onStepSelect }: StepListProps) {
+function MobileFlowSteps({ currentStep, furthestStep, skippedSteps, onStepSelect }: FlowStepsProps) {
+  const steps = FLOW_STEPS
   const currentIndex = steps.findIndex(({ id }) => id === currentStep)
-  const previousStep = findSelectableStep(steps, currentIndex, -1, furthestStep)
-  const nextStep = findSelectableStep(steps, currentIndex, 1, furthestStep)
+  const previousStep = findSelectableStep(steps, currentIndex, -1, furthestStep, skippedSteps)
+  const nextStep = findSelectableStep(steps, currentIndex, 1, furthestStep, skippedSteps)
 
   return (
     <div className="flex flex-col gap-2 sm:hidden">
@@ -98,15 +96,18 @@ function MobileFlowSteps({ steps, currentStep, furthestStep, onStepSelect }: Ste
 }
 
 export function FlowSteps({ currentStep, furthestStep, skippedSteps, onStepSelect }: FlowStepsProps) {
-  const steps = FLOW_STEPS.filter(({ id }) => !skippedSteps.includes(id))
-
   return (
     <>
-      <MobileFlowSteps steps={steps} currentStep={currentStep} furthestStep={furthestStep} onStepSelect={onStepSelect} />
+      <MobileFlowSteps
+        currentStep={currentStep}
+        furthestStep={furthestStep}
+        skippedSteps={skippedSteps}
+        onStepSelect={onStepSelect}
+      />
       <ol aria-label="Steps" className="hidden flex-wrap justify-center gap-1.5 sm:flex">
-        {steps.map((step) => {
+        {FLOW_STEPS.map((step) => {
           const isCurrent = step.id === currentStep
-          const isSelectable = isReachable(step, furthestStep) && !isCurrent
+          const isSelectable = isReachable(step, furthestStep, skippedSteps) && !isCurrent
           return (
             <li key={step.id}>
               <Button
@@ -116,7 +117,7 @@ export function FlowSteps({ currentStep, furthestStep, skippedSteps, onStepSelec
                 disabled={!isSelectable && !isCurrent}
                 onClick={() => isSelectable && onStepSelect(step.id)}
                 className={cn(
-                  "rounded-full border border-transparent text-xs font-semibold text-muted-foreground hover:text-foreground",
+                  "rounded-full border border-primary/30 bg-muted text-xs font-semibold text-foreground hover:bg-muted hover:text-foreground",
                   isCurrent && "border-primary bg-transparent text-primary hover:bg-transparent hover:text-primary",
                 )}
               >
