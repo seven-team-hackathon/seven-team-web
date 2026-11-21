@@ -2,7 +2,7 @@ import type { ApiErrorCode } from "@/lib/contracts/api-error"
 import { spaceKindSchema } from "@/lib/contracts/space"
 import type { SpaceKind } from "@/lib/contracts/space"
 
-export const maxSpaceUploadBytes = 5 * 1024 * 1024
+export const maxSpaceUploadBytes = 4 * 1024 * 1024
 
 export const allowedSpaceUploadTypes = [
   "image/jpeg",
@@ -55,7 +55,7 @@ export function validateSpaceUploadForm(form: FormData): SpaceUploadResult {
     return {
       ok: false,
       code: "file_too_large",
-      message: "The image must be 5 MB or smaller.",
+      message: "The image must be 4 MB or smaller.",
     }
   }
 

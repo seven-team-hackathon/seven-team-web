@@ -34,7 +34,7 @@ Input validation is real, so error states can be tested now.
 Multipart form data:
 
 - `kind`: `plan` or `photo`
-- `file`: image, JPEG, PNG or WebP, at most 5 MB
+- `file`: image, JPEG, PNG or WebP, at most 4 MB
 
 Resize the image on the client (about 1600 px on the long side) before upload.
 
