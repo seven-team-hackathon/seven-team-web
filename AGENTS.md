@@ -1,6 +1,6 @@
 # Project engineering guide
 
-Is a web repo for a hackathon problem-solving application built with Next.js (App Router), React, Tailwind CSS and shadcn/ui. Keep changes maintainable and consistent with the surrounding code.
+Roomfit is an AI interior planner: it helps people see how furniture looks together, whether it fits the room and how to use the space best. The app is built with Next.js (App Router), React, Tailwind CSS and shadcn/ui. Keep changes maintainable and consistent with the surrounding code.
 
 Use npm as the package manager.
 

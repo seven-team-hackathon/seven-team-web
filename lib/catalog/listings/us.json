@@ -1,0 +1,2354 @@
+[
+  {
+    "articleNo": "00217797",
+    "market": "us",
+    "available": true,
+    "price": 14.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:10:42.908Z"
+  },
+  {
+    "articleNo": "00395252",
+    "market": "us",
+    "available": true,
+    "price": 59,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:54:46.331Z"
+  },
+  {
+    "articleNo": "00439468",
+    "market": "us",
+    "available": true,
+    "price": 399.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:03:34.968Z"
+  },
+  {
+    "articleNo": "00453765",
+    "market": "us",
+    "available": true,
+    "price": 249.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:55:26.257Z"
+  },
+  {
+    "articleNo": "00488963",
+    "market": "us",
+    "available": true,
+    "price": 49.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:58:46.477Z"
+  },
+  {
+    "articleNo": "00496048",
+    "market": "us",
+    "available": true,
+    "price": 199.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:53:10.147Z"
+  },
+  {
+    "articleNo": "00503435",
+    "market": "us",
+    "available": true,
+    "price": 29.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:09:59.848Z"
+  },
+  {
+    "articleNo": "00529478",
+    "market": "us",
+    "available": true,
+    "price": 60,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:11:39.204Z"
+  },
+  {
+    "articleNo": "00546595",
+    "market": "us",
+    "available": true,
+    "price": 99.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:00:16.930Z"
+  },
+  {
+    "articleNo": "00563716",
+    "market": "us",
+    "available": true,
+    "price": 199.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:09:16.486Z"
+  },
+  {
+    "articleNo": "00565758",
+    "market": "us",
+    "available": true,
+    "price": 799.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:08:16.929Z"
+  },
+  {
+    "articleNo": "00565782",
+    "market": "us",
+    "available": true,
+    "price": 149.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:12:12.521Z"
+  },
+  {
+    "articleNo": "00568728",
+    "market": "us",
+    "available": true,
+    "price": 299.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:10:06.412Z"
+  },
+  {
+    "articleNo": "00569191",
+    "market": "us",
+    "available": true,
+    "price": 140,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:07:30.260Z"
+  },
+  {
+    "articleNo": "00575451",
+    "market": "us",
+    "available": true,
+    "price": 299,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:08:20.322Z"
+  },
+  {
+    "articleNo": "00579034",
+    "market": "us",
+    "available": true,
+    "price": 299.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:04:42.003Z"
+  },
+  {
+    "articleNo": "00586360",
+    "market": "us",
+    "available": true,
+    "price": 29.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:11:19.198Z"
+  },
+  {
+    "articleNo": "00587492",
+    "market": "us",
+    "available": true,
+    "price": 229.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:10:16.510Z"
+  },
+  {
+    "articleNo": "00587581",
+    "market": "us",
+    "available": true,
+    "price": 65,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:05:32.282Z"
+  },
+  {
+    "articleNo": "00591366",
+    "market": "us",
+    "available": true,
+    "price": 149.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:09:06.426Z"
+  },
+  {
+    "articleNo": "00593841",
+    "market": "us",
+    "available": true,
+    "price": 349.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:12:32.340Z"
+  },
+  {
+    "articleNo": "00604161",
+    "market": "us",
+    "available": true,
+    "price": 149.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:08:49.976Z"
+  },
+  {
+    "articleNo": "00607193",
+    "market": "us",
+    "available": true,
+    "price": 169,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:01:07.747Z"
+  },
+  {
+    "articleNo": "00611265",
+    "market": "us",
+    "available": true,
+    "price": 799.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:56:43.717Z"
+  },
+  {
+    "articleNo": "00617564",
+    "market": "us",
+    "available": true,
+    "price": 45,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:05:18.975Z"
+  },
+  {
+    "articleNo": "00628242",
+    "market": "us",
+    "available": true,
+    "price": 279.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:55:06.298Z"
+  },
+  {
+    "articleNo": "00628751",
+    "market": "us",
+    "available": true,
+    "price": 99.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:53:47.075Z"
+  },
+  {
+    "articleNo": "10234942",
+    "market": "us",
+    "available": true,
+    "price": 79.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:01:11.139Z"
+  },
+  {
+    "articleNo": "10367461",
+    "market": "us",
+    "available": true,
+    "price": 399.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:13:05.204Z"
+  },
+  {
+    "articleNo": "10423886",
+    "market": "us",
+    "available": true,
+    "price": 359.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:00:13.619Z"
+  },
+  {
+    "articleNo": "10434309",
+    "market": "us",
+    "available": true,
+    "price": 99.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:06:39.877Z"
+  },
+  {
+    "articleNo": "10469493",
+    "market": "us",
+    "available": true,
+    "price": 59.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:06:16.210Z"
+  },
+  {
+    "articleNo": "10514155",
+    "market": "us",
+    "available": true,
+    "price": 449,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:54:13.783Z"
+  },
+  {
+    "articleNo": "10539212",
+    "market": "us",
+    "available": true,
+    "price": 149.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:56:46.903Z"
+  },
+  {
+    "articleNo": "10542747",
+    "market": "us",
+    "available": true,
+    "price": 99.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:08:23.580Z"
+  },
+  {
+    "articleNo": "10542752",
+    "market": "us",
+    "available": true,
+    "price": 449.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:04:01.432Z"
+  },
+  {
+    "articleNo": "10555099",
+    "market": "us",
+    "available": true,
+    "price": 49.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:10:33.099Z"
+  },
+  {
+    "articleNo": "10567568",
+    "market": "us",
+    "available": true,
+    "price": 39.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:03:08.205Z"
+  },
+  {
+    "articleNo": "10571259",
+    "market": "us",
+    "available": true,
+    "price": 99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:53:33.687Z"
+  },
+  {
+    "articleNo": "10585082",
+    "market": "us",
+    "available": true,
+    "price": 999,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:12:22.438Z"
+  },
+  {
+    "articleNo": "10586114",
+    "market": "us",
+    "available": true,
+    "price": 1499,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:03:01.584Z"
+  },
+  {
+    "articleNo": "10593384",
+    "market": "us",
+    "available": true,
+    "price": 299.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:07:46.738Z"
+  },
+  {
+    "articleNo": "10597607",
+    "market": "us",
+    "available": true,
+    "price": 279,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:02:01.805Z"
+  },
+  {
+    "articleNo": "10601124",
+    "market": "us",
+    "available": true,
+    "price": 199.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:53:37.181Z"
+  },
+  {
+    "articleNo": "10602449",
+    "market": "us",
+    "available": true,
+    "price": 99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:00:23.651Z"
+  },
+  {
+    "articleNo": "10606273",
+    "market": "us",
+    "available": true,
+    "price": 279.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:10:52.732Z"
+  },
+  {
+    "articleNo": "10620556",
+    "market": "us",
+    "available": true,
+    "price": 299.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:01:21.261Z"
+  },
+  {
+    "articleNo": "10637076",
+    "market": "us",
+    "available": true,
+    "price": 59.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:02:28.294Z"
+  },
+  {
+    "articleNo": "20200456",
+    "market": "us",
+    "available": true,
+    "price": 129.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:08:40.010Z"
+  },
+  {
+    "articleNo": "20355764",
+    "market": "us",
+    "available": true,
+    "price": 299,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:59:53.047Z"
+  },
+  {
+    "articleNo": "20368714",
+    "market": "us",
+    "available": true,
+    "price": 399.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:08:33.489Z"
+  },
+  {
+    "articleNo": "20436713",
+    "market": "us",
+    "available": true,
+    "price": 32.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:09:26.397Z"
+  },
+  {
+    "articleNo": "20458837",
+    "market": "us",
+    "available": true,
+    "price": 549.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:59:10.100Z"
+  },
+  {
+    "articleNo": "20458842",
+    "market": "us",
+    "available": true,
+    "price": 249.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:56:40.434Z"
+  },
+  {
+    "articleNo": "20483257",
+    "market": "us",
+    "available": true,
+    "price": 299.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:10:39.732Z"
+  },
+  {
+    "articleNo": "20528473",
+    "market": "us",
+    "available": true,
+    "price": 149.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:07:13.361Z"
+  },
+  {
+    "articleNo": "20530065",
+    "market": "us",
+    "available": true,
+    "price": 199.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:12:48.652Z"
+  },
+  {
+    "articleNo": "20532130",
+    "market": "us",
+    "available": true,
+    "price": 235,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:54:49.536Z"
+  },
+  {
+    "articleNo": "20533337",
+    "market": "us",
+    "available": true,
+    "price": 299.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:05:35.683Z"
+  },
+  {
+    "articleNo": "20556507",
+    "market": "us",
+    "available": true,
+    "price": 79.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:58:26.861Z"
+  },
+  {
+    "articleNo": "20564512",
+    "market": "us",
+    "available": true,
+    "price": 449.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:12:02.661Z"
+  },
+  {
+    "articleNo": "20569487",
+    "market": "us",
+    "available": true,
+    "price": 199.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:04:11.920Z"
+  },
+  {
+    "articleNo": "20569977",
+    "market": "us",
+    "available": true,
+    "price": 14.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:07:20.080Z"
+  },
+  {
+    "articleNo": "20570221",
+    "market": "us",
+    "available": true,
+    "price": 49.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:06:09.702Z"
+  },
+  {
+    "articleNo": "20573272",
+    "market": "us",
+    "available": true,
+    "price": 79.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:03:28.394Z"
+  },
+  {
+    "articleNo": "20584435",
+    "market": "us",
+    "available": true,
+    "price": 280,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:00:34.176Z"
+  },
+  {
+    "articleNo": "20593802",
+    "market": "us",
+    "available": true,
+    "price": 399.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:57:20.469Z"
+  },
+  {
+    "articleNo": "20595090",
+    "market": "us",
+    "available": true,
+    "price": 199,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:09:03.134Z"
+  },
+  {
+    "articleNo": "20599446",
+    "market": "us",
+    "available": true,
+    "price": 219,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:59:03.378Z"
+  },
+  {
+    "articleNo": "20600789",
+    "market": "us",
+    "available": true,
+    "price": 199.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:56:53.685Z"
+  },
+  {
+    "articleNo": "20611882",
+    "market": "us",
+    "available": true,
+    "price": 149.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:11:02.723Z"
+  },
+  {
+    "articleNo": "20627996",
+    "market": "us",
+    "available": true,
+    "price": 279.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:09:53.158Z"
+  },
+  {
+    "articleNo": "20632686",
+    "market": "us",
+    "available": true,
+    "price": 1899,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:02:18.359Z"
+  },
+  {
+    "articleNo": "30299447",
+    "market": "us",
+    "available": true,
+    "price": 199.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:09:49.809Z"
+  },
+  {
+    "articleNo": "30360487",
+    "market": "us",
+    "available": true,
+    "price": 199,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:56:03.768Z"
+  },
+  {
+    "articleNo": "30388981",
+    "market": "us",
+    "available": true,
+    "price": 99.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:02:51.397Z"
+  },
+  {
+    "articleNo": "30424366",
+    "market": "us",
+    "available": true,
+    "price": 249,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:05:08.828Z"
+  },
+  {
+    "articleNo": "30439476",
+    "market": "us",
+    "available": true,
+    "price": 349.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:10:26.504Z"
+  },
+  {
+    "articleNo": "30538198",
+    "market": "us",
+    "available": true,
+    "price": 329.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:12:15.800Z"
+  },
+  {
+    "articleNo": "30542690",
+    "market": "us",
+    "available": true,
+    "price": 279.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:57:53.626Z"
+  },
+  {
+    "articleNo": "30553240",
+    "market": "us",
+    "available": true,
+    "price": 299.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:10:56.044Z"
+  },
+  {
+    "articleNo": "30570249",
+    "market": "us",
+    "available": true,
+    "price": 79,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:03:48.181Z"
+  },
+  {
+    "articleNo": "30574902",
+    "market": "us",
+    "available": true,
+    "price": 59.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:07:10.044Z"
+  },
+  {
+    "articleNo": "30603645",
+    "market": "us",
+    "available": true,
+    "price": 69.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:00:44.258Z"
+  },
+  {
+    "articleNo": "30609237",
+    "market": "us",
+    "available": true,
+    "price": 129.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:52:56.524Z"
+  },
+  {
+    "articleNo": "40178591",
+    "market": "us",
+    "available": true,
+    "price": 39.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:08:36.806Z"
+  },
+  {
+    "articleNo": "40434322",
+    "market": "us",
+    "available": true,
+    "price": 499.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:12:58.565Z"
+  },
+  {
+    "articleNo": "40480781",
+    "market": "us",
+    "available": true,
+    "price": 249,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:07:16.778Z"
+  },
+  {
+    "articleNo": "40487160",
+    "market": "us",
+    "available": true,
+    "price": 119.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:08:00.022Z"
+  },
+  {
+    "articleNo": "40505022",
+    "market": "us",
+    "available": true,
+    "price": 349,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:59:19.999Z"
+  },
+  {
+    "articleNo": "40541421",
+    "market": "us",
+    "available": true,
+    "price": 59.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:57:23.746Z"
+  },
+  {
+    "articleNo": "40542449",
+    "market": "us",
+    "available": true,
+    "price": 499.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:03:38.290Z"
+  },
+  {
+    "articleNo": "40561763",
+    "market": "us",
+    "available": true,
+    "price": 99.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:55:57.220Z"
+  },
+  {
+    "articleNo": "40568726",
+    "market": "us",
+    "available": true,
+    "price": 179.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:54:03.790Z"
+  },
+  {
+    "articleNo": "40571253",
+    "market": "us",
+    "available": true,
+    "price": 129,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:11:45.944Z"
+  },
+  {
+    "articleNo": "40581916",
+    "market": "us",
+    "available": true,
+    "price": 199,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:54:43.144Z"
+  },
+  {
+    "articleNo": "40586805",
+    "market": "us",
+    "available": true,
+    "price": 199.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:05:59.508Z"
+  },
+  {
+    "articleNo": "40590925",
+    "market": "us",
+    "available": true,
+    "price": 199.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:59:46.437Z"
+  },
+  {
+    "articleNo": "40593882",
+    "market": "us",
+    "available": true,
+    "price": 379.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:11:35.996Z"
+  },
+  {
+    "articleNo": "40594754",
+    "market": "us",
+    "available": true,
+    "price": 399,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:07:26.960Z"
+  },
+  {
+    "articleNo": "40600731",
+    "market": "us",
+    "available": true,
+    "price": 279.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:07:03.369Z"
+  },
+  {
+    "articleNo": "40611094",
+    "market": "us",
+    "available": true,
+    "price": 99.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:04:52.063Z"
+  },
+  {
+    "articleNo": "40613088",
+    "market": "us",
+    "available": true,
+    "price": 249,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:58:00.461Z"
+  },
+  {
+    "articleNo": "40618689",
+    "market": "us",
+    "available": true,
+    "price": 399,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:04:18.633Z"
+  },
+  {
+    "articleNo": "40619882",
+    "market": "us",
+    "available": true,
+    "price": 89.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:12:06.002Z"
+  },
+  {
+    "articleNo": "50214678",
+    "market": "us",
+    "available": true,
+    "price": 79,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:09:33.006Z"
+  },
+  {
+    "articleNo": "50299502",
+    "market": "us",
+    "available": true,
+    "price": 119.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:02:34.944Z"
+  },
+  {
+    "articleNo": "50424129",
+    "market": "us",
+    "available": true,
+    "price": 349,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:52:49.992Z"
+  },
+  {
+    "articleNo": "50424327",
+    "market": "us",
+    "available": true,
+    "price": 79.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:12:29.071Z"
+  },
+  {
+    "articleNo": "50481172",
+    "market": "us",
+    "available": true,
+    "price": 24.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:11:29.242Z"
+  },
+  {
+    "articleNo": "50483289",
+    "market": "us",
+    "available": true,
+    "price": 129,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:06:06.433Z"
+  },
+  {
+    "articleNo": "50531657",
+    "market": "us",
+    "available": true,
+    "price": 549,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:07:56.698Z"
+  },
+  {
+    "articleNo": "50531964",
+    "market": "us",
+    "available": true,
+    "price": 119.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:05:05.474Z"
+  },
+  {
+    "articleNo": "50542905",
+    "market": "us",
+    "available": true,
+    "price": 159,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:13:12.019Z"
+  },
+  {
+    "articleNo": "50551202",
+    "market": "us",
+    "available": true,
+    "price": 100,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:57:47.195Z"
+  },
+  {
+    "articleNo": "50562026",
+    "market": "us",
+    "available": true,
+    "price": 449.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:54:10.364Z"
+  },
+  {
+    "articleNo": "50566048",
+    "market": "us",
+    "available": true,
+    "price": 399.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:02:48.099Z"
+  },
+  {
+    "articleNo": "50572761",
+    "market": "us",
+    "available": true,
+    "price": 129.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:58:23.638Z"
+  },
+  {
+    "articleNo": "50573954",
+    "market": "us",
+    "available": true,
+    "price": 499.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:03:44.938Z"
+  },
+  {
+    "articleNo": "50586635",
+    "market": "us",
+    "available": true,
+    "price": 499,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:01:28.252Z"
+  },
+  {
+    "articleNo": "50588804",
+    "market": "us",
+    "available": true,
+    "price": 329.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:09:43.137Z"
+  },
+  {
+    "articleNo": "50611263",
+    "market": "us",
+    "available": true,
+    "price": 649.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:58:17.039Z"
+  },
+  {
+    "articleNo": "50611630",
+    "market": "us",
+    "available": true,
+    "price": 279.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:57:27.020Z"
+  },
+  {
+    "articleNo": "50618518",
+    "market": "us",
+    "available": true,
+    "price": 399,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:06:59.907Z"
+  },
+  {
+    "articleNo": "50618537",
+    "market": "us",
+    "available": true,
+    "price": 299,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:04:32.071Z"
+  },
+  {
+    "articleNo": "50620559",
+    "market": "us",
+    "available": true,
+    "price": 349.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:53:57.184Z"
+  },
+  {
+    "articleNo": "60282186",
+    "market": "us",
+    "available": true,
+    "price": 99.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:59:13.319Z"
+  },
+  {
+    "articleNo": "60407271",
+    "market": "us",
+    "available": true,
+    "price": 299.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:00:03.457Z"
+  },
+  {
+    "articleNo": "60434825",
+    "market": "us",
+    "available": true,
+    "price": 149.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:03:25.048Z"
+  },
+  {
+    "articleNo": "60447677",
+    "market": "us",
+    "available": true,
+    "price": 129.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:01:58.466Z"
+  },
+  {
+    "articleNo": "60453767",
+    "market": "us",
+    "available": true,
+    "price": 249.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:06:33.189Z"
+  },
+  {
+    "articleNo": "60456916",
+    "market": "us",
+    "available": true,
+    "price": 299.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:56:20.525Z"
+  },
+  {
+    "articleNo": "60514153",
+    "market": "us",
+    "available": true,
+    "price": 549,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:59:06.740Z"
+  },
+  {
+    "articleNo": "60532147",
+    "market": "us",
+    "available": true,
+    "price": 215,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:03:51.490Z"
+  },
+  {
+    "articleNo": "60538205",
+    "market": "us",
+    "available": true,
+    "price": 299.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:03:18.389Z"
+  },
+  {
+    "articleNo": "60566062",
+    "market": "us",
+    "available": true,
+    "price": 64.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:58:03.768Z"
+  },
+  {
+    "articleNo": "60568240",
+    "market": "us",
+    "available": true,
+    "price": 599.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:07:37.013Z"
+  },
+  {
+    "articleNo": "60574104",
+    "market": "us",
+    "available": true,
+    "price": 399.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:58:56.635Z"
+  },
+  {
+    "articleNo": "60586809",
+    "market": "us",
+    "available": true,
+    "price": 129.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:05:56.219Z"
+  },
+  {
+    "articleNo": "60589902",
+    "market": "us",
+    "available": true,
+    "price": 499.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:02:58.123Z"
+  },
+  {
+    "articleNo": "60597921",
+    "market": "us",
+    "available": true,
+    "price": 199.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:53:26.946Z"
+  },
+  {
+    "articleNo": "60600773",
+    "market": "us",
+    "available": true,
+    "price": 65,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:53:43.634Z"
+  },
+  {
+    "articleNo": "60609679",
+    "market": "us",
+    "available": true,
+    "price": 399.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:06:29.787Z"
+  },
+  {
+    "articleNo": "60619942",
+    "market": "us",
+    "available": true,
+    "price": 69.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:58:39.902Z"
+  },
+  {
+    "articleNo": "60625815",
+    "market": "us",
+    "available": true,
+    "price": 49.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:53:13.589Z"
+  },
+  {
+    "articleNo": "60627683",
+    "market": "us",
+    "available": true,
+    "price": 89.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:12:35.670Z"
+  },
+  {
+    "articleNo": "60637074",
+    "market": "us",
+    "available": true,
+    "price": 19.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:10:59.409Z"
+  },
+  {
+    "articleNo": "70299285",
+    "market": "us",
+    "available": true,
+    "price": 199.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:04:48.780Z"
+  },
+  {
+    "articleNo": "70358741",
+    "market": "us",
+    "available": true,
+    "price": 109.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:11:59.308Z"
+  },
+  {
+    "articleNo": "70359991",
+    "market": "us",
+    "available": true,
+    "price": 479.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:04:08.423Z"
+  },
+  {
+    "articleNo": "70367444",
+    "market": "us",
+    "available": true,
+    "price": 69.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:52:43.662Z"
+  },
+  {
+    "articleNo": "70411239",
+    "market": "us",
+    "available": true,
+    "price": 299.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:56:50.265Z"
+  },
+  {
+    "articleNo": "70411277",
+    "market": "us",
+    "available": true,
+    "price": 399.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:12:51.998Z"
+  },
+  {
+    "articleNo": "70419264",
+    "market": "us",
+    "available": true,
+    "price": 649.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:04:22.076Z"
+  },
+  {
+    "articleNo": "70500344",
+    "market": "us",
+    "available": true,
+    "price": 65,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:59:39.703Z"
+  },
+  {
+    "articleNo": "70542749",
+    "market": "us",
+    "available": true,
+    "price": 179.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:10:19.757Z"
+  },
+  {
+    "articleNo": "70563237",
+    "market": "us",
+    "available": true,
+    "price": 799.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:11:32.507Z"
+  },
+  {
+    "articleNo": "70571256",
+    "market": "us",
+    "available": true,
+    "price": 149,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:53:23.591Z"
+  },
+  {
+    "articleNo": "70573953",
+    "market": "us",
+    "available": true,
+    "price": 499.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:53:30.329Z"
+  },
+  {
+    "articleNo": "70574900",
+    "market": "us",
+    "available": true,
+    "price": 39.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:12:42.150Z"
+  },
+  {
+    "articleNo": "70581359",
+    "market": "us",
+    "available": true,
+    "price": 699.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:56:13.804Z"
+  },
+  {
+    "articleNo": "70585079",
+    "market": "us",
+    "available": true,
+    "price": 999,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:58:20.401Z"
+  },
+  {
+    "articleNo": "70587498",
+    "market": "us",
+    "available": true,
+    "price": 279.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:55:19.587Z"
+  },
+  {
+    "articleNo": "70593574",
+    "market": "us",
+    "available": true,
+    "price": 229.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:02:54.775Z"
+  },
+  {
+    "articleNo": "70607439",
+    "market": "us",
+    "available": true,
+    "price": 99.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:01:24.803Z"
+  },
+  {
+    "articleNo": "70613911",
+    "market": "us",
+    "available": true,
+    "price": 499,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:57:10.448Z"
+  },
+  {
+    "articleNo": "70618522",
+    "market": "us",
+    "available": true,
+    "price": 399,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:01:41.977Z"
+  },
+  {
+    "articleNo": "70620582",
+    "market": "us",
+    "available": true,
+    "price": 105,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:54:36.587Z"
+  },
+  {
+    "articleNo": "70630454",
+    "market": "us",
+    "available": true,
+    "price": 799.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:54:59.575Z"
+  },
+  {
+    "articleNo": "70632636",
+    "market": "us",
+    "available": true,
+    "price": 1899,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:10:09.773Z"
+  },
+  {
+    "articleNo": "80331973",
+    "market": "us",
+    "available": true,
+    "price": 12.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:59:49.735Z"
+  },
+  {
+    "articleNo": "80388587",
+    "market": "us",
+    "available": true,
+    "price": 799.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:58:49.922Z"
+  },
+  {
+    "articleNo": "80395248",
+    "market": "us",
+    "available": true,
+    "price": 69,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:57:07.142Z"
+  },
+  {
+    "articleNo": "80458839",
+    "market": "us",
+    "available": true,
+    "price": 299.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:55:09.454Z"
+  },
+  {
+    "articleNo": "80487827",
+    "market": "us",
+    "available": true,
+    "price": 299,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:57:36.910Z"
+  },
+  {
+    "articleNo": "80488737",
+    "market": "us",
+    "available": true,
+    "price": 39.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:11:15.870Z"
+  },
+  {
+    "articleNo": "80501885",
+    "market": "us",
+    "available": true,
+    "price": 69.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:53:40.463Z"
+  },
+  {
+    "articleNo": "80547063",
+    "market": "us",
+    "available": true,
+    "price": 449,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:01:17.925Z"
+  },
+  {
+    "articleNo": "80570831",
+    "market": "us",
+    "available": true,
+    "price": 199,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:07:33.530Z"
+  },
+  {
+    "articleNo": "80579327",
+    "market": "us",
+    "available": true,
+    "price": 449.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:53:53.797Z"
+  },
+  {
+    "articleNo": "80587718",
+    "market": "us",
+    "available": true,
+    "price": 109.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:02:14.960Z"
+  },
+  {
+    "articleNo": "80593597",
+    "market": "us",
+    "available": true,
+    "price": 99.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:04:45.342Z"
+  },
+  {
+    "articleNo": "80598986",
+    "market": "us",
+    "available": true,
+    "price": 299.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:01:38.583Z"
+  },
+  {
+    "articleNo": "80619804",
+    "market": "us",
+    "available": true,
+    "price": 249.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:02:41.611Z"
+  },
+  {
+    "articleNo": "80621067",
+    "market": "us",
+    "available": true,
+    "price": 39.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:12:09.312Z"
+  },
+  {
+    "articleNo": "90305704",
+    "market": "us",
+    "available": true,
+    "price": 349.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:54:27.020Z"
+  },
+  {
+    "articleNo": "90305803",
+    "market": "us",
+    "available": true,
+    "price": 79,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:02:44.854Z"
+  },
+  {
+    "articleNo": "90423887",
+    "market": "us",
+    "available": true,
+    "price": 359.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:04:35.483Z"
+  },
+  {
+    "articleNo": "90455656",
+    "market": "us",
+    "available": true,
+    "price": 199.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:00:40.902Z"
+  },
+  {
+    "articleNo": "90493955",
+    "market": "us",
+    "available": true,
+    "price": 29.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:11:12.570Z"
+  },
+  {
+    "articleNo": "90506750",
+    "market": "us",
+    "available": true,
+    "price": 449,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:04:55.339Z"
+  },
+  {
+    "articleNo": "90554388",
+    "market": "us",
+    "available": true,
+    "price": 99.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:13:22.025Z"
+  },
+  {
+    "articleNo": "90555095",
+    "market": "us",
+    "available": true,
+    "price": 129.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:05:38.949Z"
+  },
+  {
+    "articleNo": "90569097",
+    "market": "us",
+    "available": true,
+    "price": 119.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:58:07.083Z"
+  },
+  {
+    "articleNo": "90574881",
+    "market": "us",
+    "available": true,
+    "price": 79.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:57:50.360Z"
+  },
+  {
+    "articleNo": "90576583",
+    "market": "us",
+    "available": true,
+    "price": 149.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:08:06.831Z"
+  },
+  {
+    "articleNo": "90586515",
+    "market": "us",
+    "available": true,
+    "price": 399,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:58:43.208Z"
+  },
+  {
+    "articleNo": "90586558",
+    "market": "us",
+    "available": true,
+    "price": 149.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:10:29.803Z"
+  },
+  {
+    "articleNo": "90586638",
+    "market": "us",
+    "available": true,
+    "price": 499.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:00:50.990Z"
+  },
+  {
+    "articleNo": "90587690",
+    "market": "us",
+    "available": true,
+    "price": 249.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:08:30.237Z"
+  },
+  {
+    "articleNo": "90617970",
+    "market": "us",
+    "available": true,
+    "price": 99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:04:38.734Z"
+  },
+  {
+    "articleNo": "s09392616",
+    "market": "us",
+    "available": true,
+    "price": 110,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:06:43.204Z"
+  },
+  {
+    "articleNo": "s09494403",
+    "market": "us",
+    "available": true,
+    "price": 2699,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:57:40.245Z"
+  },
+  {
+    "articleNo": "s09514774",
+    "market": "us",
+    "available": true,
+    "price": 479,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:11:26.028Z"
+  },
+  {
+    "articleNo": "s09514830",
+    "market": "us",
+    "available": true,
+    "price": 2399,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:09:36.355Z"
+  },
+  {
+    "articleNo": "s09514991",
+    "market": "us",
+    "available": true,
+    "price": 1799,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:54:00.492Z"
+  },
+  {
+    "articleNo": "s09521595",
+    "market": "us",
+    "available": true,
+    "price": 124.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:00:30.376Z"
+  },
+  {
+    "articleNo": "s09547816",
+    "market": "us",
+    "available": true,
+    "price": 245,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:06:56.484Z"
+  },
+  {
+    "articleNo": "s09555854",
+    "market": "us",
+    "available": true,
+    "price": 310,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:00:20.309Z"
+  },
+  {
+    "articleNo": "s09560695",
+    "market": "us",
+    "available": true,
+    "price": 860,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:01:35.217Z"
+  },
+  {
+    "articleNo": "s09620449",
+    "market": "us",
+    "available": true,
+    "price": 2440,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:01:14.544Z"
+  },
+  {
+    "articleNo": "s09626724",
+    "market": "us",
+    "available": true,
+    "price": 1175,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:05:15.720Z"
+  },
+  {
+    "articleNo": "s09627219",
+    "market": "us",
+    "available": true,
+    "price": 249,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:00:54.297Z"
+  },
+  {
+    "articleNo": "s19403817",
+    "market": "us",
+    "available": true,
+    "price": 125,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:52:53.404Z"
+  },
+  {
+    "articleNo": "s19548919",
+    "market": "us",
+    "available": true,
+    "price": 128,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:03:58.229Z"
+  },
+  {
+    "articleNo": "s19563778",
+    "market": "us",
+    "available": true,
+    "price": 1690,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:12:19.108Z"
+  },
+  {
+    "articleNo": "s19574395",
+    "market": "us",
+    "available": true,
+    "price": 269,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:53:06.645Z"
+  },
+  {
+    "articleNo": "s19581838",
+    "market": "us",
+    "available": true,
+    "price": 179,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:12:25.799Z"
+  },
+  {
+    "articleNo": "s19599683",
+    "market": "us",
+    "available": true,
+    "price": 95,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:08:10.134Z"
+  },
+  {
+    "articleNo": "s19620986",
+    "market": "us",
+    "available": true,
+    "price": 249,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:10:03.132Z"
+  },
+  {
+    "articleNo": "s19621919",
+    "market": "us",
+    "available": true,
+    "price": 159.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:54:23.854Z"
+  },
+  {
+    "articleNo": "s19630179",
+    "market": "us",
+    "available": true,
+    "price": 429,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:00:47.723Z"
+  },
+  {
+    "articleNo": "s29158212",
+    "market": "us",
+    "available": true,
+    "price": 305,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:05:02.200Z"
+  },
+  {
+    "articleNo": "s29303940",
+    "market": "us",
+    "available": true,
+    "price": 341.98,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:13:08.485Z"
+  },
+  {
+    "articleNo": "s29390107",
+    "market": "us",
+    "available": true,
+    "price": 330,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:01:45.369Z"
+  },
+  {
+    "articleNo": "s29442427",
+    "market": "us",
+    "available": true,
+    "price": 999,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:11:09.295Z"
+  },
+  {
+    "articleNo": "s29443295",
+    "market": "us",
+    "available": true,
+    "price": 849,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:11:05.971Z"
+  },
+  {
+    "articleNo": "s29488571",
+    "market": "us",
+    "available": true,
+    "price": 59.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:02:21.817Z"
+  },
+  {
+    "articleNo": "s29499701",
+    "market": "us",
+    "available": true,
+    "price": 1349,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:59:29.896Z"
+  },
+  {
+    "articleNo": "s29501718",
+    "market": "us",
+    "available": true,
+    "price": 569,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:01:00.987Z"
+  },
+  {
+    "articleNo": "s29528218",
+    "market": "us",
+    "available": true,
+    "price": 855,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:09:19.823Z"
+  },
+  {
+    "articleNo": "s29604033",
+    "market": "us",
+    "available": true,
+    "price": 399,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:59:26.592Z"
+  },
+  {
+    "articleNo": "s29607507",
+    "market": "us",
+    "available": true,
+    "price": 249,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:07:06.716Z"
+  },
+  {
+    "articleNo": "s39317847",
+    "market": "us",
+    "available": true,
+    "price": 449,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:01:04.421Z"
+  },
+  {
+    "articleNo": "s39495825",
+    "market": "us",
+    "available": true,
+    "price": 1749,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:02:31.609Z"
+  },
+  {
+    "articleNo": "s39508856",
+    "market": "us",
+    "available": true,
+    "price": 289,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:07:50.231Z"
+  },
+  {
+    "articleNo": "s39516007",
+    "market": "us",
+    "available": true,
+    "price": 730,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:56:17.194Z"
+  },
+  {
+    "articleNo": "s39516903",
+    "market": "us",
+    "available": true,
+    "price": 1349,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:11:55.959Z"
+  },
+  {
+    "articleNo": "s39546518",
+    "market": "us",
+    "available": true,
+    "price": 240,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:59:56.590Z"
+  },
+  {
+    "articleNo": "s39563635",
+    "market": "us",
+    "available": true,
+    "price": 69.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:08:46.660Z"
+  },
+  {
+    "articleNo": "s39564475",
+    "market": "us",
+    "available": true,
+    "price": 151,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:13:18.712Z"
+  },
+  {
+    "articleNo": "s39580994",
+    "market": "us",
+    "available": true,
+    "price": 420,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:00:06.779Z"
+  },
+  {
+    "articleNo": "s39613391",
+    "market": "us",
+    "available": true,
+    "price": 249,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:57:56.902Z"
+  },
+  {
+    "articleNo": "s39619213",
+    "market": "us",
+    "available": true,
+    "price": 524.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:05:28.891Z"
+  },
+  {
+    "articleNo": "s39620438",
+    "market": "us",
+    "available": true,
+    "price": 2290,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:02:11.735Z"
+  },
+  {
+    "articleNo": "s49508851",
+    "market": "us",
+    "available": true,
+    "price": 199,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:58:36.674Z"
+  },
+  {
+    "articleNo": "s49563913",
+    "market": "us",
+    "available": true,
+    "price": 479.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:57:17.040Z"
+  },
+  {
+    "articleNo": "s49604089",
+    "market": "us",
+    "available": true,
+    "price": 899,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:06:36.560Z"
+  },
+  {
+    "articleNo": "s49625355",
+    "market": "us",
+    "available": true,
+    "price": 249,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:05:25.469Z"
+  },
+  {
+    "articleNo": "s59331847",
+    "market": "us",
+    "available": true,
+    "price": 69.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:06:53.077Z"
+  },
+  {
+    "articleNo": "s59443265",
+    "market": "us",
+    "available": true,
+    "price": 1299,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:09:09.790Z"
+  },
+  {
+    "articleNo": "s59520254",
+    "market": "us",
+    "available": true,
+    "price": 549,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:08:26.980Z"
+  },
+  {
+    "articleNo": "s59590402",
+    "market": "us",
+    "available": true,
+    "price": 165,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:57:30.291Z"
+  },
+  {
+    "articleNo": "s59619212",
+    "market": "us",
+    "available": true,
+    "price": 199.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:02:08.398Z"
+  },
+  {
+    "articleNo": "s59621917",
+    "market": "us",
+    "available": true,
+    "price": 149.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:52:59.791Z"
+  },
+  {
+    "articleNo": "s59623370",
+    "market": "us",
+    "available": true,
+    "price": 670,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:12:38.980Z"
+  },
+  {
+    "articleNo": "s59654856",
+    "market": "us",
+    "available": true,
+    "price": 79.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:02:25.009Z"
+  },
+  {
+    "articleNo": "s69326548",
+    "market": "us",
+    "available": true,
+    "price": 239,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:54:56.307Z"
+  },
+  {
+    "articleNo": "s69441732",
+    "market": "us",
+    "available": true,
+    "price": 249,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:05:12.040Z"
+  },
+  {
+    "articleNo": "s69442425",
+    "market": "us",
+    "available": true,
+    "price": 999,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:08:59.807Z"
+  },
+  {
+    "articleNo": "s69443340",
+    "market": "us",
+    "available": true,
+    "price": 1399,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:56:37.153Z"
+  },
+  {
+    "articleNo": "s69494382",
+    "market": "us",
+    "available": true,
+    "price": 1399,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:03:54.855Z"
+  },
+  {
+    "articleNo": "s69555889",
+    "market": "us",
+    "available": true,
+    "price": 245,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:09:23.066Z"
+  },
+  {
+    "articleNo": "s69591378",
+    "market": "us",
+    "available": true,
+    "price": 429.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:10:49.367Z"
+  },
+  {
+    "articleNo": "s69604093",
+    "market": "us",
+    "available": true,
+    "price": 1049,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:07:43.536Z"
+  },
+  {
+    "articleNo": "s69617444",
+    "market": "us",
+    "available": true,
+    "price": 99.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:59:33.159Z"
+  },
+  {
+    "articleNo": "s69620427",
+    "market": "us",
+    "available": true,
+    "price": 2440,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:12:55.293Z"
+  },
+  {
+    "articleNo": "s69621120",
+    "market": "us",
+    "available": true,
+    "price": 249,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:54:30.152Z"
+  },
+  {
+    "articleNo": "s79158144",
+    "market": "us",
+    "available": true,
+    "price": 540,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:04:25.426Z"
+  },
+  {
+    "articleNo": "s79248606",
+    "market": "us",
+    "available": true,
+    "price": 109,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:02:38.245Z"
+  },
+  {
+    "articleNo": "s79441736",
+    "market": "us",
+    "available": true,
+    "price": 319,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:12:45.371Z"
+  },
+  {
+    "articleNo": "s79443330",
+    "market": "us",
+    "available": true,
+    "price": 1399,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:57:43.860Z"
+  },
+  {
+    "articleNo": "s79501711",
+    "market": "us",
+    "available": true,
+    "price": 729,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:13:01.881Z"
+  },
+  {
+    "articleNo": "s79514695",
+    "market": "us",
+    "available": true,
+    "price": 329,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:55:03.155Z"
+  },
+  {
+    "articleNo": "s79514775",
+    "market": "us",
+    "available": true,
+    "price": 629,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:59:59.936Z"
+  },
+  {
+    "articleNo": "s79516897",
+    "market": "us",
+    "available": true,
+    "price": 1349,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:58:53.310Z"
+  },
+  {
+    "articleNo": "s79548916",
+    "market": "us",
+    "available": true,
+    "price": 108,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:10:13.073Z"
+  },
+  {
+    "articleNo": "s79574298",
+    "market": "us",
+    "available": true,
+    "price": 1899,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:55:23.013Z"
+  },
+  {
+    "articleNo": "s79585372",
+    "market": "us",
+    "available": true,
+    "price": 84.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:53:03.334Z"
+  },
+  {
+    "articleNo": "s79621186",
+    "market": "us",
+    "available": true,
+    "price": 124.98,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:08:53.189Z"
+  },
+  {
+    "articleNo": "s79621214",
+    "market": "us",
+    "available": true,
+    "price": 649.98,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:10:46.067Z"
+  },
+  {
+    "articleNo": "s79621921",
+    "market": "us",
+    "available": true,
+    "price": 199.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:58:30.052Z"
+  },
+  {
+    "articleNo": "s79628461",
+    "market": "us",
+    "available": true,
+    "price": 329.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:03:15.067Z"
+  },
+  {
+    "articleNo": "s79630181",
+    "market": "us",
+    "available": true,
+    "price": 364,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:53:16.818Z"
+  },
+  {
+    "articleNo": "s89523114",
+    "market": "us",
+    "available": true,
+    "price": 830,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:53:50.330Z"
+  },
+  {
+    "articleNo": "s89535777",
+    "market": "us",
+    "available": true,
+    "price": 157,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:09:39.740Z"
+  },
+  {
+    "articleNo": "s89542645",
+    "market": "us",
+    "available": true,
+    "price": 310,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:59:43.120Z"
+  },
+  {
+    "articleNo": "s89590127",
+    "market": "us",
+    "available": true,
+    "price": 126,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:11:49.201Z"
+  },
+  {
+    "articleNo": "s89607496",
+    "market": "us",
+    "available": true,
+    "price": 399,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:07:40.291Z"
+  },
+  {
+    "articleNo": "s99442443",
+    "market": "us",
+    "available": true,
+    "price": 1599,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:08:13.486Z"
+  },
+  {
+    "articleNo": "s99508863",
+    "market": "us",
+    "available": true,
+    "price": 329,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:59:23.256Z"
+  },
+  {
+    "articleNo": "s99528248",
+    "market": "us",
+    "available": true,
+    "price": 579.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:56:10.470Z"
+  },
+  {
+    "articleNo": "s99529196",
+    "market": "us",
+    "available": true,
+    "price": 629.99,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T11:55:12.715Z"
+  },
+  {
+    "articleNo": "s99574396",
+    "market": "us",
+    "available": true,
+    "price": 329,
+    "currency": "USD",
+    "priceFetchedAt": "2026-11-21T12:06:23.129Z"
+  }
+]
