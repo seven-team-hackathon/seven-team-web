@@ -4,6 +4,7 @@ export const furnitureCategorySchema = z.enum([
   "sofa",
   "armchair",
   "coffee-table",
+  "side-table",
   "tv-unit",
   "bed",
   "wardrobe",

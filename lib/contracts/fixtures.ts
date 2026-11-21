@@ -13,35 +13,21 @@ function buildMockItem(input: MockItemInput): RecommendedItem {
   return { ...input, currency: "USD", url: mockProductUrl }
 }
 
-export const spaceDraftPlanFixture: SpaceDraft = {
-  kind: "plan",
+export const spaceDraftPhotoFixture: SpaceDraft = {
+  kind: "photo",
   roomType: "living-room",
   dimensions: {
     widthCm: 420,
     lengthCm: 380,
     ceilingHeightCm: 250,
-    source: "plan-labels",
-    confidence: 0.9,
+    source: "estimated",
+    confidence: 0.4,
   },
   openings: [
-    { type: "door", widthCm: 90, wall: "south" },
-    { type: "window", widthCm: 150, wall: "north" },
+    { type: "door", widthCm: 90 },
+    { type: "window", widthCm: 150 },
   ],
-  styleHints: [],
-  needsUserInput: [],
-}
-
-export const spaceDraftPhotoFixture: SpaceDraft = {
-  kind: "photo",
-  roomType: "bedroom",
-  dimensions: {
-    widthCm: 350,
-    lengthCm: 300,
-    source: "estimated",
-    confidence: 0.3,
-  },
-  openings: [{ type: "window" }],
-  styleHints: ["light walls", "wooden floor"],
+  styleHints: ["light walls", "wooden floor", "neutral colors"],
   needsUserInput: ["dimensions"],
 }
 
@@ -49,6 +35,7 @@ export const recommendRequestFixture: RecommendRequest = {
   space: {
     roomType: "living-room",
     dimensions: { widthCm: 420, lengthCm: 380, ceilingHeightCm: 250 },
+    dimensionsBasis: "user",
     openings: [
       { type: "door", widthCm: 90, wall: "south" },
       { type: "window", widthCm: 150, wall: "north" },
@@ -58,6 +45,26 @@ export const recommendRequestFixture: RecommendRequest = {
     market: "us",
     roomType: "living-room",
     style: "scandinavian",
+    household: { hasChildren: false, hasPets: true },
+    budget: 1500,
+    categories: ["sofa", "coffee-table", "tv-unit"],
+    note: "Light colors, we have a cat",
+  },
+}
+
+export const recommendRequestEstimatedFixture: RecommendRequest = {
+  space: {
+    roomType: "living-room",
+    dimensions: { widthCm: 420, lengthCm: 380, ceilingHeightCm: 250 },
+    dimensionsBasis: "estimated",
+    openings: [
+      { type: "door", widthCm: 90 },
+      { type: "window", widthCm: 150 },
+    ],
+    styleHints: ["light walls", "wooden floor", "neutral colors"],
+  },
+  preferences: {
+    market: "us",
     household: { hasChildren: false, hasPets: true },
     budget: 1500,
     categories: ["sofa", "coffee-table", "tv-unit"],
@@ -170,5 +177,5 @@ export const recommendationFixture: RecommendationResponse = {
   },
   fit: { allFit: true, issues: [] },
   usage: { inputTokens: 3200, outputTokens: 650, estimatedCostUsd: 0.012 },
-  meta: { rankedBy: "claude" },
+  meta: { rankedBy: "claude", dimensionsBasis: "user" },
 }

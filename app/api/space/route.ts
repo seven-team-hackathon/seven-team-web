@@ -1,16 +1,7 @@
 import { apiErrorResponse } from "@/lib/api/api-error-response"
 import { isMockApiEnabled, pipelineNotReadyMessage } from "@/lib/api/mock-mode"
 import { validateSpaceUploadForm } from "@/lib/api/space-upload-rules"
-import {
-  spaceDraftPhotoFixture,
-  spaceDraftPlanFixture,
-} from "@/lib/contracts/fixtures"
-import type { SpaceDraft, SpaceKind } from "@/lib/contracts/space"
-
-const mockSpaceDrafts: Readonly<Record<SpaceKind, SpaceDraft>> = {
-  plan: spaceDraftPlanFixture,
-  photo: spaceDraftPhotoFixture,
-}
+import { spaceDraftPhotoFixture } from "@/lib/contracts/fixtures"
 
 export async function POST(request: Request) {
   const form = await request.formData().catch(() => null)
@@ -32,5 +23,5 @@ export async function POST(request: Request) {
     return apiErrorResponse("model_failed", pipelineNotReadyMessage)
   }
 
-  return Response.json(mockSpaceDrafts[upload.kind])
+  return Response.json(spaceDraftPhotoFixture)
 }

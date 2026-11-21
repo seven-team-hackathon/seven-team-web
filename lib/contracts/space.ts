@@ -14,6 +14,8 @@ export const openingTypeSchema = z.enum(["door", "window"])
 
 export const wallSchema = z.enum(["north", "east", "south", "west"])
 
+export const dimensionsBasisSchema = z.enum(["user", "estimated"])
+
 export const missingSpaceFieldSchema = z.enum([
   "dimensions",
   "ceiling-height",
@@ -52,12 +54,16 @@ export const spaceDraftSchema = z.object({
 export const confirmedSpaceSchema = z.object({
   roomType: roomTypeSchema,
   dimensions: roomSizeSchema,
+  dimensionsBasis: dimensionsBasisSchema.optional(),
   openings: z.array(openingSchema),
+  styleHints: z.array(z.string().min(1).max(60)).optional(),
 })
 
 export type SpaceKind = z.infer<typeof spaceKindSchema>
 
 export type DimensionSource = z.infer<typeof dimensionSourceSchema>
+
+export type DimensionsBasis = z.infer<typeof dimensionsBasisSchema>
 
 export type Opening = z.infer<typeof openingSchema>
 
