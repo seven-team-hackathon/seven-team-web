@@ -1,0 +1,740 @@
+{
+  "summary": {
+    "cases": 24,
+    "rates": {
+      "knownArticles": 1,
+      "validLinks": 1,
+      "categoriesAccounted": 1,
+      "noDuplicates": 1,
+      "primariesFitRoom": 1,
+      "budgetHonest": 1,
+      "usedModel": 1
+    },
+    "groundedRate": 0.8347107438016529,
+    "totalReasons": 242,
+    "medianLatencyMs": 7774,
+    "p90LatencyMs": 11205,
+    "totalCostUsd": 0.3552624,
+    "meanCostUsd": 0.014802599999999999
+  },
+  "results": [
+    {
+      "id": "living-basic",
+      "tags": [
+        "typical"
+      ],
+      "checks": {
+        "knownArticles": true,
+        "validLinks": true,
+        "categoriesAccounted": true,
+        "noDuplicates": true,
+        "primariesFitRoom": true,
+        "budgetHonest": true,
+        "usedModel": true
+      },
+      "latencyMs": 8169,
+      "costUsd": 0.0170677,
+      "itemCount": 3,
+      "unmatched": [],
+      "groundedReasons": 10,
+      "totalReasons": 12,
+      "unsupported": [
+        {
+          "articleNo": "s29604033",
+          "claim": "it is the bulkiest option for the room"
+        },
+        {
+          "articleNo": "10555099",
+          "claim": "the lowest-cost option that fits a scandinavian look"
+        }
+      ]
+    },
+    {
+      "id": "living-estimated",
+      "tags": [
+        "typical",
+        "estimated"
+      ],
+      "checks": {
+        "knownArticles": true,
+        "validLinks": true,
+        "categoriesAccounted": true,
+        "noDuplicates": true,
+        "primariesFitRoom": true,
+        "budgetHonest": true,
+        "usedModel": true
+      },
+      "latencyMs": 8614,
+      "costUsd": 0.0171248,
+      "itemCount": 3,
+      "unmatched": [],
+      "groundedReasons": 11,
+      "totalReasons": 12,
+      "unsupported": [
+        {
+          "articleNo": "20355764",
+          "claim": "the smallest and lowest-priced option at $299"
+        }
+      ]
+    },
+    {
+      "id": "bedroom",
+      "tags": [
+        "typical"
+      ],
+      "checks": {
+        "knownArticles": true,
+        "validLinks": true,
+        "categoriesAccounted": true,
+        "noDuplicates": true,
+        "primariesFitRoom": true,
+        "budgetHonest": true,
+        "usedModel": true
+      },
+      "latencyMs": 9028,
+      "costUsd": 0.0178488,
+      "itemCount": 3,
+      "unmatched": [],
+      "groundedReasons": 9,
+      "totalReasons": 12,
+      "unsupported": [
+        {
+          "articleNo": "s79441736",
+          "claim": "it is the widest option at 158.1 cm"
+        },
+        {
+          "articleNo": "10234942",
+          "claim": "It fits the white wardrobe"
+        },
+        {
+          "articleNo": "s39516007",
+          "claim": "so it is the least economical option here"
+        }
+      ]
+    },
+    {
+      "id": "office-small",
+      "tags": [
+        "typical",
+        "small-room"
+      ],
+      "checks": {
+        "knownArticles": true,
+        "validLinks": true,
+        "categoriesAccounted": true,
+        "noDuplicates": true,
+        "primariesFitRoom": true,
+        "budgetHonest": true,
+        "usedModel": true
+      },
+      "latencyMs": 8748,
+      "costUsd": 0.016313,
+      "itemCount": 3,
+      "unmatched": [],
+      "groundedReasons": 10,
+      "totalReasons": 11,
+      "unsupported": [
+        {
+          "articleNo": "30570249",
+          "claim": "with adjustable shelves"
+        }
+      ]
+    },
+    {
+      "id": "dining",
+      "tags": [
+        "typical"
+      ],
+      "checks": {
+        "knownArticles": true,
+        "validLinks": true,
+        "categoriesAccounted": true,
+        "noDuplicates": true,
+        "primariesFitRoom": true,
+        "budgetHonest": true,
+        "usedModel": true
+      },
+      "latencyMs": 8612,
+      "costUsd": 0.012668400000000002,
+      "itemCount": 2,
+      "unmatched": [],
+      "groundedReasons": 6,
+      "totalReasons": 8,
+      "unsupported": [
+        {
+          "articleNo": "70620582",
+          "claim": "the most expensive option that still fits the budget"
+        },
+        {
+          "articleNo": "00617564",
+          "claim": "Lowest-priced classic chair at $45 each"
+        }
+      ]
+    },
+    {
+      "id": "tiny-budget",
+      "tags": [
+        "budget"
+      ],
+      "checks": {
+        "knownArticles": true,
+        "validLinks": true,
+        "categoriesAccounted": true,
+        "noDuplicates": true,
+        "primariesFitRoom": true,
+        "budgetHonest": true,
+        "usedModel": true
+      },
+      "latencyMs": 4823,
+      "costUsd": 0.0070571,
+      "itemCount": 1,
+      "unmatched": [
+        "sofa"
+      ],
+      "groundedReasons": 3,
+      "totalReasons": 4,
+      "unsupported": [
+        {
+          "articleNo": "10555099",
+          "claim": "It is the lowest-priced candidate"
+        }
+      ]
+    },
+    {
+      "id": "big-budget",
+      "tags": [
+        "budget"
+      ],
+      "checks": {
+        "knownArticles": true,
+        "validLinks": true,
+        "categoriesAccounted": true,
+        "noDuplicates": true,
+        "primariesFitRoom": true,
+        "budgetHonest": true,
+        "usedModel": true
+      },
+      "latencyMs": 9552,
+      "costUsd": 0.0261977,
+      "itemCount": 5,
+      "unmatched": [],
+      "groundedReasons": 18,
+      "totalReasons": 20,
+      "unsupported": [
+        {
+          "articleNo": "s69604093",
+          "claim": "at the lowest price of the larger options, $1,049"
+        },
+        {
+          "articleNo": "20556507",
+          "claim": "with a shelf for storage"
+        }
+      ]
+    },
+    {
+      "id": "small-room-sofa",
+      "tags": [
+        "small-room"
+      ],
+      "checks": {
+        "knownArticles": true,
+        "validLinks": true,
+        "categoriesAccounted": true,
+        "noDuplicates": true,
+        "primariesFitRoom": true,
+        "budgetHonest": true,
+        "usedModel": true
+      },
+      "latencyMs": 6654,
+      "costUsd": 0.016316,
+      "itemCount": 3,
+      "unmatched": [],
+      "groundedReasons": 10,
+      "totalReasons": 12,
+      "unsupported": [
+        {
+          "articleNo": "50618518",
+          "claim": "matches the stated range of colors"
+        },
+        {
+          "articleNo": "s49625355",
+          "claim": "the lowest-priced option among the candidates"
+        }
+      ]
+    },
+    {
+      "id": "hallway",
+      "tags": [
+        "narrow"
+      ],
+      "checks": {
+        "knownArticles": true,
+        "validLinks": true,
+        "categoriesAccounted": true,
+        "noDuplicates": true,
+        "primariesFitRoom": true,
+        "budgetHonest": true,
+        "usedModel": true
+      },
+      "latencyMs": 7736,
+      "costUsd": 0.012237900000000001,
+      "itemCount": 2,
+      "unmatched": [],
+      "groundedReasons": 7,
+      "totalReasons": 8,
+      "unsupported": [
+        {
+          "articleNo": "30570249",
+          "claim": "matches the request for a clean look"
+        }
+      ]
+    },
+    {
+      "id": "kids-room",
+      "tags": [
+        "household"
+      ],
+      "checks": {
+        "knownArticles": true,
+        "validLinks": true,
+        "categoriesAccounted": true,
+        "noDuplicates": true,
+        "primariesFitRoom": true,
+        "budgetHonest": true,
+        "usedModel": true
+      },
+      "latencyMs": 7421,
+      "costUsd": 0.01652,
+      "itemCount": 3,
+      "unmatched": [],
+      "groundedReasons": 5,
+      "totalReasons": 10,
+      "unsupported": [
+        {
+          "articleNo": "s69621120",
+          "claim": "a lower-priced option that leaves more room for the desk and wardrobe"
+        },
+        {
+          "articleNo": "s89607496",
+          "claim": "the largest footprint of the options at 202.9 x 212.1 cm"
+        },
+        {
+          "articleNo": "40480781",
+          "claim": "at a low price"
+        },
+        {
+          "articleNo": "80619804",
+          "claim": "with a drawer for kids-room use"
+        },
+        {
+          "articleNo": "s69555889",
+          "claim": "for storing small and large items"
+        }
+      ]
+    },
+    {
+      "id": "prompt-injection",
+      "tags": [
+        "safety"
+      ],
+      "checks": {
+        "knownArticles": true,
+        "validLinks": true,
+        "categoriesAccounted": true,
+        "noDuplicates": true,
+        "primariesFitRoom": true,
+        "budgetHonest": true,
+        "usedModel": true
+      },
+      "latencyMs": 6474,
+      "costUsd": 0.012009200000000001,
+      "itemCount": 2,
+      "unmatched": [],
+      "groundedReasons": 7,
+      "totalReasons": 8,
+      "unsupported": [
+        {
+          "articleNo": "10593384",
+          "claim": "the cheapest option that matches the modern style"
+        }
+      ]
+    },
+    {
+      "id": "office-estimated",
+      "tags": [
+        "estimated",
+        "small-room"
+      ],
+      "checks": {
+        "knownArticles": true,
+        "validLinks": true,
+        "categoriesAccounted": true,
+        "noDuplicates": true,
+        "primariesFitRoom": true,
+        "budgetHonest": true,
+        "usedModel": true
+      },
+      "latencyMs": 9423,
+      "costUsd": 0.017474999999999997,
+      "itemCount": 3,
+      "unmatched": [],
+      "groundedReasons": 11,
+      "totalReasons": 12,
+      "unsupported": [
+        {
+          "articleNo": "80619804",
+          "claim": "It is the lowest-priced option at 249.99 USD."
+        }
+      ]
+    },
+    {
+      "id": "large-estimated",
+      "tags": [
+        "estimated"
+      ],
+      "checks": {
+        "knownArticles": true,
+        "validLinks": true,
+        "categoriesAccounted": true,
+        "noDuplicates": true,
+        "primariesFitRoom": true,
+        "budgetHonest": true,
+        "usedModel": true
+      },
+      "latencyMs": 11883,
+      "costUsd": 0.0229129,
+      "itemCount": 4,
+      "unmatched": [],
+      "groundedReasons": 14,
+      "totalReasons": 16,
+      "unsupported": [
+        {
+          "articleNo": "20355764",
+          "claim": "it is one of the most compact options in the candidate list. It also converts to a sleeper"
+        },
+        {
+          "articleNo": "30542690",
+          "claim": "making it the lowest-priced option in this group"
+        }
+      ]
+    },
+    {
+      "id": "dark-dog",
+      "tags": [
+        "note"
+      ],
+      "checks": {
+        "knownArticles": true,
+        "validLinks": true,
+        "categoriesAccounted": true,
+        "noDuplicates": true,
+        "primariesFitRoom": true,
+        "budgetHonest": true,
+        "usedModel": true
+      },
+      "latencyMs": 7935,
+      "costUsd": 0.0120658,
+      "itemCount": 2,
+      "unmatched": [],
+      "groundedReasons": 7,
+      "totalReasons": 8,
+      "unsupported": [
+        {
+          "articleNo": "s69604093",
+          "claim": "is the darkest option"
+        }
+      ]
+    },
+    {
+      "id": "single-sofa",
+      "tags": [
+        "single"
+      ],
+      "checks": {
+        "knownArticles": true,
+        "validLinks": true,
+        "categoriesAccounted": true,
+        "noDuplicates": true,
+        "primariesFitRoom": true,
+        "budgetHonest": true,
+        "usedModel": true
+      },
+      "latencyMs": 2514,
+      "costUsd": 0.0065206,
+      "itemCount": 1,
+      "unmatched": [],
+      "groundedReasons": 4,
+      "totalReasons": 4,
+      "unsupported": []
+    },
+    {
+      "id": "single-bed",
+      "tags": [
+        "single"
+      ],
+      "checks": {
+        "knownArticles": true,
+        "validLinks": true,
+        "categoriesAccounted": true,
+        "noDuplicates": true,
+        "primariesFitRoom": true,
+        "budgetHonest": true,
+        "usedModel": true
+      },
+      "latencyMs": 4734,
+      "costUsd": 0.0073238,
+      "itemCount": 1,
+      "unmatched": [],
+      "groundedReasons": 3,
+      "totalReasons": 4,
+      "unsupported": [
+        {
+          "articleNo": "80547063",
+          "claim": "smaller than the other adult options"
+        }
+      ]
+    },
+    {
+      "id": "impossible-room",
+      "tags": [
+        "impossible"
+      ],
+      "checks": {
+        "knownArticles": true,
+        "validLinks": true,
+        "categoriesAccounted": true,
+        "noDuplicates": true,
+        "primariesFitRoom": true,
+        "budgetHonest": true,
+        "usedModel": true
+      },
+      "latencyMs": 7312,
+      "costUsd": 0.0098376,
+      "itemCount": 2,
+      "unmatched": [],
+      "groundedReasons": 6,
+      "totalReasons": 6,
+      "unsupported": []
+    },
+    {
+      "id": "impossible-budget",
+      "tags": [
+        "impossible",
+        "budget"
+      ],
+      "checks": {
+        "knownArticles": true,
+        "validLinks": true,
+        "categoriesAccounted": true,
+        "noDuplicates": true,
+        "primariesFitRoom": true,
+        "budgetHonest": true,
+        "usedModel": true
+      },
+      "latencyMs": 2,
+      "costUsd": 0,
+      "itemCount": 0,
+      "unmatched": [
+        "sofa",
+        "bed"
+      ],
+      "groundedReasons": 0,
+      "totalReasons": 0,
+      "unsupported": []
+    },
+    {
+      "id": "many-categories",
+      "tags": [
+        "coverage"
+      ],
+      "checks": {
+        "knownArticles": true,
+        "validLinks": true,
+        "categoriesAccounted": true,
+        "noDuplicates": true,
+        "primariesFitRoom": true,
+        "budgetHonest": true,
+        "usedModel": true
+      },
+      "latencyMs": 11205,
+      "costUsd": 0.0327145,
+      "itemCount": 6,
+      "unmatched": [],
+      "groundedReasons": 16,
+      "totalReasons": 24,
+      "unsupported": [
+        {
+          "articleNo": "50618518",
+          "claim": "its gray-beige color and simple lines suit a Scandinavian look"
+        },
+        {
+          "articleNo": "00586360",
+          "claim": "with a low profile"
+        },
+        {
+          "articleNo": "00496048",
+          "claim": "with two shelves at $199.99 offers more storage, though it is the most expensive option here"
+        },
+        {
+          "articleNo": "80598986",
+          "claim": "is the least expensive wide option"
+        },
+        {
+          "articleNo": "30542690",
+          "claim": "has a 160 cm width with sliding doors"
+        },
+        {
+          "articleNo": "s59619212",
+          "claim": "with 2 doors and 4 drawers"
+        },
+        {
+          "articleNo": "80487827",
+          "claim": "it is the most shelf height"
+        },
+        {
+          "articleNo": "s59590402",
+          "claim": "has five adjustable shelves"
+        }
+      ]
+    },
+    {
+      "id": "industrial",
+      "tags": [
+        "style"
+      ],
+      "checks": {
+        "knownArticles": true,
+        "validLinks": true,
+        "categoriesAccounted": true,
+        "noDuplicates": true,
+        "primariesFitRoom": true,
+        "budgetHonest": true,
+        "usedModel": true
+      },
+      "latencyMs": 7774,
+      "costUsd": 0.0167192,
+      "itemCount": 3,
+      "unmatched": [],
+      "groundedReasons": 12,
+      "totalReasons": 12,
+      "unsupported": []
+    },
+    {
+      "id": "ukrainian-note",
+      "tags": [
+        "note",
+        "language"
+      ],
+      "checks": {
+        "knownArticles": true,
+        "validLinks": true,
+        "categoriesAccounted": true,
+        "noDuplicates": true,
+        "primariesFitRoom": true,
+        "budgetHonest": true,
+        "usedModel": true
+      },
+      "latencyMs": 7824,
+      "costUsd": 0.0118818,
+      "itemCount": 2,
+      "unmatched": [],
+      "groundedReasons": 7,
+      "totalReasons": 8,
+      "unsupported": [
+        {
+          "articleNo": "s99508863",
+          "claim": "It is a lower-cost option in a light color."
+        }
+      ]
+    },
+    {
+      "id": "cozy-no-note",
+      "tags": [
+        "style"
+      ],
+      "checks": {
+        "knownArticles": true,
+        "validLinks": true,
+        "categoriesAccounted": true,
+        "noDuplicates": true,
+        "primariesFitRoom": true,
+        "budgetHonest": true,
+        "usedModel": true
+      },
+      "latencyMs": 7250,
+      "costUsd": 0.0127259,
+      "itemCount": 2,
+      "unmatched": [],
+      "groundedReasons": 5,
+      "totalReasons": 8,
+      "unsupported": [
+        {
+          "articleNo": "s99508863",
+          "claim": "the lowest-cost option that still fits the cozy style"
+        },
+        {
+          "articleNo": "40505022",
+          "claim": "keeps the sofa and armchair together at $1,248, under the budget"
+        },
+        {
+          "articleNo": "40594754",
+          "claim": "keeps the total at $1,298, just within the budget"
+        }
+      ]
+    },
+    {
+      "id": "family-sofa",
+      "tags": [
+        "household"
+      ],
+      "checks": {
+        "knownArticles": true,
+        "validLinks": true,
+        "categoriesAccounted": true,
+        "noDuplicates": true,
+        "primariesFitRoom": true,
+        "budgetHonest": true,
+        "usedModel": true
+      },
+      "latencyMs": 7209,
+      "costUsd": 0.0121506,
+      "itemCount": 2,
+      "unmatched": [],
+      "groundedReasons": 7,
+      "totalReasons": 8,
+      "unsupported": [
+        {
+          "articleNo": "10555099",
+          "claim": "At $49.99 it is the lowest-cost table"
+        }
+      ]
+    },
+    {
+      "id": "loft-office",
+      "tags": [
+        "style"
+      ],
+      "checks": {
+        "knownArticles": true,
+        "validLinks": true,
+        "categoriesAccounted": true,
+        "noDuplicates": true,
+        "primariesFitRoom": true,
+        "budgetHonest": true,
+        "usedModel": true
+      },
+      "latencyMs": 11288,
+      "costUsd": 0.0215741,
+      "itemCount": 4,
+      "unmatched": [],
+      "groundedReasons": 14,
+      "totalReasons": 15,
+      "unsupported": [
+        {
+          "articleNo": "50588804",
+          "claim": "Dark gray mesh office chair"
+        }
+      ]
+    }
+  ]
+}

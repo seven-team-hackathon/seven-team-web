@@ -124,3 +124,15 @@ Product price is national. Stock and delivery cost depend on the user's ZIP code
 The catalog is built by scripts in `scripts/` from IKEA US product pages: `collect-ikea.mts` collects pages, `ingest-catalog.mts normalize` fixes dimensions with deterministic rules, `classify` asks Claude for category, style, colors and a standalone-furniture check, and `write` produces `lib/catalog/products.json` and `lib/catalog/listings/us.json`. The raw collected pages are not committed.
 
 Only a sample of the assortment is included, and prices and availability can change. Product links point to the IKEA US site.
+
+## Evals
+
+`npm run evals` runs `evals/recommend.eval.ts` against the real API (about $0.35 and 2 minutes). It sends 24 scenarios (typical rooms, small and narrow rooms, estimated dimensions, tight and impossible budgets, household needs, a Ukrainian note, a prompt injection attempt) through `recommend()` and reports:
+
+- deterministic checks: articles exist in the catalog, links match the article, every requested category is returned or listed as unmatched, no duplicates, primary picks fit the room, the budget is respected or over-budget is reported, the model ranking was used;
+- explanation grounding, judged by a second model that sees the product data and the candidate lists;
+- latency and cost per request.
+
+Results are written to `evals/results/recommend-latest.md` and `.json`. `recommend-baseline.*` is the run before the ranking prompt forbade comparisons between products (grounded explanations 83.5%, now 94.1%).
+
+Photo dimension evals (`evals/space.eval.ts`) run when `evals/space-cases/cases.json` exists: a list of `{ file, widthCm, lengthCm, roomType? }` entries next to the photos. Without it the suite is skipped.

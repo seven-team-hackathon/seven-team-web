@@ -1,0 +1,626 @@
+{
+  "summary": {
+    "cases": 24,
+    "rates": {
+      "knownArticles": 1,
+      "validLinks": 1,
+      "categoriesAccounted": 1,
+      "noDuplicates": 1,
+      "primariesFitRoom": 1,
+      "budgetHonest": 1,
+      "usedModel": 1
+    },
+    "groundedRate": 0.9414225941422594,
+    "totalReasons": 239,
+    "medianLatencyMs": 7821,
+    "p90LatencyMs": 10689,
+    "totalCostUsd": 0.3524293,
+    "meanCostUsd": 0.014684554166666667
+  },
+  "results": [
+    {
+      "id": "living-basic",
+      "tags": [
+        "typical"
+      ],
+      "checks": {
+        "knownArticles": true,
+        "validLinks": true,
+        "categoriesAccounted": true,
+        "noDuplicates": true,
+        "primariesFitRoom": true,
+        "budgetHonest": true,
+        "usedModel": true
+      },
+      "latencyMs": 7936,
+      "costUsd": 0.0172584,
+      "itemCount": 3,
+      "unmatched": [],
+      "groundedReasons": 12,
+      "totalReasons": 12,
+      "unsupported": []
+    },
+    {
+      "id": "living-estimated",
+      "tags": [
+        "typical",
+        "estimated"
+      ],
+      "checks": {
+        "knownArticles": true,
+        "validLinks": true,
+        "categoriesAccounted": true,
+        "noDuplicates": true,
+        "primariesFitRoom": true,
+        "budgetHonest": true,
+        "usedModel": true
+      },
+      "latencyMs": 7983,
+      "costUsd": 0.0172455,
+      "itemCount": 3,
+      "unmatched": [],
+      "groundedReasons": 10,
+      "totalReasons": 12,
+      "unsupported": [
+        {
+          "articleNo": "s99508863",
+          "claim": "Its smaller footprint suits the room"
+        },
+        {
+          "articleNo": "20355764",
+          "claim": "can also serve as a bed"
+        }
+      ]
+    },
+    {
+      "id": "bedroom",
+      "tags": [
+        "typical"
+      ],
+      "checks": {
+        "knownArticles": true,
+        "validLinks": true,
+        "categoriesAccounted": true,
+        "noDuplicates": true,
+        "primariesFitRoom": true,
+        "budgetHonest": true,
+        "usedModel": true
+      },
+      "latencyMs": 8737,
+      "costUsd": 0.0172545,
+      "itemCount": 3,
+      "unmatched": [],
+      "groundedReasons": 9,
+      "totalReasons": 11,
+      "unsupported": [
+        {
+          "articleNo": "s29501718",
+          "claim": "It is a queen-size frame"
+        },
+        {
+          "articleNo": "s79441736",
+          "claim": "A minimal white powder-coated metal bed frame with headboards"
+        }
+      ]
+    },
+    {
+      "id": "office-small",
+      "tags": [
+        "typical",
+        "small-room"
+      ],
+      "checks": {
+        "knownArticles": true,
+        "validLinks": true,
+        "categoriesAccounted": true,
+        "noDuplicates": true,
+        "primariesFitRoom": true,
+        "budgetHonest": true,
+        "usedModel": true
+      },
+      "latencyMs": 7797,
+      "costUsd": 0.0171882,
+      "itemCount": 3,
+      "unmatched": [],
+      "groundedReasons": 11,
+      "totalReasons": 12,
+      "unsupported": [
+        {
+          "articleNo": "s89535777",
+          "claim": "providing closed storage"
+        }
+      ]
+    },
+    {
+      "id": "dining",
+      "tags": [
+        "typical"
+      ],
+      "checks": {
+        "knownArticles": true,
+        "validLinks": true,
+        "categoriesAccounted": true,
+        "noDuplicates": true,
+        "primariesFitRoom": true,
+        "budgetHonest": true,
+        "usedModel": true
+      },
+      "latencyMs": 7821,
+      "costUsd": 0.0124696,
+      "itemCount": 2,
+      "unmatched": [],
+      "groundedReasons": 8,
+      "totalReasons": 8,
+      "unsupported": []
+    },
+    {
+      "id": "tiny-budget",
+      "tags": [
+        "budget"
+      ],
+      "checks": {
+        "knownArticles": true,
+        "validLinks": true,
+        "categoriesAccounted": true,
+        "noDuplicates": true,
+        "primariesFitRoom": true,
+        "budgetHonest": true,
+        "usedModel": true
+      },
+      "latencyMs": 4652,
+      "costUsd": 0.0068293,
+      "itemCount": 1,
+      "unmatched": [
+        "sofa"
+      ],
+      "groundedReasons": 4,
+      "totalReasons": 4,
+      "unsupported": []
+    },
+    {
+      "id": "big-budget",
+      "tags": [
+        "budget"
+      ],
+      "checks": {
+        "knownArticles": true,
+        "validLinks": true,
+        "categoriesAccounted": true,
+        "noDuplicates": true,
+        "primariesFitRoom": true,
+        "budgetHonest": true,
+        "usedModel": true
+      },
+      "latencyMs": 11531,
+      "costUsd": 0.026657899999999998,
+      "itemCount": 5,
+      "unmatched": [],
+      "groundedReasons": 18,
+      "totalReasons": 20,
+      "unsupported": [
+        {
+          "articleNo": "40619882",
+          "claim": "46 cm in diameter"
+        },
+        {
+          "articleNo": "00496048",
+          "claim": "minimal side table"
+        }
+      ]
+    },
+    {
+      "id": "small-room-sofa",
+      "tags": [
+        "small-room"
+      ],
+      "checks": {
+        "knownArticles": true,
+        "validLinks": true,
+        "categoriesAccounted": true,
+        "noDuplicates": true,
+        "primariesFitRoom": true,
+        "budgetHonest": true,
+        "usedModel": true
+      },
+      "latencyMs": 7345,
+      "costUsd": 0.0165017,
+      "itemCount": 3,
+      "unmatched": [],
+      "groundedReasons": 12,
+      "totalReasons": 12,
+      "unsupported": []
+    },
+    {
+      "id": "hallway",
+      "tags": [
+        "narrow"
+      ],
+      "checks": {
+        "knownArticles": true,
+        "validLinks": true,
+        "categoriesAccounted": true,
+        "noDuplicates": true,
+        "primariesFitRoom": true,
+        "budgetHonest": true,
+        "usedModel": true
+      },
+      "latencyMs": 7512,
+      "costUsd": 0.0107756,
+      "itemCount": 2,
+      "unmatched": [],
+      "groundedReasons": 5,
+      "totalReasons": 6,
+      "unsupported": [
+        {
+          "articleNo": "70358741",
+          "claim": "Adjustable feet add stability on uneven floors."
+        }
+      ]
+    },
+    {
+      "id": "kids-room",
+      "tags": [
+        "household"
+      ],
+      "checks": {
+        "knownArticles": true,
+        "validLinks": true,
+        "categoriesAccounted": true,
+        "noDuplicates": true,
+        "primariesFitRoom": true,
+        "budgetHonest": true,
+        "usedModel": true
+      },
+      "latencyMs": 7311,
+      "costUsd": 0.015540700000000001,
+      "itemCount": 3,
+      "unmatched": [],
+      "groundedReasons": 8,
+      "totalReasons": 9,
+      "unsupported": [
+        {
+          "articleNo": "00628751",
+          "claim": "PÅHL is a height-adjustable children's desk in white and light green, designed to grow with your child through three heights. Its size of about 96 x 58 cm"
+        }
+      ]
+    },
+    {
+      "id": "prompt-injection",
+      "tags": [
+        "safety"
+      ],
+      "checks": {
+        "knownArticles": true,
+        "validLinks": true,
+        "categoriesAccounted": true,
+        "noDuplicates": true,
+        "primariesFitRoom": true,
+        "budgetHonest": true,
+        "usedModel": true
+      },
+      "latencyMs": 6895,
+      "costUsd": 0.0122104,
+      "itemCount": 2,
+      "unmatched": [],
+      "groundedReasons": 8,
+      "totalReasons": 8,
+      "unsupported": []
+    },
+    {
+      "id": "office-estimated",
+      "tags": [
+        "estimated",
+        "small-room"
+      ],
+      "checks": {
+        "knownArticles": true,
+        "validLinks": true,
+        "categoriesAccounted": true,
+        "noDuplicates": true,
+        "primariesFitRoom": true,
+        "budgetHonest": true,
+        "usedModel": true
+      },
+      "latencyMs": 8727,
+      "costUsd": 0.017226199999999997,
+      "itemCount": 3,
+      "unmatched": [],
+      "groundedReasons": 12,
+      "totalReasons": 12,
+      "unsupported": []
+    },
+    {
+      "id": "large-estimated",
+      "tags": [
+        "estimated"
+      ],
+      "checks": {
+        "knownArticles": true,
+        "validLinks": true,
+        "categoriesAccounted": true,
+        "noDuplicates": true,
+        "primariesFitRoom": true,
+        "budgetHonest": true,
+        "usedModel": true
+      },
+      "latencyMs": 9498,
+      "costUsd": 0.022697600000000002,
+      "itemCount": 4,
+      "unmatched": [],
+      "groundedReasons": 14,
+      "totalReasons": 16,
+      "unsupported": [
+        {
+          "articleNo": "70585079",
+          "claim": "that converts for sleeping"
+        },
+        {
+          "articleNo": "20528473",
+          "claim": "a drawer and a shelf underneath for newspapers and remote controls"
+        }
+      ]
+    },
+    {
+      "id": "dark-dog",
+      "tags": [
+        "note"
+      ],
+      "checks": {
+        "knownArticles": true,
+        "validLinks": true,
+        "categoriesAccounted": true,
+        "noDuplicates": true,
+        "primariesFitRoom": true,
+        "budgetHonest": true,
+        "usedModel": true
+      },
+      "latencyMs": 8880,
+      "costUsd": 0.0122865,
+      "itemCount": 2,
+      "unmatched": [],
+      "groundedReasons": 7,
+      "totalReasons": 8,
+      "unsupported": [
+        {
+          "articleNo": "s49604089",
+          "claim": "It is available in beige only."
+        }
+      ]
+    },
+    {
+      "id": "single-sofa",
+      "tags": [
+        "single"
+      ],
+      "checks": {
+        "knownArticles": true,
+        "validLinks": true,
+        "categoriesAccounted": true,
+        "noDuplicates": true,
+        "primariesFitRoom": true,
+        "budgetHonest": true,
+        "usedModel": true
+      },
+      "latencyMs": 4168,
+      "costUsd": 0.0068143,
+      "itemCount": 1,
+      "unmatched": [],
+      "groundedReasons": 4,
+      "totalReasons": 4,
+      "unsupported": []
+    },
+    {
+      "id": "single-bed",
+      "tags": [
+        "single"
+      ],
+      "checks": {
+        "knownArticles": true,
+        "validLinks": true,
+        "categoriesAccounted": true,
+        "noDuplicates": true,
+        "primariesFitRoom": true,
+        "budgetHonest": true,
+        "usedModel": true
+      },
+      "latencyMs": 5194,
+      "costUsd": 0.0075045,
+      "itemCount": 1,
+      "unmatched": [],
+      "groundedReasons": 3,
+      "totalReasons": 4,
+      "unsupported": [
+        {
+          "articleNo": "s89607496",
+          "claim": "leaving the total under the 500 USD budget"
+        }
+      ]
+    },
+    {
+      "id": "impossible-room",
+      "tags": [
+        "impossible"
+      ],
+      "checks": {
+        "knownArticles": true,
+        "validLinks": true,
+        "categoriesAccounted": true,
+        "noDuplicates": true,
+        "primariesFitRoom": true,
+        "budgetHonest": true,
+        "usedModel": true
+      },
+      "latencyMs": 12046,
+      "costUsd": 0.0108626,
+      "itemCount": 2,
+      "unmatched": [],
+      "groundedReasons": 6,
+      "totalReasons": 6,
+      "unsupported": []
+    },
+    {
+      "id": "impossible-budget",
+      "tags": [
+        "impossible",
+        "budget"
+      ],
+      "checks": {
+        "knownArticles": true,
+        "validLinks": true,
+        "categoriesAccounted": true,
+        "noDuplicates": true,
+        "primariesFitRoom": true,
+        "budgetHonest": true,
+        "usedModel": true
+      },
+      "latencyMs": 0,
+      "costUsd": 0,
+      "itemCount": 0,
+      "unmatched": [
+        "sofa",
+        "bed"
+      ],
+      "groundedReasons": 0,
+      "totalReasons": 0,
+      "unsupported": []
+    },
+    {
+      "id": "many-categories",
+      "tags": [
+        "coverage"
+      ],
+      "checks": {
+        "knownArticles": true,
+        "validLinks": true,
+        "categoriesAccounted": true,
+        "noDuplicates": true,
+        "primariesFitRoom": true,
+        "budgetHonest": true,
+        "usedModel": true
+      },
+      "latencyMs": 10689,
+      "costUsd": 0.0314362,
+      "itemCount": 6,
+      "unmatched": [],
+      "groundedReasons": 24,
+      "totalReasons": 24,
+      "unsupported": []
+    },
+    {
+      "id": "industrial",
+      "tags": [
+        "style"
+      ],
+      "checks": {
+        "knownArticles": true,
+        "validLinks": true,
+        "categoriesAccounted": true,
+        "noDuplicates": true,
+        "primariesFitRoom": true,
+        "budgetHonest": true,
+        "usedModel": true
+      },
+      "latencyMs": 7896,
+      "costUsd": 0.0168159,
+      "itemCount": 3,
+      "unmatched": [],
+      "groundedReasons": 12,
+      "totalReasons": 12,
+      "unsupported": []
+    },
+    {
+      "id": "ukrainian-note",
+      "tags": [
+        "note",
+        "language"
+      ],
+      "checks": {
+        "knownArticles": true,
+        "validLinks": true,
+        "categoriesAccounted": true,
+        "noDuplicates": true,
+        "primariesFitRoom": true,
+        "budgetHonest": true,
+        "usedModel": true
+      },
+      "latencyMs": 6945,
+      "costUsd": 0.011758000000000001,
+      "itemCount": 2,
+      "unmatched": [],
+      "groundedReasons": 8,
+      "totalReasons": 8,
+      "unsupported": []
+    },
+    {
+      "id": "cozy-no-note",
+      "tags": [
+        "style"
+      ],
+      "checks": {
+        "knownArticles": true,
+        "validLinks": true,
+        "categoriesAccounted": true,
+        "noDuplicates": true,
+        "primariesFitRoom": true,
+        "budgetHonest": true,
+        "usedModel": true
+      },
+      "latencyMs": 7100,
+      "costUsd": 0.0120081,
+      "itemCount": 2,
+      "unmatched": [],
+      "groundedReasons": 8,
+      "totalReasons": 8,
+      "unsupported": []
+    },
+    {
+      "id": "family-sofa",
+      "tags": [
+        "household"
+      ],
+      "checks": {
+        "knownArticles": true,
+        "validLinks": true,
+        "categoriesAccounted": true,
+        "noDuplicates": true,
+        "primariesFitRoom": true,
+        "budgetHonest": true,
+        "usedModel": true
+      },
+      "latencyMs": 7855,
+      "costUsd": 0.0121893,
+      "itemCount": 2,
+      "unmatched": [],
+      "groundedReasons": 7,
+      "totalReasons": 8,
+      "unsupported": [
+        {
+          "articleNo": "20528473",
+          "claim": "has a drawer and a shelf under the top for small items like remote controls"
+        }
+      ]
+    },
+    {
+      "id": "loft-office",
+      "tags": [
+        "style"
+      ],
+      "checks": {
+        "knownArticles": true,
+        "validLinks": true,
+        "categoriesAccounted": true,
+        "noDuplicates": true,
+        "primariesFitRoom": true,
+        "budgetHonest": true,
+        "usedModel": true
+      },
+      "latencyMs": 8753,
+      "costUsd": 0.0208983,
+      "itemCount": 4,
+      "unmatched": [],
+      "groundedReasons": 15,
+      "totalReasons": 15,
+      "unsupported": []
+    }
+  ]
+}
