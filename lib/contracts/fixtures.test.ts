@@ -2,10 +2,10 @@ import { describe, expect, it } from "vitest"
 
 import { apiErrorCodeSchema, apiErrorStatuses } from "@/lib/contracts/api-error"
 import {
+  recommendRequestEstimatedFixture,
   recommendRequestFixture,
   recommendationFixture,
   spaceDraftPhotoFixture,
-  spaceDraftPlanFixture,
 } from "@/lib/contracts/fixtures"
 import {
   recommendRequestSchema,
@@ -14,28 +14,46 @@ import {
 import { spaceDraftSchema } from "@/lib/contracts/space"
 
 describe("contract fixtures", () => {
-  it("matches the space draft schema for a plan", () => {
-    expect(spaceDraftSchema.safeParse(spaceDraftPlanFixture).success).toBe(true)
-  })
-
   it("matches the space draft schema for a photo", () => {
     expect(spaceDraftSchema.safeParse(spaceDraftPhotoFixture).success).toBe(true)
   })
 
-  it("detects every room of a multi-room plan with its own bounds", () => {
-    const rooms = spaceDraftPlanFixture.rooms ?? []
-    expect(rooms.map((room) => room.roomType)).toEqual(["living-room", "bedroom", "hallway"])
-    expect(new Set(rooms.map((room) => room.id)).size).toBe(rooms.length)
-  })
-
-  it("asks the user for dimensions when the space comes from a photo", () => {
+  it("asks the user to confirm dimensions estimated from a photo", () => {
     expect(spaceDraftPhotoFixture.needsUserInput).toContain("dimensions")
+    expect(spaceDraftPhotoFixture.dimensions?.source).toBe("estimated")
   })
 
   it("matches the recommend request schema", () => {
     expect(recommendRequestSchema.safeParse(recommendRequestFixture).success).toBe(
       true
     )
+  })
+
+  it("matches the recommend request schema without room type and style", () => {
+    const result = recommendRequestSchema.safeParse(
+      recommendRequestEstimatedFixture
+    )
+
+    expect(result.success).toBe(true)
+    expect(recommendRequestEstimatedFixture.preferences.roomType).toBeUndefined()
+    expect(recommendRequestEstimatedFixture.preferences.style).toBeUndefined()
+  })
+
+  it("marks the free text request as estimated", () => {
+    expect(recommendRequestEstimatedFixture.space.dimensionsBasis).toBe(
+      "estimated"
+    )
+  })
+
+  it("accepts a request without a dimensions basis", () => {
+    const { dimensionsBasis, ...space } = recommendRequestFixture.space
+    const result = recommendRequestSchema.safeParse({
+      ...recommendRequestFixture,
+      space,
+    })
+
+    expect(dimensionsBasis).toBe("user")
+    expect(result.success).toBe(true)
   })
 
   it("matches the recommendation response schema", () => {

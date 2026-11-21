@@ -3,9 +3,11 @@ import { afterEach, describe, expect, it, vi } from "vitest"
 import { POST } from "@/app/api/recommend/route"
 import { apiErrorSchema } from "@/lib/contracts/api-error"
 import {
+  recommendRequestEstimatedFixture,
   recommendRequestFixture,
   recommendationFixture,
 } from "@/lib/contracts/fixtures"
+import { recommendationResponseSchema } from "@/lib/contracts/recommendation"
 
 function buildRequest(body: string): Request {
   return new Request("http://localhost/api/recommend", {
@@ -51,8 +53,33 @@ describe("POST /api/recommend", () => {
     expect(await response.json()).toEqual(recommendationFixture)
   })
 
-  it("reports that the pipeline is not ready when mock mode is off", async () => {
+  it("reports estimated dimensions when the request marks them as estimated", async () => {
+    vi.stubEnv("MOCK_API", "true")
+
+    const response = await POST(
+      buildRequest(JSON.stringify(recommendRequestEstimatedFixture))
+    )
+    const payload = recommendationResponseSchema.parse(await response.json())
+
+    expect(payload.meta.dimensionsBasis).toBe("estimated")
+  })
+
+  it("defaults the dimensions basis to user when the request omits it", async () => {
+    vi.stubEnv("MOCK_API", "true")
+
+    const { dimensionsBasis, ...space } = recommendRequestFixture.space
+    const response = await POST(
+      buildRequest(JSON.stringify({ ...recommendRequestFixture, space }))
+    )
+    const payload = recommendationResponseSchema.parse(await response.json())
+
+    expect(dimensionsBasis).toBe("user")
+    expect(payload.meta.dimensionsBasis).toBe("user")
+  })
+
+  it("reports that the AI service is not configured when mock mode is off and the key is missing", async () => {
     vi.stubEnv("MOCK_API", "false")
+    vi.stubEnv("ANTHROPIC_API_KEY", "")
 
     const response = await POST(
       buildRequest(JSON.stringify(recommendRequestFixture))

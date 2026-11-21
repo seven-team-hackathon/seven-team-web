@@ -24,12 +24,21 @@ function buildImage(type: string, bytes = 10): File {
 }
 
 describe("validateSpaceUploadForm", () => {
-  it("accepts a png plan", () => {
+  it("accepts a png photo", () => {
+    const result = validateSpaceUploadForm(
+      buildForm({ kind: "photo", file: buildImage("image/png") })
+    )
+
+    expect(result.ok).toBe(true)
+  })
+
+  it("rejects a floor plan as not supported yet", () => {
     const result = validateSpaceUploadForm(
       buildForm({ kind: "plan", file: buildImage("image/png") })
     )
 
-    expect(result.ok).toBe(true)
+    expect(!result.ok && result.code).toBe("invalid_input")
+    expect(!result.ok && result.message).toContain("not supported")
   })
 
   it("accepts a jpeg photo and keeps the kind", () => {
@@ -49,14 +58,14 @@ describe("validateSpaceUploadForm", () => {
   })
 
   it("rejects a missing file", () => {
-    const result = validateSpaceUploadForm(buildForm({ kind: "plan" }))
+    const result = validateSpaceUploadForm(buildForm({ kind: "photo" }))
 
     expect(!result.ok && result.code).toBe("invalid_input")
   })
 
   it("rejects an empty file", () => {
     const result = validateSpaceUploadForm(
-      buildForm({ kind: "plan", file: buildImage("image/png", 0) })
+      buildForm({ kind: "photo", file: buildImage("image/png", 0) })
     )
 
     expect(!result.ok && result.code).toBe("invalid_input")
@@ -64,7 +73,7 @@ describe("validateSpaceUploadForm", () => {
 
   it("rejects an unsupported media type", () => {
     const result = validateSpaceUploadForm(
-      buildForm({ kind: "plan", file: buildImage("application/pdf") })
+      buildForm({ kind: "photo", file: buildImage("application/pdf") })
     )
 
     expect(!result.ok && result.code).toBe("unsupported_media_type")
@@ -73,7 +82,7 @@ describe("validateSpaceUploadForm", () => {
   it("rejects a file larger than the limit", () => {
     const result = validateSpaceUploadForm(
       buildForm({
-        kind: "plan",
+        kind: "photo",
         file: buildImage("image/png", maxSpaceUploadBytes + 1),
       })
     )

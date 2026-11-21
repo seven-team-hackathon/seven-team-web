@@ -20,8 +20,8 @@ export const householdSchema = z.object({
 
 export const preferencesSchema = z.object({
   market: marketSchema,
-  roomType: roomTypeSchema,
-  style: styleSchema,
+  roomType: roomTypeSchema.optional(),
+  style: styleSchema.optional(),
   household: householdSchema,
   budget: z.number().positive().max(1_000_000),
   categories: z.array(furnitureCategorySchema).min(1),

@@ -3,7 +3,7 @@ import { z } from "zod"
 import { furnitureCategorySchema } from "@/lib/contracts/furniture-category"
 import { currencySchema } from "@/lib/contracts/markets"
 import { preferencesSchema } from "@/lib/contracts/preferences"
-import { confirmedSpaceSchema } from "@/lib/contracts/space"
+import { confirmedSpaceSchema, dimensionsBasisSchema } from "@/lib/contracts/space"
 
 export const recommendRequestSchema = z.object({
   space: confirmedSpaceSchema,
@@ -65,7 +65,11 @@ export const recommendationResponseSchema = z.object({
     issues: z.array(fitIssueSchema),
   }),
   usage: usageSchema,
-  meta: z.object({ rankedBy: rankedBySchema }),
+  meta: z.object({
+    rankedBy: rankedBySchema,
+    dimensionsBasis: dimensionsBasisSchema,
+    unmatchedCategories: z.array(furnitureCategorySchema).optional(),
+  }),
 })
 
 export type RecommendRequest = z.infer<typeof recommendRequestSchema>
