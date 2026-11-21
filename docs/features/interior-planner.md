@@ -31,6 +31,8 @@ All dimensions are centimeters and all prices are USD. The only market is `us`.
 4. Call `POST /api/recommend` and show the results with the reasons.
 5. If `meta.dimensionsBasis` is `"estimated"`, show a notice (see below).
 
+The Room step is skipped for a photo when the analysis returns dimensions. "Try a sample photo" always skips it: the analysis result is used as is, and any missing room type, dimensions or openings fall back to `SAMPLE_PHOTO_SPACE` (living room, 420 x 380 cm, 250 cm ceiling, one 150 cm window). A skipped step stays visible in the step indicator but cannot be opened.
+
 ## Mock mode
 
 Add `MOCK_API=true` to `.env.local` to get fixture responses without calling the AI. Without it the endpoints use the real pipeline and return `model_failed` (502) when `ANTHROPIC_API_KEY` is missing.

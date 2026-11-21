@@ -9,6 +9,7 @@ import { FREE_CATEGORY_COUNT } from "@/lib/planner/options"
 import { arrangeOnWall, getWallSize, type WallItem, type WallSide } from "@/lib/planner/wall-layout"
 import type { ImageRef } from "@/lib/images/image-size"
 import { WHOLE_IMAGE_BOUNDS, type RoomBounds } from "@/lib/planner/room-bounds"
+import { SAMPLE_PHOTO_SPACE } from "@/lib/planner/sample-photo"
 import { AnalyzingStep, type AnalyzedImage, type SpaceUpload } from "@/components/planner/analyzing-step"
 import { FloorLayoutStep } from "@/components/planner/floor-layout-step"
 import { FlowSteps, getFurtherStep, type FlowStep } from "@/components/planner/flow-steps"
@@ -40,6 +41,7 @@ type SpaceImage = ImageRef & {
 type FlowProgress = {
   readonly furthestStep: FlowStep
   readonly draft: SpaceDraft | null
+  readonly isRoomSkipped: boolean
   readonly image: SpaceImage | null
   readonly roomBounds: RoomBounds | null
   readonly preferencesSpace: SpaceInput | null
@@ -53,6 +55,7 @@ type FlowProgress = {
 const INITIAL_PROGRESS: FlowProgress = {
   furthestStep: "upload",
   draft: null,
+  isRoomSkipped: false,
   image: null,
   roomBounds: null,
   preferencesSpace: null,
@@ -77,14 +80,16 @@ function arrangeLayout(
   return { view: "floor", items: autoArrange(space.dimensions, visibleItems) }
 }
 
-function getPhotoSpace(draft: SpaceDraft): SpaceInput | null {
-  if (draft.kind !== "photo" || !draft.dimensions) return null
-  const { widthCm, lengthCm, ceilingHeightCm } = draft.dimensions
+function getPhotoSpace(draft: SpaceDraft, isSample: boolean): SpaceInput | null {
+  if (draft.kind !== "photo") return null
+  const dimensions = draft.dimensions ?? (isSample ? SAMPLE_PHOTO_SPACE.dimensions : null)
+  if (!dimensions) return null
+  const { widthCm, lengthCm, ceilingHeightCm } = dimensions
   return {
-    roomType: draft.roomType ?? null,
+    roomType: draft.roomType ?? (isSample ? SAMPLE_PHOTO_SPACE.roomType : null),
     dimensions: { widthCm, lengthCm, ceilingHeightCm },
     dimensionsBasis: "estimated",
-    openings: draft.openings,
+    openings: draft.openings.length === 0 && isSample ? SAMPLE_PHOTO_SPACE.openings : draft.openings,
     styleHints: draft.styleHints,
   }
 }
@@ -106,10 +111,18 @@ export function PlannerFlow() {
   function handleAnalyzed(draft: SpaceDraft, { file, width, height }: AnalyzedImage) {
     releaseImage()
     const image: SpaceImage = { kind: draft.kind, url: URL.createObjectURL(file), width, height }
-    const photoSpace = getPhotoSpace(draft)
+    const isSample = flow.step === "analyzing" && flow.upload.file === null
+    const photoSpace = getPhotoSpace(draft, isSample)
 
     if (photoSpace) {
-      setProgress((current) => ({ ...current, draft, image, preferencesSpace: photoSpace, furthestStep: "preferences" }))
+      setProgress((current) => ({
+        ...current,
+        draft,
+        isRoomSkipped: true,
+        image,
+        preferencesSpace: photoSpace,
+        furthestStep: "preferences",
+      }))
       setFlow({ step: "preferences", space: photoSpace, variant: "photo" })
       return
     }
@@ -254,7 +267,7 @@ export function PlannerFlow() {
       <FlowSteps
         currentStep={flow.step}
         furthestStep={progress.furthestStep}
-        skippedSteps={progress.draft && getPhotoSpace(progress.draft) ? ["room"] : []}
+        skippedSteps={progress.isRoomSkipped ? ["room"] : []}
         onStepSelect={handleStepSelect}
       />
       <div className="flex flex-1 flex-col *:flex-1">{renderStep()}</div>
