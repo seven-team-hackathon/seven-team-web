@@ -1,3 +1,6 @@
+import type { RoomType } from "@/lib/contracts/room-type"
+import type { Opening } from "@/lib/contracts/space"
+
 const CANVAS_WIDTH = 1600
 const CANVAS_HEIGHT = 1000
 const FLOOR_Y = 760
@@ -10,6 +13,16 @@ const WINDOW_FRAME = "#FAF7F2"
 const SKY_TOP = "#BFD4E2"
 const SKY_BOTTOM = "#E4EDF2"
 const SHADOW = "rgba(43, 42, 40, 0.12)"
+
+export const SAMPLE_PHOTO_SPACE: {
+  readonly roomType: RoomType
+  readonly dimensions: { readonly widthCm: number; readonly lengthCm: number; readonly ceilingHeightCm: number }
+  readonly openings: Opening[]
+} = {
+  roomType: "living-room",
+  dimensions: { widthCm: 420, lengthCm: 380, ceilingHeightCm: 250 },
+  openings: [{ type: "window", widthCm: 150 }],
+}
 
 function drawWall(context: CanvasRenderingContext2D) {
   const wall = context.createLinearGradient(0, 0, 0, FLOOR_Y)
