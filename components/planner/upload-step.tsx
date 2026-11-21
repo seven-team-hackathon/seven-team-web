@@ -12,7 +12,7 @@ import type { SpaceUpload } from "@/components/planner/analyzing-step"
 
 const KIND_OPTIONS: readonly ChoiceOption[] = [
   { value: "photo", label: "Room photo", hint: "tell us what you want next", icon: CameraIcon },
-  { value: "plan", label: "Floor plan", hint: "sizes are read from the labels", icon: MapIcon },
+  { value: "plan", label: "Floor plan", hint: "coming soon", icon: MapIcon, isDisabled: true },
 ]
 
 const SAMPLE_LABELS: Readonly<Record<SpaceKind, string>> = {

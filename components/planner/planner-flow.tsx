@@ -80,7 +80,13 @@ function arrangeLayout(
 function getPhotoSpace(draft: SpaceDraft): SpaceInput | null {
   if (draft.kind !== "photo" || !draft.dimensions) return null
   const { widthCm, lengthCm, ceilingHeightCm } = draft.dimensions
-  return { roomType: draft.roomType ?? null, dimensions: { widthCm, lengthCm, ceilingHeightCm }, openings: draft.openings }
+  return {
+    roomType: draft.roomType ?? null,
+    dimensions: { widthCm, lengthCm, ceilingHeightCm },
+    dimensionsBasis: "estimated",
+    openings: draft.openings,
+    styleHints: draft.styleHints,
+  }
 }
 
 export function PlannerFlow() {

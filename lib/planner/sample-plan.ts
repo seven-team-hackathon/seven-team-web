@@ -1,6 +1,5 @@
-import { spaceDraftPlanFixture } from "@/lib/contracts/fixtures"
-import type { DetectedRoom } from "@/lib/contracts/space"
 import { ROOM_TYPE_META } from "@/lib/planner/options"
+import { SAMPLE_PLAN_ROOMS, type DetectedRoom } from "@/lib/planner/plan-rooms"
 
 const CANVAS_WIDTH = 1200
 const CANVAS_HEIGHT = 1000
@@ -77,7 +76,7 @@ function drawWindow(context: CanvasRenderingContext2D, room: DetectedRoom) {
 }
 
 function drawPlan(context: CanvasRenderingContext2D) {
-  const rooms = spaceDraftPlanFixture.rooms ?? []
+  const rooms = SAMPLE_PLAN_ROOMS
   context.fillStyle = PAPER
   context.fillRect(0, 0, CANVAS_WIDTH, CANVAS_HEIGHT)
 

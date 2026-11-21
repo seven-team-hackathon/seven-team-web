@@ -83,6 +83,7 @@ export const CATEGORY_META: Readonly<Record<FurnitureCategory, CategoryMeta>> = 
   sofa: { label: "Sofa", icon: SofaIcon, tone: "sage" },
   armchair: { label: "Armchair", icon: ArmchairIcon, tone: "terracotta" },
   "coffee-table": { label: "Coffee table", icon: CoffeeIcon, tone: "wood" },
+  "side-table": { label: "Side table", icon: LampIcon, tone: "plant" },
   "tv-unit": { label: "TV unit", icon: TvIcon, tone: "plant" },
   bed: { label: "Bed", icon: BedDoubleIcon, tone: "sage" },
   wardrobe: { label: "Wardrobe", icon: ShirtIcon, tone: "wood" },

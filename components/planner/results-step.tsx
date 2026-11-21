@@ -1,13 +1,22 @@
 "use client"
 
-import { CircleCheckIcon, InfoIcon, LayoutDashboardIcon, LockIcon, SparklesIcon, TriangleAlertIcon } from "lucide-react"
+import {
+  CircleCheckIcon,
+  InfoIcon,
+  LayoutDashboardIcon,
+  LockIcon,
+  RulerIcon,
+  SearchXIcon,
+  SparklesIcon,
+  TriangleAlertIcon,
+} from "lucide-react"
 import { useState } from "react"
 import { toast } from "sonner"
 import type { RecommendationResponse } from "@/lib/contracts/recommendation"
 import type { RoomType } from "@/lib/contracts/room-type"
 import { formatPrice } from "@/lib/format-price"
 import { pluralize } from "@/lib/pluralize"
-import { FREE_CATEGORY_COUNT, ROOM_TYPE_META } from "@/lib/planner/options"
+import { CATEGORY_META, FREE_CATEGORY_COUNT, ROOM_TYPE_META } from "@/lib/planner/options"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { CategoryResult } from "@/components/planner/category-result"
@@ -53,7 +62,9 @@ type ResultsStepProps = {
 
 export function ResultsStep({ roomType, recommendation, isUnlocked, onUnlock, onOpenLayout }: ResultsStepProps) {
   const [isPaywallOpen, setIsPaywallOpen] = useState(false)
-  const { items, totals, fit } = recommendation
+  const { items, totals, fit, meta } = recommendation
+  const unmatchedCategories = meta.unmatchedCategories ?? []
+  const hasItems = items.length > 0
   const freeItems = isUnlocked ? items : items.slice(0, FREE_CATEGORY_COUNT)
   const lockedItems = isUnlocked ? [] : items.slice(FREE_CATEGORY_COUNT)
   const alternativeCount = items.reduce((sum, item) => sum + item.alternatives.length, 0)
@@ -80,14 +91,33 @@ export function ResultsStep({ roomType, recommendation, isUnlocked, onUnlock, on
         </CardDescription>
       </CardHeader>
       <CardContent className="mx-auto flex w-full max-w-4xl flex-col gap-6">
-        <FitSummary fit={fit} />
+        {meta.dimensionsBasis === "estimated" && (
+          <p className="flex gap-2.5 rounded-xl border border-warning/40 bg-warning/10 p-3.5 text-sm">
+            <RulerIcon aria-hidden className="mt-0.5 size-4 shrink-0 text-warning" />
+            Room size was estimated from the photo and may be off. Check the item dimensions against your space before
+            buying.
+          </p>
+        )}
 
-        <Button size="lg" onClick={onOpenLayout} className="w-full sm:w-auto sm:self-center">
-          <LayoutDashboardIcon data-icon="inline-start" aria-hidden />
-          See it in your room
-        </Button>
+        {unmatchedCategories.length > 0 && (
+          <p className="flex gap-2.5 rounded-xl bg-secondary p-3.5 text-sm">
+            <SearchXIcon aria-hidden className="mt-0.5 size-4 shrink-0 text-muted-foreground" />
+            Nothing fits this budget and space for{" "}
+            {unmatchedCategories.map((category) => CATEGORY_META[category].label.toLowerCase()).join(", ")}. Try a higher
+            budget.
+          </p>
+        )}
 
-        {!isUnlocked && (
+        {hasItems && <FitSummary fit={fit} />}
+
+        {hasItems && (
+          <Button size="lg" onClick={onOpenLayout} className="w-full sm:w-auto sm:self-center">
+            <LayoutDashboardIcon data-icon="inline-start" aria-hidden />
+            See it in your room
+          </Button>
+        )}
+
+        {hasItems && !isUnlocked && (
           <div className="flex flex-col items-center gap-3 rounded-xl border border-terracotta/35 bg-terracotta/10 p-4 text-center sm:flex-row sm:text-left">
             <SparklesIcon aria-hidden className="size-5 shrink-0 text-terracotta" />
             <p className="flex-1 text-sm leading-relaxed">

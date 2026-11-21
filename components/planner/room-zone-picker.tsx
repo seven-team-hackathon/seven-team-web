@@ -2,7 +2,7 @@
 
 import { HandIcon } from "lucide-react"
 import { cn } from "@/lib/utils"
-import type { DetectedRoom } from "@/lib/contracts/space"
+import type { DetectedRoom } from "@/lib/planner/plan-rooms"
 import type { ImageRef } from "@/lib/images/image-size"
 import { ROOM_TYPE_META } from "@/lib/planner/options"
 import { Button } from "@/components/ui/button"

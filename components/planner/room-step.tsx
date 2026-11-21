@@ -3,13 +3,8 @@
 import { ArrowRightIcon, DoorOpenIcon, InfoIcon, PanelTopIcon } from "lucide-react"
 import { useState, type FormEvent } from "react"
 import { roomTypeSchema, type RoomType } from "@/lib/contracts/room-type"
-import {
-  confirmedSpaceSchema,
-  type ConfirmedSpace,
-  type DetectedRoom,
-  type Opening,
-  type SpaceDraft,
-} from "@/lib/contracts/space"
+import { confirmedSpaceSchema, type ConfirmedSpace, type Opening, type SpaceDraft } from "@/lib/contracts/space"
+import type { DetectedRoom, PlanDraft } from "@/lib/planner/plan-rooms"
 import { cn } from "@/lib/utils"
 import type { ImageRef } from "@/lib/images/image-size"
 import { ROOM_TYPE_META } from "@/lib/planner/options"
@@ -56,7 +51,7 @@ function findInitialRoom(rooms: readonly DetectedRoom[], bounds: RoomBounds | nu
 }
 
 type RoomStepProps = {
-  draft: SpaceDraft
+  draft: PlanDraft
   planImage: ImageRef | null
   initialSpace: ConfirmedSpace | null
   initialBounds: RoomBounds | null
@@ -95,7 +90,9 @@ export function RoomStep({ draft, planImage, initialSpace, initialBounds, onConf
       lengthCm: toOptionalNumber(length),
       ceilingHeightCm: toOptionalNumber(ceilingHeight),
     },
+    dimensionsBasis: "user",
     openings: draft.openings,
+    styleHints: draft.styleHints,
   })
   const isInvalid = hasSubmitted && !parsedSpace.success
 

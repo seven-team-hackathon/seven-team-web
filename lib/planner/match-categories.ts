@@ -4,6 +4,7 @@ const CATEGORY_KEYWORDS: Readonly<Record<FurnitureCategory, readonly string[]>> 
   sofa: ["sofa", "couch", "settee"],
   armchair: ["armchair"],
   "coffee-table": ["coffee table"],
+  "side-table": ["side table", "end table"],
   "tv-unit": ["tv", "tv unit", "tv stand", "media unit"],
   bed: ["bed"],
   wardrobe: ["wardrobe", "closet"],
