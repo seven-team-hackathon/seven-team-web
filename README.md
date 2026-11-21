@@ -1,6 +1,6 @@
-# Roomfit
+# Furnelyra - AI Interior & Furniture Planner
 
-AI interior planner. The user uploads a photo of a room, optionally describes what they want and sets a budget, and gets links to real IKEA US furniture that fits the space, each with a short explanation. Nothing is generated: the result is a list of existing products.
+AI-powered interior design planner. Upload a photo of your room, describe your style preferences and budget, and get personalized links to real IKEA US furniture that fits your space perfectly. Each recommendation includes an explanation tailored to your room and style.
 
 Built for the AI Product Engineering School 2026 hackathon (Next.js, React, Tailwind CSS, shadcn/ui and the Anthropic SDK).
 
