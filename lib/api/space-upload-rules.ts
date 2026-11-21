@@ -22,6 +22,42 @@ function isAllowedType(type: string): boolean {
   return allowedSpaceUploadTypes.some((allowedType) => allowedType === type)
 }
 
+export type ImageFileResult =
+  | { readonly ok: true; readonly file: File }
+  | {
+      readonly ok: false
+      readonly code: ApiErrorCode
+      readonly message: string
+    }
+
+export function validateImageFile(value: FormDataEntryValue | null): ImageFileResult {
+  if (!(value instanceof File) || value.size === 0) {
+    return {
+      ok: false,
+      code: "invalid_input",
+      message: "Field 'file' must be a non-empty image file.",
+    }
+  }
+
+  if (!isAllowedType(value.type)) {
+    return {
+      ok: false,
+      code: "unsupported_media_type",
+      message: "Only JPEG, PNG and WebP images are supported.",
+    }
+  }
+
+  if (value.size > maxSpaceUploadBytes) {
+    return {
+      ok: false,
+      code: "file_too_large",
+      message: "The image must be 4 MB or smaller.",
+    }
+  }
+
+  return { ok: true, file: value }
+}
+
 export function validateSpaceUploadForm(form: FormData): SpaceUploadResult {
   const kind = spaceKindSchema.safeParse(form.get("kind"))
 
@@ -33,31 +69,11 @@ export function validateSpaceUploadForm(form: FormData): SpaceUploadResult {
     }
   }
 
-  const file = form.get("file")
+  const image = validateImageFile(form.get("file"))
 
-  if (!(file instanceof File) || file.size === 0) {
-    return {
-      ok: false,
-      code: "invalid_input",
-      message: "Field 'file' must be a non-empty image file.",
-    }
+  if (!image.ok) {
+    return image
   }
 
-  if (!isAllowedType(file.type)) {
-    return {
-      ok: false,
-      code: "unsupported_media_type",
-      message: "Only JPEG, PNG and WebP images are supported.",
-    }
-  }
-
-  if (file.size > maxSpaceUploadBytes) {
-    return {
-      ok: false,
-      code: "file_too_large",
-      message: "The image must be 4 MB or smaller.",
-    }
-  }
-
-  return { ok: true, kind: kind.data, file }
+  return { ok: true, kind: kind.data, file: image.file }
 }

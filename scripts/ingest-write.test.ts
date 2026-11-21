@@ -165,6 +165,24 @@ describe("buildCatalogRecords", () => {
     expect(records.products[0]?.description).toBe("TEST Sofa")
   })
 
+  it("adds the image url when one is known", () => {
+    const records = buildCatalogRecords(
+      [buildNormalizedItem({})],
+      { "00000001": buildClassifiedItem({}) },
+      { "00000001": "https://www.ikea.com/us/en/images/products/test.jpg" }
+    )
+
+    expect(records.products[0]?.imageUrl).toBe(
+      "https://www.ikea.com/us/en/images/products/test.jpg"
+    )
+  })
+
+  it("leaves the image url out when it is unknown", () => {
+    const records = buildRecords({})
+
+    expect(records.products[0]).not.toHaveProperty("imageUrl")
+  })
+
   it("ignores items that were not classified", () => {
     const records = buildCatalogRecords(
       [buildNormalizedItem({ articleNo: "00000009" })],

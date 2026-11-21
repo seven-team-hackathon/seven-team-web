@@ -22,6 +22,7 @@ export const productSchema = z.object({
   material: z.string().min(1).optional(),
   description: z.string().min(1),
   productFamily: z.string().min(1).optional(),
+  imageUrl: z.url().optional(),
   aiConfidence: z.number().min(0).max(1),
   needsReview: z.boolean(),
 })

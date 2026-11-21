@@ -921,6 +921,7 @@ export type CatalogProduct = {
   readonly material?: string
   readonly description: string
   readonly productFamily?: string
+  readonly imageUrl?: string
   readonly aiConfidence: number
   readonly needsReview: boolean
 }
@@ -998,7 +999,8 @@ function cleanColors(colors: readonly string[]): string[] {
 
 export function buildCatalogRecords(
   items: readonly NormalizedItem[],
-  classified: Readonly<Record<string, ClassifiedItem>>
+  classified: Readonly<Record<string, ClassifiedItem>>,
+  images: Readonly<Record<string, string>> = {}
 ): CatalogRecords {
   const products: CatalogProduct[] = []
   const listings: CatalogListing[] = []
@@ -1043,6 +1045,7 @@ export function buildCatalogRecords(
       ...(material ? { material } : {}),
       description: item.description || item.name,
       ...(item.family ? { productFamily: item.family } : {}),
+      ...(images[item.articleNo] ? { imageUrl: images[item.articleNo] } : {}),
       aiConfidence: entry.confidence,
       needsReview: entry.needsReview,
     })
@@ -1092,6 +1095,18 @@ export function summarizeCatalogRecords(records: CatalogRecords): string {
   return lines.join("\n")
 }
 
+const IMAGES_FILE = path.join(SOURCE_DIR, "images.json")
+
+async function readProductImages(): Promise<Record<string, string>> {
+  if (!existsSync(IMAGES_FILE)) {
+    return {}
+  }
+
+  const data: unknown = JSON.parse(await readFile(IMAGES_FILE, "utf8"))
+
+  return z.record(z.string(), z.string()).parse(data)
+}
+
 async function runWrite(): Promise<void> {
   if (!existsSync(CLASSIFIED_FILE)) {
     console.error("No classified.json yet. Run the classify command first.")
@@ -1102,7 +1117,11 @@ async function runWrite(): Promise<void> {
   const normalized = await readNormalizedItems()
   const data: unknown = JSON.parse(await readFile(CLASSIFIED_FILE, "utf8"))
   const classified = classifiedFileSchema.parse(data)
-  const records = buildCatalogRecords(normalized, classified.items)
+  const records = buildCatalogRecords(
+    normalized,
+    classified.items,
+    await readProductImages()
+  )
 
   await mkdir(path.dirname(LISTINGS_FILE), { recursive: true })
   await writeFile(PRODUCTS_FILE, `${JSON.stringify(records.products, null, 2)}\n`)

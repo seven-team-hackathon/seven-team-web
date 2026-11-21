@@ -35,6 +35,7 @@ type LayoutState =
 
 type SpaceImage = ImageRef & {
   readonly kind: SpaceKind
+  readonly file: File
 }
 
 type FlowProgress = {
@@ -105,7 +106,7 @@ export function PlannerFlow() {
 
   function handleAnalyzed(draft: SpaceDraft, { file, width, height }: AnalyzedImage) {
     releaseImage()
-    const image: SpaceImage = { kind: draft.kind, url: URL.createObjectURL(file), width, height }
+    const image: SpaceImage = { kind: draft.kind, file, url: URL.createObjectURL(file), width, height }
     const photoSpace = getPhotoSpace(draft)
 
     if (photoSpace) {
@@ -200,6 +201,7 @@ export function PlannerFlow() {
             wallSide={layout.wallSide}
             wallLengths={{ width: space.dimensions.widthCm, length: space.dimensions.lengthCm }}
             photoUrl={image.url}
+            photoFile={image.file}
             items={layout.items}
             onItemsChange={(items) => setLayout({ ...layout, items })}
             onWallSideChange={(wallSide) => setLayout(arrangeFor(space, recommendation, wallSide))}

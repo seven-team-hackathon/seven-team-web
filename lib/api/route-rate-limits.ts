@@ -15,6 +15,16 @@ export const recommendRateLimiter = createRateLimiter({
   windowMs: MINUTE_MS,
 })
 
+export const visualizeRateLimiter = createRateLimiter({
+  limit: 4,
+  windowMs: MINUTE_MS,
+})
+
+export const visualizeGlobalRateLimiter = createRateLimiter({
+  limit: 60,
+  windowMs: 60 * MINUTE_MS,
+})
+
 export const globalRateLimiter = createRateLimiter({
   limit: 300,
   windowMs: 60 * MINUTE_MS,
@@ -24,11 +34,14 @@ export function resetRouteRateLimits(): void {
   spaceRateLimiter.reset()
   recommendRateLimiter.reset()
   globalRateLimiter.reset()
+  visualizeRateLimiter.reset()
+  visualizeGlobalRateLimiter.reset()
 }
 
 export function guardRateLimit(
   request: Request,
-  routeLimiter: RateLimiter
+  routeLimiter: RateLimiter,
+  sharedLimiter: RateLimiter = globalRateLimiter
 ): Response | null {
   if (isMockApiEnabled()) {
     return null
@@ -36,7 +49,7 @@ export function guardRateLimit(
 
   const decisions = [
     routeLimiter.check(getClientIp(request)),
-    globalRateLimiter.check("all"),
+    sharedLimiter.check("all"),
   ]
   const blocked = decisions.find((decision) => !decision.allowed)
 

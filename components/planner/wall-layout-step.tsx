@@ -9,6 +9,7 @@ import { pluralize } from "@/lib/pluralize"
 import { checkWallLayout, sortForDrawing, type WallItem, type WallSide, type WallSize } from "@/lib/planner/wall-layout"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { RoomVisualization } from "@/components/planner/room-visualization"
 import { StatusPill } from "@/components/planner/status-pill"
 
 const CANVAS_WALL_WIDTH_PX = 800
@@ -97,6 +98,7 @@ type WallLayoutStepProps = {
   wallSide: WallSide
   wallLengths: Readonly<Record<WallSide, number>>
   photoUrl: string
+  photoFile: File
   items: readonly WallItem[]
   onItemsChange: (items: readonly WallItem[]) => void
   onWallSideChange: (side: WallSide) => void
@@ -108,6 +110,7 @@ export function WallLayoutStep({
   wallSide,
   wallLengths,
   photoUrl,
+  photoFile,
   items,
   onItemsChange,
   onWallSideChange,
@@ -118,6 +121,7 @@ export function WallLayoutStep({
   const [selectedId, setSelectedId] = useState<string | null>(null)
   const { conflictingIds, conflicts } = checkWallLayout(wall, items)
   const hasConflicts = conflicts.length > 0
+  const selectedItem = items.find((item) => item.id === selectedId) ?? (items.length === 1 ? items[0] : null) ?? null
   const scale = CANVAS_WALL_WIDTH_PX / wall.widthCm
   const wallWidth = wall.widthCm * scale
   const wallHeight = wall.heightCm * scale
@@ -290,6 +294,8 @@ export function WallLayoutStep({
           <MoveHorizontalIcon aria-hidden className="size-3.5" />
           Drag furniture along the wall or use the arrow keys. Lower pieces are drawn in front.
         </p>
+
+        <RoomVisualization photo={photoFile} item={selectedItem} wall={wall} />
       </CardContent>
     </Card>
   )

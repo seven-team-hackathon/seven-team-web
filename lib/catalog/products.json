@@ -19,6 +19,7 @@
     ],
     "description": "GUNDE Folding chair - black. You can fold the chair, so it takes less space when you're not using it. The chair comes pre-assembled, so you can start using it immediately. It’s easy to carry and hang on the wall thanks to the cut-out handle in the backrest. Recommended for indoor use only.",
     "productFamily": "gunde",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/gunde-folding-chair-black__0728313_pe736184_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -43,6 +44,7 @@
     "material": "solid pine",
     "description": "NEIDEN Bed frame - pine Twin. The compact design is perfect for tight spaces or under low ceilings, so you can make the most of your available space. The hard-wearing solid pine has natural variations in grain, color and texture, giving every piece a unique look.",
     "productFamily": "neiden",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/neiden-bed-frame-pine__1101966_pe866783_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -68,6 +70,7 @@
     "material": "bamboo",
     "description": "NORDKISA Open wardrobe with sliding door - bamboo 47 1/4x73 1/4 \". You can create a room divider by attaching one of the shorter sides of the wardrobe to the wall. This wardrobe is open yet it creates privacy thanks to a fixed wall on one side and a sliding door on the other.",
     "productFamily": "nordkisa",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/nordkisa-open-wardrobe-with-sliding-door-bamboo__0756084_pe748766_s5.jpg",
     "aiConfidence": 0.8,
     "needsReview": false
   },
@@ -91,6 +94,7 @@
     ],
     "description": "RAKKESTAD Wardrobe with 3 doors - black-brown 46 1/8x69 1/4 \". Maximize your storage and create a coordinated look by building your own RAKKESTAD wardrobe combination. Additional RAKKESTAD shelves can be purchased to customize your storage solution to your personal needs, sold separately.",
     "productFamily": "rakkestad",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/rakkestad-wardrobe-with-3-doors-black-brown__0823987_pe776018_s5.jpg",
     "aiConfidence": 0.85,
     "needsReview": false
   },
@@ -114,6 +118,7 @@
     ],
     "description": "HAUGA Nightstand - white 15 5/8x14 \". HAUGA bedside table is designed to match the other products in the series. Combine this table with the bed, cabinet, chest of drawers and wardrobe to create a harmonious bedroom setting.",
     "productFamily": "hauga",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/hauga-nightstand-white__0963768_pe808707_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -138,6 +143,7 @@
     ],
     "description": "IDANÄS Side table - white 18 1/8x14 1/8 \". The two shelves are useful for storing and display, depending on your needs. Easy to place in small spaces. Create a coordinated style at home by combining this side table with other furniture from the IDANÄS series. Max load on table top: 44 lbs.",
     "productFamily": "idanaes",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/idanaes-side-table-white__1161089_pe889273_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -160,6 +166,7 @@
     ],
     "description": "SMÄLLEN Swivel chair - black. The texture of the seat is inspired by the pattern on golf balls, a classic expression that adds a nice look to the chair and makes the seat easier to keep clean. This swivel chair has functions that allow you to easily adapt the chair to your body.",
     "productFamily": "smaellen",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/smaellen-swivel-chair-black__1096271_pe864278_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -184,6 +191,7 @@
     "material": "solid wood",
     "description": "PINNTORP Chair - light brown stained. The sturdy solid wooden frame is both stained and lacquered for durability and to allow the natural wooden texture to shine through. The grains of the wood are visible and create a warm and natural expression. Recommended for indoor use only.",
     "productFamily": "pinntorp",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/pinntorp-chair-light-brown-stained__1118078_pe872898_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -207,6 +215,7 @@
     ],
     "description": "VIHALS TV unit - dark gray 57 1/2x14 5/8x19 5/8 \". Display your favorite objects on the open shelves and hide items that tend to clutter in drawers or storage boxes. 2 adjustable shelves; adjust spacing according to your needs. 2 different-sized drawers help to organize your things.",
     "productFamily": "vihals",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/vihals-tv-unit-dark-gray__1203695_pe906383_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -230,6 +239,7 @@
     ],
     "description": "GUNRIK Child's desk chair - turquoise. You can easily adjust the chair to desired heights for both the back and the seat (from 11.4 in to 18.5 in) to ensure an ergonomic and comfortable sitting position. Suitable for kid with height from 45 in to 72 in. Recommended for children 3 years and older.",
     "productFamily": "gunrik",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/gunrik-childs-desk-chair-turquoise__1185358_pe898362_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -254,6 +264,7 @@
     "material": "beech veneer",
     "description": "SKANSNÄS Extendable table - brown beech/veneer 59/80 3/4x35 3/8 \". A statement piece for your dining area with fine details like solid wood edges, breadboard ends with cross-grain pattern and smooth, rounded corners. Recommended for indoor use only. Seats 4-6.",
     "productFamily": "skansnaes",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/skansnaes-extendable-table-brown-beech-veneer__1262376_pe927062_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -277,6 +288,7 @@
     ],
     "description": "BYÅS TV unit - high gloss white 63x16 1/2x17 3/4 \". The open compartment has an adjustable shelf for your media equipment, game consoles, etc. You can customize the space for optimal use, as both boxes have an adjustable shelf inside. Handles included.",
     "productFamily": "byas",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/byas-tv-unit-high-gloss-white__0644411_pe702653_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -301,6 +313,7 @@
     "material": "lacquered MDF, tubular steel",
     "description": "DANDERYD Dining table - white 70 7/8x35 3/8 \". The tabletop is made of lacquered MDF – a strong and durable material comprising of tightly compressed wood shavings. The tubular steel table legs offer strength and durability with the look of traditionally crafted, turned wood. Seats 6-8.",
     "productFamily": "danderyd",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/danderyd-dining-table-white__1198601_pe904136_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -324,6 +337,7 @@
     "material": "birch veneer",
     "description": "LYCKAN Chair - birch veneer. The cantilever design offers a comfortable and relaxing seating experience. Its slight bounce and flexibility adapt effortlessly to your body shape and posture. Recommended for indoor use only.",
     "productFamily": "lyckan",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/lyckan-chair-birch-veneer__1370466_pe958732_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -348,6 +362,7 @@
     ],
     "description": "FRIDHULT Sleeper sofa - Skiftebo yellow. Small, neat dimensions and minimalist armrests make FRIDHULT sofa bed easy to fit, even in limited spaces, while maximizing the sleeping surface. This sofa converts easily into a bed. And just as quickly back into a sofa. Stationary cover.",
     "productFamily": "fridhult",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/fridhult-sleeper-sofa-skiftebo-yellow__1265821_pe927821_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -371,6 +386,7 @@
     "material": "metal and solid wood",
     "description": "FJÄLLBO TV unit - black 78x17 3/4x21 1/4 \". This rustic metal and solid wood TV bench has an open back, so it’s easy to arrange cords and cables. You can place electronic equipment behind the metal mesh doors since they allow signals to get through from your remote control.",
     "productFamily": "fjaellbo",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/fjaellbo-tv-unit-black__1360141_pe954365_s5.jpg",
     "aiConfidence": 0.85,
     "needsReview": false
   },
@@ -394,6 +410,7 @@
     ],
     "description": "BRÄNNBOLL Side table on casters - light ash effect/white 27 1/8x15 3/8 \". Game on? This side table is perfect for snacks and beverages when it's time for the match. The castors make it easy to roll the side table to your favorite spot when it's time to game. Max. load: 22 lbs.",
     "productFamily": "braennboll",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/braennboll-side-table-on-casters-light-ash-effect-white__1336694_pe947445_s5.jpg",
     "aiConfidence": 0.8,
     "needsReview": false
   },
@@ -417,6 +434,7 @@
     ],
     "description": "NÄSINGE Extendable table - white 51 1/8/74 3/4x31 1/2 \". NÄSINGE tables feature refined details, including chamfered legs and tabletop with an edge profile, adding elegance and a classic touch while softening sharp corners. Recommended for indoor use only. Seats 4-6.",
     "productFamily": "naesinge",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/naesinge-extendable-table-white__1393644_pe966301_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -442,6 +460,7 @@
     "material": "wood with fabric cover",
     "description": "NÄSINGE Chair - dark-brown stained/Kilanda light beige. Fine details like chamfered legs and a backrest with slats of varying thickness give each NÄSINGE chair a charming and beautiful look around the table. The cover is easy to keep clean as it is removable and machine washable.",
     "productFamily": "naesinge",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/naesinge-chair-dark-brown-stained-kilanda-light-beige__1444950_pe987836_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -469,6 +488,7 @@
     "material": "pine wood",
     "description": "BOLLPOJKE Desk - pine/white 35 3/8x21 5/8 \". This desk has a blonde wooden top and a cross rail leg frame in a traditional yet stylish design. Comes with a practical open shelf under the tabletop where you can keep small items you want easily accessible and a function for discreet cable management.",
     "productFamily": "bollpojke",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/bollpojke-desk-pine-white__1437160_pe984393_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -493,6 +513,7 @@
     "material": "walnut effect wood",
     "description": "RÅDMANSÖ Wardrobe - brown walnut effect 46 5/8x25 3/8x74 5/8 \". RÅDMANSÖ wardrobe has a wood expression with a warm walnut tone that creates a beautiful frame to store and organize your items.",
     "productFamily": "radmansoe",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/radmansoe-wardrobe-brown-walnut-effect__1384140_pe962861_s5.jpg",
     "aiConfidence": 0.93,
     "needsReview": false
   },
@@ -520,6 +541,7 @@
     "material": "pine wood",
     "description": "BOLLPOJKE Desk - pine/black 35 3/8x21 5/8 \". This desk has a blonde wooden top and a cross rail leg frame in a traditional yet stylish design. Comes with a practical open shelf under the tabletop where you can keep small items you want easily accessible and a function for discreet cable management.",
     "productFamily": "bollpojke",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/bollpojke-desk-pine-black__1437161_pe984389_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -544,6 +566,7 @@
     "material": "oak effect wood",
     "description": "FÅGELFJÄLLET Bed frame - black oak effect Twin. In the FÅGELFJÄLLET series, you’ll find furniture for various storage needs – all in an elegant, traditional design that helps you create a practical, organised and inspiring home. Slatted bed base and mattress sold separately.",
     "productFamily": "fagelfjaellet",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/fagelfjaellet-bed-frame-black-oak-effect__1528388_pe1014428_s5.jpg",
     "aiConfidence": 0.93,
     "needsReview": false
   },
@@ -568,6 +591,7 @@
     "material": "rubberwood",
     "description": "KARSKÄR Extendable table - rubberwood 94 1/2/118 1/8x39 3/8 \". Extendable dining table with 1 extra leaf seats 6-8; makes it possible to adjust the table size according to need. The extra leaf can be stored within easy reach under the table top when not in use. Recommended for indoor use only.",
     "productFamily": "karskaer",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/karskaer-extendable-table-rubberwood__1524035_pe1013902_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -592,6 +616,7 @@
     "material": "solid pine",
     "description": "GRÖTÅN Chair - Tibbleby dark beige. The sturdy backrest in solid wood is durable since it’s treated with stain and lacquer, which also allows the pattern of the wood to shine through. Solid pine is a natural material which ages beautifully and gains its own unique character over time.",
     "productFamily": "groetan",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/groetan-chair-tibbleby-dark-beige__1473947_pe997880_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -616,6 +641,7 @@
     "material": "wood",
     "description": "FÅGELFJÄLLET Wardrobe with 2 doors - dark gray-blue 32 1/4x23 5/8x76 3/8 \". A generous yet easy-to-place wardrobe with a clothes rail and built in shelves for folded clothes or storing shoes. The soft dark-blue color gives the furniture a unique look with a personal and calm feel.",
     "productFamily": "fagelfjaellet",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/fagelfjaellet-wardrobe-with-2-doors-dark-gray-blue__1511227_pe1009984_s5.jpg",
     "aiConfidence": 0.93,
     "needsReview": false
   },
@@ -642,6 +668,7 @@
     "material": "pine",
     "description": "KOMPISHÄNG Desk - green pine 39 3/8x21 5/8 \". Dining table, hobby table or desk – this all-rounder can handle many tasks in your home. You can easily move or put the table away since it’s foldable and has a practical carrying handle under the table top.",
     "productFamily": "kompishaeng",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/kompishaeng-desk-green-pine__1508198_pe1009452_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -665,6 +692,7 @@
     ],
     "description": "BRIMNES Nightstand - white 15 3/8x16 1/8x20 7/8 \". In the drawer there is room for an power strip for your chargers. You can run the plug to the outlet through the back. Coordinates with other furniture in the BRIMNES series.",
     "productFamily": "brimnes",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/brimnes-nightstand-white__0624423_pe691830_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -688,6 +716,7 @@
     "material": "grain leather",
     "description": "ALEFJÄLL Office chair - Glose black. 10-year Warranty. Read about the terms in the warranty brochure. Suitable for business use. GLOSE cover is made of grain leather which is a very high-quality leather. As it ages it becomes softer and develops a darker tone and fine patina.",
     "productFamily": "alefjaell",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/alefjaell-office-chair-glose-black__0724715_pe734598_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -710,6 +739,7 @@
     ],
     "description": "NORDEN Gateleg table - white 10 1/4/35/59 7/8x31 1/2 \". Small dimensions make the table easy to furnish with, even when space is limited. Table with drop-leaves seats 2-4; makes it possible to adjust the table size according to need. Seats 2-4. Recommended for indoor use only.",
     "productFamily": "norden",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/norden-gateleg-table-white__0737112_pe740886_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -734,6 +764,7 @@
     "material": "rattan",
     "description": "GAMLEHULT Ottoman with storage - rattan/anthracite. Hand-woven by experienced craftspeople, which makes each ottoman unique. Rattan is a natural material which ages beautifully and develops its own unique character over time. Lightweight; easy to lift and move. For indoor use.",
     "productFamily": "gamlehult",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/gamlehult-ottoman-with-storage-rattan-anthracite__0672903_pe716940_s5.jpg",
     "aiConfidence": 0.8,
     "needsReview": false
   },
@@ -758,6 +789,7 @@
     ],
     "description": "SMUSSLA Bedside table/shelf unit - white. By mounting the legs in different ways, you can adjust the height to suit a junior bed, an extendable bed, a single bed or to fit under a desk. The bedside table/shelf is easy to assemble. The size of the bedside table is suitable for most laptops.",
     "productFamily": "smussla",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/smussla-bedside-table-shelf-unit-white__0931281_pe791191_s5.jpg",
     "aiConfidence": 0.75,
     "needsReview": true
   },
@@ -781,6 +813,7 @@
     ],
     "description": "IDANÄS Desk - white 59 7/8x27 1/2 \". Perfect on its own or combined with other furniture in the IDANÄS series depending on your space and needs. The top inner drawer is reversible and can be placed at different heights to accommodate a printer or to store small items.",
     "productFamily": "idanaes",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/idanaes-desk-white__1159443_pe888489_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -802,6 +835,7 @@
     "colors": [],
     "description": "TOLKNING Nightstand - handmade 20 ½ \". Skilled craftspeople have woven the product by hand, so each one is one of a kind. The material brings a piece of nature into your home and spreads a calm, warm feeling. You can use the removable trays for serving.",
     "productFamily": "tolkning",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/tolkning-nightstand-handmade__1098690_pe865483_s5.jpg",
     "aiConfidence": 0.7,
     "needsReview": false
   },
@@ -825,6 +859,7 @@
     ],
     "description": "SKRUVBY TV unit - black-blue 61 3/8x14 3/4x23 5/8 \". The furniture in the SKRUVBY series is designed to go well together. Combine and match them as you like or use each piece of furniture as a beautiful solitaire. The oak look of the top panel creates a warm and natural look.",
     "productFamily": "skruvby",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/skruvby-tv-unit-black-blue__1128170_pe876449_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -850,6 +885,7 @@
     "material": "oak veneer",
     "description": "BOASTAD TV unit - black/oak veneer 71 3/8x16 5/8x17 3/4 \". It’s easy to keep the area around your TV neat and tidy thanks to the clever cable management net that keeps cables in place on the underside of the TV-bench. The TV bench stays in place on uneven floors because it has adjustable feet.",
     "productFamily": "boastad",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/boastad-tv-unit-black-oak-veneer__1241278_pe919734_s5.jpg",
     "aiConfidence": 0.92,
     "needsReview": false
   },
@@ -873,6 +909,7 @@
     ],
     "description": "GARNANÄS Coffee table - white 25 5/8x25 5/8 \". Part of the Nytillverkad collection where several IKEA classics have been given a new look. Separate shelf for magazines, etc. helps you keep your things organized and the table top clear. The casters make it easy to move the table if needed.",
     "productFamily": "garnanaes",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/garnanaes-coffee-table-white__1294582_pe935511_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -896,6 +933,7 @@
     ],
     "description": "LILLBERGET Nightstand - white 15 3/4x16 1/2x19 1/4 \". The bedside table has a top shelf, a handy drawer and an open storage compartment. Everything you need to store items that you want close to the bed. Use the top panel for displaying or storing things.",
     "productFamily": "lillberget",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/lillberget-nightstand-white__1281809_pe931989_s5.jpg",
     "aiConfidence": 0.97,
     "needsReview": false
   },
@@ -920,6 +958,7 @@
     "material": "upholstered fabric",
     "description": "SLATTUM Upholstered bed frame - Vissle dark gray Twin. Convenient to take home as the entire bed frame, including slats, is snuggly packed into 1 flat package. Quick to put together thanks to a straightforward assembly process – probably easier than you think!",
     "productFamily": "slattum",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/slattum-upholstered-bed-frame-vissle-dark-gray__1259368_pe926665_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -945,6 +984,7 @@
     ],
     "description": "GRUNNARP Sleeper sofa - Gunnared light brown-pink. Comfortable sofa-bed with a clean-lined design that is just as comfortable to sit on as it is to sleep in ─ from time to time or every night. Easily converts into a full size bed for two. Medium-firm comfort in both the seat and back cushions.",
     "productFamily": "grunnarp",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/grunnarp-sleeper-sofa-gunnared-light-brown-pink__1409881_pe972424_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -968,6 +1008,7 @@
     ],
     "description": "STOCKHOLM 2025 Loveseat - Alhamn dark turquoise. Tactile, beautiful materials meet geometric shapes with well-balanced proportions, making this sofa the natural centerpiece of any room. The sofa adapts to your body when you sit down and quickly regains its shape and appearance when you get up.",
     "productFamily": "stockholm",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/stockholm-2025-loveseat-alhamn-dark-turquoise__1578439_pe1034081_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -991,6 +1032,7 @@
     ],
     "description": "HAUGA TV unit - gray 81 1/8x17 7/8x21 1/8 \". Designed to be used both on its own throughout the home and is also a perfect fit with other furniture in the HAUGA series, either to coordinate the style or create bigger storage solutions. Combines with other products in the HAUGA series.",
     "productFamily": "hauga",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/hauga-tv-unit-gray__1498718_pe1006376_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -1015,6 +1057,7 @@
     ],
     "description": "FÄRJKARL Cabinet - off-white 30 1/2x17 1/2x45 1/2 \". Behind the doors you can keep your belongings hidden and free from dust. Movable shelves makes it easy to adapt the space to your storage needs. The cabinet stands firmly in place – also on uneven floors since it has adjustable feet.",
     "productFamily": "faerjkarl",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/faerjkarl-cabinet-off-white__1471838_pe997415_s5.jpg",
     "aiConfidence": 0.85,
     "needsReview": false
   },
@@ -1039,6 +1082,7 @@
     "material": "mesh",
     "description": "CENTERHALV Office chair - black. 10 year warranty. Read about the terms in the warranty brochure. Suitable for business use. The mesh material of the backrest lets air through to your back during long sitting periods. May be used with KOLON floor protector. Adjustable seat height. Tilt lock.",
     "productFamily": "centerhalv",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/centerhalv-office-chair-black__1408739_pe971989_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -1063,6 +1107,7 @@
     ],
     "description": "VIHALS Bed frame - white Twin. If you need space for extra bedlinens, you can add VIHALS bed storage boxes on castors, sold separately. If you need extra sleeping space, you can add VIHALS trundle bed that you can roll out when needed, sold separately. Slatted bed base and mattress sold separately.",
     "productFamily": "vihals",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/vihals-bed-frame-white__1450554_pe990358_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -1087,6 +1132,7 @@
     "material": "ash veneer",
     "description": "LISABO Desk - ash veneer 50 3/8x25 5/8 \". A more spacious table creates space for creativity and productivity. There's room for paper, notebooks and pens. And your coffee mug and favorite lamp too! Each table has its own unique character due to the distinctive grain pattern.",
     "productFamily": "lisabo",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/lisabo-desk-ash-veneer__1487203_pe1002710_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -1110,6 +1156,7 @@
     ],
     "description": "GULLABERG Desk with drop file drawers - white 47 1/4x25 5/8x29 1/2 \". Keep your things organized and within easy reach with the integrated storage solution. The drawers are designed for letter-size and legal-size papers.",
     "productFamily": "gullaberg",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/gullaberg-desk-with-drop-file-drawers-white__1536830_pe1016990_s5.jpg",
     "aiConfidence": 0.93,
     "needsReview": false
   },
@@ -1135,6 +1182,7 @@
     "material": "solid pine",
     "description": "KRONÖREN Open wardrobe - pine 35 3/8x19 1/4x71 1/4 \". Made of solid wood, a hard-wearing natural material, that creates a soft and natural feel. Solid pine is a natural material that ages beautifully and acquires its own unique character over time. Plastic fittings for floor protection included.",
     "productFamily": "kronoeren",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/kronoeren-open-wardrobe-pine__1507446_pe1009341_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -1159,6 +1207,7 @@
     "material": "solid wood",
     "description": "HEMNES Nightstand - white stain 18 1/8x13 3/4 \". Smooth running drawer with pull-out stop. Made of solid wood, which is a durable and warm natural material. Coordinates with other furniture in the HEMNES series.",
     "productFamily": "hemnes",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/hemnes-nightstand-white-stain__0624424_pe691831_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -1183,6 +1232,7 @@
     ],
     "description": "FRIDHULT Sleeper sofa - Knisa light gray. Small, neat dimensions and minimalist armrests make FRIDHULT sofa bed easy to fit, even in limited spaces, while maximizing the sleeping surface. This sofa converts easily into a bed. And just as quickly back into a sofa. Stationary cover.",
     "productFamily": "fridhult",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/fridhult-sleeper-sofa-knisa-light-gray__1194665_pe902051_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -1207,6 +1257,7 @@
     "material": "solid wood and hardwood veneer",
     "description": "NORDVIKEN Extendable table - black 59 7/8/87 3/4x37 3/8 \". A stable construction in solid wood and hardwood veneer that makes each table unique, with varying grain patterns and natural color shifts that are part of the charm of wood. Recommended for indoor use only. Seats 4-6.",
     "productFamily": "nordviken",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/nordviken-extendable-table-black__0714215_pe729969_s5.jpg",
     "aiConfidence": 0.93,
     "needsReview": false
   },
@@ -1231,6 +1282,7 @@
     ],
     "description": "BAGGEBO Bookcase - white 19 5/8x9 7/8x63 \". Shallow shelves help you to use the walls in your home efficiently. They hold a lot of things without taking up much space in the room.",
     "productFamily": "baggebo",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/baggebo-bookcase-white__1590284_pe1038923_s5.jpg",
     "aiConfidence": 0.93,
     "needsReview": false
   },
@@ -1254,6 +1306,7 @@
     ],
     "description": "IDANÄS Wardrobe - white 47 5/8x83 1/8 \". Of course your home should be a safe place for the entire family. That’s why a safety fitting is included so that you can attach the wardrobe to the wall. Folding doors allow more room for furniture because they don’t take any space to open.",
     "productFamily": "idanaes",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/idanaes-wardrobe-white__0898873_pe782674_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -1277,6 +1330,7 @@
     ],
     "description": "IDANÄS Open wardrobe - white 23 1/4x83 1/8 \". Of course your home should be a safe place for the entire family. That’s why a safety fitting is included so that you can attach the wardrobe to the wall. You get a good overview and can easily reach your clothes.",
     "productFamily": "idanaes",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/idanaes-open-wardrobe-white__0898869_pe782672_s5.jpg",
     "aiConfidence": 0.93,
     "needsReview": false
   },
@@ -1301,6 +1355,7 @@
     ],
     "description": "VIHALS Wardrobe with 2 doors - white 41 3/8x22 1/2x78 3/4 \". The integrated full-length mirror makes the room feel bigger and it saves on wall space - a clever solution for smaller living spaces. The clothes rail can be mounted at 2 different heights. Handles included. 1 clothes rail included.",
     "productFamily": "vihals",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/vihals-wardrobe-with-2-doors-white__1070907_pe854805_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -1323,6 +1378,7 @@
     ],
     "description": "TONSTAD Side table - off-white 25 1/4x15 3/4 \". You can easily keep track of your newspapers, remote controls and other small things by storing them on the shelf under the table top. The drawer close silently and softly, thanks to the integrated soft-closing function. Max load on table top: 44 lbs.",
     "productFamily": "tonstad",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/tonstad-side-table-off-white__1375106_pe960171_s5.jpg",
     "aiConfidence": 0.7,
     "needsReview": false
   },
@@ -1347,6 +1403,7 @@
     ],
     "description": "VITTERYD Adjustable coffee table - white 38 1/4 \". This coffee table adds functionality to a living room and allows you to easily switch between various activities since the table top can be raised or lowered to a comfortable level whenever you like. Max load on table top: 22 lbs.",
     "productFamily": "vitteryd",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/vitteryd-adjustable-coffee-table-white__1213700_pe911226_s5.jpg",
     "aiConfidence": 0.8,
     "needsReview": false
   },
@@ -1370,6 +1427,7 @@
     ],
     "description": "BALTSAR Swivel chair - black. The practical and comfortable swivel function allows you to easily get up from the table without moving the chair. Comfortable to sit on thanks to the bowl-shaped seat and rounded shape of the backrest. Easy to assemble without tools or screws. Easy to clean",
     "productFamily": "baltsar",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/baltsar-swivel-chair-black__1118654_pe873197_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -1395,6 +1453,7 @@
     "material": "pine",
     "description": "RESARÖ Mobile drop-leaf table w storage - pine. A practical solution for small spaces – as a desk or as a dining table with space for 2. The drop-leaves are easy to fold down to save space and the shelves are easy to access even when the leaves are folded down. Made of durable solid pine.",
     "productFamily": "resaroe",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/resaroe-mobile-drop-leaf-table-w-storage-pine__1323608_pe942782_s5.jpg",
     "aiConfidence": 0.85,
     "needsReview": false
   },
@@ -1418,6 +1477,7 @@
     ],
     "description": "BAGGBODA Side table - white 28x19 5/8 \". Part of the Nytillverkad collection where several IKEA classics have been given a new look. Karin Mobring's coffee table was launched with the fitting name CROMI in our 1971 catalogue. In the Nytillverkad collection, it is named BAGGBODA.",
     "productFamily": "baggboda",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/baggboda-side-table-white__1265558_pe927740_s5.jpg",
     "aiConfidence": 0.8,
     "needsReview": false
   },
@@ -1443,6 +1503,7 @@
     "material": "pine",
     "description": "GLAMBERGET Wardrobe with 3 sliding doors - pine/black 46 1/8x24 3/4x59 \". The wardrobe opens from two sides – ideal to place in the center of the room and use as a room divider.​ 2 adjustable shelves make it easy to customize the space according to your needs.",
     "productFamily": "glamberget",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/glamberget-wardrobe-with-3-sliding-doors-pine-black__1336029_pe947273_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -1467,6 +1528,7 @@
     ],
     "description": "BRIMNES TV unit - white 70 7/8x16 1/8x20 7/8 \". This TV unit has large drawers that make it easy to keep remote controls, game controllers and other TV accessories organized. The top panel of the TV bench is intended for a TV with a maximum weight of 66 lbs.",
     "productFamily": "brimnes",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/brimnes-tv-unit-white__0601754_pe681623_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -1491,6 +1553,7 @@
     "material": "metal",
     "description": "KNARREVIK Nightstand - black 16 1/2x13 1/4x20 1/2 \". The metal bar construction without welded joints makes assembly simple and also adds to the modern look. This side table with a shelf has plenty of space for everything from coffee mugs and eyeglasses to magazines and books. Only for indoor use.",
     "productFamily": "knarrevik",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/knarrevik-nightstand-black__1255278_pe924478_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -1514,6 +1577,7 @@
     ],
     "description": "GRÅFJÄLLET Nightstand - anthracite 17 3/4x14 1/8x23 1/4 \". Inspired by traditional factory and industrial environments with clean, bold lines and details like visible metal joints and fittings. Keep the phone separate from the water glass by placing it on the open shelf under the table top.",
     "productFamily": "grafjaellet",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/grafjaellet-nightstand-anthracite__1327638_pe944536_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -1538,6 +1602,7 @@
     "material": "polyester fabric",
     "description": "BLECKBERGET Swivel chair - Klovsta white/gray. Generous padding in the seat and backrest makes this chair a great choice if you want to sit comfortably at the desk. This cover is made from the polyester fabric Klovsta which has a slight texture and striped pattern.",
     "productFamily": "bleckberget",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/bleckberget-swivel-chair-klovsta-white-gray__1305680_pe939572_s5.jpg",
     "aiConfidence": 0.93,
     "needsReview": false
   },
@@ -1561,6 +1626,7 @@
     "material": "metal",
     "description": "TOSSBERG Chair - metal black/Grann black. Extra comfy chair thanks to the high resilience foam that gives an instant, supportive and flexible feeling. The upholstered seat and comfortable angle of the backrest make the chair perfect for long dinners. Recommended for indoor use only.",
     "productFamily": "tossberg",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/tossberg-chair-metal-black-grann-black__1359994_pe954319_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -1585,6 +1651,7 @@
     "material": "acacia wood",
     "description": "SKOGSTA Dining table - acacia/black 47 1/4 \". Every table is unique, with varying grain pattern and natural color shifts that are part of the charm of solid wood. The furniture is made of acacia, a naturally durable and sturdy hardwood because of the high density of its wood fibres. Seats 4.",
     "productFamily": "skogsta",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/skogsta-dining-table-acacia-black__1542798_pe1018529_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -1609,6 +1676,7 @@
     ],
     "description": "VIHALS Daybed frame - white Twin. With a trundle bed under the daybed, you can quickly conjure up an extra sleeping place when needed, sold separately. If you need more storage space, you can add 2 VIHALS storage boxes or another storage solution from our range, sold separately.",
     "productFamily": "vihals",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/vihals-daybed-frame-white__1426487_pe979818_s5.jpg",
     "aiConfidence": 0.85,
     "needsReview": false
   },
@@ -1633,6 +1701,7 @@
     "material": "wood veneer",
     "description": "MALM Bed frame - dark-brown veneer Twin. Wood veneer gives you the same look, feel and beauty as solid wood with unique variations in grain, color and texture. Suitable for business use. This versatile bed frame will look great with your choice of textiles and bedroom furniture.",
     "productFamily": "malm",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/malm-bed-frame-dark-brown-veneer__1364752_pe956012_s5.jpg",
     "aiConfidence": 0.92,
     "needsReview": false
   },
@@ -1658,6 +1727,7 @@
     "material": "ash veneer",
     "description": "ÅLHULT Extendable table - black/brown 47 1/4/66 7/8x31 1/2 \". ÅLHULT table features an ash veneer surface with a tinted clear lacquer that protects the wood’s natural beauty and simplifies upkeep. The distinctive grain pattern in the ash veneer gives each table a unique character. Seats 4-6.",
     "productFamily": "alhult",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/alhult-extendable-table-black-brown__1403275_pe969282_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -1683,6 +1753,7 @@
     "material": "acacia wood",
     "description": "SKOGSTA Bench with storage - acacia 47 1/4 \". The bench's warm, earthy tones and organic texture bring a touch of nature indoors, enhancing the overall ambiance of your home. Recommended for indoor use only. Product is possible to recycle or use for energy recovery, if available in your community.",
     "productFamily": "skogsta",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/skogsta-bench-with-storage-acacia__1542799_pe1018533_s5.jpg",
     "aiConfidence": 0.85,
     "needsReview": false
   },
@@ -1706,6 +1777,7 @@
     ],
     "description": "FÅGELFJÄLLET Wardrobe with 2 doors - off-white 32 1/4x23 5/8x76 3/8 \". A generous yet easy-to-place wardrobe with a clothes rail and built in shelves for folded clothes or storing shoes. Minimum ceiling height required: 82⅝\". Follow the assembly instructions in the package.",
     "productFamily": "fagelfjaellet",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/fagelfjaellet-wardrobe-with-2-doors-off-white__1511225_pe1009983_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -1730,6 +1802,7 @@
     "material": "chenille twill",
     "description": "VENNGARN Sofa - Johanneshov dark green. There’s plenty of room for everyone to sit comfortably thanks to the sofa’s spacious design. This cover is made of a woven twill with chenille that feels soft to the touch and has a deep, plush look. +",
     "productFamily": "venngarn",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/venngarn-sofa-johanneshov-dark-green__1576787_pe1032707_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -1754,6 +1827,7 @@
     ],
     "description": "TUFFING Loft bed frame - dark gray Twin. Children need space in their room to play and do homework – and sleep, of course. With a loft bed you can solve all of this in an area of just 21.5 sqft You can use the space under the bed for storage, a workspace or seating. Slatted bed base is included.",
     "productFamily": "tuffing",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/tuffing-loft-bed-frame-dark-gray__0638050_pe698663_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -1779,6 +1853,7 @@
     "material": "pine",
     "description": "UTÅKER Stackable bed - pine Twin. You can quickly convert the stacked beds into a double bed, twin beds or corner sofa. The lightweight frames are easy to lift and move. The compact design is perfect for tight spaces or under low ceilings, so you can make the most of your available space.",
     "productFamily": "utaker",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/utaker-stackable-bed-pine__1101313_pe866582_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -1802,6 +1877,7 @@
     ],
     "description": "VIKHAMMER Nightstand - white 23 5/8x15 3/8 \". The drawers close silently and softly, thanks to the integrated soft-closing function. May be completed with FIXA stick-on floor protectors to protect the underlying surface against wear.",
     "productFamily": "vikhammer",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/vikhammer-nightstand-white__0569533_pe665942_s5.jpg",
     "aiConfidence": 0.85,
     "needsReview": false
   },
@@ -1827,6 +1903,7 @@
     "material": "powder coated steel",
     "description": "FYRESDAL Daybed frame - black Twin. A classic powder coated steel frame which is easy to maintain. The timeless design means that you decide what style you want - minimalistic or colorful with lots of patterns. To create a double bed – lift and pull out the extra bed base.",
     "productFamily": "fyresdal",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/fyresdal-daybed-frame-black__1101302_pe866571_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -1851,6 +1928,7 @@
     "material": "bamboo",
     "description": "NORDKISA Open wardrobe with sliding door - bamboo 47 1/4x48 3/8 \". This versatile wardrobe may be placed against a wall, at the end of your bed or as a room divider. It’s multifunctional and can be used to store clothes or even everyday things such as books, blankets or decorative objects.",
     "productFamily": "nordkisa",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/nordkisa-open-wardrobe-with-sliding-door-bamboo__0756080_pe748763_s5.jpg",
     "aiConfidence": 0.85,
     "needsReview": false
   },
@@ -1875,6 +1953,7 @@
     "material": "oak veneer",
     "description": "TONSTAD Desk - oak veneer 55 1/8x29 1/2 \". The veneer surface is durable, stain resistant and easy to keep clean. The drawer helps keep things organized and within easy reach. The drawer closes silently and softly, thanks to the integrated soft-closing function.",
     "productFamily": "tonstad",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/tonstad-desk-oak-veneer__1243902_pe921029_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -1899,6 +1978,7 @@
     "material": "solid pine",
     "description": "HAVSTA TV unit with base - black 63x18 1/2x24 3/8 \". Solid pine is a timeless material with natural variations that make each piece of furniture unique. The sliding doors do not take up any space when opened. The top panel of the TV bench is intended for a TV with a maximum weight of 66 lbs.",
     "productFamily": "havsta",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/havsta-tv-unit-with-base-black__1296039_pe935675_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -1925,6 +2005,7 @@
     "material": "oak veneer and metal",
     "description": "MULLSJÖ Desk - oak veneer 53 1/8x27 1/2 \". Beautiful and timeless combination of oak desk top and black metal frame. Built-in cable management for collecting cables and cords; out of sight but close at hand. The oak desk top is easy to wipe clean free from spills.",
     "productFamily": "mullsjoe",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/mullsjoe-desk-oak-veneer__1351177_pe951915_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -1950,6 +2031,7 @@
     ],
     "description": "SÅGMÄSTARE Shelf unit - light gray-blue 32 3/4x14 1/4x50 1/4 \". The space underneath is large enough to fit some of our bigger boxes, allowing you to maximize the use of the storage area. Adjustable feet for stability on uneven floors. Only for indoor use.",
     "productFamily": "sagmaestare",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/sagmaestare-shelf-unit-light-gray-blue__1391204_pe965712_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -1976,6 +2058,7 @@
     "material": "metal",
     "description": "FRÖSJÖN Shelf unit - black 15 3/4x61 3/8 \". The open shelves give a clear overview and easy access. The metal wires at the back and on the sides prevent things from falling off. Adjustable feet make it possible to compensate for any irregularities in the floor.",
     "productFamily": "froesjoen",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/froesjoen-shelf-unit-black__1253930_pe924359_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -1999,6 +2082,7 @@
     ],
     "description": "GREJSIMOJS Pouf with storage - yellow. With the GREJSIMOJS collection, we want to inspire play and togetherness. The products bring out the playfulness in everyone – of all ages, across the home and every day. The feet can be turned inward for a more classic and stylish look.",
     "productFamily": "grejsimojs",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/grejsimojs-pouf-with-storage-yellow__1452859_pe991233_s5.jpg",
     "aiConfidence": 0.75,
     "needsReview": false
   },
@@ -2024,6 +2108,7 @@
     ],
     "description": "IKEA PS LÖMSK Children's swivel armchair - white beige/red. With the hood pulled down the chair is a secret hiding place for a child. The fabric lets light in so it's never completely dark under the hood. Spinning helps the brain sort sensory impressions. Add a cushion or pad for more comfort.",
     "productFamily": "ikea",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/ikea-ps-loemsk-childrens-swivel-armchair-white-beige-red__1508812_pe1009589_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -2049,6 +2134,7 @@
     ],
     "description": "LAIVA Bookcase - black-brown 24 3/8x65 \". Shallow shelves help you to use the walls in your home efficiently. They hold a lot of things without taking up much space in the room. The open shelves allow you to see and reach everything.",
     "productFamily": "laiva",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/laiva-bookcase-black-brown__1590292_pe1038931_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -2074,6 +2160,7 @@
     "material": "bamboo",
     "description": "VOXLÖV Dining table - light bamboo 70 7/8x35 3/8 \". You can comfortably seat people at the shorter sides of the table as there are no legs that get in the way. The rounded corners are a safe choice when living with children in smaller spaces. Seats 4-6. Recommended for indoor use only.",
     "productFamily": "voxloev",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/voxloev-dining-table-light-bamboo__0997396_pe822660_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -2098,6 +2185,7 @@
     ],
     "description": "SMYGA Desk - light gray 48x23 5/8 \". The work area is big enough (23⅝x47¼) for both studying and doing arts and crafts, or to fit two computer monitors next to each other. The desk is wide enough to allow you to sit next to your child and help with homework.",
     "productFamily": "smyga",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/smyga-desk-light-gray__1038388_pe839666_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -2120,6 +2208,7 @@
     ],
     "description": "BJÖRKBERGET Swivel chair - Idekulla blue. Details such as visible stitching in the seat and backrest give the chair an elaborate look and a touch of retro style. Practical storage pocket behind the backrest. This swivel chair has functions that allow you to easily adapt the chair to your body.",
     "productFamily": "bjoerkberget",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/bjoerkberget-swivel-chair-idekulla-blue__0955770_pe804116_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -2144,6 +2233,7 @@
     ],
     "description": "FLINSHULT Armchair - brown/beige. This armchair is ideal for sitting and reading because the high back and wide seat make it extra comfortable to curl up in. 10 year Limited warranty. Read about the terms in the warranty brochure. Stationary cover.",
     "productFamily": "flinshult",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/flinshult-armchair-brown-beige__0980367_pe814908_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -2167,6 +2257,7 @@
     ],
     "description": "HOLMERUD Side table - oak effect 31 1/2x12 1/4 \". The clean and stylish architectural form adds character to the room and makes the side table an eye-catcher. Designed to stand snug along the length of the sofa's armrest but can also be placed against a wall. Max load on table top: 33 lbs.",
     "productFamily": "holmerud",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/holmerud-side-table-oak-effect__1193662_pe901564_s5.jpg",
     "aiConfidence": 0.75,
     "needsReview": false
   },
@@ -2190,6 +2281,7 @@
     ],
     "description": "LANESUND TV unit - gray-brown 63 3/8x18 1/2x21 5/8 \". The attention to detail gives the furniture a distinct handcrafted character. A remote control will work through the glass; control your equiptment with the door closed. Cable outlet for easy cable management.",
     "productFamily": "lanesund",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/lanesund-tv-unit-gray-brown__1160569_pe888967_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -2212,6 +2304,7 @@
     ],
     "description": "GULLABERG Nightstand - with 1 drawer with door/gray 15x15 3/4x29 1/2 \". The GULLABERG series comprises of chest of drawers, bedside tables and PAX doors with carefully designed functions and a beautiful traditional style. Complete with a bed in the same style, for example STJÄRNÖ.",
     "productFamily": "gullaberg",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/gullaberg-nightstand-with-1-drawer-with-door-gray__1283775_pe932629_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -2235,6 +2328,7 @@
     "material": "lacquered MDF, tubular steel",
     "description": "DANDERYD Dining table - white 51 1/8x31 1/2 \". The tabletop is made of lacquered MDF – a strong and durable material comprising of tightly compressed wood shavings. The tubular steel table legs offer strength and durability with the look of traditionally crafted, turned wood. Seats 4.",
     "productFamily": "danderyd",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/danderyd-dining-table-white__1198595_pe904135_s5.jpg",
     "aiConfidence": 0.92,
     "needsReview": false
   },
@@ -2257,6 +2351,7 @@
     ],
     "description": "SLATTUM Upholstered bed frame - Vissle dark gray Full. Convenient to take home as the entire bed frame, including slats, is snuggly packed into 1 flat package. Quick to put together thanks to a straightforward assembly process – probably easier than you think!",
     "productFamily": "slattum",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/slattum-upholstered-bed-frame-vissle-dark-gray__1259363_pe926663_s5.jpg",
     "aiConfidence": 0.93,
     "needsReview": false
   },
@@ -2280,6 +2375,7 @@
     "material": "tubular steel",
     "description": "SOTENÄS Armchair - Hakebo red. Part of the Nytillverkad collection where several IKEA classics have been given a new look. In this updated version, the sturdy tubular underframe of the armchair is now red instead of white.",
     "productFamily": "sotenaes",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/sotenaes-armchair-hakebo-red__1322509_pe942197_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -2303,6 +2399,7 @@
     ],
     "description": "RAKKESTAD Wardrobe with 2 doors - black-brown 31 1/8x69 1/4 \". Maximize your storage and create a coordinated look by building your own RAKKESTAD wardrobe combination. The clothes rail holds about 20 shirts on hangers. One shelf holds about 20 pairs of folded pants or 40 T-shirts.",
     "productFamily": "rakkestad",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/rakkestad-wardrobe-with-2-doors-black-brown__0780372_pe760493_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -2328,6 +2425,7 @@
     "material": "solid pine",
     "description": "STOREMOLLA Nightstand - light grey-beige stained 19 5/8x19 5/8x28 3/8 \". STOREMOLLA bedside table is made to be used and lasts for a long time. It is made of robust solid pine and the drawer run on hidden runners with an integrated soft-closing mechanism. Adjustable feet included.",
     "productFamily": "storemolla",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/storemolla-nightstand-light-grey-beige-stained__1433334_pe983206_s5.jpg",
     "aiConfidence": 0.97,
     "needsReview": false
   },
@@ -2352,6 +2450,7 @@
     "material": "oak veneer",
     "description": "TONSTAD Extendable table - oak veneer 55 1/8/77 1/8x33 1/2 \". This 4-6 seat table with brushed matte oak veneer and smooth, rounded corners is made to be your everyday favorite spot. This 4-seat table can easily be extended into a 6-seat table using the included self-storing leaf. Seats 4-6.",
     "productFamily": "tonstad",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/tonstad-extendable-table-oak-veneer__1467536_pe995761_s5.jpg",
     "aiConfidence": 0.97,
     "needsReview": false
   },
@@ -2379,6 +2478,7 @@
     "material": "upholstered fabric with wood details",
     "description": "STOCKHOLM 2025 Armchair - Djurmo gray/white. STOCKHOLM armchair has a modern Scandinavian design with stylish details in wood and soft generous shapes that create a natural and welcoming expression. 10-year limited warranty. Read about the terms in the limited warranty brochure.",
     "productFamily": "stockholm",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/stockholm-2025-armchair-djurmo-gray-white__1362740_pe955313_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -2403,6 +2503,7 @@
     "material": "matte laminate",
     "description": "TONSTAD Extendable table - off-white 55 1/8/77 1/8x33 1/2 \". This 4-6 seat table in matte off-white and smooth, rounded corners is made to be your everyday favorite spot. This 4-seat table can easily be extended into a 6-seat table using the included self-storing leaf. Seats 4-6.",
     "productFamily": "tonstad",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/tonstad-extendable-table-off-white__1393505_pe966261_s5.jpg",
     "aiConfidence": 0.96,
     "needsReview": false
   },
@@ -2427,6 +2528,7 @@
     "material": "polyester and cotton with polyurethane coating",
     "description": "RENBERGET Swivel chair - Bomstad black. The fixed Bomstad cover is made of a durable material that both feels and looks like leather. The material consists of polyester and cotton and has a protective coating of polyurethane. May be used with KOLON floor protector.",
     "productFamily": "renberget",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/renberget-swivel-chair-bomstad-black__1020135_pe831794_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -2452,6 +2554,7 @@
     "material": "powder coated steel",
     "description": "FYRESDAL Daybed frame - white Twin. A classic powder coated steel frame which is easy to maintain. The timeless design means that you decide what style you want - minimalistic or colorful with lots of patterns. To create a double bed – lift and pull out the extra bed base.",
     "productFamily": "fyresdal",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/fyresdal-daybed-frame-white__1408790_pe972006_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -2476,6 +2579,7 @@
     "material": "fabric",
     "description": "LILLESÄTER Swivel chair - Axvall off-white. Suitable for use in public environments. The fabric has a silicone-based, water-repellent treatment that stops liquids from seeping in, so they stay on the surface and are easily absorbed with a dry cloth or paper towel.",
     "productFamily": "lillesaeter",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/lillesaeter-swivel-chair-axvall-off-white__1480271_pe1000171_s5.jpg",
     "aiConfidence": 0.93,
     "needsReview": false
   },
@@ -2500,6 +2604,7 @@
     ],
     "description": "BORGEBY Side table - black 18 1/8 \". The gently rounded expression is both simple and tastefully elegant, giving the table a sense of balance and harmony. Suitable for use in public environments. Max. load/shelf: 33 lbs. Max load on table top: 33 lbs.",
     "productFamily": "borgeby",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/borgeby-side-table-black__1472145_pe997463_s5.jpg",
     "aiConfidence": 0.85,
     "needsReview": false
   },
@@ -2525,6 +2630,7 @@
     "material": "tempered glass and metal",
     "description": "VITTSJÖ Shelf unit - black-brown/glass 20 1/8x68 7/8 \". Tempered glass and metal are durable materials that provide an open, airy feel. A simple unit can be enough storage for a limited space or the foundation for a larger storage solution if your needs change.",
     "productFamily": "vittsjoe",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/vittsjoe-shelf-unit-black-brown-glass__0644374_pe702640_s5.jpg",
     "aiConfidence": 0.93,
     "needsReview": false
   },
@@ -2549,6 +2655,7 @@
     "material": "metal and foil",
     "description": "TUNSTA Side table - anthracite 27 1/2x19 5/8 \". TUNSTA table has a contemporary, versatile and clean design with an elegant expression in black metal and foil. The size and low weight make the table easy to carry and move around if you need it elsewhere. Max load on table top: 88 lbs.",
     "productFamily": "tunsta",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/tunsta-side-table-anthracite__1155132_pe886414_s5.jpg",
     "aiConfidence": 0.8,
     "needsReview": false
   },
@@ -2572,6 +2679,7 @@
     ],
     "description": "VEDBO Armchair - Gunnared dark gray. The timeless design of VEDBO makes it easy to place in various room settings and coordinate with other furniture. 10-year limited warranty. Read about the terms in the limited warranty brochure. VEDBO comes in 3 different earthy colors, adding beauty to any room.",
     "productFamily": "vedbo",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-dark-gray__0512767_pe638683_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -2596,6 +2704,7 @@
     ],
     "description": "MUSKAN Shelf unit - white 14 5/8x55 1/8 \". The open shelves give a clear overview and easy access. Suitable for use in high humidity areas since it is water-resistant. Tested and approved for bathroom use.",
     "productFamily": "muskan",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/muskan-shelf-unit-white__0653131_pe707816_s5.jpg",
     "aiConfidence": 0.85,
     "needsReview": false
   },
@@ -2622,6 +2731,7 @@
     "material": "metal",
     "description": "BAGGEBO Shelf unit - metal/white 23 5/8x9 7/8x45 5/8 \". The metal frame and mesh shelves make a nice and practical place for your books, decorations and other things that you like.",
     "productFamily": "baggebo",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/baggebo-shelf-unit-metal-white__0981562_pe815396_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -2646,6 +2756,7 @@
     ],
     "description": "VIHALS Shelving unit with 4 shelves - white 37 3/8x14 5/8x35 3/8 \". You get a seamless look when combining 2 or more VIHALS units as the fixed shelves align. Hide messy cables from chargers, devices and decorative lighting by leading them through the outlets in the back.",
     "productFamily": "vihals",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/vihals-shelving-unit-with-4-shelves-white__1035576_pe838114_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -2670,6 +2781,7 @@
     ],
     "description": "HAVBERG Swivel chair - Grann/Bomstad golden brown. HAVBERG swivel easy chair has an inviting and timeless design that feels cozy when you sit down to relax. The seat cushion is filled with polyurethane foam that provides a soft comfort and an embracing feeling.",
     "productFamily": "havberg",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/havberg-swivel-chair-grann-bomstad-golden-brown__1070880_pe854782_s5.jpg",
     "aiConfidence": 0.85,
     "needsReview": false
   },
@@ -2694,6 +2806,7 @@
     ],
     "description": "VIMUND Child's desk chair - turquoise. This ergonomic junior chair has a flexible backrest and adjustable seat depth and height which means that it can be adjusted to suit the child perfectly. The cover is easy to keep clean since it is removable and machine washable.",
     "productFamily": "vimund",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/vimund-childs-desk-chair-turquoise__1185891_pe898595_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -2718,6 +2831,7 @@
     ],
     "description": "VIHALS Shelving unit with 10 shelves - dark gray 37 3/8x14 5/8x78 3/4 \". You get a seamless look when combining 2 or more VIHALS units as the fixed shelves align. Hide messy cables from chargers, devices and decorative lighting by leading them through the outlets in the back.",
     "productFamily": "vihals",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/vihals-shelving-unit-with-10-shelves-dark-gray__1203690_pe906382_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -2741,6 +2855,7 @@
     "material": "rattan",
     "description": "SALNÖ Armchair - rattan. Hand-woven by experienced craftspeople, which makes each chair unique with their rounded shapes and detailed patterns. Rattan is a natural material which ages beautifully and gains its own unique character over time. Recommended for indoor use only.",
     "productFamily": "salnoe",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/salnoe-armchair-rattan__1224550_pe915021_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -2766,6 +2881,7 @@
     "material": "oak veneer",
     "description": "TONSTAD TV unit - brown stained oak veneer 70 1/4x14 5/8x21 5/8 \". The brushed veneer gives each piece a unique look and a personal character. You can easily hide cords by leading them between shelves and out the cable outlets on the underside of the bench.",
     "productFamily": "tonstad",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/tonstad-tv-unit-brown-stained-oak-veneer__1328114_pe944673_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -2790,6 +2906,7 @@
     "material": "solid wood",
     "description": "HEMNES TV unit - black-brown 72x18 1/2x22 1/2 \". Solid wood has a natural feel. Open compartments for your DVD player, etc. Large drawers make it easy to keep your things organized. The top panel of the TV bench is intended for a TV with a maximum weight of 90 lbs.",
     "productFamily": "hemnes",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/hemnes-tv-unit-black-brown__0644447_pe702698_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -2814,6 +2931,7 @@
     ],
     "description": "JÄRRESTAD Pouf - with storage/Tonerud dark beige. This pouf with its soft silhouette offers nice seating comfort in a style that feels both timeless and modern. The conical shape is topped by an upholstered seat that hides a practical storage space.",
     "productFamily": "jaerrestad",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/jaerrestad-pouf-with-storage-tonerud-dark-beige__1320783_pe941358_s5.jpg",
     "aiConfidence": 0.6,
     "needsReview": false
   },
@@ -2836,6 +2954,7 @@
     ],
     "description": "GULLABERG Wardrobe - gray 50 3/8x25 1/4x79 1/8 \". In the GULLABERG series there is furniture for various storage needs, all in a robust-traditional design that helps you create a practical, organized and uniform home to enjoy for a long time. Wooden knobs enhance the genuine and traditional look.",
     "productFamily": "gullaberg",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/gullaberg-wardrobe-gray__1435752_pe983925_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -2862,6 +2981,7 @@
     "material": "oak veneer",
     "description": "STOCKHOLM 2025 Shelf unit - oak veneer/dark-brown 47 3/8x15 7/8x74 1/8 \". The long, slender shelves give the shelving unit a light and airy look. And the clean, simple and distinct lines make it easy to combine with many styles of furniture.",
     "productFamily": "stockholm",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/stockholm-2025-shelf-unit-oak-veneer-dark-brown__1397703_pe967724_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -2884,6 +3004,7 @@
     ],
     "description": "MARKUS Office chair - Vissle dark gray Large. 10-year Warranty. Read about the terms in the warranty brochure. Suitable for business use. The mesh material of the backrest lets air through to your back during long sitting periods. Manual tilt tension – To adjust the resistance of the backrest.",
     "productFamily": "markus",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/markus-office-chair-vissle-dark-gray__1415299_pe975233_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -2905,6 +3026,7 @@
     "material": "rubberwood",
     "description": "KARSKÄR Extendable table - rubberwood 63/86 5/8x35 3/8 \". Extendable dining table with 1 extra leaf seats 4-6; makes it possible to adjust the table size according to need. The extra leaf can be stored within easy reach under the table top when not in use. Solid wood is a durable natural material.",
     "productFamily": "karskaer",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/karskaer-extendable-table-rubberwood__1524033_pe1013900_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -2929,6 +3051,7 @@
     "material": "oak effect",
     "description": "FÅGELFJÄLLET Wardrobe with 2 doors - black oak effect 32 1/4x23 5/8x76 3/8 \". A generous yet easy-to-place wardrobe with a clothes rail and built in shelves for folded clothes or storing shoes. The black oak expression gives the furniture a unique look with a beautiful, elegant feel.",
     "productFamily": "fagelfjaellet",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/fagelfjaellet-wardrobe-with-2-doors-black-oak-effect__1511226_pe1009985_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -2953,6 +3076,7 @@
     ],
     "description": "SALTMYRAN Sofa - Öreryd gray-beige. Elegant, sleek sofa with simple lines and a slim design that goes well in many different settings. The rounded backrest and armrests add softness to the overall expression, while the placement of the legs gives the sofa a distinctive and personal character.",
     "productFamily": "saltmyran",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/saltmyran-sofa-oereryd-gray-beige__1479793_pe1000083_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -2976,6 +3100,7 @@
     ],
     "description": "SALTMYRAN Loveseat - Öreryd blue. Elegant, sleek sofa with simple lines and a slim design that goes well in many different settings. The rounded backrest and armrests add softness to the overall expression, while the placement of the legs gives the sofa a distinctive and personal character.",
     "productFamily": "saltmyran",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/saltmyran-loveseat-oereryd-blue__1578448_pe1034096_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -2999,6 +3124,7 @@
     ],
     "description": "GULLABERG Desk with drop file drawers - white 61x25 5/8x29 1/2 \". This desk has been developed and tested for office use and meets the requirements for safety, durability and stability set forth in the following standard: EN 527-2. The drawers are designed for letter-size and legal-size papers.",
     "productFamily": "gullaberg",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/gullaberg-desk-with-drop-file-drawers-white__1536834_pe1016994_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -3022,6 +3148,7 @@
     ],
     "description": "LACK Wall shelf unit - white 11 3/4x74 3/4 \". Shallow shelves help you to use the walls in your home efficiently. They hold a lot of things without taking up much space in the room. Choose if you want to mount the shelf horizontally or vertically on the wall.",
     "productFamily": "lack",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/lack-wall-shelf-unit-white__0246565_pe385541_s5.jpg",
     "aiConfidence": 0.7,
     "needsReview": false
   },
@@ -3045,6 +3172,7 @@
     ],
     "description": "HAUGA Wardrobe with sliding doors - gray 46 1/2x21 5/8x78 3/8 \". Of course your home should be a safe place for the entire family. That’s why a safety fitting is included so that you can attach the storage unit to the wall. Perfect for folded as well as long and short hanging clothes.",
     "productFamily": "hauga",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/hauga-wardrobe-with-sliding-doors-gray__0898795_pe782656_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -3068,6 +3196,7 @@
     ],
     "description": "RUDSTA Glass-door cabinet - anthracite 16 1/2x14 5/8x61 \". Enjoy a personal cabinet of memories – place the things you love the most on the shelves and use magnets to fix photos, drawings and other cherished things to the cabinet's back panel. Steady on uneven floors, thanks to the adjustable feet.",
     "productFamily": "rudsta",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/rudsta-glass-door-cabinet-anthracite__0938997_pe794381_s5.jpg",
     "aiConfidence": 0.85,
     "needsReview": false
   },
@@ -3092,6 +3221,7 @@
     "material": "bamboo",
     "description": "NORDKISA Nightstand - bamboo 15 3/4x15 3/4 \". The drawer can be accessed from both sides. Cables are easy to manage by running them through the handle on either side of the drawer. NORDKISA series in bamboo coordinates beautifully with both our NORDLI and ELVARLI storage series.",
     "productFamily": "nordkisa",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/nordkisa-nightstand-bamboo__0756025_pe748745_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -3115,6 +3245,7 @@
     ],
     "description": "RAKKESTAD Wardrobe with sliding doors - black-brown 46 1/8x69 1/4 \". Perfect on its own or combined with other wardrobes in the RAKKESTAD series depending on your space and needs. Sliding doors allow more room for furniture because they don’t take any space to open.",
     "productFamily": "rakkestad",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/rakkestad-wardrobe-with-sliding-doors-black-brown__0823992_pe776023_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -3138,6 +3269,7 @@
     ],
     "description": "HAUGA Wardrobe with sliding doors - white 46 1/2x21 5/8x78 3/8 \". Of course your home should be a safe place for the entire family. That’s why a safety fitting is included so that you can attach the storage unit to the wall. Perfect for folded as well as long and short hanging clothes.",
     "productFamily": "hauga",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/hauga-wardrobe-with-sliding-doors-white__0898797_pe782657_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -3161,6 +3293,7 @@
     ],
     "description": "IDANÄS Desk - brown 59 7/8x27 1/2 \". Perfect on its own or combined with other furniture in the IDANÄS series depending on your space and needs. The top inner drawer is reversible and can be placed at different heights to accommodate a printer or to store small items.",
     "productFamily": "idanaes",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/idanaes-desk-brown__1159450_pe888496_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -3185,6 +3318,7 @@
     "material": "solid beech",
     "description": "BALTSAR Chair - white. Comfortable to sit on thanks to the bowl-shaped seat and rounded shape of the backrest. Easy to assemble without tools or screws. The legs in solid beech provide sturdiness and enhance the quality feel of the chair. Easy to clean",
     "productFamily": "baltsar",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/baltsar-chair-white__1184815_pe898079_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -3209,6 +3343,7 @@
     "material": "oak veneer",
     "description": "TONSTAD Desk - oak veneer 47 1/4x18 1/2 \". The veneer surface is durable, stain resistant and easy to keep clean. The drawer helps keep things organized and within easy reach. The drawer closes silently and softly, thanks to the integrated soft-closing function.",
     "productFamily": "tonstad",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/tonstad-desk-oak-veneer__1243899_pe921026_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -3232,6 +3367,7 @@
     ],
     "description": "LACK TV unit - black-brown 63x13 3/4x14 1/8 \". The opening at the back allows you to easily gather and organize all wires. The top panel of the TV bench is intended for a TV with a maximum weight of 55 lbs. Coordinates with other products in the LACK series.",
     "productFamily": "lack",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/lack-tv-unit-black-brown__0955264_pe803706_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -3255,6 +3391,7 @@
     ],
     "description": "ROSENTORP Extendable table - black 63/84 5/8x43 1/4 \". Self-storing butterfly extension leaf. The hidden leaf easily extends seating from 6 to 8 in seconds, with only one pair of hands needed. Recommended for indoor use only. Seats 6-8. 1 self-storing, integrated butterfly extension leaf included.",
     "productFamily": "rosentorp",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/rosentorp-extendable-table-black__1434525_pe983583_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -3279,6 +3416,7 @@
     "material": "rattan",
     "description": "FRYKSÅS Desk - rattan 43 1/4x21 1/8 \". The desk is big enough for both homework and crafts, but you can also use it to display your favourite things. You can easily move the table from one place to another without leaving marks on the floor since it has plastic feet. For indoor use.",
     "productFamily": "fryksas",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/fryksas-desk-rattan__1323387_pe942687_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -3302,6 +3440,7 @@
     ],
     "description": "GURSKEN Wardrobe with 2 doors - light beige 23 3/8x21 5/8x73 1/8 \". A simple and easy-to-place wardrobe with a clothes rail and an upper shelf. Of course your home should be a safe place for the entire family. That’s why a safety fitting is included so that you can attach the wardrobe to the wall.",
     "productFamily": "gursken",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/gursken-wardrobe-with-2-doors-light-beige__0969439_pe810782_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -3325,6 +3464,7 @@
     ],
     "description": "ROSENTORP Extendable table - white 61/84 5/8x34 1/4 \". This 4-seat table can easily be extended into a 6-seat table using the included self-storing leaf. Designed for a perfect match with ROSENTORP chairs and stool. NÄSINGE chairs are also a good match with a different style expression. Seats 4-6.",
     "productFamily": "rosentorp",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/rosentorp-extendable-table-white__1434527_pe983579_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -3349,6 +3489,7 @@
     ],
     "description": "ÅLHULT Extendable table - beige/brown 47 1/4/66 7/8x31 1/2 \". Easily extends from seating 4-6, accommodating various dining needs. The extension leaf increases the overhang at each end of the table creating generous space for two more people at the short ends. Recommended for indoor use only.",
     "productFamily": "alhult",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/alhult-extendable-table-beige-brown__1403281_pe969288_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -3374,6 +3515,7 @@
     "material": "solid pine frame",
     "description": "ÅLHULT Chair - beige/Kabusa light beige. The soft seat paired with the high angled backrest offers exceptional comfort for extended sitting, enhancing the overall dining experience. The solid pine frame offers a robust and sturdy build, ensuring long-lasting use and stability.",
     "productFamily": "alhult",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/alhult-chair-beige-kabusa-light-beige__1403273_pe969296_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -3397,6 +3539,7 @@
     ],
     "description": "GULLABERG L-shaped desk - drop file storage/white 61x61x29 1/2 \". The L-shaped design provides a larger workspace compared to standard desks, allowing you to spread out your work, have multiple monitors and keep documents and accessories within easy reach.",
     "productFamily": "gullaberg",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/gullaberg-l-shaped-desk-drop-file-storage-white__1536835_pe1016995_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -3422,6 +3565,7 @@
     "material": "solid pine",
     "description": "IKEA PS 2026 Nightstand - pine with flip-down door 11 3/4x11 3/4x19 5/8 \". Playful birdhouse design with round opening and fold-down front for convenient access to books or charging devices. Solid pine is a natural material that ages beautifully and acquires its own unique character over time.",
     "productFamily": "ikea",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/ikea-ps-2026-nightstand-pine-with-flip-down-door__1472079_pe997449_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -3447,6 +3591,7 @@
     "material": "pine",
     "description": "STÖPREGN Open shelf unit - pine 31 1/2x13 3/4x23 \". Versatile storage that you can easily adapt to your space, needs and personality. Can be placed against a wall, behind a sofa – or freestanding in the middle of the room as a low room divider since it looks just as good from every angle.",
     "productFamily": "stoepregn",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/stoepregn-open-shelf-unit-pine__1601828_pe1043126_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -3470,6 +3615,7 @@
     ],
     "description": "FÅGELFJÄLLET Nightstand - off-white 20 1/2x18 1/8x26 \". In the FÅGELFJÄLLET series, you’ll find furniture for various storage needs – all in an elegant, traditional design that helps you create a practical, organised and inspiring home. The surface is durable and easy to keep clean.",
     "productFamily": "fagelfjaellet",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/fagelfjaellet-nightstand-off-white__1509595_pe1009767_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -3494,6 +3640,7 @@
     "material": "solid pine",
     "description": "KRONÖREN Nightstand - pine 15 3/8x12 5/8x21 5/8 \". Solid pine is a natural material that ages beautifully and acquires its own unique character over time. Made of solid wood, a hard-wearing natural material, that creates a soft and natural feel. Plastic fittings for floor protection included.",
     "productFamily": "kronoeren",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/kronoeren-nightstand-pine__1507441_pe1009337_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -3518,6 +3665,7 @@
     ],
     "description": "TUFFING Bunk bed frame - dark gray Twin. By having a bunk bed instead of two single beds, you free up some much-needed square feet on the floor for playing and other activities. Easier to make the beds and give your children a good-night hug since the bed is lower than other bunk beds.",
     "productFamily": "tuffing",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/tuffing-bunk-bed-frame-dark-gray__0638044_pe698660_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -3542,6 +3690,7 @@
     ],
     "description": "VILTO Shelf unit - black 18 1/8x59 \". The open shelves are perfect for perfume bottles or other things that you use frequently. Adjustable feet for increased stability and protection against wet floors. Perfect in a small bathroom.",
     "productFamily": "vilto",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/vilto-shelf-unit-black__0721614_pe733289_s5.jpg",
     "aiConfidence": 0.85,
     "needsReview": false
   },
@@ -3566,6 +3715,7 @@
     "material": "solid wood and hardwood veneer",
     "description": "NORDVIKEN Extendable table - black 82 5/8/113 3/4x41 3/8 \". A stable construction in solid wood and hardwood veneer that makes each table unique, with varying grain patterns and natural color shifts that are part of the charm of wood. Recommended for indoor use only. Seats 6-8.",
     "productFamily": "nordviken",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/nordviken-extendable-table-black__0714238_pe729976_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -3589,6 +3739,7 @@
     ],
     "description": "SONGESAND Nightstand - brown 16 1/2x15 3/4 \". The door can be hung to open either right or  left. A cable outlet allows you to lead the cords out the back, so they’re not seen. Coordinates with other furniture in the SONGESAND series.",
     "productFamily": "songesand",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/songesand-nightstand-brown__0550416_pe658162_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -3614,6 +3765,7 @@
     ],
     "description": "VITVAL Loft bed frame - white/light gray Twin. You can use the space under the bed for working or studying by completing with VITVAL desk top, or create a cozy spot for seating. Easy to assemble since the fabric is divided into sections and the edge bands are elastic. Slatted bed base is included.",
     "productFamily": "vitval",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/vitval-loft-bed-frame-white-light-gray__0688128_pe722324_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -3639,6 +3791,7 @@
     ],
     "description": "VITVAL Bunk bed frame - white/light gray Twin. Easy to assemble since the fabric is divided into sections and the edge bands are elastic. You can also use the lower bed as a sofa since the side panel is high and can be used as a backrest. The construction is light but steady, and has soft shapes.",
     "productFamily": "vitval",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/vitval-bunk-bed-frame-white-light-gray__0687345_pe722121_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -3664,6 +3817,7 @@
     "material": "acacia solid wood",
     "description": "SKOGSTA Dining table - acacia/black 92 1/2x39 3/8 \". Every table is unique, with varying grain pattern and natural color shifts that are part of the charm of solid wood. Recommended for indoor use only. Seats 6-8. Acacia has a distinctive grain pattern and rich brown color that darkens with age.",
     "productFamily": "skogsta",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/skogsta-dining-table-acacia-black__1499941_pe1006841_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -3689,6 +3843,7 @@
     "material": "Foam padding, fabric cover",
     "description": "KÄTTIL Chair - white/Knisa light gray. The seat and high back are padded with foam and dressed in a durable, yet soft and smooth fabric cover to make your time around the table comfy and enjoyable, so you can stay a while longer. Sturdy and durable solid wood chair frame.",
     "productFamily": "kaettil",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/kaettil-chair-white-knisa-light-gray__1016338_pe830329_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -3712,6 +3867,7 @@
     ],
     "description": "JÄTTESTA TV unit - black 63x15 3/4x19 1/4 \". Use this stylish TV bench to create an attractive TV corner in your home. It’s simple to keep cables from your TV and other equipment out of sight but close at hand, since the bench has a practical cable holder.",
     "productFamily": "jaettesta",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/jaettesta-tv-unit-black__1154960_pe886376_s5.jpg",
     "aiConfidence": 0.93,
     "needsReview": false
   },
@@ -3737,6 +3893,7 @@
     "material": "Beech veneer, solid wood edges",
     "description": "SKANSNÄS Extendable table - brown beech/veneer 45 1/4/66 7/8 \". A statement piece for your dining area with fine details like solid wood edges, breadboard ends with cross-grain pattern and smooth, rounded corners. Recommended for indoor use only. Seats 4-6.",
     "productFamily": "skansnaes",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/skansnaes-extendable-table-brown-beech-veneer__1262371_pe927057_s5.jpg",
     "aiConfidence": 0.93,
     "needsReview": false
   },
@@ -3761,6 +3918,7 @@
     "material": "Upholstered fabric",
     "description": "SLATTUM Upholstered bed frame - Vissle dark gray Queen. Convenient to take home as the entire bed frame, including slats, is snuggly packed into 1 flat package. Quick to put together thanks to a straightforward assembly process – probably easier than you think!",
     "productFamily": "slattum",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/slattum-upholstered-bed-frame-vissle-dark-gray__1259363_pe926663_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -3784,6 +3942,7 @@
     ],
     "description": "GULLABERG Wardrobe - white 50 3/8x25 1/4x79 1/8 \". In the GULLABERG series there is furniture for various storage needs, all in a robust-traditional design that helps you create a practical, organized and uniform home to enjoy for a long time. Wooden knobs enhance the genuine and traditional look.",
     "productFamily": "gullaberg",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/gullaberg-wardrobe-white__1384133_pe962851_s5.jpg",
     "aiConfidence": 0.93,
     "needsReview": false
   },
@@ -3809,6 +3968,7 @@
     "material": "Metal",
     "description": "FRÖSJÖN Shelf unit - black 15 3/4x37 3/4 \". The open shelves give a clear overview and easy access. The metal wires at the back and on the sides prevent things from falling off. Adjustable feet make it possible to compensate for any irregularities in the floor.",
     "productFamily": "froesjoen",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/froesjoen-shelf-unit-black__1253952_pe924351_s5.jpg",
     "aiConfidence": 0.92,
     "needsReview": false
   },
@@ -3834,6 +3994,7 @@
     "material": "Oak veneer",
     "description": "TARSELE Extendable table - oak veneer/black 59/78 3/4x31 1/2 \". Extendable dining table with 1 extra leaf seats 4-6; makes it possible to adjust the table size according to need. One extension leaf included. One person can quickly and smoothly extend the table before the guests arrive. Seats 4-6.",
     "productFamily": "tarsele",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/tarsele-extendable-table-oak-veneer-black__0916857_pe785431_s5.jpg",
     "aiConfidence": 0.93,
     "needsReview": false
   },
@@ -3859,6 +4020,7 @@
     "material": "Upholstered fabric",
     "description": "GRUNNARP Sleeper sofa - Gunnared beige. Comfortable sofa-bed with a clean-lined design that is just as comfortable to sit on as it is to sleep in ─ from time to time or every night. This sofa converts quickly and easily into a roomy bed when you lift out the underframe and fold down the backrest.",
     "productFamily": "grunnarp",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/grunnarp-sleeper-sofa-gunnared-beige__1409865_pe972413_s5.jpg",
     "aiConfidence": 0.94,
     "needsReview": false
   },
@@ -3882,6 +4044,7 @@
     "material": "Beech veneer",
     "description": "NÄSINGE Extendable table - dark-brown stained/beech veneer 51 1/8/74 3/4x31 1/2 \". NÄSINGE tables feature refined details, including chamfered legs and tabletop with an edge profile, adding elegance and a classic touch while softening sharp corners. Recommended for indoor use only. Seats 4-6.",
     "productFamily": "naesinge",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/naesinge-extendable-table-dark-brown-stained-beech-veneer__1393641_pe966304_s5.jpg",
     "aiConfidence": 0.94,
     "needsReview": false
   },
@@ -3905,6 +4068,7 @@
     ],
     "description": "VIHALS Gateleg table - white 15 3/8/37 3/8/59 1/2x35 3/8 \". Great flexibility as you can easily adjust the table’s size to suit your specific needs. Easy folding/unfolding mechanism and dual leaves for effortless size adjustment. A flexible solution that is ideal for compact living areas. Seats 2-4.",
     "productFamily": "vihals",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/vihals-gateleg-table-white__1370482_pe958753_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -3930,6 +4094,7 @@
     "material": "glass and wood",
     "description": "VITTSJÖ Desk - black-brown/glass 43 1/4x23 5/8 \". The tabletop and shelves offer plenty of space for all the things you need close at hand. The open storage provides a good overview and makes your things easily accessible. Self-adhesive cable clips keep your cords in place and out of sight.",
     "productFamily": "vittsjoe",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/vittsjoe-desk-black-brown-glass__1490024_pe1004043_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -3954,6 +4119,7 @@
     ],
     "description": "SKULNÄS Recliner rocker and swivel armchair - Hakebo beige. Comfortable recliner chair with rocking and 360˚ swivel function, soft armrests and a cozy design – made for snuggling up and relaxing. Adjustable so that you can choose three positions, from upright sitting to reclining. Tested for 353 lb.",
     "productFamily": "skulnaes",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/skulnaes-recliner-rocker-and-swivel-armchair-hakebo-beige__1426050_pe979674_s5.jpg",
     "aiConfidence": 0.93,
     "needsReview": false
   },
@@ -3978,6 +4144,7 @@
     ],
     "description": "SALTMYRAN Sofa - Öreryd blue. Elegant, sleek sofa with simple lines and a slim design that goes well in many different settings. The rounded backrest and armrests add softness to the overall expression, while the placement of the legs gives the sofa a distinctive and personal character.",
     "productFamily": "saltmyran",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/saltmyran-sofa-oereryd-blue__1578447_pe1034090_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -4001,6 +4168,7 @@
     ],
     "description": "KRYLBO Chair - Tibbleby dark red. Dine in style and comfort. This upholstered chair is perfect for long meals, spending precious moments with family and friends or for indulging in some relaxing me-time. Upholstered chair seat distributes your body weight and reduces pressure on the sitting bone.",
     "productFamily": "krylbo",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/krylbo-chair-tibbleby-dark-red__1541911_pe1018247_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -4026,6 +4194,7 @@
     "material": "walnut veneer",
     "description": "TJÄRKIL Extendable table - black/walnut veneer 70 7/8/92 1/2/114 1/8x39 3/8 \". It’s quick and easy to change the size of the table to suit your different needs. With 2 extra leaf's stored under the table top you can extend the table to seat from 4 to 8 people. Recommended for indoor use only.",
     "productFamily": "tjaerkil",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/tjaerkil-extendable-table-black-walnut-veneer__1524093_pe1013907_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -4051,6 +4220,7 @@
     "material": "chenille woven twill",
     "description": "VENNGARN Sofa - Johanneshov brown-beige. There’s plenty of room for everyone to sit comfortably thanks to the sofa’s spacious design. This cover is made of a woven twill with chenille that feels soft to the touch and has a deep, plush look. +",
     "productFamily": "venngarn",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/venngarn-sofa-johanneshov-brown-beige__1576801_pe1032727_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -4075,6 +4245,7 @@
     "material": "polypropylene plastic",
     "description": "VUKU Wardrobe - white 29 1/8x20 1/8x58 5/8 \". A hook on each side – perfect for clothes, bags or other things you want close at hand. You can easily clean the bottom with a damp cloth since it’s made from durable polypropylene plastic, the same material used for our well-known FRAKTA shopping bag.",
     "productFamily": "vuku",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/vuku-wardrobe-white__0498088_pe629449_s5.jpg",
     "aiConfidence": 0.85,
     "needsReview": false
   },
@@ -4098,6 +4269,7 @@
     ],
     "description": "STRANDTORP Extendable table - brown 59/80 3/4/102 3/8x37 3/8 \". You can easily change the size of this 3-in-1 table to seat 4, 6 or 8 people using the included self-storing leaves. If you add a seat to each short side you can even fit up to 10 persons. Seats 4-10. Recommended for indoor use only.",
     "productFamily": "strandtorp",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/strandtorp-extendable-table-brown__0926900_pe789586_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -4122,6 +4294,7 @@
     "material": "solid pine",
     "description": "NEIDEN Bed frame - pine Full. The compact design is perfect for tight spaces or under low ceilings, so you can make the most of your available space. The hard-wearing solid pine has natural variations in grain, color and texture, giving every piece a unique look. Center support beam included.",
     "productFamily": "neiden",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/neiden-bed-frame-pine__1102024_pe866848_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -4146,6 +4319,7 @@
     ],
     "description": "IDANÄS Open wardrobe - dark-brown stained 23 1/4x83 1/8 \". Of course your home should be a safe place for the entire family. That’s why a safety fitting is included so that you can attach the wardrobe to the wall. You get a good overview and can easily reach your clothes.",
     "productFamily": "idanaes",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/idanaes-open-wardrobe-dark-brown-stained__0898867_pe782671_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -4170,6 +4344,7 @@
     ],
     "description": "IDANÄS Bookcase - white 31 7/8x15 3/8x83 1/8 \". Assembly is quick and easy, thanks to the wedge dowel that clicks into the pre-drilled holes. Create a coordinated home by combining this bookcase with other furniture from the IDANÄS series.",
     "productFamily": "idanaes",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/idanaes-bookcase-white__1590324_pe1038962_s5.jpg",
     "aiConfidence": 0.93,
     "needsReview": false
   },
@@ -4193,6 +4368,7 @@
     ],
     "description": "VIHALS Nightstand - white 14 5/8x14 5/8 \". Choose from several storage boxes in our range that fit the open compartment perfectly to keep smaller items organized and close at hand. Hide messy cables from chargers, devices and lighting by leading them through the outlet in the back.",
     "productFamily": "vihals",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/vihals-nightstand-white__1038845_pe839899_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -4218,6 +4394,7 @@
     ],
     "description": "ÖRFJÄLL Child's desk chair - white/Vissle light gray. Height adjustable children's desk chair which you can swivel to the desired height. Simple for the child to change the sitting position by putting their feet on the chair legs, spinning lightly or rolling the castors of the chair.",
     "productFamily": "oerfjaell",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/oerfjaell-childs-desk-chair-white-vissle-light-gray__0977960_pe813958_s5.jpg",
     "aiConfidence": 0.85,
     "needsReview": false
   },
@@ -4243,6 +4420,7 @@
     "material": "pine",
     "description": "GLAMBERGET Extendable bed with storage - pine Twin. GLAMBERGET extendable bed has a compact design – perfect for tight places or under low ceilings, so you can make the most of your available space. You can also place 2 twin mattresses next to each other to create an even bigger sleeping place.",
     "productFamily": "glamberget",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/glamberget-extendable-bed-with-storage-pine__1369685_pe958256_s5.jpg",
     "aiConfidence": 0.92,
     "needsReview": false
   },
@@ -4266,6 +4444,7 @@
     ],
     "description": "DYVLINGE Swivel chair - Kelinge black. Part of the Nytillverkad collection where several IKEA classics have been given a new look. In the Nytillverkad collection, the easy chair's cross base has 5 legs instead of 4 to minimize the risk of tipping.",
     "productFamily": "dyvlinge",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/dyvlinge-swivel-chair-kelinge-black__1205899_pe907271_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -4290,6 +4469,7 @@
     "material": "rattan",
     "description": "FRYKSÅS TV unit - rattan 61 3/4x16 1/8x19 1/8 \". With this TV bench in rattan, you enjoy both closed and open storage that gives your living room a natural and warm expression. Behind each door is a shelf – perfect for game consoles or other things you want to hide, but still have close at hand.",
     "productFamily": "fryksas",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/fryksas-tv-unit-rattan__1330973_pe945866_s5.jpg",
     "aiConfidence": 0.93,
     "needsReview": false
   },
@@ -4315,6 +4495,7 @@
     "material": "oak",
     "description": "GUTTANE Side table - oak 22 7/8x15 3/8 \". Part of the Nytillverkad collection where several IKEA classics have been given a new look. This side table combines timeless design with modern functionality and adds an elegant touch wherever you choose to place it. Max load on table top: 55 lbs..",
     "productFamily": "guttane",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/guttane-side-table-oak__1369163_pe958056_s5.jpg",
     "aiConfidence": 0.85,
     "needsReview": false
   },
@@ -4338,6 +4519,7 @@
     ],
     "description": "RÅDMANSÖ Nightstand - brown walnut effect 21 1/4x15 1/8x22 7/8 \". RÅDMANSÖ bedside table has a wood expression with a warm walnut tone that creates a beautiful frame to store and organize your items. Comes with a drawer for hidden storage and an open shelf for items you want easily accessible.",
     "productFamily": "radmansoe",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/radmansoe-nightstand-brown-walnut-effect__1384141_pe962860_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -4361,6 +4543,7 @@
     ],
     "description": "RÅDMANSÖ TV unit - brown walnut effect 69 1/2x19x26 \". RÅDMANSÖ TV bench has a wood expression with a warm walnut tone that creates a beautiful frame to store, organize and display your items. Can also be used as a sideboard where you can display your beautiful items on top.",
     "productFamily": "radmansoe",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/radmansoe-tv-unit-brown-walnut-effect__1417027_pe975802_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -4386,6 +4569,7 @@
     "material": "bamboo",
     "description": "BETESHÄST Desk - light bamboo 47 1/4x23 5/8 \". The practical drawer helps you keep your things organized, and you choose whether you want to fix it in place on the right or the left. A drawer stop prevents the drawer from being pulled out too far.",
     "productFamily": "beteshaest",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/beteshaest-desk-light-bamboo__1509002_pe1009636_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -4411,6 +4595,7 @@
     ],
     "description": "IKEA PS 2026 Side table - dark red 19 5/8x15 3/4 \". Perfect for when you need extra space for your coffee cup or book, and effortlessly folds away when it's time to free up some room. Light and easy – just grab the handle and take it wherever you’re headed. Sturdy metal frame.",
     "productFamily": "ikea",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/ikea-ps-2026-side-table-dark-red__1480770_pe1000254_s5.jpg",
     "aiConfidence": 0.8,
     "needsReview": false
   },
@@ -4436,6 +4621,7 @@
     "material": "solid wood",
     "description": "BUSUNGE Extendable bed - white 38 1/4x74 3/4 \". Extendable, so it can be pulled out as your child grows. Solid wood slats offer firm posture support. To avoid the risk of serious injury, the distance between the bed and the wall must always be less than 2½\" or more than 9\".",
     "productFamily": "busunge",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/busunge-extendable-bed-white__0637820_pe698559_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -4461,6 +4647,7 @@
     "material": "tempered glass and metal",
     "description": "VITTSJÖ Shelf unit - black-brown/glass 39 3/8x36 5/8 \". Tempered glass and metal are durable materials that provide an open, airy feel. A simple unit can be enough storage for a limited space or the foundation for a larger storage solution if your needs change. Three shelves included, 1 in glass.",
     "productFamily": "vittsjoe",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/vittsjoe-shelf-unit-black-brown-glass__0767557_pe754140_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -4484,6 +4671,7 @@
     "material": "birch",
     "description": "NORDEN Gateleg table - birch 10 1/4/35/59 7/8x31 1/2 \". Small dimensions make the table easy to furnish with, even when space is limited. Table with drop-leaves seats 2-4; makes it possible to adjust the table size according to need. Seats 2-4. Recommended for indoor use only.",
     "productFamily": "norden",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/norden-gateleg-table-birch__1457135_pe992560_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -4508,6 +4696,7 @@
     ],
     "description": "BINGSTA Armchair - Vissle dark yellow/Kabusa dark yellow. Soft, rounded armrests and back cushion provide you with your own comfortable nook which feels snug thanks to the solid and curved back panel. Suitable for business use. 10 year Limited warranty. Read about the terms in the warranty brochure.",
     "productFamily": "bingsta",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/bingsta-armchair-vissle-dark-yellow-kabusa-dark-yellow__0761760_pe751428_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -4531,6 +4720,7 @@
     ],
     "description": "TORALD Desk - white 25 5/8x15 3/4 \". Store small items, like notebooks, pencils and magazines, that you want close by on the shelf under the desk top. To make it even easier to keep everything organized, complete with accessories from IKEA. Simple to assemble and ready to use in a flash.",
     "productFamily": "torald",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/torald-desk-white__1055403_pe847976_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -4557,6 +4747,7 @@
     "material": "oak veneer",
     "description": "KLACKENÄS Sideboard - black/oak veneer brown stained 47 1/4x38 1/4 \". Made of oak veneer, giving each door a sense of quality with a natural expression. The inside is designed to maximize the storage of cutlery, plates and serving dishes.",
     "productFamily": "klackenaes",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/klackenaes-sideboard-black-oak-veneer-brown-stained__1016126_pe830224_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -4580,6 +4771,7 @@
     ],
     "description": "SKÅLBODA Armchair - black. Part of the Nytillverkad collection where several IKEA classics have been given a new look. Designed by Niels Gammelgaard in 1983 – a timeless classic that feels just as modern now as it did then. Recommended for indoor use only.",
     "productFamily": "skalboda",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/skalboda-armchair-black__1180834_pe896474_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -4602,6 +4794,7 @@
     "material": "solid pine",
     "description": "SJÄLSÖ Armchair. Part of the Nytillverkad collection where several IKEA classics have been given a new look. When this armchair was launched in our 1990 catalogue, it was called RYD. Then, just as now, with a solid pine frame and a strong natural-colored fabric in the seat and back.",
     "productFamily": "sjaelsoe",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/sjaelsoe-armchair__1363526_pe955528_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -4625,6 +4818,7 @@
     ],
     "description": "VIHALS Extendable table - white 33 1/8/47 1/4x29 1/8 \". Great flexibility as you can easily adjust the table’s size to suit your specific needs. One person can quickly and smoothly extend the table before the guests arrive. Recommended for indoor use only. Seats 2-4. One extension leaf included.",
     "productFamily": "vihals",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/vihals-extendable-table-white__1370484_pe958738_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -4648,6 +4842,7 @@
     ],
     "description": "KALLAX TV unit - black-brown 57 3/4x23 1/2 \". The opening at the back allows you to easily gather and organize all wires. The simple design with clean lines makes KALLAX flexible and easy to use at home. The shelves align perfectly with the frame to create a strong and uniform style.",
     "productFamily": "kallax",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/kallax-tv-unit-black-brown__1238897_pe918669_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -4670,6 +4865,7 @@
     ],
     "description": "MULLSJÖ Swivel chair - Gräsnäs dark gray. Generous padding in the seat and backrest makes this chair a great choice if you want to sit comfortably at the desk. The shape of the armrests provides good support and helps you find a good sitting position. Plastic feet protect the floor from scratches.",
     "productFamily": "mullsjoe",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/mullsjoe-swivel-chair-graesnaes-dark-gray__1376248_pe960428_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -4695,6 +4891,7 @@
     "material": "oak veneer",
     "description": "STOCKHOLM 2025 Shelving unit/bench - oak veneer 70 7/8x16x17 1/4 \". The shelf can be used free-standing; no wall mounting is necessary. The brushed veneer gives each piece a unique look and a personal character. Adjustable feet for stability on uneven floors.",
     "productFamily": "stockholm",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/stockholm-2025-shelving-unit-bench-oak-veneer__1397705_pe967726_s5.jpg",
     "aiConfidence": 0.85,
     "needsReview": false
   },
@@ -4720,6 +4917,7 @@
     "material": "oak veneer",
     "description": "STOCKHOLM 2025 Side table - oak veneer dark-brown 21 5/8 \". Modern Scandinavian design with honest, natural materials and a sleek, elegant shape. The side table is perfect as an extra surface for placing items or for showcasing your favorite items. Max load on table top: 33 lbs.",
     "productFamily": "stockholm",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/stockholm-2025-side-table-oak-veneer-dark-brown__1362700_pe955299_s5.jpg",
     "aiConfidence": 0.85,
     "needsReview": false
   },
@@ -4744,6 +4942,7 @@
     "material": "oak veneer",
     "description": "STOCKHOLM 2025 TV unit with sliding doors - oak veneer 70 3/8x16 1/2x22 1/8 \". The sliding doors allow you to place the storage where you need it and enjoy a larger area to place furniture since the doors don’t open out over any floor space.",
     "productFamily": "stockholm",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/stockholm-2025-tv-unit-with-sliding-doors-oak-veneer__1397700_pe967721_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -4767,6 +4966,7 @@
     "material": "metal and solid wood",
     "description": "FJÄLLBO Desk - black 55 1/8x27 1/2 \". With this rustic desk in metal and solid wood, you get a practical space for your hobbies. In the storage space under the top of the desk there is plenty of room for everything that you want close at hand. Part of a series.",
     "productFamily": "fjaellbo",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/fjaellbo-desk-black__1342778_pe949117_s5.jpg",
     "aiConfidence": 0.93,
     "needsReview": false
   },
@@ -4790,6 +4990,7 @@
     ],
     "description": "IKEA PS 2026 Chair - bright green/Knäbäck bright green. Sit how you like – whether you’re eating or just relaxing. Face forward or turn around and use the backrest as an armrest. The soft padded seat and backrest—or armrest when you turn around – add extra comfort wherever you sit.",
     "productFamily": "ikea",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/ikea-ps-2026-chair-bright-green-knaebaeck-bright-green__1481305_pe1000490_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -4814,6 +5015,7 @@
     ],
     "description": "BOAXEL Shelving unit - white 24 3/8x15 3/4x79 \". BOAXEL interiors are easy to click onto or remove from the brackets, so you can easily customize, change and move your solution whenever you want or need to. BOAXEL can be used in humid areas of the home, like in the laundry room.",
     "productFamily": "boaxel",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/boaxel-shelving-unit-white__0925997_pe789008_s5.jpg",
     "aiConfidence": 0.7,
     "needsReview": false
   },
@@ -4838,6 +5040,7 @@
     "material": "polyester upholstery",
     "description": "KIVIK Sectional, 6-seat - Tresund anthracite. Enjoy the super comfy KIVIK sofa with deep seat cushions made of pocket springs, high resilience foam and polyester fibers – adding both firm support and relaxing softness. 10-year limited warranty. Read about the terms in the limited warranty brochure.",
     "productFamily": "kivik",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/kivik-sectional-6-seat-tresund-anthracite__1125146_pe875387_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -4861,6 +5064,7 @@
     ],
     "description": "TÄLLÅSEN Upholstered bed frame - Kulsta gray-green/Lönset Full. The clean and sturdy design with several well-thought-out details gives TÄLLÅSEN upholstered bed frame a modern look – easy to combine with other bedroom furniture. Center support beam included.",
     "productFamily": "taellasen",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/taellasen-upholstered-bed-frame-kulsta-gray-green-loenset__1363658_pe955575_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -4884,6 +5088,7 @@
     ],
     "description": "HYLTARP Sectional, 4-seat corner - Gransel natural. Skillful craftsmanship and a perfect fit means that the sofa will always shows off its best side. The cover is easy to keep clean since it is removable and can be machine washed.",
     "productFamily": "hyltarp",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/hyltarp-sectional-4-seat-corner-gransel-natural__1193769_pe901599_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": true
   },
@@ -4908,6 +5113,7 @@
     "material": "chenille cotton and polyester",
     "description": "HYLTARP Sofa w chaise, right - Tallmyra blue. Skillful craftsmanship and a perfect fit means that the sofa will always shows off its best side. Tallmyra is a hardwearing chenille cover made of cotton and polyester and has a soft surface and a slightly reflective luster.",
     "productFamily": "hyltarp",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/hyltarp-sofa-w-chaise-right-tallmyra-blue__1577700_pe1033444_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -4931,6 +5137,7 @@
     ],
     "description": "LAGKAPTEN / ALEX Desk - white 55 1/8x23 5/8 \". Here you enjoy plenty of storage space for things you want within easy reach. You can mount the door to open from the right or left. You can place the desk in the middle of the room if you like – it looks just as nice from all sides.",
     "productFamily": "lagkapten",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/lagkapten-alex-desk-white__1209767_pe909428_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -4954,6 +5161,7 @@
     ],
     "description": "SMÅSTAD / UPPFÖRA Wardrobe - white/blue 23 5/8x25 5/8x53 1/2 \". This wardrobe is adapted to a younger child's height and motor skills so that they can reach and hang up their clothes on their own. The wardrobe has interiors which you can move and adjust based on your child’s needs.",
     "productFamily": "smastad",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/smastad-uppfoera-wardrobe-white-blue__1240373_pe919324_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -4978,6 +5186,7 @@
     ],
     "description": "SMÅSTAD / UPPFÖRA Bookcase - white white/with 2 drawers 23 5/8x25 5/8x77 1/8 \". The open shelves are perfect for books and collectables, or to display the latest arts and crafts project – and since your child can see them, their desire to play is stimulated. Knobs and handles are sold separately.",
     "productFamily": "smastad",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/smastad-uppfoera-bookcase-white-white-with-2-drawers__1268380_pe928721_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -5001,6 +5210,7 @@
     ],
     "description": "PAX / HASVIK Wardrobe with sliding doors - white/white 78 3/4x26x93 1/8 \". 10-year Limited Warranty. Read about the terms in the Limited Warranty brochure. You can easily adapt this ready-made PAX/KOMPLEMENT combination to suit your needs and taste using the PAX planning tool.",
     "productFamily": "pax",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/pax-hasvik-wardrobe-with-sliding-doors-white-white__1119866_pe873629_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -5025,6 +5235,7 @@
     ],
     "description": "UPPÅKRA 4.5-seat mod sofa - Samsala gray-beige. Comfort for the whole family – a generous sofa to sink into, with a clean design and oversized cushions that make it a natural eye-catcher in any room. Carefully selected soft, tactile fabrics make the sofa extra inviting and comfortable to sit on. _",
     "productFamily": "uppakra",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/uppakra-4-5-seat-mod-sofa-samsala-gray-beige__1578059_pe1033756_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -5050,6 +5261,7 @@
     ],
     "description": "PAX / VIKANES Wardrobe combination - gray/beige/red-brown 78 3/4x23 5/8x79 1/4 \". 10-year Limited Warranty. Read about the terms in the Limited Warranty brochure. Hinges with integrated dampers catch the door and close it slowly, silently and softly Two people are needed to assemble this furniture.",
     "productFamily": "pax",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/pax-vikanes-wardrobe-combination-gray-beige-red-brown__1551532_pe1023101_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -5074,6 +5286,7 @@
     "material": "upholstered",
     "description": "RAMNEFJÄLL Upholstered bed frame - Idekulla beige Queen. This upholstered bed frame adds a touch of softness to your bedroom – bringing comfort during the night, and adding style around the clock. The soft, padded headboard is comfortable to lean against while reading or watching TV in bed.",
     "productFamily": "ramnefjaell",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/ramnefjaell-upholstered-bed-frame-idekulla-beige__1540770_pe1017894_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -5099,6 +5312,7 @@
     "material": "solid pine",
     "description": "IVAR Shelving unit with bottle racks - pine 35x11 3/4x48 7/8 \". You can personalize the furniture even more by staining or painting it your favorite color. Solid pine is a natural material which ages beautifully and gains its own unique character over time.",
     "productFamily": "ivar",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/ivar-shelving-unit-with-bottle-racks-pine__0924449_pe788574_s5.jpg",
     "aiConfidence": 0.8,
     "needsReview": false
   },
@@ -5122,6 +5336,7 @@
     ],
     "description": "BOAXEL Wardrobe combination - anthracite 32 1/4x15 3/4x79 \". The dark-grey color and the matte surface create a simple and timeless expression that is easy to match with other furniture. BOAXEL clothes rail, 32\", holds approx. 26 shirts on hangers. This furniture must be secured to the wall.",
     "productFamily": "boaxel",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/boaxel-wardrobe-combination-anthracite__1259949_pe926858_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -5146,6 +5361,7 @@
     ],
     "description": "PAX / GULLABERG Wardrobe combination - dark gray/gray 98 3/8x23 5/8x93 1/8 \". 10-year Limited Warranty. Read about the terms in the Limited Warranty brochure. You can easily adapt this ready-made PAX/KOMPLEMENT combination to suit your needs and taste using the PAX planning tool.",
     "productFamily": "pax",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/pax-gullaberg-wardrobe-combination-dark-gray-gray__1382001_pe962126_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -5171,6 +5387,7 @@
     "material": "oak veneer",
     "description": "MALM Bed frame - oak veneer/Luröy Full. Wood veneer gives you the same look, feel and beauty as solid wood with unique variations in grain, color and texture. This versatile bed frame will look great with your choice of textiles and bedroom furniture. Suitable for business use.",
     "productFamily": "malm",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/malm-bed-frame-oak-veneer-luroey__1364778_pe956034_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -5194,6 +5411,7 @@
     ],
     "description": "VIHALS Bed frame - white/Luröy Queen. If you need space for extra bedlinens, you can add VIHALS bed storage boxes on castors, sold separately. If you need extra sleeping space, you can add VIHALS trundle bed that you can roll out when needed, sold separately. Center support beam included.",
     "productFamily": "vihals",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/vihals-bed-frame-white-luroey__1448767_pe989653_s5.jpg",
     "aiConfidence": 0.93,
     "needsReview": false
   },
@@ -5219,6 +5437,7 @@
     "material": "fabric upholstery",
     "description": "TONSTAD Chair - Viarp beige/brown/brown oak effect. The high-quality fabric upholstery feels smooth against the skin, adding to the overall comfort. The chair cover’s piping adds a polished look while reinforcing the edges for added durability and fray resistance. Recommended for indoor use only.",
     "productFamily": "tonstad",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/tonstad-chair-viarp-beige-brown-brown-oak-effect__1426576_pe979871_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -5242,6 +5461,7 @@
     ],
     "description": "FÅGELFJÄLLET Bed frame - off-white/Lönset Twin. In the FÅGELFJÄLLET series, you’ll find furniture for various storage needs – all in an elegant, traditional design that helps you create a practical, organised and inspiring home. Slatted bed base is included, a midbeam is not required.",
     "productFamily": "fagelfjaellet",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/fagelfjaellet-bed-frame-off-white-loenset__1528387_pe1014427_s5.jpg",
     "aiConfidence": 0.93,
     "needsReview": false
   },
@@ -5266,6 +5486,7 @@
     ],
     "description": "TROTTEN Desk - ash effect/white 47 1/4x27 1/2 \". 10-year Warranty. Read about the terms in the warranty brochure. Suitable for business use. The A-shaped legs mean that the space under the desk can be used efficiently without the table legs getting in the way.",
     "productFamily": "trotten",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/trotten-desk-ash-effect-white__1517364_pe1012268_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -5290,6 +5511,7 @@
     "material": "powder-coated steel",
     "description": "MELLGRUND Bed frame - off-white/Lyngör Full. The sturdy MELLGRUND bed frame features elegant lines and a timeless look – a romantic version of a classic metal bed. The powder-coated steel frame is not only sturdy but also easy to clean, making it durable and long-lasting.",
     "productFamily": "mellgrund",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/mellgrund-bed-frame-off-white-lyngoer__1531193_pe1015560_s5.jpg",
     "aiConfidence": 0.93,
     "needsReview": false
   },
@@ -5314,6 +5536,7 @@
     ],
     "description": "ELVARLI Wardrobe combination - white 33 1/4x21 5/8x85 \". ELVARLI storage system is a versatile solution for your entire home – choose how to combine the products to create an open storage or wardrobe that suits you perfectly. A lightweight, durable and adaptable modular wardrobe system.",
     "productFamily": "elvarli",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/elvarli-wardrobe-combination-white__0440394_pe592438_s5.jpg",
     "aiConfidence": 0.8,
     "needsReview": false
   },
@@ -5339,6 +5562,7 @@
     ],
     "description": "VITVAL Loft bed frame with desk top - white/light gray Twin. The desk top is large enough for a laptop and books, but still gives you enough room to fit a cozy nook of pillows or storage space next to it. Easy to assemble since the fabric is divided into sections and the edge bands are elastic.",
     "productFamily": "vitval",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/vitval-loft-bed-frame-with-desk-top-white-light-gray__0688141_pe722337_s5.jpg",
     "aiConfidence": 0.85,
     "needsReview": false
   },
@@ -5363,6 +5587,7 @@
     "material": "stainless steel",
     "description": "GRILLSKÄR Kitchen island shelf unit - stainless steel 33 7/8x24 \". This kitchen island gives you extra storage space and a good work surface where you can prepare food before it's time to put it on the grill. The doors close tightly and are kept closed by a magnetic lock.",
     "productFamily": "grillskaer",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/grillskaer-kitchen-island-shelf-unit-stainless-steel__0920473_pe787059_s5.jpg",
     "aiConfidence": 0.75,
     "needsReview": false
   },
@@ -5388,6 +5613,7 @@
     ],
     "description": "SMEDSTORP Loveseat - Viarp beige/brown/black. High resilience foam makes the sofa soft and cozy, while it also gives comfortable support for your body and quickly regains its shape when you stand up. High resilience foam in seat for extra great comfort. Stationary cover.",
     "productFamily": "smedstorp",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/smedstorp-loveseat-viarp-beige-brown-black__0989823_pe818625_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -5412,6 +5638,7 @@
     ],
     "description": "VISKAFORS 1.5-seat armchair - Lejde anthracite/brown. Classic design with soft, rounded shapes and generously sized armrests makes VISKAFORS armchair a statement piece in any living room. Skillful craftsmanship and a perfect fit means that the armchair will always shows off its best side.",
     "productFamily": "viskafors",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/viskafors-1-5-seat-armchair-lejde-anthracite-brown__1088082_pe861050_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -5436,6 +5663,7 @@
     ],
     "description": "LOBERGET / MALSKÄR Swivel chair - white/black. Comfortable to sit on thanks to the bowl-shaped seat and rounded shape of the backrest. This swivel chair has functions that allow you to easily adapt the chair to your body. Easy to keep clean by just wiping with a damp cloth.",
     "productFamily": "loberget",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/loberget-malskaer-swivel-chair-white-black__1110839_pe870604_s5.jpg",
     "aiConfidence": 0.93,
     "needsReview": false
   },
@@ -5459,6 +5687,7 @@
     ],
     "description": "KIVIK Sofa with chaise - Gunnared blue. Enjoy the super comfy KIVIK sofa with deep seat cushions made of pocket springs, high resilience foam and polyester fibers – adding both firm support and relaxing softness. The chaise can stand alone or be added onto the sofas.",
     "productFamily": "kivik",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/kivik-sofa-with-chaise-gunnared-blue__1577021_pe1032900_s5.jpg",
     "aiConfidence": 0.94,
     "needsReview": false
   },
@@ -5483,6 +5712,7 @@
     "material": "birch veneer",
     "description": "BJÖRKSNÄS Bed frame - birch/birch veneer/Lönset Queen. Beautiful craftsmanship all the way around. Why not place it in the middle of the room to create impact? You can sit up comfortably in bed thanks to the 2 pillows attached to the headboard. 2 headboard pillows included.",
     "productFamily": "bjoerksnaes",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/bjoerksnaes-bed-frame-birch-birch-veneer-loenset__1175827_pe894831_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -5508,6 +5738,7 @@
     ],
     "description": "SKYTTA / AURDAL Reach-in wardrobe with sliding door - black dark gray/Mehamn white 59 7/8x25 5/8x94 3/8 \". 10-year Limited Warranty. Read about the terms in the Limited Warranty brochure. SKYTTA door frames and rails are available in white, black and aluminum.",
     "productFamily": "skytta",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/skytta-aurdal-reach-in-wardrobe-with-sliding-door-black-dark-gray-mehamn-white__1219612_pe913471_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -5531,6 +5762,7 @@
     ],
     "description": "MANNARP Loveseat - Gunnared beige. This sofa combines soft, cosy comfort with a modern design and neat armrests that evoke a sense of elegant lightness. You can lean back into the high backrest, relax and enjoy the embracing comfort. The black steel legs add a modern and minimalist feel to the sofa.",
     "productFamily": "mannarp",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/mannarp-loveseat-gunnared-beige__1576802_pe1032728_s5.jpg",
     "aiConfidence": 0.94,
     "needsReview": false
   },
@@ -5554,6 +5786,7 @@
     ],
     "description": "RAMNEFJÄLL Upholstered bed frame - Kilanda dark blue/Luröy Twin. This upholstered bed frame adds a touch of softness to your bedroom – bringing comfort during the night, and adding style around the clock. The soft, padded headboard is comfortable to lean against while reading or watching TV in bed.",
     "productFamily": "ramnefjaell",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/ramnefjaell-upholstered-bed-frame-kilanda-dark-blue-luroey__1480730_pe1000252_s5.jpg",
     "aiConfidence": 0.94,
     "needsReview": false
   },
@@ -5579,6 +5812,7 @@
     "material": "leather",
     "description": "MORABO Armchair - Grann/Bomstad gray-green/wood. The contact surfaces are covered with GRANN – a soft, smooth and strong grain leather with natural variations. Other surfaces have BOMSTAD, a coated fabric that has a similar look and feel to leather.",
     "productFamily": "morabo",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/morabo-armchair-grann-bomstad-gray-green-wood__0608812_pe684100_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -5602,6 +5836,7 @@
     ],
     "description": "HYLTARP Sofa w chaise, right - Gransel gray-brown. Skillful craftsmanship and a perfect fit means that the sofa will always shows off its best side. The cover is easy to keep clean since it is removable and can be machine washed.",
     "productFamily": "hyltarp",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/hyltarp-sofa-w-chaise-right-gransel-gray-brown__1193841_pe901652_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -5625,6 +5860,7 @@
     ],
     "description": "ROCKSJÖN Loveseat - Blekinge white. Design details like decorative piping and beautiful pleats create a traditional expression. Thanks to its neat size, ROCKSJÖN makes it easy to furnish even the narrowest of spaces. The cover is easy to keep clean since it is removable and machine washable.",
     "productFamily": "rocksjoen",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/rocksjoen-loveseat-blekinge-white__1247372_pe922643_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -5649,6 +5885,7 @@
     ],
     "description": "SKYTTA / BOAXEL Reach-in wardrobe with sliding door - black double sided/Mehamn dark gray 69 5/8x25 5/8x80 1/2 \". You can always adapt or complete this open storage solution as needed. Maybe the combination we’ve suggested is perfect for you, or you can easily create your own.",
     "productFamily": "skytta",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/skytta-boaxel-reach-in-wardrobe-with-sliding-door-black-double-sided-mehamn-dark-gray__1220804_pe913546_s5.jpg",
     "aiConfidence": 0.85,
     "needsReview": false
   },
@@ -5672,6 +5909,7 @@
     ],
     "description": "HOLMSUND Sleeper sectional, 3-seat - Borgunda beige. This sofa converts quickly and easily into a spacious bed when you remove the back cushions and pull out the underframe. Storage space under the chaise. The lid stays open so you can safely and easily take things in and out.",
     "productFamily": "holmsund",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/holmsund-sleeper-sectional-3-seat-borgunda-beige__1212688_pe910693_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -5696,6 +5934,7 @@
     ],
     "description": "SMÅSTAD / UPPFÖRA Wardrobe - white blue/with 3 shelves 23 5/8x25 5/8x53 1/2 \". A practical and dust-free way to store small and large things – or to hide the chaos that often arises when it comes to children’s things. Stands evenly on an uneven floor; adjustable feet included.",
     "productFamily": "smastad",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/smastad-uppfoera-wardrobe-white-blue-with-3-shelves__1240358_pe919320_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -5720,6 +5959,7 @@
     ],
     "description": "LAGKAPTEN / SPÄND Desk - black-brown/white 47 1/4x23 5/8 \". The tabletop has pre-drilled holes to make it easier to attach to the underframe. Adjustable feet make the table stand steady also on uneven floors. 2 touch-and-close fastenings are included.",
     "productFamily": "lagkapten",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/lagkapten-spaend-desk-black-brown-white__1328527_pe944854_s5.jpg",
     "aiConfidence": 0.92,
     "needsReview": false
   },
@@ -5744,6 +5984,7 @@
     "material": "metal",
     "description": "BOAXEL Wardrobe combination - anthracite/metal 24 3/8x15 3/4x79 \". The dark-grey color and the matte surface create a simple and timeless expression that is easy to match with other furniture. BOAXEL mesh basket, 24\", has room for approx. 6 pairs of folded pants or 10 t-shirts.",
     "productFamily": "boaxel",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/boaxel-wardrobe-combination-anthracite-metal__1301270_pe937355_s5.jpg",
     "aiConfidence": 0.85,
     "needsReview": false
   },
@@ -5767,6 +6008,7 @@
     ],
     "description": "EKET Media storage combination - brown walnut effect/with doors 110 1/4x13 3/4x13 3/4 \". With cable management on both top and bottom, you can discreetly feed the cords all the way through the media shelf and connect them to the wall socket. EKET suspension rails for wall mounting are included.",
     "productFamily": "eket",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/eket-media-storage-combination-brown-walnut-effect-with-doors__1389128_pe965102_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -5790,6 +6032,7 @@
     "material": "powder-coated steel",
     "description": "MELLGRUND Bed frame - off-white/Luröy Queen. The sturdy MELLGRUND bed frame features elegant lines and a timeless look – a romantic version of a classic metal bed. The powder-coated steel frame is not only sturdy but also easy to clean, making it durable and long-lasting.",
     "productFamily": "mellgrund",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/mellgrund-bed-frame-off-white-luroey__1476995_pe1001055_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -5814,6 +6057,7 @@
     ],
     "description": "KALLAX Shelving unit - with 5 doors/10 drawers/white 71 5/8x71 5/8 \". You can use the furniture as a room divider because it looks good from every angle. The practical inserts hide things and help maintain a clean and tidy look.",
     "productFamily": "kallax",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/kallax-shelving-unit-with-5-doors-10-drawers-white__0754649_pe748006_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -5838,6 +6082,7 @@
     "material": "fabric",
     "description": "UPPÅKRA 4.5-seat mod sofa - Axvall off-white. Comfort for the whole family – a generous sofa to sink into, with a clean design and oversized cushions that make it a natural eye-catcher in any room. Carefully selected soft, tactile fabrics make the sofa extra inviting and comfortable to sit on. _",
     "productFamily": "uppakra",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/uppakra-4-5-seat-mod-sofa-axvall-off-white__1578064_pe1033747_s5.jpg",
     "aiConfidence": 0.97,
     "needsReview": false
   },
@@ -5862,6 +6107,7 @@
     ],
     "description": "ROCKSJÖN Armchair - Kilanda light beige. Design details like decorative piping and beautiful pleats create a traditional expression. Thanks to its neat size, ROCKSJÖN makes it easy to furnish even the narrowest of spaces. The cover is easy to keep clean since it is removable and machine washable.",
     "productFamily": "rocksjoen",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/rocksjoen-armchair-kilanda-light-beige__1247350_pe922624_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -5886,6 +6132,7 @@
     ],
     "description": "SLÄKT / NATTAPA Bed frm w strg+guard rl+slat bd bse - white Twin. Soft edges, recessed handles and just a few visible fittings make the bedframe safe and give it a clean design. With a guard rail on the side of the bed, you can reduce the risk of your child falling out of bed.",
     "productFamily": "slaekt",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/slaekt-nattapa-bed-frm-w-strg-guard-rl-slat-bd-bse-white__1305320_pe939444_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -5909,6 +6156,7 @@
     ],
     "description": "MANNARP Sectional 4-seat with chaise - Gunnared beige. This sofa combines soft, cosy comfort with a modern design and neat armrests that evoke a sense of elegant lightness. You can lean back into the high backrest, relax and enjoy the embracing comfort.",
     "productFamily": "mannarp",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/mannarp-sectional-4-seat-with-chaise-gunnared-beige__1578302_pe1033969_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -5934,6 +6182,7 @@
     "material": "layer-glued bent wood",
     "description": "POÄNG Armchair - dark green/Gunnared beige. The layer-glued bent wood frame gives the armchair a comfortable resilience, making it perfect to relax in. The high back provides good support for your neck. To sit even more comfortably and relaxed, you can use the armchair together with a POÄNG ottoman.",
     "productFamily": "poaeng",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/poaeng-armchair-dark-green-gunnared-beige__1507252_pe1009195_s5.jpg",
     "aiConfidence": 0.97,
     "needsReview": false
   },
@@ -5957,6 +6206,7 @@
     ],
     "description": "ELDBERGET / MALSKÄR Swivel chair - dark gray/black. Comfortable to sit on thanks to the bowl-shaped seat and rounded shape of the backrest. This swivel chair has functions that allow you to easily adapt the chair to your body. Easy to keep clean by just wiping with a damp cloth.",
     "productFamily": "eldberget",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/eldberget-malskaer-swivel-chair-dark-gray-black__0814559_pe772629_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -5982,6 +6232,7 @@
     ],
     "description": "VISKAFORS Loveseat - Lejde gray/green/brown. Classic design with soft, rounded shapes and generously sized armrests makes VISKAFORS sofa a statement piece in any living room. The deep seat with pocket springs is really soft and creates an inviting, embracing feel when you sit on the sofa.",
     "productFamily": "viskafors",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/viskafors-loveseat-lejde-gray-green-brown__1577654_pe1033405_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -6005,6 +6256,7 @@
     ],
     "description": "TÄLLÅSEN Upholstered bed frame - Kulsta light beige/Luröy King. The clean and sturdy design with several well-thought-out details gives TÄLLÅSEN upholstered bed frame a modern look – easy to combine with other bedroom furniture. Center support beam included.",
     "productFamily": "taellasen",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/taellasen-upholstered-bed-frame-kulsta-light-beige-luroey__1206611_pe907550_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -6029,6 +6281,7 @@
     ],
     "description": "BESTÅ Shelving unit - with 5 shelves/black-brown 23 5/8x15 3/4x76 \". 10 year guarantee. Read about the terms in the guarantee brochure. Adjustable shelf; easy to place according to your own needs. If you want to organize inside you can complement with BESTÅ interior fittings.",
     "productFamily": "besta",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/besta-shelving-unit-with-5-shelves-black-brown__1603047_pe1043959_s5.jpg",
     "aiConfidence": 0.85,
     "needsReview": false
   },
@@ -6054,6 +6307,7 @@
     ],
     "description": "KALLAX Shelving unit with underframe - with 2 doors/4 drawers/white stained oak effect 57 7/8x37 \". The underframe gives the shelving unit an airy and elegant look while making it easier to vacuum under it.",
     "productFamily": "kallax",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/kallax-shelving-unit-with-underframe-with-2-doors-4-drawers-white-stained-oak-effect__1245494_pe921637_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -6077,6 +6331,7 @@
     ],
     "description": "TROTTEN Desk - white 47 1/4x27 1/2 \". 10-year Warranty. Read about the terms in the warranty brochure. Suitable for business use. The A-shaped legs mean that the space under the desk can be used efficiently without the table legs getting in the way.",
     "productFamily": "trotten",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/trotten-desk-white__1517365_pe1012269_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -6102,6 +6357,7 @@
     "material": "oak veneer",
     "description": "BESTÅ TV bench with doors - white/Björköviken oak veneer 94 1/2x16 1/2x15 3/4 \". 10 year guarantee. Read about the terms in the guarantee brochure. A top panel is a simple way to enhance the style you are going for of your BESTÅ storage combination.",
     "productFamily": "besta",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/besta-tv-bench-with-doors-white-bjoerkoeviken-oak-veneer__1531474_pe1015619_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -6123,6 +6379,7 @@
     "colors": [],
     "description": "STORKLINTA Bedside table with glass top. Create a coordinated look by combining the bed frame with the bedside table and other furniture in the STORKLINTA series. Add a glass top to create a more complete look and protect the surface.",
     "productFamily": "storklinta",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/storklinta-bedside-table-with-glass-top__1604811_pe1045065_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -6146,6 +6403,7 @@
     ],
     "description": "SLÄKT Ext bed frame with slatted bed base - white 38 1/4x74 3/4 \". Timeless design with soft rounded corners and a scratch-resistant surface mean that the bed will last for many years. You can easily change the look of the bed by choosing a headboard in a different color.",
     "productFamily": "slaekt",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/slaekt-ext-bed-frame-with-slatted-bed-base-white__0792584_pe764765_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -6170,6 +6428,7 @@
     "material": "powder-coated metal",
     "description": "VEVELSTAD Bed frame with 2 headboards - white/Tolkning rattan Full. White powder-coated metal and visible screws add a modern look to the bed frame. The legs of the headboard are designed to fit walls both with and without a skirting board. Mattress and bedlinens are sold separately.",
     "productFamily": "vevelstad",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/vevelstad-bed-frame-with-2-headboards-white-tolkning-rattan__1138249_pe879929_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -6196,6 +6455,7 @@
     "material": "foam upholstery",
     "description": "SMEDSTORP Loveseat - Lejde red/brown/black. High resilience foam makes the sofa soft and cozy, while it also gives comfortable support for your body and quickly regains its shape when you stand up. High resilience foam in seat for extra great comfort. Stationary cover.",
     "productFamily": "smedstorp",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/smedstorp-loveseat-lejde-red-brown-black__0989821_pe818623_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -6222,6 +6482,7 @@
     "material": "upholstery with pocket springs",
     "description": "VISKAFORS Sofa - Lejde/gray/green birch. Classic design with soft, rounded shapes and generously sized armrests makes VISKAFORS sofa a statement piece in any living room. The deep seat with pocket springs is really soft and creates an inviting, embracing feel when you sit on the sofa.",
     "productFamily": "viskafors",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/viskafors-sofa-lejde-gray-green-birch__1577655_pe1033406_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -6246,6 +6507,7 @@
     "material": "upholstery with pocket springs",
     "description": "KIVIK Sectional, 4-seat with chaise - Tresund anthracite. Enjoy the super comfy KIVIK sofa with deep seat cushions made of pocket springs, high resilience foam and polyester fibers – adding both firm support and relaxing softness. The chaise can stand alone or be added onto the sofas.",
     "productFamily": "kivik",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/kivik-sectional-4-seat-with-chaise-tresund-anthracite__1577810_pe1033545_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -6270,6 +6532,7 @@
     ],
     "description": "SMÅSTAD / UPPFÖRA Wardrobe - white white/with 3 shelves 23 5/8x25 5/8x53 1/2 \". A practical and dust-free way to store small and large things – or to hide the chaos that often arises when it comes to children’s things. Stands evenly on an uneven floor; adjustable feet included.",
     "productFamily": "smastad",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/smastad-uppfoera-wardrobe-white-white-with-3-shelves__1268546_pe928787_s5.jpg",
     "aiConfidence": 0.8,
     "needsReview": false
   },
@@ -6295,6 +6558,7 @@
     "material": "ash veneer",
     "description": "MITTZON Desk - black stained ash veneer/black white 63x31 1/2 \". 10-year limited warranty. Read about the terms in the guarantee brochure. Suitable for business use. The durable, stain-resistant surface wipes clean easily.",
     "productFamily": "mittzon",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/mittzon-desk-black-stained-ash-veneer-black-white__1406791_pe971155_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -6320,6 +6584,7 @@
     "material": "upholstery",
     "description": "MANNARP Sectional 4-seat with chaise - Saxemara black-blue. This sofa combines soft, cosy comfort with a modern design and neat armrests that evoke a sense of elegant lightness. You can lean back into the high backrest, relax and enjoy the embracing comfort.",
     "productFamily": "mannarp",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/mannarp-sectional-4-seat-with-chaise-saxemara-black-blue__1578312_pe1033979_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -6345,6 +6610,7 @@
     ],
     "description": "PÅHL Desk - height adjustable white/light green 37 3/4x22 7/8 \". This desk is designed to grow with your child, thanks to the three different heights. The desk is easily adjusted to 23¼\", 25⅞\" or 28⅜\" by using the knobs on the legs.",
     "productFamily": "pahl",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/pahl-desk-height-adjustable-white-light-green__1483939_pe1001400_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -6370,6 +6636,7 @@
     "material": "upholstery",
     "description": "UPPÅKRA 4.5-seat mod sofa - Samsala yellow-brown. Comfort for the whole family – a generous sofa to sink into, with a clean design and oversized cushions that make it a natural eye-catcher in any room. Carefully selected soft, tactile fabrics make the sofa extra inviting and comfortable to sit on. _",
     "productFamily": "uppakra",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/uppakra-4-5-seat-mod-sofa-samsala-yellow-brown__1578112_pe1033806_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -6394,6 +6661,7 @@
     ],
     "description": "FÅGELFJÄLLET Bed frame - black oak effect/Lönset Twin. In the FÅGELFJÄLLET series, you’ll find furniture for various storage needs – all in an elegant, traditional design that helps you create a practical, organised and inspiring home. Slatted bed base is included, a midbeam is not required.",
     "productFamily": "fagelfjaellet",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/fagelfjaellet-bed-frame-black-oak-effect-loenset__1528388_pe1014428_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -6417,6 +6685,7 @@
     ],
     "description": "ELVARLI Wardrobe combination - white 49 1/8x21 5/8x85 \". ELVARLI storage system is a versatile solution for your entire home – choose how to combine the products to create an open storage or wardrobe that suits you perfectly. A lightweight, durable and adaptable modular wardrobe system.",
     "productFamily": "elvarli",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/elvarli-wardrobe-combination-white__0440443_pe592482_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -6442,6 +6711,7 @@
     "material": "solid pine",
     "description": "NEIDEN Bed frame - pine/Luröy Full. The compact design is perfect for tight spaces or under low ceilings, so you can make the most of your available space. The hard-wearing solid pine has natural variations in grain, color and texture, giving every piece a unique look. Center support beam included.",
     "productFamily": "neiden",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/neiden-bed-frame-pine-luroey__1102024_pe866848_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -6466,6 +6736,7 @@
     "material": "powder-coated metal",
     "description": "VEVELSTAD Bed frame with 2 headboards - white/Tolkning rattan King. White powder-coated metal and visible screws add a modern look to the bed frame. The legs of the headboard are designed to fit walls both with and without a skirting board. Mattress and bedlinens are sold separately.",
     "productFamily": "vevelstad",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/vevelstad-bed-frame-with-2-headboards-white-tolkning-rattan__1138249_pe879929_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -6490,6 +6761,7 @@
     ],
     "description": "VISKAFORS Sofa - Lejde anthracite/birch. Classic design with soft, rounded shapes and generously sized armrests makes VISKAFORS sofa a statement piece in any living room. The deep seat with pocket springs is really soft and creates an inviting, embracing feel when you sit on the sofa.",
     "productFamily": "viskafors",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/viskafors-sofa-lejde-anthracite-birch__1577474_pe1033228_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -6515,6 +6787,7 @@
     "material": "birch veneer",
     "description": "BJÖRKSNÄS Bed frame - birch/birch veneer/Lönset King. Beautiful craftsmanship all the way around. Why not place it in the middle of the room to create impact? You can sit up comfortably in bed thanks to the 2 pillows attached to the headboard. 2 headboard pillows included.",
     "productFamily": "bjoerksnaes",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/bjoerksnaes-bed-frame-birch-birch-veneer-loenset__1175827_pe894831_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -6539,6 +6812,7 @@
     ],
     "description": "ROCKSJÖN Loveseat - Klovsta gray/white. Design details like decorative piping and beautiful pleats create a traditional expression. Thanks to its neat size, ROCKSJÖN makes it easy to furnish even the narrowest of spaces. The cover is easy to keep clean since it is removable and machine washable.",
     "productFamily": "rocksjoen",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/rocksjoen-loveseat-klovsta-gray-white__1247374_pe922645_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -6562,6 +6836,7 @@
     ],
     "description": "TÄLLÅSEN Upholstered bed frame - Kulsta gray-green/Lönset King. The clean and sturdy design with several well-thought-out details gives TÄLLÅSEN upholstered bed frame a modern look – easy to combine with other bedroom furniture. Center support beam included.",
     "productFamily": "taellasen",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/taellasen-upholstered-bed-frame-kulsta-gray-green-loenset__1363657_pe955573_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -6585,6 +6860,7 @@
     ],
     "description": "HOLMSUND Sleeper sectional, 3-seat - Borgunda dark gray. This sofa converts quickly and easily into a spacious bed when you remove the back cushions and pull out the underframe. Storage space under the chaise. The lid stays open so you can safely and easily take things in and out.",
     "productFamily": "holmsund",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/holmsund-sleeper-sectional-3-seat-borgunda-dark-gray__1212713_pe910718_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -6608,6 +6884,7 @@
     ],
     "description": "BOAXEL Wardrobe combination - anthracite 24 3/8x15 3/4x79 \". The dark-grey color and the matte surface create a simple and timeless expression that is easy to match with other furniture. BOAXEL clothes rail, 24\", holds approx. 20 shirts on hangers. This furniture must be secured to the wall.",
     "productFamily": "boaxel",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/boaxel-wardrobe-combination-anthracite__1259942_pe926854_s5.jpg",
     "aiConfidence": 0.85,
     "needsReview": false
   },
@@ -6631,6 +6908,7 @@
     ],
     "description": "STOCKHOLM 2025 3-seat sofa - Alhamn dark-brown. Tactile, beautiful materials meet geometric shapes with well-balanced proportions, making this sofa the natural centerpiece of any room. The sofa adapts to your body when you sit down and quickly regains its shape and appearance when you get up.",
     "productFamily": "stockholm",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/stockholm-2025-3-seat-sofa-alhamn-dark-brown__1577930_pe1033676_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -6656,6 +6934,7 @@
     ],
     "description": "LAGKAPTEN / ADILS Desk - gray/wood effect black 55 1/8x23 5/8 \". The plywood-patterned edge band adds to the quality feel. The tabletop has pre-drilled holes to make it easier to attach to the underframe. Possible to separate for recycling or energy recovery if available in your community.",
     "productFamily": "lagkapten",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/lagkapten-adils-desk-gray-wood-effect-black__1432276_pe982735_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -6680,6 +6959,7 @@
     ],
     "description": "ENKROKEN / LOBERGET Desk and chair - white. A desk for drawing, studying, reading and other hobbies that also fits in a small space. Easy to adjust the height with just one hand. Quick and easy assembly The desk is robust, yet neat in its design to fit in narrow spaces.",
     "productFamily": "enkroken",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/enkroken-loberget-desk-and-chair-white__1541822_pe1018191_s5.jpg",
     "aiConfidence": 0.8,
     "needsReview": false
   },
@@ -6705,6 +6985,7 @@
     ],
     "description": "TRAVSPORT / MARKUS Desk and chair - electric oak effect/beige dark gray. The desk is always at the right height whether you’re sitting or standing, since the height can be adjusted: 62–126 cm. Height-adjustable seat allows you to adjust the height so that back and legs are at a 90° angle. Tilt lock.",
     "productFamily": "travsport",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/travsport-markus-desk-and-chair-electric-oak-effect-beige-dark-gray__1545089_pe1019571_s5.jpg",
     "aiConfidence": 0.8,
     "needsReview": false
   },
@@ -6728,6 +7009,7 @@
     ],
     "description": "TROTTEN Desk - white 63x31 1/2 \". 10-year Warranty. Read about the terms in the warranty brochure. Suitable for business use. The A-shaped legs mean that the space under the desk can be used efficiently without the table legs getting in the way.",
     "productFamily": "trotten",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/trotten-desk-white__1517370_pe1012271_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -6753,6 +7035,7 @@
     ],
     "description": "GRYSNA Upholstered bed frame - Vissle beige/multicolor Twin. The bed grows with your child, since the height of the legs can be adjusted. Store the removable legs in the pocket on the inside of the bed frame – so you always know where they are. Mattress and bedlinens are sold separately.",
     "productFamily": "grysna",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/grysna-upholstered-bed-frame-vissle-beige-multicolor__1541573_pe1018124_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -6776,6 +7059,7 @@
     "material": "powder-coated steel",
     "description": "MELLGRUND Bed frame - off-white/Lyngör Twin. The sturdy MELLGRUND bed frame features elegant lines and a timeless look – a romantic version of a classic metal bed. The powder-coated steel frame is not only sturdy but also easy to clean, making it durable and long-lasting.",
     "productFamily": "mellgrund",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/mellgrund-bed-frame-off-white-lyngoer__1531194_pe1015562_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -6801,6 +7085,7 @@
     ],
     "description": "SKYTTA / BOAXEL Reach-in wardrobe with sliding door - black double sided/Mehamn white stained oak effect 59 7/8x25 5/8x94 1/2 \". You can always adapt or complete this open storage solution as needed. Maybe the combination we’ve suggested is perfect for you, or you can easily create your own.",
     "productFamily": "skytta",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/skytta-boaxel-reach-in-wardrobe-with-sliding-door-black-double-sided-mehamn-white-stained-oak-effect__1220788_pe913536_s5.jpg",
     "aiConfidence": 0.85,
     "needsReview": false
   },
@@ -6825,6 +7110,7 @@
     ],
     "description": "BESTÅ Shelf unit with doors - dark gray/Lappviken dark gray 47 1/4x16 1/2x25 1/4 \". 10 year guarantee. Read about the terms in the guarantee brochure. A simple unit can be enough storage for a limited space or the foundation for a larger storage solution if your needs change.",
     "productFamily": "besta",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/besta-shelf-unit-with-doors-dark-gray-lappviken-dark-gray__1603100_pe1044012_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -6850,6 +7136,7 @@
     ],
     "description": "SMÅSTAD / UPPFÖRA Bookcase - white blue/with 2 drawers 23 5/8x25 5/8x77 1/8 \". The open shelves are perfect for books and collectables, or to display the latest arts and crafts project – and since your child can see them, their desire to play is stimulated. Knobs and handles are sold separately.",
     "productFamily": "smastad",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/smastad-uppfoera-bookcase-white-blue-with-2-drawers__1240388_pe919353_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -6875,6 +7162,7 @@
     ],
     "description": "BOAXEL Shelving unit - anthracite/oak 24 5/8x15 3/4x79 \". WARNING! Falling hazard – to reduce the risk of this product falling down, it must be securely anchored. Use suitable screws and plugs for your home. If you are uncertain, seek professional advice.",
     "productFamily": "boaxel",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/boaxel-shelving-unit-anthracite-oak__1393490_pe966244_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -6899,6 +7187,7 @@
     "material": "upholstered fabric",
     "description": "RAMNEFJÄLL Upholstered bed frame - Kilanda dark blue/Luröy King. This upholstered bed frame adds a touch of softness to your bedroom – bringing comfort during the night, and adding style around the clock. The soft, padded headboard is comfortable to lean against while reading or watching TV in bed.",
     "productFamily": "ramnefjaell",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/ramnefjaell-upholstered-bed-frame-kilanda-dark-blue-luroey__1448521_pe989625_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -6924,6 +7213,7 @@
     ],
     "description": "SMEDSTORP Sofa with chaise - Viarp beige/brown/black. This comfortable sofa has pocket spring seat cushions with high resilience foam and a top layer of wadding. It provides a nice comfort and support for your body while maintaining the shape of the seat cushions. Stationary cover.",
     "productFamily": "smedstorp",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/smedstorp-sofa-with-chaise-viarp-beige-brown-black__0989845_pe818641_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -6948,6 +7238,7 @@
     ],
     "description": "ROCKSJÖN Loveseat - Kilanda light beige. Design details like decorative piping and beautiful pleats create a traditional expression. Thanks to its neat size, ROCKSJÖN makes it easy to furnish even the narrowest of spaces. The cover is easy to keep clean since it is removable and machine washable.",
     "productFamily": "rocksjoen",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/rocksjoen-loveseat-kilanda-light-beige__1247376_pe922644_s5.jpg",
     "aiConfidence": 0.9,
     "needsReview": false
   },
@@ -6973,6 +7264,7 @@
     "material": "birch veneer",
     "description": "MITTZON Desk sit/stand - electric birch veneer/white 55 1/8x23 5/8 \". 10-year limited warranty. Read about the terms in the guarantee brochure. Suitable for business use. The durable, stain-resistant surface wipes clean easily.",
     "productFamily": "mittzon",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/mittzon-desk-sit-stand-electric-birch-veneer-white__1213135_pe910943_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -6997,6 +7289,7 @@
     "material": "stained ash veneer",
     "description": "MITTZON Desk sit/stand - electric black stained ash veneer/black 63x23 5/8 \". 10-year limited warranty. Read about the terms in the guarantee brochure. Suitable for business use. The durable, stain-resistant surface wipes clean easily.",
     "productFamily": "mittzon",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/mittzon-desk-sit-stand-electric-black-stained-ash-veneer-black__1210772_pe909839_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   },
@@ -7021,6 +7314,7 @@
     "material": "oak veneer",
     "description": "MALM Bed frame - oak veneer/Lönset Full. Wood veneer gives you the same look, feel and beauty as solid wood with unique variations in grain, color and texture. This versatile bed frame will look great with your choice of textiles and bedroom furniture. Mattress and bedlinens are sold separately.",
     "productFamily": "malm",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/malm-bed-frame-oak-veneer-loenset__1364778_pe956034_s5.jpg",
     "aiConfidence": 0.95,
     "needsReview": false
   }
